@@ -4,9 +4,18 @@ CertLab Study is a static certification-study workspace with username/password a
 
 ## Supabase setup
 
-1. Create or open the Supabase project for the URL in `config.js`.
+1. Create or open the Supabase project for the URL in `.env.example`.
 2. In **Project Settings → API**, copy the browser-safe **publishable key** (or legacy `anon` key). Never use a `service_role` or secret key in this repository.
-3. Put that key in your local `config.js` file (never commit the real value):
+3. In Vercel, open **Project Settings → Environment Variables** and add:
+
+   ```text
+   SUPABASE_URL=https://enpwqvojhqiuryhzujrn.supabase.co
+   SUPABASE_PUBLISHABLE_KEY=your_publishable_key
+   ```
+
+   Enable the variables for the environments you deploy to, then redeploy. The `/api/config` function reads these variables at runtime.
+
+   For local static-server testing only, copy `config.example.js` to an ignored `config.js` and put the key there:
 
    ```js
    window.CERTLAB_SUPABASE_CONFIG = Object.freeze({
@@ -15,7 +24,7 @@ CertLab Study is a static certification-study workspace with username/password a
    });
    ```
 
-   `config.example.js` is a safe template. `config.js` is committed with an empty key so the app can show a setup warning. Replace the empty value locally and do not commit a real key.
+   `config.example.js` is a safe template. `config.js` is ignored and must never be committed.
 
 4. Run `supabase/001_user_auth_and_archive.sql` in the Supabase SQL Editor. The migration creates `user_profiles` and `user_data_archive`, enables RLS, and limits every row to its authenticated owner.
 5. In **Authentication → Providers → Email**, turn off **Confirm email** for this username-only flow, or confirm newly created users manually. Usernames are mapped to internal synthetic addresses (`<username>@users.certlab.invalid`) because Supabase Auth authenticates email/phone credentials.
@@ -48,8 +57,9 @@ node --test tests/content-foundation.test.js
 
 ## Data-security notes
 
-- Only the public publishable/anon key belongs in browser configuration.
+- The publishable/anon key is intended for browser use; it will be visible to a browser after `/api/config` returns it. Supabase security comes from RLS policies, not from hiding this public key.
+- Never put a `service_role` or secret key in `SUPABASE_PUBLISHABLE_KEY`.
 - RLS policies require `auth.uid() = user_id` for profile and archive reads/writes.
-- Do not commit a real key in `config.js`, `.env` files, service-role keys, or exported user data; restore the empty placeholder before pushing.
+- Do not commit `config.js`, `.env` files, service-role keys, or exported user data.
 
 
