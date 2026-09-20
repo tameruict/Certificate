@@ -1,0 +1,9 @@
+﻿node_modules/
+__pycache__/
+*.pyc
+*.db
+.env
+.env.*
+!config.example.js
+
+.agents/

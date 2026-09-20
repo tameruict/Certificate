@@ -1,0 +1,23 @@
+{
+  "schema_version": "2.0",
+  "id": "aws-cloud-practitioner-clf-c02",
+  "title": "AWS Certified Cloud Practitioner Pilot",
+  "provider": "Amazon Web Services",
+  "exam_code": "CLF-C02",
+  "summary": "An original, small practice pilot for cloud concepts, security, services, and billing.",
+  "status": "published",
+  "availability": {
+    "application": "published"
+  },
+  "domains": [
+    { "id": "cloud_concepts", "title": "Cloud Concepts" },
+    { "id": "security", "title": "Security and Compliance" },
+    { "id": "technology", "title": "Cloud Technology and Services" },
+    { "id": "billing", "title": "Billing, Pricing, and Support" }
+  ],
+  "question_bank": {
+    "path": "questions.v2.json",
+    "record_count": 8,
+    "status": "published"
+  }
+}

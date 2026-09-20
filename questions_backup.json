@@ -1,0 +1,3626 @@
+[
+  {
+    "d": 1,
+    "q": "Which security objective protects information from unauthorized modification?",
+    "o": [
+      "Confidentiality",
+      "Integrity",
+      "Availability",
+      "Authentication"
+    ],
+    "a": 1,
+    "e": "Integrity is the assurance that data remains accurate and is not changed without authorization."
+  },
+  {
+    "d": 1,
+    "q": "A company deploys redundant servers and multiple Internet connections. Which objective is primarily addressed?",
+    "o": [
+      "Confidentiality",
+      "Integrity",
+      "Availability",
+      "Non-repudiation"
+    ],
+    "a": 2,
+    "e": "Redundancy keeps services operational when a component fails, improving availability."
+  },
+  {
+    "d": 1,
+    "q": "Which process verifies the identity of a user?",
+    "o": [
+      "Authorization",
+      "Accounting",
+      "Authentication",
+      "Federation"
+    ],
+    "a": 2,
+    "e": "Authentication answers “Who are you?” Authorization answers “What may you do?”"
+  },
+  {
+    "d": 1,
+    "q": "A firewall blocks all inbound traffic from a known malicious IP. What type of control is this?",
+    "o": [
+      "Detective",
+      "Corrective",
+      "Preventive",
+      "Compensating"
+    ],
+    "a": 2,
+    "e": "A preventive control stops an unwanted event before it occurs."
+  },
+  {
+    "d": 1,
+    "q": "Which principle requires every access request to be verified, even from inside the network?",
+    "o": [
+      "Open design",
+      "Zero Trust",
+      "Job rotation",
+      "Implicit trust"
+    ],
+    "a": 1,
+    "e": "Zero Trust removes implicit trust and continuously verifies identity, device and context."
+  },
+  {
+    "d": 1,
+    "q": "Which principle gives users only the permissions required for their tasks?",
+    "o": [
+      "Least privilege",
+      "High availability",
+      "Open authentication",
+      "Full control"
+    ],
+    "a": 0,
+    "e": "Least privilege reduces the impact of mistakes and compromised accounts."
+  },
+  {
+    "d": 1,
+    "q": "Which technology provides integrity, authenticity and non-repudiation for a signed document?",
+    "o": [
+      "Digital signature",
+      "Full-disk encryption",
+      "RAID",
+      "Tokenization"
+    ],
+    "a": 0,
+    "e": "A digital signature uses the signer’s private key and can be verified with the public key."
+  },
+  {
+    "d": 1,
+    "q": "A SOC reviews centralized audit logs to identify suspicious login activity. What type of control is this?",
+    "o": [
+      "Preventive",
+      "Detective",
+      "Corrective",
+      "Directive"
+    ],
+    "a": 1,
+    "e": "Log review detects events that have already occurred or are in progress."
+  },
+  {
+    "d": 1,
+    "q": "A security team restores a compromised server from a known-good backup. What control function is this?",
+    "o": [
+      "Preventive",
+      "Detective",
+      "Corrective",
+      "Deterrent"
+    ],
+    "a": 2,
+    "e": "Corrective controls restore a system after an incident or failure."
+  },
+  {
+    "d": 2,
+    "q": "An attacker sends a customized email to a CFO requesting an urgent wire transfer. What is this?",
+    "o": [
+      "Spear phishing",
+      "Smishing",
+      "Pharming",
+      "Watering-hole attack"
+    ],
+    "a": 0,
+    "e": "Spear phishing is targeted social engineering; the tailored CFO message is the clue."
+  },
+  {
+    "d": 2,
+    "q": "An attacker sends fraudulent text messages containing malicious links. What is this?",
+    "o": [
+      "Vishing",
+      "Smishing",
+      "Spear phishing",
+      "Whaling"
+    ],
+    "a": 1,
+    "e": "Smishing is phishing delivered through SMS or other messaging services."
+  },
+  {
+    "d": 2,
+    "q": "A software vendor distributes malware through a legitimate application update. What risk is this?",
+    "o": [
+      "Supply-chain compromise",
+      "Insider threat",
+      "Physical theft",
+      "Password spraying"
+    ],
+    "a": 0,
+    "e": "The trusted vendor/update channel has been abused, creating a supply-chain compromise."
+  },
+  {
+    "d": 2,
+    "q": "An application concatenates user input directly into a database query. Which vulnerability is likely?",
+    "o": [
+      "Cross-site scripting",
+      "SQL injection",
+      "Buffer overflow",
+      "Directory traversal"
+    ],
+    "a": 1,
+    "e": "Parameterized queries prevent user input from becoming executable SQL syntax."
+  },
+  {
+    "d": 2,
+    "q": "An attacker injects JavaScript into a page later viewed by other users. What is this?",
+    "o": [
+      "Cross-site scripting",
+      "SQL injection",
+      "CSRF",
+      "LDAP injection"
+    ],
+    "a": 0,
+    "e": "XSS executes attacker-controlled script in a victim’s browser context."
+  },
+  {
+    "d": 2,
+    "q": "An attacker tries one common password against thousands of accounts. What is this?",
+    "o": [
+      "Password spraying",
+      "Credential stuffing",
+      "Brute-force attack",
+      "Pass-the-hash"
+    ],
+    "a": 0,
+    "e": "Password spraying uses a small set of common passwords across many accounts."
+  },
+  {
+    "d": 2,
+    "q": "An attacker reuses usernames and passwords from a previous breach. What is this?",
+    "o": [
+      "Password spraying",
+      "Credential stuffing",
+      "Dictionary attack",
+      "Rainbow table attack"
+    ],
+    "a": 1,
+    "e": "Credential stuffing relies on previously compromised credential pairs."
+  },
+  {
+    "d": 2,
+    "q": "A vulnerability is actively exploited before the vendor releases a patch. What is it?",
+    "o": [
+      "Known vulnerability",
+      "Zero-day vulnerability",
+      "Legacy vulnerability",
+      "False positive"
+    ],
+    "a": 1,
+    "e": "Zero-day refers to the period before a vendor fix is available."
+  },
+  {
+    "d": 2,
+    "q": "A website is overwhelmed by traffic from thousands of compromised devices. What attack is occurring?",
+    "o": [
+      "DoS",
+      "DDoS",
+      "Brute force",
+      "Replay attack"
+    ],
+    "a": 1,
+    "e": "Distributed denial of service uses many sources to exhaust a target."
+  },
+  {
+    "d": 2,
+    "q": "Which framework assigns a numerical severity score to vulnerabilities?",
+    "o": [
+      "CVSS",
+      "AES",
+      "COBIT",
+      "RADIUS"
+    ],
+    "a": 0,
+    "e": "CVSS provides standardized severity metrics to help prioritize remediation."
+  },
+  {
+    "d": 3,
+    "q": "Where should an Internet-facing web server usually be placed?",
+    "o": [
+      "Internal database network",
+      "Management VLAN",
+      "DMZ",
+      "Backup network"
+    ],
+    "a": 2,
+    "e": "A DMZ separates public-facing services from the trusted internal network."
+  },
+  {
+    "d": 3,
+    "q": "Separating database, user and application servers into different zones is called:",
+    "o": [
+      "Network segmentation",
+      "Tokenization",
+      "Steganography",
+      "Data masking"
+    ],
+    "a": 0,
+    "e": "Segmentation limits lateral movement and reduces blast radius."
+  },
+  {
+    "d": 3,
+    "q": "Which protocol protects data exchanged between a web browser and a web server?",
+    "o": [
+      "TLS",
+      "TFTP",
+      "SNMPv1",
+      "FTP"
+    ],
+    "a": 0,
+    "e": "HTTPS uses HTTP over TLS to protect data in transit."
+  },
+  {
+    "d": 3,
+    "q": "Which control protects data if a stolen hard drive is connected to another computer?",
+    "o": [
+      "Encryption at rest",
+      "Network segmentation",
+      "Digital signature",
+      "Load balancing"
+    ],
+    "a": 0,
+    "e": "Full-disk or volume encryption protects stored data from offline access."
+  },
+  {
+    "d": 3,
+    "q": "Which technique verifies that a downloaded file has not been modified?",
+    "o": [
+      "Hashing",
+      "Encryption",
+      "Tokenization",
+      "Steganography"
+    ],
+    "a": 0,
+    "e": "A cryptographic hash can be compared with a trusted expected value."
+  },
+  {
+    "d": 3,
+    "q": "A critical application must be restored within 30 minutes. Which metric describes this?",
+    "o": [
+      "RPO",
+      "RTO",
+      "MTBF",
+      "ALE"
+    ],
+    "a": 1,
+    "e": "RTO is the maximum acceptable time to restore a service."
+  },
+  {
+    "d": 3,
+    "q": "A company can tolerate losing no more than five minutes of transaction data. Which metric?",
+    "o": [
+      "RPO",
+      "RTO",
+      "MTTR",
+      "MTTF"
+    ],
+    "a": 0,
+    "e": "RPO is the maximum acceptable data loss measured in time."
+  },
+  {
+    "d": 3,
+    "q": "Which disaster recovery site is fully equipped for operations with minimal delay?",
+    "o": [
+      "Cold site",
+      "Warm site",
+      "Hot site",
+      "Mobile site"
+    ],
+    "a": 2,
+    "e": "A hot site is ready with systems and connectivity for rapid continuity."
+  },
+  {
+    "d": 3,
+    "q": "A malicious virtual machine gains unauthorized access to the host operating system. What is this?",
+    "o": [
+      "VM escape",
+      "Container tagging",
+      "Directory traversal",
+      "DNS tunneling"
+    ],
+    "a": 0,
+    "e": "VM escape breaks the isolation boundary between guest and host."
+  },
+  {
+    "d": 3,
+    "q": "Which cloud responsibility normally remains with the customer?",
+    "o": [
+      "Security of the provider's data center",
+      "Security configuration of customer data and identities",
+      "Maintenance of the provider hypervisor",
+      "Physical access control"
+    ],
+    "a": 1,
+    "e": "In shared responsibility, customers still protect their data, identities and configuration."
+  },
+  {
+    "d": 4,
+    "q": "Which model assigns permissions based on job responsibilities?",
+    "o": [
+      "RBAC",
+      "DAC",
+      "MAC",
+      "Rule-based routing"
+    ],
+    "a": 0,
+    "e": "Role-based access control maps permissions to roles such as analyst or administrator."
+  },
+  {
+    "d": 4,
+    "q": "Which model evaluates user, resource, action and environmental attributes?",
+    "o": [
+      "ABAC",
+      "RBAC",
+      "DAC",
+      "MAC"
+    ],
+    "a": 0,
+    "e": "Attribute-based access control evaluates context and attributes at decision time."
+  },
+  {
+    "d": 4,
+    "q": "Which technology manages, monitors and controls privileged accounts?",
+    "o": [
+      "PAM",
+      "NAC",
+      "DNSSEC",
+      "DLP"
+    ],
+    "a": 0,
+    "e": "Privileged access management limits, records and governs elevated access."
+  },
+  {
+    "d": 4,
+    "q": "A user signs in once and accesses several approved applications. What is this?",
+    "o": [
+      "SSO",
+      "MFA",
+      "RADIUS",
+      "PAP"
+    ],
+    "a": 0,
+    "e": "Single sign-on reduces repeated authentication while maintaining centralized identity."
+  },
+  {
+    "d": 4,
+    "q": "Which platform correlates logs from firewalls, endpoints, servers and applications?",
+    "o": [
+      "SIEM",
+      "EDR",
+      "HSM",
+      "MDM"
+    ],
+    "a": 0,
+    "e": "A SIEM aggregates and correlates security events for detection and investigation."
+  },
+  {
+    "d": 4,
+    "q": "Which solution can automatically isolate a host after a confirmed alert?",
+    "o": [
+      "SOAR",
+      "RAID",
+      "PKI",
+      "DNS"
+    ],
+    "a": 0,
+    "e": "SOAR orchestrates tools and automates response playbooks."
+  },
+  {
+    "d": 4,
+    "q": "A workstation is encrypting files as part of ransomware. What should the team do first?",
+    "o": [
+      "Reimage every computer",
+      "Isolate the affected workstation",
+      "Delete all logs",
+      "Publish incident details"
+    ],
+    "a": 1,
+    "e": "Containment by isolation limits spread while preserving evidence for investigation."
+  },
+  {
+    "d": 4,
+    "q": "What is important during a forensic investigation?",
+    "o": [
+      "Chain of custody",
+      "Password sharing",
+      "Disabling timestamps",
+      "Deleting volatile data"
+    ],
+    "a": 0,
+    "e": "Chain of custody documents evidence handling and supports its integrity in review."
+  },
+  {
+    "d": 4,
+    "q": "What process disables a departing employee account and revokes access?",
+    "o": [
+      "Provisioning",
+      "Deprovisioning",
+      "Federation",
+      "Entitlement review"
+    ],
+    "a": 1,
+    "e": "Deprovisioning removes access when it is no longer authorized."
+  },
+  {
+    "d": 4,
+    "q": "Which tool automatically checks systems for known vulnerabilities and missing patches?",
+    "o": [
+      "Vulnerability scanner",
+      "Packet analyzer",
+      "Password manager",
+      "SIEM"
+    ],
+    "a": 0,
+    "e": "A vulnerability scanner compares systems against known weaknesses and configuration issues."
+  },
+  {
+    "d": 5,
+    "q": "Which document defines high-level mandatory security requirements?",
+    "o": [
+      "Policy",
+      "Procedure",
+      "Guideline",
+      "Work instruction"
+    ],
+    "a": 0,
+    "e": "A policy provides management direction and mandatory expectations."
+  },
+  {
+    "d": 5,
+    "q": "Which document gives step-by-step instructions for performing a task?",
+    "o": [
+      "Procedure",
+      "Policy",
+      "Regulation",
+      "Security charter"
+    ],
+    "a": 0,
+    "e": "Procedures turn requirements into repeatable operational steps."
+  },
+  {
+    "d": 5,
+    "q": "Which document tracks risks, owners, likelihood, impact and treatment?",
+    "o": [
+      "Risk register",
+      "Asset inventory",
+      "Service catalog",
+      "Configuration baseline"
+    ],
+    "a": 0,
+    "e": "The risk register is the central record for risk decisions and ownership."
+  },
+  {
+    "d": 5,
+    "q": "An organization buys cyber insurance to reduce the financial impact of a breach. What response?",
+    "o": [
+      "Risk avoidance",
+      "Risk transfer",
+      "Risk acceptance",
+      "Risk escalation"
+    ],
+    "a": 1,
+    "e": "Insurance transfers some financial impact to a third party."
+  },
+  {
+    "d": 5,
+    "q": "What is the main purpose of a Business Impact Analysis?",
+    "o": [
+      "Identify how disruptions affect critical business functions",
+      "Scan endpoints for malware",
+      "Configure firewall rules",
+      "Calculate password entropy"
+    ],
+    "a": 0,
+    "e": "BIA helps prioritize continuity by measuring operational and business impact."
+  },
+  {
+    "d": 5,
+    "q": "Before outsourcing payment processing, what should the organization perform?",
+    "o": [
+      "Vendor risk assessment",
+      "Password spraying",
+      "Port forwarding",
+      "Source code obfuscation"
+    ],
+    "a": 0,
+    "e": "Third-party risk assessment identifies exposure and control requirements before onboarding."
+  },
+  {
+    "d": 5,
+    "q": "Which contract element defines expected availability and provider response times?",
+    "o": [
+      "SLA",
+      "NDA",
+      "MOU",
+      "AUP"
+    ],
+    "a": 0,
+    "e": "A service-level agreement documents measurable service commitments."
+  },
+  {
+    "d": 5,
+    "q": "Who determines how a data set should be classified and protected?",
+    "o": [
+      "Data owner",
+      "Data custodian",
+      "End user",
+      "Help desk technician"
+    ],
+    "a": 0,
+    "e": "The data owner is accountable for classification and business protection requirements."
+  },
+  {
+    "d": 5,
+    "q": "What is the primary purpose of separation of duties?",
+    "o": [
+      "One person controls every task",
+      "Prevent one person completing a sensitive process alone",
+      "Eliminate logging",
+      "Simplify account sharing"
+    ],
+    "a": 1,
+    "e": "Splitting sensitive duties reduces fraud, error and abuse by requiring oversight."
+  },
+  {
+    "d": 1,
+    "q": "Which authentication factor is a smart card?",
+    "o": [
+      "Something you know",
+      "Something you have",
+      "Something you are",
+      "Somewhere you are"
+    ],
+    "a": 1,
+    "e": "A smart card is a possession factor: something the user has."
+  },
+  {
+    "d": 1,
+    "q": "Which authentication factor is a fingerprint?",
+    "o": [
+      "Something you know",
+      "Something you have",
+      "Something you are",
+      "Something you do"
+    ],
+    "a": 2,
+    "e": "A fingerprint is an inherence factor: something you are."
+  },
+  {
+    "d": 1,
+    "q": "Which AAA function records what a user did after logging in?",
+    "o": [
+      "Authentication",
+      "Authorization",
+      "Accounting",
+      "Attestation"
+    ],
+    "a": 2,
+    "e": "Accounting records actions and activity for auditing."
+  },
+  {
+    "d": 1,
+    "q": "A sign warning that a facility is monitored is primarily which control function?",
+    "o": [
+      "Corrective",
+      "Deterrent",
+      "Detective",
+      "Compensating"
+    ],
+    "a": 1,
+    "e": "A warning sign is intended to discourage unwanted behavior, making it a deterrent."
+  },
+  {
+    "d": 1,
+    "q": "A legacy system cannot support MFA, so the company places it behind an additional proxy and strict ACL. This is a:",
+    "o": [
+      "Directive control",
+      "Compensating control",
+      "Recovery control",
+      "Directive policy"
+    ],
+    "a": 1,
+    "e": "A compensating control provides comparable protection when the preferred control is not feasible."
+  },
+  {
+    "d": 1,
+    "q": "Which is a physical security control?",
+    "o": [
+      "Firewall rule",
+      "Turnstile",
+      "Password policy",
+      "File hash"
+    ],
+    "a": 1,
+    "e": "A turnstile physically restricts entry."
+  },
+  {
+    "d": 1,
+    "q": "Which is a technical security control?",
+    "o": [
+      "Security awareness training",
+      "CCTV camera",
+      "Access control list",
+      "Background check"
+    ],
+    "a": 2,
+    "e": "An ACL is implemented in technology to enforce access decisions."
+  },
+  {
+    "d": 1,
+    "q": "Which is a managerial security control?",
+    "o": [
+      "Risk assessment policy",
+      "Firewall",
+      "Door lock",
+      "Endpoint agent"
+    ],
+    "a": 0,
+    "e": "Management controls include governance activities such as policies and risk assessments."
+  },
+  {
+    "d": 1,
+    "q": "Using policies, segmentation, endpoint protection and backups together demonstrates:",
+    "o": [
+      "Single sign-on",
+      "Defense in depth",
+      "Open design",
+      "Data remanence"
+    ],
+    "a": 1,
+    "e": "Defense in depth uses multiple independent layers of protection."
+  },
+  {
+    "d": 1,
+    "q": "A door remains locked when its electronic access controller loses power. This is:",
+    "o": [
+      "Fail-open",
+      "Fail-secure",
+      "Failover",
+      "Load balancing"
+    ],
+    "a": 1,
+    "e": "Fail-secure prioritizes security when the control fails."
+  },
+  {
+    "d": 1,
+    "q": "Which technology is intended to attract and observe attackers in a controlled environment?",
+    "o": [
+      "Honeypot",
+      "Load balancer",
+      "Jump server",
+      "NTP server"
+    ],
+    "a": 0,
+    "e": "A honeypot is a decoy designed to detect and study unauthorized activity."
+  },
+  {
+    "d": 1,
+    "q": "Which property distinguishes hashing from encryption?",
+    "o": [
+      "Hashing is designed to be one-way",
+      "Hashing always uses two keys",
+      "Encryption cannot be reversed",
+      "Encryption provides no confidentiality"
+    ],
+    "a": 0,
+    "e": "Cryptographic hashes are one-way functions; encryption is designed to be reversible with a key."
+  },
+  {
+    "d": 1,
+    "q": "Which algorithm is symmetric?",
+    "o": [
+      "AES",
+      "RSA",
+      "Diffie-Hellman",
+      "ECC"
+    ],
+    "a": 0,
+    "e": "AES uses the same secret key for encryption and decryption."
+  },
+  {
+    "d": 1,
+    "q": "Which algorithm is commonly used for asymmetric cryptography?",
+    "o": [
+      "AES",
+      "ChaCha20",
+      "RSA",
+      "3DES"
+    ],
+    "a": 2,
+    "e": "RSA is an asymmetric algorithm using a public and private key pair."
+  },
+  {
+    "d": 1,
+    "q": "What does a digital certificate primarily bind together?",
+    "o": [
+      "A username and password",
+      "An identity and a public key",
+      "A hash and a salt",
+      "A subnet and a VLAN"
+    ],
+    "a": 1,
+    "e": "A trusted certificate authority attests that a public key belongs to a named subject."
+  },
+  {
+    "d": 2,
+    "q": "An attacker registers a domain that differs from a real domain by one character. What is this?",
+    "o": [
+      "Typosquatting",
+      "DNSSEC",
+      "Bluejacking",
+      "Evil twin"
+    ],
+    "a": 0,
+    "e": "Typosquatting exploits common typing mistakes with lookalike domains."
+  },
+  {
+    "d": 2,
+    "q": "Attackers compromise a website that a target group frequently visits. What is this?",
+    "o": [
+      "Watering-hole attack",
+      "Password spraying",
+      "Vishing",
+      "Replay attack"
+    ],
+    "a": 0,
+    "e": "A watering-hole attack compromises a site frequented by intended victims."
+  },
+  {
+    "d": 2,
+    "q": "A criminal impersonates a supplier and changes bank details on an invoice. What is this?",
+    "o": [
+      "Business email compromise",
+      "DDoS",
+      "VLAN hopping",
+      "Credential stuffing"
+    ],
+    "a": 0,
+    "e": "Business email compromise uses trusted business relationships to redirect money or data."
+  },
+  {
+    "d": 2,
+    "q": "An attacker invents a believable story to persuade a help desk agent to reset a password. What is this?",
+    "o": [
+      "Pretexting",
+      "Pharming",
+      "Smishing",
+      "Port scanning"
+    ],
+    "a": 0,
+    "e": "Pretexting is social engineering built around a fabricated scenario."
+  },
+  {
+    "d": 2,
+    "q": "An unauthorized person follows an employee through a secure door. What is this?",
+    "o": [
+      "Tailgating",
+      "Shoulder surfing",
+      "Vishing",
+      "Dumpster diving"
+    ],
+    "a": 0,
+    "e": "Tailgating is entering a controlled area by following an authorized person."
+  },
+  {
+    "d": 2,
+    "q": "An attacker tries every possible character combination against a password. What is this?",
+    "o": [
+      "Brute-force attack",
+      "Password spraying",
+      "Credential stuffing",
+      "MFA fatigue"
+    ],
+    "a": 0,
+    "e": "A brute-force attack systematically tries combinations until one works."
+  },
+  {
+    "d": 2,
+    "q": "What most directly reduces the value of precomputed rainbow tables?",
+    "o": [
+      "Unique password salts",
+      "Longer usernames",
+      "Disabling logs",
+      "Using HTTP"
+    ],
+    "a": 0,
+    "e": "A unique salt makes each password hash different, defeating precomputed tables."
+  },
+  {
+    "d": 2,
+    "q": "An attacker authenticates to a service using a stolen NTLM hash without learning the password. What is this?",
+    "o": [
+      "Pass-the-hash",
+      "Kerberoasting",
+      "Password spraying",
+      "Replay of a cookie"
+    ],
+    "a": 0,
+    "e": "Pass-the-hash uses a captured hash as an authentication artifact."
+  },
+  {
+    "d": 2,
+    "q": "An attacker requests service tickets and cracks them offline to recover service account passwords. What is this?",
+    "o": [
+      "Kerberoasting",
+      "MFA fatigue",
+      "DNS tunneling",
+      "VLAN hopping"
+    ],
+    "a": 0,
+    "e": "Kerberoasting targets Kerberos service tickets for offline password cracking."
+  },
+  {
+    "d": 2,
+    "q": "An attacker gains standard user access and then obtains administrator rights. What is this?",
+    "o": [
+      "Privilege escalation",
+      "Data masking",
+      "Non-repudiation",
+      "Tokenization"
+    ],
+    "a": 0,
+    "e": "Privilege escalation moves from a lower privilege level to a higher one."
+  },
+  {
+    "d": 2,
+    "q": "A malicious script is permanently stored in a comment field and runs whenever the page is viewed. Which attack?",
+    "o": [
+      "Stored XSS",
+      "Reflected XSS",
+      "SQL injection",
+      "CSRF"
+    ],
+    "a": 0,
+    "e": "Stored XSS persists in server-side content and executes for later viewers."
+  },
+  {
+    "d": 2,
+    "q": "A malicious script is reflected immediately from a crafted URL. Which attack?",
+    "o": [
+      "Stored XSS",
+      "Reflected XSS",
+      "Command injection",
+      "LDAP injection"
+    ],
+    "a": 1,
+    "e": "Reflected XSS is returned in the immediate response to a crafted request."
+  },
+  {
+    "d": 2,
+    "q": "An attacker inserts operating system commands into an application input field. What is this?",
+    "o": [
+      "Command injection",
+      "XSS",
+      "Race condition",
+      "Directory listing"
+    ],
+    "a": 0,
+    "e": "Command injection causes the application to execute attacker-supplied system commands."
+  },
+  {
+    "d": 2,
+    "q": "A vulnerable server fetches an internal cloud metadata URL based on user input. Which attack is likely?",
+    "o": [
+      "SSRF",
+      "CSRF",
+      "XSS",
+      "DoS"
+    ],
+    "a": 0,
+    "e": "Server-side request forgery tricks a server into making requests to unintended locations."
+  },
+  {
+    "d": 2,
+    "q": "Which mitigation is most appropriate for directory traversal?",
+    "o": [
+      "Normalize paths and restrict access to an allowed directory",
+      "Disable TLS",
+      "Increase screen brightness",
+      "Use a shared administrator account"
+    ],
+    "a": 0,
+    "e": "Canonicalization and allowlisted path handling prevent access outside the intended directory."
+  },
+  {
+    "d": 2,
+    "q": "An application accepts serialized objects from an untrusted source and executes attacker-controlled behavior. What is this?",
+    "o": [
+      "Insecure deserialization",
+      "ARP spoofing",
+      "Credential stuffing",
+      "Clickjacking"
+    ],
+    "a": 0,
+    "e": "Unsafe deserialization can turn untrusted object data into code execution or other attacks."
+  },
+  {
+    "d": 3,
+    "q": "Which component commonly terminates client TLS and forwards requests to internal servers?",
+    "o": [
+      "Reverse proxy",
+      "HSM",
+      "RAID controller",
+      "Bastion cable"
+    ],
+    "a": 0,
+    "e": "A reverse proxy sits in front of servers and can handle TLS termination and filtering."
+  },
+  {
+    "d": 3,
+    "q": "Which device distributes requests across multiple application servers?",
+    "o": [
+      "Load balancer",
+      "Certificate authority",
+      "Jump box",
+      "Patch panel"
+    ],
+    "a": 0,
+    "e": "A load balancer improves availability and performance by distributing traffic."
+  },
+  {
+    "d": 3,
+    "q": "A cloud security group is best described as:",
+    "o": [
+      "A stateful virtual firewall for a resource",
+      "A physical security guard team",
+      "A password hash database",
+      "A backup tape format"
+    ],
+    "a": 0,
+    "e": "Security groups commonly provide stateful, instance-level traffic filtering in cloud environments."
+  },
+  {
+    "d": 3,
+    "q": "Traffic moving between workloads inside a data center is called:",
+    "o": [
+      "North-south traffic",
+      "East-west traffic",
+      "Loopback traffic",
+      "Out-of-band traffic"
+    ],
+    "a": 1,
+    "e": "East-west traffic is lateral traffic between internal systems."
+  },
+  {
+    "d": 3,
+    "q": "Which design provides the strongest separation from all other networks?",
+    "o": [
+      "Air gap",
+      "Flat network",
+      "Shared VLAN",
+      "Open Wi-Fi"
+    ],
+    "a": 0,
+    "e": "An air-gapped system has no direct network connection to other networks."
+  },
+  {
+    "d": 3,
+    "q": "Which architecture combines identity, secure access and cloud-delivered network controls?",
+    "o": [
+      "SASE",
+      "RAID",
+      "PKI escrow",
+      "TFTP"
+    ],
+    "a": 0,
+    "e": "Secure Access Service Edge combines networking and security capabilities at the edge."
+  },
+  {
+    "d": 3,
+    "q": "In IaaS, which responsibility usually belongs to the customer?",
+    "o": [
+      "Securing the guest operating system",
+      "Securing the provider building",
+      "Replacing provider disks",
+      "Maintaining provider hypervisors"
+    ],
+    "a": 0,
+    "e": "The customer usually manages the guest OS, applications, identities and data in IaaS."
+  },
+  {
+    "d": 3,
+    "q": "In SaaS, which item is still normally configured by the customer?",
+    "o": [
+      "Customer users and data access",
+      "Provider cooling systems",
+      "Provider hypervisor patches",
+      "Physical door locks"
+    ],
+    "a": 0,
+    "e": "SaaS customers still manage their data, users and access configuration."
+  },
+  {
+    "d": 3,
+    "q": "A platform automatically runs code in response to events without the customer managing servers. This is:",
+    "o": [
+      "Serverless computing",
+      "Bare-metal hosting",
+      "Tape rotation",
+      "Colocation"
+    ],
+    "a": 0,
+    "e": "Serverless abstracts server management and runs event-driven functions."
+  },
+  {
+    "d": 3,
+    "q": "Which cloud security technology provides visibility and policy enforcement for cloud application use?",
+    "o": [
+      "CASB",
+      "CRT",
+      "KVM",
+      "PXE"
+    ],
+    "a": 0,
+    "e": "A cloud access security broker helps govern cloud service usage and data protection."
+  },
+  {
+    "d": 3,
+    "q": "Which RAID level mirrors data across two disks?",
+    "o": [
+      "RAID 0",
+      "RAID 1",
+      "RAID 5",
+      "RAID 6"
+    ],
+    "a": 1,
+    "e": "RAID 1 provides disk mirroring; RAID 0 provides striping without redundancy."
+  },
+  {
+    "d": 3,
+    "q": "Which backup contains changes since the last full backup?",
+    "o": [
+      "Differential backup",
+      "Incremental backup",
+      "Snapshot only",
+      "Mirrorless backup"
+    ],
+    "a": 0,
+    "e": "A differential backup accumulates changes since the last full backup."
+  },
+  {
+    "d": 3,
+    "q": "Which backup contains changes since the most recent backup of any type?",
+    "o": [
+      "Incremental backup",
+      "Differential backup",
+      "Full backup",
+      "Cold-site backup"
+    ],
+    "a": 0,
+    "e": "Incremental backups capture changes since the latest backup."
+  },
+  {
+    "d": 3,
+    "q": "Which data state exists while information is being processed in memory?",
+    "o": [
+      "Data at rest",
+      "Data in transit",
+      "Data in use",
+      "Data in escrow"
+    ],
+    "a": 2,
+    "e": "Data in use is actively being processed by a system."
+  },
+  {
+    "d": 3,
+    "q": "A company retains a trusted third party to hold decryption keys in case of legal or recovery needs. This is:",
+    "o": [
+      "Key escrow",
+      "Key stretching",
+      "Tokenization",
+      "Hash salting"
+    ],
+    "a": 0,
+    "e": "Key escrow stores keys with a trusted party under defined access conditions."
+  },
+  {
+    "d": 4,
+    "q": "Which control verifies that a device meets security requirements before joining the network?",
+    "o": [
+      "NAC",
+      "NAT",
+      "NTP",
+      "NAS"
+    ],
+    "a": 0,
+    "e": "Network access control evaluates device posture and can allow, quarantine or deny access."
+  },
+  {
+    "d": 4,
+    "q": "Which solution enforces security policies on company-owned mobile devices?",
+    "o": [
+      "MDM",
+      "SIEM",
+      "WAF",
+      "HSM"
+    ],
+    "a": 0,
+    "e": "Mobile device management centrally configures, monitors and protects mobile endpoints."
+  },
+  {
+    "d": 4,
+    "q": "A hardened reference configuration is created and systems are checked against it. What is this?",
+    "o": [
+      "Configuration baseline",
+      "Data classification",
+      "Threat hunt",
+      "Certificate pinning"
+    ],
+    "a": 0,
+    "e": "A baseline defines the approved secure configuration for comparison."
+  },
+  {
+    "d": 4,
+    "q": "Which process evaluates, tests and schedules operating system updates?",
+    "o": [
+      "Patch management",
+      "Identity federation",
+      "Data masking",
+      "Key escrow"
+    ],
+    "a": 0,
+    "e": "Patch management identifies, tests, approves and deploys updates."
+  },
+  {
+    "d": 4,
+    "q": "What is the main purpose of a change advisory board?",
+    "o": [
+      "Review and approve significant changes",
+      "Generate encryption keys",
+      "Replace incident responders",
+      "Store evidence offsite"
+    ],
+    "a": 0,
+    "e": "A CAB evaluates risk, impact and scheduling for proposed changes."
+  },
+  {
+    "d": 4,
+    "q": "What is a major advantage of an authenticated vulnerability scan?",
+    "o": [
+      "It can inspect local configuration and missing patches more deeply",
+      "It never needs credentials",
+      "It replaces penetration testing",
+      "It guarantees no false positives"
+    ],
+    "a": 0,
+    "e": "Authenticated scans can see system details that unauthenticated scans cannot."
+  },
+  {
+    "d": 4,
+    "q": "Which document defines the authorized scope, timing and constraints for a penetration test?",
+    "o": [
+      "Rules of engagement",
+      "Risk register",
+      "Data retention policy",
+      "Service catalog"
+    ],
+    "a": 0,
+    "e": "Rules of engagement define what the testers may do and how the test is controlled."
+  },
+  {
+    "d": 4,
+    "q": "Which technique sends malformed or unexpected inputs to find application crashes?",
+    "o": [
+      "Fuzzing",
+      "Tokenization",
+      "Clustering",
+      "Geofencing"
+    ],
+    "a": 0,
+    "e": "Fuzzing tests robustness using unexpected, random or boundary-value input."
+  },
+  {
+    "d": 4,
+    "q": "Which data is most volatile and should generally be collected early in forensics?",
+    "o": [
+      "RAM contents",
+      "Archived tape",
+      "Printed policy",
+      "Disk image stored offline"
+    ],
+    "a": 0,
+    "e": "Memory is volatile and may disappear when the system is powered off."
+  },
+  {
+    "d": 4,
+    "q": "What does an indicator of compromise represent?",
+    "o": [
+      "Evidence suggesting a system may have been compromised",
+      "A guaranteed vulnerability score",
+      "A business continuity metric",
+      "A password factor"
+    ],
+    "a": 0,
+    "e": "An IOC can include hashes, domains, IPs, filenames or behaviors linked to compromise."
+  },
+  {
+    "d": 4,
+    "q": "Which log source is most useful for investigating repeated failed logins?",
+    "o": [
+      "Authentication logs",
+      "Printer logs",
+      "Temperature logs",
+      "UPS logs"
+    ],
+    "a": 0,
+    "e": "Authentication logs provide usernames, timestamps, source details and result codes."
+  },
+  {
+    "d": 4,
+    "q": "Which protocol is commonly used to synchronize system clocks?",
+    "o": [
+      "NTP",
+      "FTP",
+      "SFTP",
+      "LDAP"
+    ],
+    "a": 0,
+    "e": "Network Time Protocol keeps system clocks aligned for reliable log correlation."
+  },
+  {
+    "d": 4,
+    "q": "What should a responder do to preserve evidence before rebuilding an affected host?",
+    "o": [
+      "Document and collect relevant evidence according to procedure",
+      "Immediately delete all logs",
+      "Change every password without recording it",
+      "Disconnect all monitoring systems"
+    ],
+    "a": 0,
+    "e": "Evidence should be documented and collected before destructive remediation when practical."
+  },
+  {
+    "d": 4,
+    "q": "A security analyst proactively searches for hidden threats that bypassed alerts. This is:",
+    "o": [
+      "Threat hunting",
+      "Load balancing",
+      "Data retention",
+      "Certificate renewal"
+    ],
+    "a": 0,
+    "e": "Threat hunting is a proactive search for signs of malicious activity."
+  },
+  {
+    "d": 4,
+    "q": "Which response action removes malware and closes the exploited weakness?",
+    "o": [
+      "Eradication",
+      "Preparation",
+      "Detection",
+      "Lessons learned"
+    ],
+    "a": 0,
+    "e": "Eradication removes the root cause, malware and persistence mechanisms."
+  },
+  {
+    "d": 5,
+    "q": "Which data classification normally requires the strongest access controls?",
+    "o": [
+      "Public",
+      "Internal",
+      "Confidential or restricted",
+      "Marketing"
+    ],
+    "a": 2,
+    "e": "Sensitive restricted data has the greatest impact if disclosed or altered."
+  },
+  {
+    "d": 5,
+    "q": "What principle limits collection and retention of personal data to what is necessary?",
+    "o": [
+      "Data minimization",
+      "Open design",
+      "Full disclosure",
+      "Implicit trust"
+    ],
+    "a": 0,
+    "e": "Data minimization reduces privacy risk by limiting unnecessary personal data."
+  },
+  {
+    "d": 5,
+    "q": "Which contract helps prevent a vendor from disclosing confidential information?",
+    "o": [
+      "NDA",
+      "SLA",
+      "MOU",
+      "AUP"
+    ],
+    "a": 0,
+    "e": "A non-disclosure agreement establishes confidentiality obligations."
+  },
+  {
+    "d": 5,
+    "q": "Which document defines acceptable behavior when using company systems?",
+    "o": [
+      "AUP",
+      "NDA",
+      "SLA",
+      "BIA"
+    ],
+    "a": 0,
+    "e": "An acceptable use policy defines permitted and prohibited system use."
+  },
+  {
+    "d": 5,
+    "q": "Which contract clause allows a customer to inspect a provider control environment?",
+    "o": [
+      "Right to audit",
+      "Force majeure",
+      "Limitation of liability",
+      "Nondisclosure"
+    ],
+    "a": 0,
+    "e": "A right-to-audit clause permits review of relevant controls and evidence."
+  },
+  {
+    "d": 5,
+    "q": "Which agreement commonly defines uptime, response time and service penalties?",
+    "o": [
+      "SLA",
+      "NDA",
+      "AUP",
+      "MOU"
+    ],
+    "a": 0,
+    "e": "An SLA states measurable service targets and often remedies for failure."
+  },
+  {
+    "d": 5,
+    "q": "Which exercise discusses a hypothetical incident without making production changes?",
+    "o": [
+      "Tabletop exercise",
+      "Destructive recovery test",
+      "Red team attack",
+      "Port scan"
+    ],
+    "a": 0,
+    "e": "A tabletop exercise validates roles and decisions through discussion."
+  },
+  {
+    "d": 5,
+    "q": "Which plan focuses on keeping essential business functions running during disruption?",
+    "o": [
+      "Business continuity plan",
+      "Password policy",
+      "Vulnerability scan",
+      "Certificate policy"
+    ],
+    "a": 0,
+    "e": "A BCP defines how critical functions continue during a disruption."
+  },
+  {
+    "d": 5,
+    "q": "Which plan focuses on restoring technology after a major outage?",
+    "o": [
+      "Disaster recovery plan",
+      "Acceptable use policy",
+      "Data classification policy",
+      "Vendor catalog"
+    ],
+    "a": 0,
+    "e": "A DRP documents restoration of systems, applications and infrastructure."
+  },
+  {
+    "d": 5,
+    "q": "Risk remaining after controls are applied is called:",
+    "o": [
+      "Inherent risk",
+      "Residual risk",
+      "Transferred risk",
+      "Eliminated risk"
+    ],
+    "a": 1,
+    "e": "Residual risk is what remains after safeguards and treatments."
+  },
+  {
+    "d": 5,
+    "q": "Risk that exists before safeguards are applied is called:",
+    "o": [
+      "Inherent risk",
+      "Residual risk",
+      "Accepted risk",
+      "Audit risk"
+    ],
+    "a": 0,
+    "e": "Inherent risk is evaluated before controls reduce likelihood or impact."
+  },
+  {
+    "d": 5,
+    "q": "Which approach uses numbers such as asset value and annual rate of occurrence?",
+    "o": [
+      "Quantitative risk analysis",
+      "Qualitative risk analysis",
+      "Due care",
+      "Threat modeling"
+    ],
+    "a": 0,
+    "e": "Quantitative analysis expresses likelihood and impact numerically."
+  },
+  {
+    "d": 5,
+    "q": "Which metric represents expected yearly loss from a risk?",
+    "o": [
+      "ALE",
+      "SLE",
+      "ARO",
+      "RTO"
+    ],
+    "a": 0,
+    "e": "Annualized Loss Expectancy is commonly calculated as SLE multiplied by ARO."
+  },
+  {
+    "d": 5,
+    "q": "A company estimates one incident would cost $20,000 and expects 0.2 incidents per year. What is the ALE?",
+    "o": [
+      "$4,000",
+      " $20,000",
+      " $100,000",
+      " $0.20"
+    ],
+    "a": 0,
+    "e": "ALE = SLE × ARO = $20,000 × 0.2 = $4,000."
+  },
+  {
+    "d": 5,
+    "q": "Who is accountable for implementing protection according to the data owner requirements?",
+    "o": [
+      "Data custodian",
+      "Data subject",
+      "External attacker",
+      "End user only"
+    ],
+    "a": 0,
+    "e": "The custodian operates and maintains controls for data entrusted to the organization."
+  },
+  {
+    "d": 5,
+    "q": "Which activity verifies that controls continue to operate as designed?",
+    "o": [
+      "Continuous monitoring",
+      "Domain registration",
+      "Password spraying",
+      "Data destruction"
+    ],
+    "a": 0,
+    "e": "Continuous monitoring collects ongoing evidence about control effectiveness."
+  },
+  {
+    "d": 5,
+    "q": "What is the purpose of a privacy impact assessment?",
+    "o": [
+      "Evaluate how a project collects and uses personal data",
+      "Calculate CPU utilization",
+      "Select a RAID level",
+      "Test a firewall cable"
+    ],
+    "a": 0,
+    "e": "A privacy impact assessment identifies privacy risks and suitable safeguards."
+  },
+  {
+    "d": 5,
+    "q": "Which principle means a person cannot later credibly deny an action they performed?",
+    "o": [
+      "Non-repudiation",
+      "Availability",
+      "Obfuscation",
+      "Elasticity"
+    ],
+    "a": 0,
+    "e": "Non-repudiation relies on evidence such as signatures and reliable audit logs."
+  },
+  {
+    "d": 1,
+    "q": "Which security concept ensures a person cannot deny having approved a transaction?",
+    "o": [
+      "Availability",
+      "Non-repudiation",
+      "Obfuscation",
+      "Elasticity"
+    ],
+    "a": 1,
+    "e": "Non-repudiation uses reliable evidence, such as digital signatures and audit records, to link an action to its originator."
+  },
+  {
+    "d": 1,
+    "q": "Which control is primarily intended to tell people what they must do?",
+    "o": [
+      "Directive control",
+      "Detective control",
+      "Corrective control",
+      "Recovery control"
+    ],
+    "a": 0,
+    "e": "Directive controls provide direction through policies, procedures, standards and instructions."
+  },
+  {
+    "d": 1,
+    "q": "A security guard checks visitor identification at the reception desk. What kind of control is this?",
+    "o": [
+      "Physical",
+      "Logical",
+      "Cryptographic",
+      "Compensating"
+    ],
+    "a": 0,
+    "e": "A guard is a physical control that protects access to a facility."
+  },
+  {
+    "d": 1,
+    "q": "Which principle recommends that security mechanisms remain secure even when their design is publicly known?",
+    "o": [
+      "Open design",
+      "Security through obscurity",
+      "Implicit trust",
+      "Complete mediation"
+    ],
+    "a": 0,
+    "e": "Open design means security should depend on protected secrets such as keys, not hidden design details."
+  },
+  {
+    "d": 1,
+    "q": "A system validates authorization on every object request rather than only at login. Which principle is this?",
+    "o": [
+      "Complete mediation",
+      "Fail-open",
+      "Least functionality",
+      "Separation of duties"
+    ],
+    "a": 0,
+    "e": "Complete mediation checks access every time a resource is requested."
+  },
+  {
+    "d": 1,
+    "q": "Which approach removes unnecessary services and applications from a server?",
+    "o": [
+      "Least functionality",
+      "Open design",
+      "Non-repudiation",
+      "Federation"
+    ],
+    "a": 0,
+    "e": "Least functionality reduces attack surface by disabling unnecessary features."
+  },
+  {
+    "d": 1,
+    "q": "Which term describes a system being designed to continue operating despite component failure?",
+    "o": [
+      "Fault tolerance",
+      "Obfuscation",
+      "Tokenization",
+      "Data minimization"
+    ],
+    "a": 0,
+    "e": "Fault tolerance uses redundancy or alternate components to continue service after failures."
+  },
+  {
+    "d": 1,
+    "q": "Which security objective is most directly supported by encrypting an email?",
+    "o": [
+      "Confidentiality",
+      "Availability",
+      "Integrity only",
+      "Accounting"
+    ],
+    "a": 0,
+    "e": "Encryption prevents unauthorized parties from reading the content, providing confidentiality."
+  },
+  {
+    "d": 1,
+    "q": "Which key is normally distributed to others so they can verify a digital signature?",
+    "o": [
+      "The signer’s private key",
+      "The signer’s public key",
+      "A session password",
+      "A recovery key only"
+    ],
+    "a": 1,
+    "e": "Recipients use the signer public key to verify a signature created with the private key."
+  },
+  {
+    "d": 1,
+    "q": "Which cryptographic property makes it impractical to find two inputs with the same digest?",
+    "o": [
+      "Collision resistance",
+      "Key escrow",
+      "Forward secrecy",
+      "Perfect availability"
+    ],
+    "a": 0,
+    "e": "Collision resistance makes finding two inputs with an identical hash computationally impractical."
+  },
+  {
+    "d": 1,
+    "q": "A security control that discourages an attacker by increasing the perceived chance of detection is a:",
+    "o": [
+      "Deterrent",
+      "Corrective",
+      "Recovery",
+      "Passive"
+    ],
+    "a": 0,
+    "e": "Deterrents, such as warning signs and visible cameras, discourage unwanted actions."
+  },
+  {
+    "d": 1,
+    "q": "Which principle says conflicting responsibilities should be split between different people?",
+    "o": [
+      "Separation of duties",
+      "Least functionality",
+      "Open design",
+      "Data remanence"
+    ],
+    "a": 0,
+    "e": "Separation of duties reduces fraud and error by requiring more than one person for sensitive actions."
+  },
+  {
+    "d": 1,
+    "q": "Which term describes information that remains on media after normal deletion?",
+    "o": [
+      "Data remanence",
+      "Data in transit",
+      "Data sovereignty",
+      "Data normalization"
+    ],
+    "a": 0,
+    "e": "Data remanence is residual data left after deletion or reformatting."
+  },
+  {
+    "d": 1,
+    "q": "Which method securely removes data from a storage device by replacing it with patterns?",
+    "o": [
+      "Wiping",
+      "Tokenization",
+      "Hashing",
+      "Indexing"
+    ],
+    "a": 0,
+    "e": "Wiping overwrites storage to make previous data difficult or impossible to recover."
+  },
+  {
+    "d": 1,
+    "q": "Which type of cryptography uses one shared secret for encryption and decryption?",
+    "o": [
+      "Symmetric",
+      "Asymmetric",
+      "Hash-based only",
+      "Certificate-based only"
+    ],
+    "a": 0,
+    "e": "Symmetric cryptography uses the same secret key for both directions."
+  },
+  {
+    "d": 2,
+    "q": "An employee opens an attachment that installs software which encrypts shared files and demands payment. What is this?",
+    "o": [
+      "Ransomware",
+      "Spyware",
+      "Adware",
+      "Rootkit only"
+    ],
+    "a": 0,
+    "e": "Ransomware encrypts or blocks access to data and demands payment."
+  },
+  {
+    "d": 2,
+    "q": "Malware records keystrokes to capture credentials. Which type is it?",
+    "o": [
+      "Keylogger",
+      "Logic bomb",
+      "Worm",
+      "Boot sector virus"
+    ],
+    "a": 0,
+    "e": "A keylogger records keyboard input, often to capture passwords and sensitive data."
+  },
+  {
+    "d": 2,
+    "q": "Malware spreads automatically between vulnerable systems without requiring a user to run each copy. What is it?",
+    "o": [
+      "Worm",
+      "Trojan",
+      "Adware",
+      "Dropper only"
+    ],
+    "a": 0,
+    "e": "A worm self-propagates across networks or systems."
+  },
+  {
+    "d": 2,
+    "q": "A malicious program appears to be a useful utility but contains hidden harmful behavior. What is it?",
+    "o": [
+      "Trojan",
+      "Worm",
+      "Rootkit",
+      "Botnet"
+    ],
+    "a": 0,
+    "e": "A Trojan disguises malicious behavior as legitimate software."
+  },
+  {
+    "d": 2,
+    "q": "A hidden program gives an attacker administrator-level access while concealing its presence. What is it?",
+    "o": [
+      "Rootkit",
+      "Adware",
+      "Macro only",
+      "Spam filter"
+    ],
+    "a": 0,
+    "e": "Rootkits hide persistence or privileged access from normal system tools."
+  },
+  {
+    "d": 2,
+    "q": "A malware payload activates when a specific date or event occurs. What is this?",
+    "o": [
+      "Logic bomb",
+      "Worm",
+      "Credential stuffing",
+      "Evil twin"
+    ],
+    "a": 0,
+    "e": "A logic bomb triggers when its programmed condition is met."
+  },
+  {
+    "d": 2,
+    "q": "A group uses compromised devices under centralized control to send spam and attack targets. The devices form a:",
+    "o": [
+      "Botnet",
+      "DMZ",
+      "PKI",
+      "Sandbox"
+    ],
+    "a": 0,
+    "e": "A botnet is a collection of compromised systems controlled by an operator."
+  },
+  {
+    "d": 2,
+    "q": "An attacker secretly intercepts and changes traffic between two parties. What is this?",
+    "o": [
+      "Man-in-the-middle",
+      "Password spraying",
+      "DDoS",
+      "Tailgating"
+    ],
+    "a": 0,
+    "e": "A man-in-the-middle attack intercepts communications and may alter them."
+  },
+  {
+    "d": 2,
+    "q": "An attacker records a valid authentication exchange and sends it again later. What is this?",
+    "o": [
+      "Replay attack",
+      "Watering-hole attack",
+      "Whaling",
+      "DNS tunneling"
+    ],
+    "a": 0,
+    "e": "A replay attack reuses captured valid data to impersonate a participant."
+  },
+  {
+    "d": 2,
+    "q": "An attacker creates a fake wireless access point with the same name as a trusted network. What is this?",
+    "o": [
+      "Evil twin",
+      "Bluejacking",
+      "VLAN hopping",
+      "Wardriving only"
+    ],
+    "a": 0,
+    "e": "An evil twin impersonates a legitimate wireless network to capture traffic or credentials."
+  },
+  {
+    "d": 2,
+    "q": "An attacker searches for wireless networks while driving around an area. What is this activity?",
+    "o": [
+      "Wardriving",
+      "Vishing",
+      "Kerberoasting",
+      "Pharming"
+    ],
+    "a": 0,
+    "e": "Wardriving maps wireless networks, often to identify weak or open access points."
+  },
+  {
+    "d": 2,
+    "q": "An attacker exploits a switch configuration to access traffic from another VLAN. What is this?",
+    "o": [
+      "VLAN hopping",
+      "DNS poisoning",
+      "ARP inspection",
+      "Port security"
+    ],
+    "a": 0,
+    "e": "VLAN hopping attempts to bypass VLAN separation and reach other broadcast domains."
+  },
+  {
+    "d": 2,
+    "q": "An attacker sends false address-resolution messages to associate their MAC address with another host IP. What is this?",
+    "o": [
+      "ARP spoofing",
+      "DNSSEC",
+      "BGP hijacking",
+      "NTP poisoning"
+    ],
+    "a": 0,
+    "e": "ARP spoofing poisons local ARP caches and can enable interception."
+  },
+  {
+    "d": 2,
+    "q": "Which control most directly reduces the risk of malicious macros in office documents?",
+    "o": [
+      "Disable or restrict macros from untrusted sources",
+      "Use a larger monitor",
+      "Disable TLS",
+      "Use shared accounts"
+    ],
+    "a": 0,
+    "e": "Restricting macros from untrusted locations reduces script-based malware execution."
+  },
+  {
+    "d": 2,
+    "q": "What is the primary purpose of a sandbox?",
+    "o": [
+      "Run suspicious code in an isolated environment",
+      "Store production backups",
+      "Issue certificates",
+      "Balance traffic"
+    ],
+    "a": 0,
+    "e": "A sandbox limits the impact of untrusted code while it is analyzed or executed."
+  },
+  {
+    "d": 3,
+    "q": "Which network zone should contain systems used only by security and infrastructure administrators?",
+    "o": [
+      "Management network",
+      "Public DMZ",
+      "Guest Wi-Fi",
+      "Marketing VLAN"
+    ],
+    "a": 0,
+    "e": "A dedicated management network reduces exposure of administrative interfaces."
+  },
+  {
+    "d": 3,
+    "q": "Which firewall rule is generally the safest default?",
+    "o": [
+      "Allow all and log nothing",
+      "Deny by default and allow required traffic",
+      "Allow all outbound and inbound",
+      "Permit based only on hostname"
+    ],
+    "a": 1,
+    "e": "Deny-by-default minimizes exposure and requires explicit business justification for access."
+  },
+  {
+    "d": 3,
+    "q": "Which technology translates private addresses to a public address?",
+    "o": [
+      "NAT",
+      "NTP",
+      "NAC",
+      "NAS"
+    ],
+    "a": 0,
+    "e": "Network Address Translation maps private and public IP addresses."
+  },
+  {
+    "d": 3,
+    "q": "Which DNS security feature helps validate that DNS responses have not been modified?",
+    "o": [
+      "DNSSEC",
+      "DHCP",
+      "RADIUS",
+      "SFTP"
+    ],
+    "a": 0,
+    "e": "DNSSEC uses digital signatures to authenticate DNS data and protect integrity."
+  },
+  {
+    "d": 3,
+    "q": "Which protocol securely transfers files over an SSH connection?",
+    "o": [
+      "SFTP",
+      "TFTP",
+      "FTP",
+      "Telnet"
+    ],
+    "a": 0,
+    "e": "SFTP provides file transfer over the encrypted SSH protocol."
+  },
+  {
+    "d": 3,
+    "q": "Which protocol is insecure because it sends credentials in cleartext?",
+    "o": [
+      "Telnet",
+      "SSH",
+      "SFTP",
+      "HTTPS"
+    ],
+    "a": 0,
+    "e": "Telnet does not encrypt its session; SSH is the secure alternative."
+  },
+  {
+    "d": 3,
+    "q": "Which wireless security option provides enterprise authentication through 802.1X?",
+    "o": [
+      "WPA2-Enterprise",
+      "WEP",
+      "Open authentication",
+      "WPA with a shared short key"
+    ],
+    "a": 0,
+    "e": "WPA2-Enterprise uses 802.1X and an authentication server for per-user access."
+  },
+  {
+    "d": 3,
+    "q": "Which authentication server is commonly used with 802.1X network access?",
+    "o": [
+      "RADIUS",
+      "DNS",
+      "NTP",
+      "SMTP"
+    ],
+    "a": 0,
+    "e": "RADIUS commonly provides centralized AAA for network access."
+  },
+  {
+    "d": 3,
+    "q": "Which virtualization component allocates hardware resources to guest virtual machines?",
+    "o": [
+      "Hypervisor",
+      "Certificate authority",
+      "Reverse proxy",
+      "DLP agent"
+    ],
+    "a": 0,
+    "e": "A hypervisor manages virtual machines and their access to host resources."
+  },
+  {
+    "d": 3,
+    "q": "A Type 1 hypervisor runs:",
+    "o": [
+      "Directly on physical hardware",
+      "Inside a web browser only",
+      "On top of a host operating system",
+      "Only on a mobile phone"
+    ],
+    "a": 0,
+    "e": "Type 1, or bare-metal, hypervisors run directly on the host hardware."
+  },
+  {
+    "d": 3,
+    "q": "Which cloud deployment model is dedicated to one organization?",
+    "o": [
+      "Private cloud",
+      "Public cloud",
+      "Community cloud only",
+      "Open cloud"
+    ],
+    "a": 0,
+    "e": "A private cloud is dedicated to a single organization, though it may be hosted elsewhere."
+  },
+  {
+    "d": 3,
+    "q": "Which model combines provider and customer cloud resources?",
+    "o": [
+      "Hybrid cloud",
+      "Air-gapped cloud",
+      "Single-tenant DNS",
+      "Cold cloud"
+    ],
+    "a": 0,
+    "e": "A hybrid cloud combines private and public cloud environments."
+  },
+  {
+    "d": 3,
+    "q": "Which resilience technique keeps a second system ready to take over automatically?",
+    "o": [
+      "Failover clustering",
+      "Data masking",
+      "Port knocking",
+      "Key stretching"
+    ],
+    "a": 0,
+    "e": "Failover clustering provides alternate nodes when the primary fails."
+  },
+  {
+    "d": 3,
+    "q": "Which resilience technique distributes a service across geographically separate sites?",
+    "o": [
+      "Geographic dispersion",
+      "Password rotation",
+      "Certificate pinning",
+      "Screen locking"
+    ],
+    "a": 0,
+    "e": "Geographic dispersion reduces the effect of regional outages."
+  },
+  {
+    "d": 3,
+    "q": "Which storage technology presents remote block storage to servers over a dedicated network?",
+    "o": [
+      "SAN",
+      "NAS only",
+      "DNS",
+      "HSM"
+    ],
+    "a": 0,
+    "e": "A storage area network provides block-level storage over a storage network."
+  },
+  {
+    "d": 4,
+    "q": "Which access model lets the resource owner decide who can access an object?",
+    "o": [
+      "DAC",
+      "MAC",
+      "RBAC",
+      "ABAC only"
+    ],
+    "a": 0,
+    "e": "Discretionary access control allows the resource owner to grant or revoke permissions."
+  },
+  {
+    "d": 4,
+    "q": "Which access model uses centrally assigned labels and does not let users change permissions?",
+    "o": [
+      "MAC",
+      "DAC",
+      "RBAC only",
+      "Open access"
+    ],
+    "a": 0,
+    "e": "Mandatory access control uses centrally managed labels and rules."
+  },
+  {
+    "d": 4,
+    "q": "Which access practice grants temporary elevated access only when needed?",
+    "o": [
+      "Just-in-time access",
+      "Permanent admin rights",
+      "Shared root account",
+      "Anonymous access"
+    ],
+    "a": 0,
+    "e": "JIT access limits the duration of privileged permissions."
+  },
+  {
+    "d": 4,
+    "q": "Which control ensures two people approve a high-value transaction?",
+    "o": [
+      "Dual control",
+      "Single sign-on",
+      "Port security",
+      "Data masking"
+    ],
+    "a": 0,
+    "e": "Dual control requires two individuals for a sensitive action."
+  },
+  {
+    "d": 4,
+    "q": "Which access review confirms that current permissions are still appropriate?",
+    "o": [
+      "User access review",
+      "Packet capture",
+      "Certificate pinning",
+      "Data destruction"
+    ],
+    "a": 0,
+    "e": "Periodic access reviews identify excessive, stale or inappropriate permissions."
+  },
+  {
+    "d": 4,
+    "q": "Which authentication protocol is commonly used for web-based federated identity?",
+    "o": [
+      "SAML",
+      "FTP",
+      "ICMP",
+      "SNMPv1"
+    ],
+    "a": 0,
+    "e": "SAML exchanges authentication and authorization assertions between identity and service providers."
+  },
+  {
+    "d": 4,
+    "q": "Which modern protocol is commonly used for delegated authorization to APIs?",
+    "o": [
+      "OAuth 2.0",
+      "RDP",
+      "TFTP",
+      "ARP"
+    ],
+    "a": 0,
+    "e": "OAuth 2.0 allows an application to obtain limited delegated access without receiving the user password."
+  },
+  {
+    "d": 4,
+    "q": "Which protocol adds an identity layer on top of OAuth 2.0?",
+    "o": [
+      "OpenID Connect",
+      "SAML only",
+      "Kerberos only",
+      "RADIUS only"
+    ],
+    "a": 0,
+    "e": "OpenID Connect provides authentication and identity claims using OAuth 2.0."
+  },
+  {
+    "d": 4,
+    "q": "Which system can block a device when its antivirus is outdated?",
+    "o": [
+      "NAC",
+      "SIEM",
+      "HSM",
+      "WAF"
+    ],
+    "a": 0,
+    "e": "NAC can check endpoint posture and quarantine noncompliant devices."
+  },
+  {
+    "d": 4,
+    "q": "Which security platform manages application allowlisting and endpoint configuration?",
+    "o": [
+      "Endpoint management platform",
+      "Certificate revocation list",
+      "Load balancer",
+      "DNS resolver"
+    ],
+    "a": 0,
+    "e": "Endpoint management tools can enforce configuration and application policies."
+  },
+  {
+    "d": 4,
+    "q": "Which event should generally trigger an incident response investigation?",
+    "o": [
+      "A confirmed malware detection on a critical server",
+      "A routine successful backup",
+      "A scheduled password change",
+      "A normal system reboot"
+    ],
+    "a": 0,
+    "e": "A confirmed malware detection on a critical asset is a high-priority security event."
+  },
+  {
+    "d": 4,
+    "q": "Which response phase removes persistence mechanisms after a compromised host is contained?",
+    "o": [
+      "Eradication",
+      "Preparation",
+      "Detection",
+      "Notification only"
+    ],
+    "a": 0,
+    "e": "Eradication removes malware, persistence and the root cause after containment."
+  },
+  {
+    "d": 4,
+    "q": "Which process restores normal service after the threat has been removed?",
+    "o": [
+      "Recovery",
+      "Scoping",
+      "Preparation",
+      "Identification only"
+    ],
+    "a": 0,
+    "e": "Recovery returns systems to normal operation and monitors for recurrence."
+  },
+  {
+    "d": 4,
+    "q": "What is the purpose of a lessons-learned meeting?",
+    "o": [
+      "Improve future response based on the incident",
+      "Assign permanent admin access",
+      "Delete evidence",
+      "Avoid documenting root cause"
+    ],
+    "a": 0,
+    "e": "Lessons learned identify process and control improvements after an incident."
+  },
+  {
+    "d": 4,
+    "q": "Which log property is most important when correlating events across systems?",
+    "o": [
+      "Synchronized timestamps",
+      "Bright colors",
+      "Large file names",
+      "No retention period"
+    ],
+    "a": 0,
+    "e": "Synchronized time enables accurate ordering and correlation of events."
+  },
+  {
+    "d": 5,
+    "q": "Which principle requires an organization to keep personal data only as long as needed?",
+    "o": [
+      "Data retention limitation",
+      "Open design",
+      "Full functionality",
+      "Implicit trust"
+    ],
+    "a": 0,
+    "e": "Retention limitation reduces exposure by disposing of data when the purpose ends."
+  },
+  {
+    "d": 5,
+    "q": "Which regulation or framework is specifically associated with payment card data?",
+    "o": [
+      "PCI DSS",
+      "BIA",
+      "RPO",
+      "SAML"
+    ],
+    "a": 0,
+    "e": "PCI DSS provides security requirements for payment card data environments."
+  },
+  {
+    "d": 5,
+    "q": "Which term describes where data is legally required to be stored or processed?",
+    "o": [
+      "Data sovereignty",
+      "Data remanence",
+      "Data elasticity",
+      "Data masking"
+    ],
+    "a": 0,
+    "e": "Data sovereignty concerns the legal jurisdiction governing data based on location."
+  },
+  {
+    "d": 5,
+    "q": "Which privacy role is the person whose personal information is collected?",
+    "o": [
+      "Data subject",
+      "Data custodian",
+      "Data owner only",
+      "Incident commander"
+    ],
+    "a": 0,
+    "e": "A data subject is an identified or identifiable person associated with personal data."
+  },
+  {
+    "d": 5,
+    "q": "Which activity compares an organization’s controls to a required standard?",
+    "o": [
+      "Compliance audit",
+      "Password spraying",
+      "Threat delivery",
+      "Packet fragmentation"
+    ],
+    "a": 0,
+    "e": "A compliance audit evaluates controls and evidence against a standard or regulation."
+  },
+  {
+    "d": 5,
+    "q": "What is an audit finding?",
+    "o": [
+      "A documented gap or observation identified during an audit",
+      "A new encryption key",
+      "A backup schedule only",
+      "A firewall interface"
+    ],
+    "a": 0,
+    "e": "An audit finding records a control weakness, nonconformity or observation."
+  },
+  {
+    "d": 5,
+    "q": "Which evidence is generally strongest for proving a configuration change occurred?",
+    "o": [
+      "A signed change ticket and corresponding system log",
+      "An unverified verbal statement",
+      "A memory of the administrator",
+      "An unsigned note"
+    ],
+    "a": 0,
+    "e": "Correlated authorized records and system logs provide traceable evidence."
+  },
+  {
+    "d": 5,
+    "q": "Which role coordinates people and decisions during a major incident?",
+    "o": [
+      "Incident commander",
+      "Data subject",
+      "Certificate authority",
+      "Procurement clerk"
+    ],
+    "a": 0,
+    "e": "The incident commander coordinates response activities and priorities."
+  },
+  {
+    "d": 5,
+    "q": "Which metric measures the average time needed to repair a failed component?",
+    "o": [
+      "MTTR",
+      "RPO",
+      "RTO",
+      "ALE"
+    ],
+    "a": 0,
+    "e": "Mean Time To Repair measures average restoration or repair time."
+  },
+  {
+    "d": 5,
+    "q": "Which metric measures the average time between failures?",
+    "o": [
+      "MTBF",
+      "MTTR",
+      "RPO",
+      "SLE"
+    ],
+    "a": 0,
+    "e": "Mean Time Between Failures measures reliability between failures."
+  },
+  {
+    "d": 5,
+    "q": "A supplier fails to meet an agreed security requirement. Which process should address the issue?",
+    "o": [
+      "Vendor management and contract escalation",
+      "Password spraying",
+      "Data masking",
+      "Certificate hashing"
+    ],
+    "a": 0,
+    "e": "Vendor management uses contracts, SLAs, reviews and escalation paths to handle supplier risk."
+  },
+  {
+    "d": 5,
+    "q": "Which procurement requirement ensures a supplier must notify the customer of a breach?",
+    "o": [
+      "Incident notification clause",
+      "Screen lock clause",
+      "Color standard",
+      "Keyboard policy"
+    ],
+    "a": 0,
+    "e": "An incident notification clause defines when and how the supplier must report incidents."
+  },
+  {
+    "d": 5,
+    "q": "Which activity tests whether backups can actually be restored?",
+    "o": [
+      "Restore test",
+      "Data classification",
+      "Port scan",
+      "User awareness quiz"
+    ],
+    "a": 0,
+    "e": "A restore test validates backup integrity and recovery procedures."
+  },
+  {
+    "d": 5,
+    "q": "Which business continuity exercise fully interrupts a service to validate recovery?",
+    "o": [
+      "Failover test",
+      "Tabletop only",
+      "Document review",
+      "Awareness campaign"
+    ],
+    "a": 0,
+    "e": "A failover test exercises the actual transition to an alternate service or site."
+  },
+  {
+    "d": 5,
+    "q": "Which risk treatment stops a risky activity entirely?",
+    "o": [
+      "Risk avoidance",
+      "Risk transfer",
+      "Risk acceptance",
+      "Risk sharing only"
+    ],
+    "a": 0,
+    "e": "Risk avoidance removes the activity or condition creating the risk."
+  },
+  {
+    "d": 1,
+    "q": "Which principle requires an access decision to be checked at every resource request?",
+    "o": [
+      "Complete mediation",
+      "Open design",
+      "Fail-open",
+      "Job rotation"
+    ],
+    "a": 0,
+    "e": "Complete mediation checks authorization whenever access to a protected resource is requested."
+  },
+  {
+    "d": 1,
+    "q": "Which security property means a system remains usable by authorized users?",
+    "o": [
+      "Availability",
+      "Confidentiality",
+      "Integrity",
+      "Non-repudiation"
+    ],
+    "a": 0,
+    "e": "Availability keeps systems and information accessible when needed."
+  },
+  {
+    "d": 1,
+    "q": "Which control category includes policies, risk assessments, and security governance?",
+    "o": [
+      "Managerial",
+      "Technical",
+      "Physical",
+      "Environmental"
+    ],
+    "a": 0,
+    "e": "Managerial controls direct and oversee the security program."
+  },
+  {
+    "d": 1,
+    "q": "Which control category includes a firewall and endpoint antivirus?",
+    "o": [
+      "Technical",
+      "Managerial",
+      "Physical",
+      "Administrative only"
+    ],
+    "a": 0,
+    "e": "Technical controls are implemented through hardware or software mechanisms."
+  },
+  {
+    "d": 1,
+    "q": "Which control category includes security awareness training and change management?",
+    "o": [
+      "Operational",
+      "Physical",
+      "Cryptographic",
+      "Network"
+    ],
+    "a": 0,
+    "e": "Operational controls are people and process activities used to operate security."
+  },
+  {
+    "d": 1,
+    "q": "Which principle reduces the number of functions exposed by a system?",
+    "o": [
+      "Least functionality",
+      "Complete mediation",
+      "Non-repudiation",
+      "Federation"
+    ],
+    "a": 0,
+    "e": "Least functionality removes or disables unnecessary services and features."
+  },
+  {
+    "d": 1,
+    "q": "A security system that permits access when it fails is described as:",
+    "o": [
+      "Fail-open",
+      "Fail-secure",
+      "Failover",
+      "Air-gapped"
+    ],
+    "a": 0,
+    "e": "Fail-open prioritizes availability over restriction when a control fails."
+  },
+  {
+    "d": 1,
+    "q": "Which factor is represented by a PIN?",
+    "o": [
+      "Something you know",
+      "Something you have",
+      "Something you are",
+      "Somewhere you are"
+    ],
+    "a": 0,
+    "e": "A PIN is knowledge possessed by the user."
+  },
+  {
+    "d": 1,
+    "q": "Which factor is represented by a hardware security token?",
+    "o": [
+      "Something you have",
+      "Something you know",
+      "Something you are",
+      "Something you do"
+    ],
+    "a": 0,
+    "e": "A hardware token is a possession factor."
+  },
+  {
+    "d": 1,
+    "q": "Which factor is represented by a voice pattern?",
+    "o": [
+      "Something you are",
+      "Something you know",
+      "Something you have",
+      "Somewhere you are"
+    ],
+    "a": 0,
+    "e": "A voice pattern is a biometric inherence factor."
+  },
+  {
+    "d": 1,
+    "q": "Which technology uses a one-time code that changes periodically?",
+    "o": [
+      "TOTP",
+      "RAID",
+      "NAT",
+      "DNSSEC"
+    ],
+    "a": 0,
+    "e": "Time-based one-time passwords are generated from a shared secret and current time."
+  },
+  {
+    "d": 1,
+    "q": "Which technology can provide a short-lived cryptographic proof from a physical device?",
+    "o": [
+      "FIDO2 security key",
+      "Plain FTP",
+      "Telnet",
+      "WEP"
+    ],
+    "a": 0,
+    "e": "FIDO2 security keys use public-key cryptography and resist phishing."
+  },
+  {
+    "d": 1,
+    "q": "What is the primary purpose of a security baseline?",
+    "o": [
+      "Define an approved minimum configuration",
+      "Store backup tapes",
+      "Issue user certificates",
+      "Replace incident response"
+    ],
+    "a": 0,
+    "e": "A baseline defines the minimum approved security configuration for a system."
+  },
+  {
+    "d": 1,
+    "q": "Which concept means a security system should not rely on hidden implementation details?",
+    "o": [
+      "Open design",
+      "Security through obscurity",
+      "Implicit trust",
+      "Data remanence"
+    ],
+    "a": 0,
+    "e": "Open design expects the design to be public while secrets remain protected."
+  },
+  {
+    "d": 1,
+    "q": "Which cryptographic method is normally used to protect a large volume of data efficiently?",
+    "o": [
+      "Symmetric encryption",
+      "Digital certificates only",
+      "Asymmetric encryption only",
+      "Hashing only"
+    ],
+    "a": 0,
+    "e": "Symmetric algorithms are efficient for bulk data encryption."
+  },
+  {
+    "d": 1,
+    "q": "Which cryptographic method is commonly used to exchange a secret over an untrusted network?",
+    "o": [
+      "Asymmetric cryptography",
+      "Plaintext transmission",
+      "Screen lock",
+      "Data deletion"
+    ],
+    "a": 0,
+    "e": "Asymmetric cryptography can establish or protect a shared secret without sending it in plaintext."
+  },
+  {
+    "d": 1,
+    "q": "What is the main purpose of a nonce?",
+    "o": [
+      "Provide a unique value used once",
+      "Store a password permanently",
+      "Replace an access policy",
+      "Increase disk capacity"
+    ],
+    "a": 0,
+    "e": "A nonce helps prevent reuse and replay by providing a unique value for a transaction."
+  },
+  {
+    "d": 1,
+    "q": "Which feature ensures a message has not changed since it was sent?",
+    "o": [
+      "Integrity verification",
+      "Availability clustering",
+      "Data minimization",
+      "Geographic dispersion"
+    ],
+    "a": 0,
+    "e": "A MAC, hash, or digital signature can help verify message integrity."
+  },
+  {
+    "d": 1,
+    "q": "Which control makes an attacker more likely to be detected by recording activity?",
+    "o": [
+      "Audit logging",
+      "Data destruction",
+      "Password sharing",
+      "Open ports"
+    ],
+    "a": 0,
+    "e": "Audit logging creates evidence that can reveal unauthorized activity."
+  },
+  {
+    "d": 1,
+    "q": "Which security practice reduces privileges after a temporary task is complete?",
+    "o": [
+      "Just-in-time access",
+      "Permanent assignment",
+      "Shared account",
+      "Anonymous access"
+    ],
+    "a": 0,
+    "e": "JIT access grants elevated permission only for the required time."
+  },
+  {
+    "d": 2,
+    "q": "Which malware displays unwanted advertisements and may track browsing activity?",
+    "o": [
+      "Adware",
+      "Worm",
+      "Rootkit",
+      "Bootkit"
+    ],
+    "a": 0,
+    "e": "Adware displays unwanted advertising and can include tracking behavior."
+  },
+  {
+    "d": 2,
+    "q": "Which malware is designed to hide malicious processes from the operating system?",
+    "o": [
+      "Rootkit",
+      "Adware",
+      "Spam",
+      "Macro"
+    ],
+    "a": 0,
+    "e": "Rootkits conceal processes, files, or persistence mechanisms."
+  },
+  {
+    "d": 2,
+    "q": "Which malware infects the startup area of a storage device?",
+    "o": [
+      "Bootkit",
+      "Spyware",
+      "Ransomware only",
+      "Logic bomb"
+    ],
+    "a": 0,
+    "e": "A bootkit targets boot components and can execute before the operating system fully loads."
+  },
+  {
+    "d": 2,
+    "q": "Which attack uses a fraudulent website but redirects victims through manipulated name resolution?",
+    "o": [
+      "Pharming",
+      "Tailgating",
+      "Smishing",
+      "Kerberoasting"
+    ],
+    "a": 0,
+    "e": "Pharming redirects users to malicious destinations through DNS or host manipulation."
+  },
+  {
+    "d": 2,
+    "q": "Which social engineering attack targets a high-profile executive?",
+    "o": [
+      "Whaling",
+      "Vishing",
+      "Smishing",
+      "Tailgating"
+    ],
+    "a": 0,
+    "e": "Whaling is spear phishing directed at senior executives or other high-value targets."
+  },
+  {
+    "d": 2,
+    "q": "Which physical attack searches discarded documents for sensitive information?",
+    "o": [
+      "Dumpster diving",
+      "Shoulder surfing",
+      "Tailgating",
+      "Wardriving"
+    ],
+    "a": 0,
+    "e": "Dumpster diving examines discarded material for useful information."
+  },
+  {
+    "d": 2,
+    "q": "Which physical attack observes someone entering a password?",
+    "o": [
+      "Shoulder surfing",
+      "Watering hole",
+      "Pharming",
+      "Credential stuffing"
+    ],
+    "a": 0,
+    "e": "Shoulder surfing observes screens or keyboards to capture secrets."
+  },
+  {
+    "d": 2,
+    "q": "Which attack manipulates a user into calling a fraudulent support number?",
+    "o": [
+      "Tech support scam",
+      "VLAN hopping",
+      "Replay attack",
+      "Buffer overflow"
+    ],
+    "a": 0,
+    "e": "A tech support scam uses impersonation and urgency to obtain access or payment."
+  },
+  {
+    "d": 2,
+    "q": "Which vulnerability occurs when an application trusts client-supplied authorization data?",
+    "o": [
+      "Insecure direct object reference",
+      "DNSSEC failure",
+      "Worm propagation",
+      "Evil twin"
+    ],
+    "a": 0,
+    "e": "An IDOR lets a user access another object by changing an identifier without proper authorization checks."
+  },
+  {
+    "d": 2,
+    "q": "Which flaw occurs when an application fails to validate the type or range of input?",
+    "o": [
+      "Improper input validation",
+      "Non-repudiation",
+      "Geographic dispersion",
+      "Certificate pinning"
+    ],
+    "a": 0,
+    "e": "Input validation rejects unexpected types, formats, lengths, and values."
+  },
+  {
+    "d": 2,
+    "q": "Which vulnerability lets an attacker read data beyond the intended memory boundary?",
+    "o": [
+      "Out-of-bounds read",
+      "Tokenization",
+      "Password spraying",
+      "DNS tunneling"
+    ],
+    "a": 0,
+    "e": "An out-of-bounds read accesses memory outside the allowed buffer."
+  },
+  {
+    "d": 2,
+    "q": "Which attack exploits a program using a resource after it has been released?",
+    "o": [
+      "Use-after-free",
+      "Replay attack",
+      "Phishing",
+      "Port scan"
+    ],
+    "a": 0,
+    "e": "Use-after-free can cause crashes, data exposure, or code execution."
+  },
+  {
+    "d": 2,
+    "q": "Which vulnerability can expose internal error details and stack traces to users?",
+    "o": [
+      "Improper error handling",
+      "WPA2-Enterprise",
+      "Data masking",
+      "Load balancing"
+    ],
+    "a": 0,
+    "e": "Verbose or improper errors can reveal paths, queries, versions, and implementation details."
+  },
+  {
+    "d": 2,
+    "q": "Which attack abuses a web browser's ability to load content from another origin?",
+    "o": [
+      "Cross-origin policy abuse",
+      "RAID failure",
+      "Password spraying",
+      "Jamming"
+    ],
+    "a": 0,
+    "e": "Weak cross-origin controls can expose data or permit unauthorized browser interactions."
+  },
+  {
+    "d": 2,
+    "q": "Which mitigation best protects against session theft after login?",
+    "o": [
+      "Secure, HttpOnly, SameSite cookies and TLS",
+      "Disable all logging",
+      "Use shared accounts",
+      "Allow session IDs in URLs"
+    ],
+    "a": 0,
+    "e": "Secure cookie attributes and TLS reduce exposure and unauthorized cross-site use of sessions."
+  },
+  {
+    "d": 2,
+    "q": "Which attack attempts to exhaust a service's available memory or connections?",
+    "o": [
+      "Resource exhaustion",
+      "Data masking",
+      "Certificate renewal",
+      "Port security"
+    ],
+    "a": 0,
+    "e": "Resource exhaustion consumes finite system resources to reduce availability."
+  },
+  {
+    "d": 2,
+    "q": "Which vulnerability is caused by using a component with a known unpatched flaw?",
+    "o": [
+      "Vulnerable dependency",
+      "Non-repudiation",
+      "Data sovereignty",
+      "Air gap"
+    ],
+    "a": 0,
+    "e": "Outdated or vulnerable dependencies create application supply-chain exposure."
+  },
+  {
+    "d": 2,
+    "q": "Which mitigation helps prevent dependency confusion?",
+    "o": [
+      "Use trusted private repositories and pin verified package versions",
+      "Allow any public package",
+      "Disable code review",
+      "Share build credentials"
+    ],
+    "a": 0,
+    "e": "Repository controls, package pinning, signatures, and dependency review reduce substitution risk."
+  },
+  {
+    "d": 2,
+    "q": "Which attack tries to make a malicious package appear before a legitimate internal package?",
+    "o": [
+      "Dependency confusion",
+      "MFA fatigue",
+      "Clickjacking",
+      "ARP spoofing"
+    ],
+    "a": 0,
+    "e": "Dependency confusion abuses package naming and repository precedence."
+  },
+  {
+    "d": 2,
+    "q": "Which technique places a transparent malicious element over a legitimate button?",
+    "o": [
+      "Clickjacking",
+      "Kerberoasting",
+      "VLAN hopping",
+      "DNSSEC"
+    ],
+    "a": 0,
+    "e": "Clickjacking tricks users into clicking an unintended overlaid control."
+  },
+  {
+    "d": 3,
+    "q": "Which component filters HTTP requests based on application-layer rules?",
+    "o": [
+      "Web application firewall",
+      "Layer 2 switch",
+      "HSM",
+      "RADIUS server"
+    ],
+    "a": 0,
+    "e": "A WAF inspects and filters web application traffic."
+  },
+  {
+    "d": 3,
+    "q": "Which device usually separates broadcast domains and routes between networks?",
+    "o": [
+      "Router",
+      "Hub",
+      "Repeater",
+      "Patch panel"
+    ],
+    "a": 0,
+    "e": "A router connects different IP networks and separates broadcast domains."
+  },
+  {
+    "d": 3,
+    "q": "Which network architecture places application servers between web and database tiers?",
+    "o": [
+      "Three-tier architecture",
+      "Flat network",
+      "Single-segment design",
+      "Open mesh"
+    ],
+    "a": 0,
+    "e": "Three-tier architecture separates presentation, application, and data layers."
+  },
+  {
+    "d": 3,
+    "q": "Which design principle limits direct user access to a database?",
+    "o": [
+      "Application-mediated access",
+      "Flat trust",
+      "Shared root access",
+      "Open database port"
+    ],
+    "a": 0,
+    "e": "Users should access data through controlled application services rather than direct database access."
+  },
+  {
+    "d": 3,
+    "q": "Which technology can provide encrypted DNS queries from a client to a resolver?",
+    "o": [
+      "DNS over HTTPS",
+      "Telnet",
+      "TFTP",
+      "Plain DNS only"
+    ],
+    "a": 0,
+    "e": "DNS over HTTPS encrypts DNS requests within HTTPS traffic."
+  },
+  {
+    "d": 3,
+    "q": "Which technology securely connects branch networks over the public Internet?",
+    "o": [
+      "Site-to-site VPN",
+      "Hub",
+      "Open proxy",
+      "Plain FTP"
+    ],
+    "a": 0,
+    "e": "A site-to-site VPN encrypts traffic between network locations."
+  },
+  {
+    "d": 3,
+    "q": "Which wireless attack sends many frames to disrupt communication?",
+    "o": [
+      "Jamming",
+      "Tokenization",
+      "SQL injection",
+      "Key escrow"
+    ],
+    "a": 0,
+    "e": "Jamming creates interference that reduces wireless availability."
+  },
+  {
+    "d": 3,
+    "q": "Which security design places sensitive workloads in isolated accounts or subscriptions?",
+    "o": [
+      "Cloud account segmentation",
+      "Shared root tenancy",
+      "Open security group",
+      "Flat identity"
+    ],
+    "a": 0,
+    "e": "Separating cloud accounts or subscriptions limits blast radius and administrative scope."
+  },
+  {
+    "d": 3,
+    "q": "Which cloud service model provides managed application software to customers?",
+    "o": [
+      "SaaS",
+      "IaaS",
+      "PaaS",
+      "DaaS only"
+    ],
+    "a": 0,
+    "e": "Software as a Service delivers a provider-managed application."
+  },
+  {
+    "d": 3,
+    "q": "Which cloud service model provides a managed runtime for deploying applications?",
+    "o": [
+      "PaaS",
+      "SaaS",
+      "IaaS",
+      "Colocation"
+    ],
+    "a": 0,
+    "e": "Platform as a Service provides a managed application platform and runtime."
+  },
+  {
+    "d": 3,
+    "q": "Which cloud service model provides virtual machines, storage, and networks?",
+    "o": [
+      "IaaS",
+      "SaaS",
+      "PaaS",
+      "FaaS only"
+    ],
+    "a": 0,
+    "e": "Infrastructure as a Service provides virtualized infrastructure resources."
+  },
+  {
+    "d": 3,
+    "q": "Which technology provides a tamper-resistant isolated execution environment for sensitive workloads?",
+    "o": [
+      "Trusted execution environment",
+      "Open guest account",
+      "Plaintext cache",
+      "Shared folder"
+    ],
+    "a": 0,
+    "e": "A trusted execution environment isolates protected code and data from the normal environment."
+  },
+  {
+    "d": 3,
+    "q": "Which approach replaces a real sensitive value with a format-preserving substitute?",
+    "o": [
+      "Tokenization",
+      "Hash collision",
+      "Plaintext logging",
+      "Data duplication"
+    ],
+    "a": 0,
+    "e": "Tokenization substitutes a non-sensitive token for the original value."
+  },
+  {
+    "d": 3,
+    "q": "Which technique obscures sensitive fields while retaining usable data format?",
+    "o": [
+      "Data masking",
+      "Key exchange",
+      "Port mirroring",
+      "Load balancing"
+    ],
+    "a": 0,
+    "e": "Masking hides or replaces portions of data for display or testing."
+  },
+  {
+    "d": 3,
+    "q": "Which technique permanently removes sensitive data from a device by destroying the media?",
+    "o": [
+      "Physical destruction",
+      "Compression",
+      "Hashing",
+      "Replication"
+    ],
+    "a": 0,
+    "e": "Physical destruction makes the media unusable and prevents practical recovery."
+  },
+  {
+    "d": 3,
+    "q": "Which backup strategy stores copies in a separate geographic location?",
+    "o": [
+      "Offsite backup",
+      "Local cache",
+      "Live memory",
+      "Shared clipboard"
+    ],
+    "a": 0,
+    "e": "Offsite backups reduce the impact of a local disaster or site compromise."
+  },
+  {
+    "d": 3,
+    "q": "Which backup principle recommends keeping multiple copies on different media, including one offsite?",
+    "o": [
+      "3-2-1 rule",
+      "Single-copy rule",
+      "Zero-trust rule",
+      "Four-eyes rule"
+    ],
+    "a": 0,
+    "e": "The 3-2-1 rule uses three copies, two media types, and one offsite copy."
+  },
+  {
+    "d": 3,
+    "q": "Which recovery method uses a minimal operating environment to restore critical services?",
+    "o": [
+      "Bare-metal recovery",
+      "Password recovery",
+      "Session replay",
+      "Port recovery"
+    ],
+    "a": 0,
+    "e": "Bare-metal recovery restores an entire system to replacement hardware or an empty disk."
+  },
+  {
+    "d": 3,
+    "q": "Which design gives a system a backup power source during a short outage?",
+    "o": [
+      "UPS",
+      "HSM",
+      "WAF",
+      "NAC"
+    ],
+    "a": 0,
+    "e": "An uninterruptible power supply provides temporary power and can condition voltage."
+  },
+  {
+    "d": 3,
+    "q": "Which facility control helps protect servers from excessive heat?",
+    "o": [
+      "Environmental cooling",
+      "Password rotation",
+      "DNSSEC",
+      "Tokenization"
+    ],
+    "a": 0,
+    "e": "Cooling maintains an acceptable operating environment for equipment."
+  },
+  {
+    "d": 4,
+    "q": "Which account should be used for routine administration instead of the built-in administrator account?",
+    "o": [
+      "A named administrative account",
+      "A shared root account",
+      "An anonymous account",
+      "A guest account"
+    ],
+    "a": 0,
+    "e": "Named accounts improve accountability, logging, and least-privilege assignment."
+  },
+  {
+    "d": 4,
+    "q": "Which control prevents a user from logging in from an unapproved country?",
+    "o": [
+      "Geofencing",
+      "Hashing",
+      "RAID",
+      "Data wiping"
+    ],
+    "a": 0,
+    "e": "Geofencing applies access rules based on geographic location."
+  },
+  {
+    "d": 4,
+    "q": "Which control limits an application to approved executable files?",
+    "o": [
+      "Application allowlisting",
+      "Open execution",
+      "Port mirroring",
+      "Data remanence"
+    ],
+    "a": 0,
+    "e": "Allowlisting permits only approved applications or publishers."
+  },
+  {
+    "d": 4,
+    "q": "Which technology collects endpoint configuration and security status from mobile phones?",
+    "o": [
+      "MDM",
+      "OCSP",
+      "DNSSEC",
+      "SLA"
+    ],
+    "a": 0,
+    "e": "MDM manages mobile device settings, applications, compliance, and security posture."
+  },
+  {
+    "d": 4,
+    "q": "Which control protects a laptop if it is lost in a public place?",
+    "o": [
+      "Full-disk encryption",
+      "Open Wi-Fi",
+      "Shared password",
+      "Disabled screen lock"
+    ],
+    "a": 0,
+    "e": "Full-disk encryption protects stored data from offline access."
+  },
+  {
+    "d": 4,
+    "q": "Which tool captures a complete copy of network packets for detailed analysis?",
+    "o": [
+      "Packet analyzer",
+      "Password manager",
+      "HSM",
+      "DLP label"
+    ],
+    "a": 0,
+    "e": "A packet analyzer captures and decodes network traffic for troubleshooting or investigation."
+  },
+  {
+    "d": 4,
+    "q": "Which monitoring system detects suspicious network patterns and can block them inline?",
+    "o": [
+      "IPS",
+      "Passive NIDS only",
+      "Asset register",
+      "Certificate authority"
+    ],
+    "a": 0,
+    "e": "An intrusion prevention system can detect and actively block malicious traffic."
+  },
+  {
+    "d": 4,
+    "q": "Which technology filters outbound web requests through a controlled intermediary?",
+    "o": [
+      "Forward proxy",
+      "Reverse proxy only",
+      "HSM",
+      "RAID"
+    ],
+    "a": 0,
+    "e": "A forward proxy represents internal clients and can enforce browsing policies."
+  },
+  {
+    "d": 4,
+    "q": "Which security action should occur before a major production change?",
+    "o": [
+      "Backup and approved change plan",
+      "Delete old logs",
+      "Disable monitoring",
+      "Share administrator credentials"
+    ],
+    "a": 0,
+    "e": "A tested rollback or backup and approved plan reduce change-related risk."
+  },
+  {
+    "d": 4,
+    "q": "Which term describes testing a control by attempting to bypass it?",
+    "o": [
+      "Control assessment",
+      "Data minimization",
+      "Key escrow",
+      "Tokenization"
+    ],
+    "a": 0,
+    "e": "A control assessment validates whether a control is designed and operating effectively."
+  },
+  {
+    "d": 4,
+    "q": "Which assessment uses a simulated attacker team to test people, processes, and technology?",
+    "o": [
+      "Red team exercise",
+      "Backup restore",
+      "Tabletop only",
+      "Inventory count"
+    ],
+    "a": 0,
+    "e": "A red team emulates adversary behavior to test defensive capability."
+  },
+  {
+    "d": 4,
+    "q": "Which team defends an organization during an adversarial exercise?",
+    "o": [
+      "Blue team",
+      "Red team",
+      "White team only",
+      "Procurement team"
+    ],
+    "a": 0,
+    "e": "The blue team performs defense, detection, response, and monitoring."
+  },
+  {
+    "d": 4,
+    "q": "Which team coordinates and controls an exercise, including scope and safety?",
+    "o": [
+      "White team",
+      "Red team",
+      "Blue team",
+      "Help desk"
+    ],
+    "a": 0,
+    "e": "The white team defines rules, adjudicates the exercise, and protects the environment."
+  },
+  {
+    "d": 4,
+    "q": "Which process identifies systems, owners, versions, and locations?",
+    "o": [
+      "Asset inventory",
+      "Password spraying",
+      "Data masking",
+      "Certificate revocation"
+    ],
+    "a": 0,
+    "e": "An asset inventory provides visibility into what must be protected."
+  },
+  {
+    "d": 4,
+    "q": "Which process safely removes an asset from service and ensures data is handled appropriately?",
+    "o": [
+      "Asset disposal",
+      "User provisioning",
+      "Threat hunting",
+      "Load balancing"
+    ],
+    "a": 0,
+    "e": "Asset disposal includes authorization, data sanitization, and documented retirement."
+  },
+  {
+    "d": 4,
+    "q": "Which alert quality problem occurs when benign activity is reported as malicious?",
+    "o": [
+      "False positive",
+      "False negative",
+      "Zero-day",
+      "Residual risk"
+    ],
+    "a": 0,
+    "e": "A false positive is an alert for activity that is not actually malicious."
+  },
+  {
+    "d": 4,
+    "q": "Which alert quality problem occurs when malicious activity is missed?",
+    "o": [
+      "False negative",
+      "False positive",
+      "Baseline",
+      "Hash collision"
+    ],
+    "a": 0,
+    "e": "A false negative means a real threat was not detected."
+  },
+  {
+    "d": 4,
+    "q": "Which process tunes detection rules to reduce irrelevant alerts while retaining coverage?",
+    "o": [
+      "Alert tuning",
+      "Data destruction",
+      "Key escrow",
+      "Network translation"
+    ],
+    "a": 0,
+    "e": "Alert tuning adjusts logic, thresholds, and exclusions to improve signal quality."
+  },
+  {
+    "d": 4,
+    "q": "Which evidence type is most likely to disappear when a system is powered off?",
+    "o": [
+      "Volatile memory",
+      "Archived disk image",
+      "Printed report",
+      "Offline tape"
+    ],
+    "a": 0,
+    "e": "RAM and active connections are volatile and should be collected promptly."
+  },
+  {
+    "d": 4,
+    "q": "Which incident artifact can identify a suspicious file by its cryptographic digest?",
+    "o": [
+      "File hash",
+      "Screen resolution",
+      "MAC address only",
+      "RTO"
+    ],
+    "a": 0,
+    "e": "A file hash can be compared against known-good or known-malicious indicators."
+  },
+  {
+    "d": 5,
+    "q": "Which document defines senior management support and authority for a security program?",
+    "o": [
+      "Security charter",
+      "Packet capture",
+      "Incident ticket only",
+      "Asset tag"
+    ],
+    "a": 0,
+    "e": "A security charter establishes mission, authority, scope, and executive support."
+  },
+  {
+    "d": 5,
+    "q": "Which document defines how long different types of data must be retained?",
+    "o": [
+      "Data retention policy",
+      "Firewall rule",
+      "SLA only",
+      "Network diagram"
+    ],
+    "a": 0,
+    "e": "A data retention policy specifies retention periods and disposal expectations."
+  },
+  {
+    "d": 5,
+    "q": "Which process verifies that employees understand required security responsibilities?",
+    "o": [
+      "Security awareness training",
+      "Port scanning",
+      "Backup rotation",
+      "Certificate pinning"
+    ],
+    "a": 0,
+    "e": "Awareness training communicates responsibilities and expected behavior."
+  },
+  {
+    "d": 5,
+    "q": "Which metric can measure whether employees report simulated phishing messages?",
+    "o": [
+      "Reporting rate",
+      "RPO",
+      "MTBF",
+      "CPU temperature"
+    ],
+    "a": 0,
+    "e": "The reporting rate shows how often users identify and report simulated threats."
+  },
+  {
+    "d": 5,
+    "q": "Which risk treatment reduces likelihood or impact through safeguards?",
+    "o": [
+      "Risk mitigation",
+      "Risk acceptance",
+      "Risk avoidance only",
+      "Risk denial"
+    ],
+    "a": 0,
+    "e": "Mitigation applies controls to reduce likelihood or impact."
+  },
+  {
+    "d": 5,
+    "q": "Which risk treatment documents a decision to keep the risk without additional safeguards?",
+    "o": [
+      "Risk acceptance",
+      "Risk mitigation",
+      "Risk transfer",
+      "Risk avoidance"
+    ],
+    "a": 0,
+    "e": "Risk acceptance is a documented decision to retain a known risk."
+  },
+  {
+    "d": 5,
+    "q": "Which value represents the expected loss from one occurrence of a risk?",
+    "o": [
+      "SLE",
+      "ALE",
+      "ARO",
+      "RTO"
+    ],
+    "a": 0,
+    "e": "Single Loss Expectancy estimates the loss from one occurrence."
+  },
+  {
+    "d": 5,
+    "q": "Which value represents the expected number of occurrences per year?",
+    "o": [
+      "ARO",
+      "SLE",
+      "ALE",
+      "RPO"
+    ],
+    "a": 0,
+    "e": "Annual Rate of Occurrence estimates how often a risk occurs per year."
+  },
+  {
+    "d": 5,
+    "q": "Which risk analysis method ranks risks as high, medium, or low using expert judgment?",
+    "o": [
+      "Qualitative analysis",
+      "Quantitative analysis",
+      "Cryptographic analysis",
+      "Packet analysis"
+    ],
+    "a": 0,
+    "e": "Qualitative analysis uses categories and expert judgment rather than precise monetary values."
+  },
+  {
+    "d": 5,
+    "q": "Which process ensures an organization can demonstrate that a control was performed?",
+    "o": [
+      "Evidence collection",
+      "Password rotation",
+      "Port forwarding",
+      "Data compression"
+    ],
+    "a": 0,
+    "e": "Evidence collection preserves records that show control operation and compliance."
+  },
+  {
+    "d": 5,
+    "q": "Which agreement defines cooperation but may not contain detailed service metrics?",
+    "o": [
+      "MOU",
+      "SLA",
+      "NDA",
+      "AUP"
+    ],
+    "a": 0,
+    "e": "A memorandum of understanding documents a mutual understanding or intent to cooperate."
+  },
+  {
+    "d": 5,
+    "q": "Which agreement defines how two parties share responsibility for a connected service?",
+    "o": [
+      "Interconnection security agreement",
+      "AUP",
+      "BIA",
+      "Risk register"
+    ],
+    "a": 0,
+    "e": "An interconnection security agreement documents security expectations between connected organizations or systems."
+  },
+  {
+    "d": 5,
+    "q": "Which third-party report provides independent assurance about service organization controls over time?",
+    "o": [
+      "SOC 2 Type II",
+      "AUP",
+      "RPO",
+      "DNS record"
+    ],
+    "a": 0,
+    "e": "SOC 2 Type II evaluates the design and operating effectiveness of controls over a period."
+  },
+  {
+    "d": 5,
+    "q": "Which governance activity maps controls to multiple regulatory requirements?",
+    "o": [
+      "Control mapping",
+      "Port scanning",
+      "Data wiping",
+      "User provisioning"
+    ],
+    "a": 0,
+    "e": "Control mapping identifies how one control satisfies requirements across frameworks."
+  },
+  {
+    "d": 5,
+    "q": "Which privacy practice allows individuals to request a copy of their personal data?",
+    "o": [
+      "Data subject access",
+      "Password spraying",
+      "Network segmentation",
+      "Key rotation"
+    ],
+    "a": 0,
+    "e": "Data subject access supports an individual's right to obtain information held about them where applicable."
+  },
+  {
+    "d": 5,
+    "q": "Which privacy practice removes direct identifiers from a dataset while retaining analytical value?",
+    "o": [
+      "Pseudonymization",
+      "Plaintext storage",
+      "Open sharing",
+      "Port mirroring"
+    ],
+    "a": 0,
+    "e": "Pseudonymization replaces identifiers with substitutes while retaining a controlled ability to link data."
+  },
+  {
+    "d": 5,
+    "q": "Which activity identifies the people and processes needed to recover a critical function?",
+    "o": [
+      "Business continuity planning",
+      "Port scanning",
+      "Hash cracking",
+      "Certificate renewal"
+    ],
+    "a": 0,
+    "e": "Business continuity planning identifies resources, roles, dependencies, and procedures for continued operations."
+  },
+  {
+    "d": 5,
+    "q": "Which activity identifies critical dependencies between business functions and technology?",
+    "o": [
+      "Business impact analysis",
+      "Password audit",
+      "Packet capture",
+      "Data masking"
+    ],
+    "a": 0,
+    "e": "BIA identifies critical functions, dependencies, impact, and recovery priorities."
+  },
+  {
+    "d": 5,
+    "q": "Which governance principle requires documented approval before accepting a high risk?",
+    "o": [
+      "Risk accountability",
+      "Open access",
+      "Implicit trust",
+      "Data remanence"
+    ],
+    "a": 0,
+    "e": "Risk accountability assigns an owner and requires an authorized decision for acceptance."
+  },
+  {
+    "d": 5,
+    "q": "Which process checks whether a supplier still meets security requirements after onboarding?",
+    "o": [
+      "Ongoing vendor monitoring",
+      "One-time password reset",
+      "Port translation",
+      "Data compression"
+    ],
+    "a": 0,
+    "e": "Ongoing monitoring reviews vendor performance, attestations, incidents, and control changes."
+  }
+]

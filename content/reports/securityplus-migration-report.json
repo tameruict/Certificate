@@ -1,0 +1,44 @@
+{
+  "report_version": "1.0",
+  "migration": "legacy-securityplus-to-content-v2",
+  "source": {
+    "path": "questions.json",
+    "record_count": 1044,
+    "sha256": "b9c2d2c0de30edcc2e7e6d8b1b82f5602934337bfd494265fb02e7988453a03b",
+    "schema": [
+      "d",
+      "q",
+      "o",
+      "a",
+      "e"
+    ]
+  },
+  "outputs": {
+    "published": {
+      "path": "content/comptia-security-plus-sy0-701/published-questions.v2.json",
+      "record_count": 302,
+      "sha256": "7768429d4352fb9ea445bf34a3efadd9cef49408525a0b03fc660fbea35041c4",
+      "question_bank_status": "published",
+      "provenance": "reviewed_original_subset"
+    },
+    "needs_review": {
+      "path": "content/comptia-security-plus-sy0-701/needs-review-questions.v2.json",
+      "record_count": 742,
+      "sha256": "b14036f3e9cf78d8b95bbc6d808412d35139597737651518eb11395eb38c48bf",
+      "question_bank_status": "needs_review",
+      "provenance": "legacy_migration"
+    }
+  },
+  "accounting": {
+    "migrated": 1044,
+    "skipped": 0,
+    "published": 302,
+    "needs_review": 742,
+    "single_select": 1044,
+    "multi_select": 0,
+    "duplicate_id_suffixes": 0,
+    "records_without_explanation": 742
+  },
+  "id_strategy": "secplus-sy0-701 + first 16 hex chars of SHA-256 over canonical legacy fields; deterministic duplicate suffix only for identical records.",
+  "app_eligibility": "The reviewed original 302-record subset is published. The remaining legacy records are archived and excluded until editorial review changes that bank and its records to published."
+}

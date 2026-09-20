@@ -1,0 +1,137 @@
+{
+  "schema_version": "2.0",
+  "course_id": "aws-cloud-practitioner-clf-c02",
+  "question_bank_status": "published",
+  "content_origin": "original",
+  "records": [
+    {
+      "id": "aws-clf-c02-pilot-001",
+      "type": "single_select",
+      "prompt": "A team wants to run a web service without provisioning or patching servers. Which AWS compute option best fits this requirement?",
+      "options": [
+        { "id": "option_1", "text": "Amazon EC2" },
+        { "id": "option_2", "text": "AWS Lambda" },
+        { "id": "option_3", "text": "Amazon EBS" },
+        { "id": "option_4", "text": "Amazon VPC" }
+      ],
+      "correct_option_ids": ["option_2"],
+      "explanation": "AWS Lambda runs code in response to events while AWS manages the underlying compute infrastructure.",
+      "domain_id": "technology",
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Created for this local study pilot; not an exam item." }
+    },
+    {
+      "id": "aws-clf-c02-pilot-002",
+      "type": "multi_select",
+      "prompt": "Which TWO actions are examples of applying least privilege to an AWS workload?",
+      "options": [
+        { "id": "option_1", "text": "Attach AdministratorAccess to every new developer identity." },
+        { "id": "option_2", "text": "Create a role that permits only the required s3:GetObject action for one application bucket." },
+        { "id": "option_3", "text": "Require MFA for every console sign-in." },
+        { "id": "option_4", "text": "Attach broad ReadOnlyAccess to every account resource by default." },
+        { "id": "option_5", "text": "Remove access keys that are no longer used by the workload." }
+      ],
+      "correct_option_ids": ["option_2", "option_5"],
+      "explanation": "Least privilege limits permissions to the task and removes access that is no longer necessary. MFA is valuable but does not by itself scope authorization.",
+      "domain_id": "security",
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Created for this local study pilot; not an exam item." }
+    },
+    {
+      "id": "aws-clf-c02-pilot-003",
+      "type": "single_select",
+      "prompt": "Which AWS service records API activity so a team can investigate who changed an IAM policy?",
+      "options": [
+        { "id": "option_1", "text": "AWS CloudTrail" },
+        { "id": "option_2", "text": "Amazon CloudFront" },
+        { "id": "option_3", "text": "AWS Direct Connect" },
+        { "id": "option_4", "text": "Amazon Route 53" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "AWS CloudTrail records management events and other supported API activity for audit and investigation.",
+      "domain_id": "security",
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Created for this local study pilot; not an exam item." }
+    },
+    {
+      "id": "aws-clf-c02-pilot-004",
+      "type": "single_select",
+      "prompt": "What is a primary benefit of deploying an application across multiple Availability Zones in one AWS Region?",
+      "options": [
+        { "id": "option_1", "text": "It eliminates all application design work." },
+        { "id": "option_2", "text": "It improves resilience to a failure affecting one Availability Zone." },
+        { "id": "option_3", "text": "It guarantees the lowest possible price." },
+        { "id": "option_4", "text": "It removes the need for identity and access controls." }
+      ],
+      "correct_option_ids": ["option_2"],
+      "explanation": "Availability Zones are isolated locations within a Region. Using more than one can improve fault tolerance when the application is designed for it.",
+      "domain_id": "cloud_concepts",
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Created for this local study pilot; not an exam item." }
+    },
+    {
+      "id": "aws-clf-c02-pilot-005",
+      "type": "single_select",
+      "prompt": "A finance team needs a notification before forecasted monthly AWS spending exceeds a chosen amount. Which feature should they configure?",
+      "options": [
+        { "id": "option_1", "text": "AWS Budgets alert" },
+        { "id": "option_2", "text": "Amazon Inspector assessment" },
+        { "id": "option_3", "text": "AWS Shield response" },
+        { "id": "option_4", "text": "AWS CloudFormation change set" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "AWS Budgets can track actual or forecasted cost and send alerts at configured thresholds.",
+      "domain_id": "billing",
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Created for this local study pilot; not an exam item." }
+    },
+    {
+      "id": "aws-clf-c02-pilot-006",
+      "type": "single_select",
+      "prompt": "Which AWS service is designed for durable object storage and is commonly used for backups and static assets?",
+      "options": [
+        { "id": "option_1", "text": "Amazon S3" },
+        { "id": "option_2", "text": "Amazon RDS" },
+        { "id": "option_3", "text": "Amazon ECS" },
+        { "id": "option_4", "text": "Amazon ElastiCache" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "Amazon S3 provides object storage for use cases such as backups, archives, and static content.",
+      "domain_id": "technology",
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Created for this local study pilot; not an exam item." }
+    },
+    {
+      "id": "aws-clf-c02-pilot-007",
+      "type": "single_select",
+      "prompt": "Under the AWS shared responsibility model, which task remains the customer's responsibility when using Amazon EC2?",
+      "options": [
+        { "id": "option_1", "text": "Protecting the physical AWS data center." },
+        { "id": "option_2", "text": "Patching the guest operating system." },
+        { "id": "option_3", "text": "Maintaining the AWS global network." },
+        { "id": "option_4", "text": "Replacing failed host hardware." }
+      ],
+      "correct_option_ids": ["option_2"],
+      "explanation": "For EC2, AWS secures the underlying cloud infrastructure while the customer manages the guest OS, applications, and configuration.",
+      "domain_id": "security",
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Created for this local study pilot; not an exam item." }
+    },
+    {
+      "id": "aws-clf-c02-pilot-008",
+      "type": "single_select",
+      "prompt": "Which cloud value proposition helps an organization replace a large up-front hardware purchase with usage-based spending?",
+      "options": [
+        { "id": "option_1", "text": "Trade capital expense for variable expense." },
+        { "id": "option_2", "text": "Increase the number of data centers the organization owns." },
+        { "id": "option_3", "text": "Avoid measuring application usage." },
+        { "id": "option_4", "text": "Require long-term hardware capacity planning for every workload." }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "Cloud services can shift spending from capital investment in owned infrastructure to variable, pay-for-use operating expense.",
+      "domain_id": "cloud_concepts",
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Created for this local study pilot; not an exam item." }
+    }
+  ]
+}

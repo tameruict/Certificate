@@ -1,0 +1,4214 @@
+[
+  {
+    "quiz_id": 6090450,
+    "quiz_title": "Checkpoint: Introduction",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "What is the maximum number of questions you will receive on the CompTIA Security+ exams?",
+    "options": [
+      "40",
+      "75",
+      "90",
+      "120"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6090450,
+    "quiz_title": "Checkpoint: Introduction",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "What is the maximum amount of time allowed to complete the CompTIA Security+ exam?",
+    "options": [
+      "60",
+      "75",
+      "90",
+      "120"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6090456,
+    "quiz_title": "Checkpoint: Fundamentals of Security",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Jane, a database administrator at Dion Training, wants to ensure that a file has not changed since the last time she uploaded it to her cloud storage. She has created a SHA-256 hash digest of the file and wants to compare the stored file's hash digest against the one she calculated when she initially uploaded the file. Which of the following pillars of the CIANA pentagon is she focused on?",
+    "options": [
+      "Confidentiality",
+      "Integrity",
+      "Availability",
+      "Non-repudiation"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6090456,
+    "quiz_title": "Checkpoint: Fundamentals of Security",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Vikas, a developer at Dion Training, just digitally signed the company's new app before releasing it in the App Store. Before the app is installed, the user's device will validate the digital signature to ensure that it was actually developed and uploaded by Dion Training. Which of the following pillars of the CIANA pentagon is she focused on?",
+    "options": [
+      "Confidentiality",
+      "Authentication",
+      "Availability",
+      "Non-repudiation"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6090456,
+    "quiz_title": "Checkpoint: Fundamentals of Security",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Jason, an instructor at Dion Training, is logging into the company's exam application to write some new questions for the CompTIA Security+ exam. He enters his username/password at the login prompt and then receives a one-time code on his smartphone that he enters to validate his identity. Which of the following pillars of security was the focus when performing these actions?",
+    "options": [
+      "Authorization",
+      "Authentication",
+      "Availability",
+      "Accounting"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6090456,
+    "quiz_title": "Checkpoint: Fundamentals of Security",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "David, the CTO of Dion Training, just sent out a new policy that will require all of the company's users to reset their password every 60 days using a long, strong, and complex password. Which of the following type of security controls best classifies this policy?",
+    "options": [
+      "Detective",
+      "Compensating",
+      "Directive",
+      "Corrective"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6090456,
+    "quiz_title": "Checkpoint: Fundamentals of Security",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Christle, a student support manager at Dion Training, is logging into the company's exam voucher application to help a student schedule their CompTIA Security+ exam. Even though she is already connected to the corporate network, the application asks her to validate her identity by sending her a one-time code on her smartphone that she enters to validate her identity. Which of the following security concepts is being utilized by the company's architecture?",
+    "options": [
+      "Root of trust",
+      "Gap analysis",
+      "Zero trust",
+      "Side loading"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6090466,
+    "quiz_title": "Checkpoint: Threat Actors",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following is a primary motivation for a hacktivist threat actor?",
+    "options": [
+      "Financial gain",
+      "Ideological beliefs",
+      "Espionage",
+      "Service disruption"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 2
+  },
+  {
+    "quiz_id": 6090466,
+    "quiz_title": "Checkpoint: Threat Actors",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which attribute of a threat actor indicates the amount of financial, technological, and human resources they can use for their operations?",
+    "options": [
+      "Their sophistication level",
+      "Their resource level",
+      "Their motivations",
+      "Their intent"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 2
+  },
+  {
+    "quiz_id": 6090466,
+    "quiz_title": "Checkpoint: Threat Actors",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following threat actors primarily operates based primarily on financial motivations and is considered to be highly structured and sophisticated in their attacks?",
+    "options": [
+      "Organized crime",
+      "Script kiddies",
+      "Hacktivists",
+      "Nation-state actors"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 2
+  },
+  {
+    "quiz_id": 6090466,
+    "quiz_title": "Checkpoint: Threat Actors",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which type of threat actor would BEST describe a disgruntled employee who may exploit their legitimate access for malicious purposes?",
+    "options": [
+      "Unskilled attacker",
+      "Hacktivist",
+      "Insider threat",
+      "Nation-state actor"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 2
+  },
+  {
+    "quiz_id": 6090466,
+    "quiz_title": "Checkpoint: Threat Actors",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which deceptive technology is a piece of data or a system entity that exists solely to alert the organization when someone accesses it?",
+    "options": [
+      "Honeypot",
+      "Honeynet",
+      "Honeyfile",
+      "Honeytoken"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 2
+  },
+  {
+    "quiz_id": 6090470,
+    "quiz_title": "Checkpoint: Physical Security",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Jennifer, a facilities manager at Dion Training, wants to prevent unauthorized vehicles from getting too close to the building and ramming into it. Which of the following physical security control measures should they utilize to achieve this?",
+    "options": [
+      "Fences",
+      "Bollards",
+      "Access control vestibules",
+      "Video surveillance"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6090470,
+    "quiz_title": "Checkpoint: Physical Security",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Jacob, a security manager at Dion Training, wants to protect a sensitive server room against unauthorized physical access without relying on electronic locking mechanisms. Which of the following door locks should they utilize to achieve this?",
+    "options": [
+      "Biometric lock",
+      "RFID lock",
+      "Cipher lock",
+      "PIN lock"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6090470,
+    "quiz_title": "Checkpoint: Physical Security",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Jonni, a security manager at Dion Training, wants to implement a physical security control measure at the main entrance of their new corporate headquarters. Their primary objective is to authenticate individuals in a space between two sets of doors to help prevent tailgating by ensuring that unauthorized persons don't follow authorized individuals inside. Which of the following security controls should he implement to best achieve this?",
+    "options": [
+      "Perimeter fencing",
+      "Access control vestibule",
+      "Motion detection sensors",
+      "Video surveillance"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6090470,
+    "quiz_title": "Checkpoint: Physical Security",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Sheryl, a penetration tester at Dion Training, wants to break into the RFID-protected server room. She sees Mazen sitting in a coffee shop, so she briefly places her purse near Mazen's backpack. Later, she uses a device from her purse to access the server room. She receives a message stating, \"Welcome, Mazen\" when she authenticates with the RFID-based lock using the device. Which of the following types of attacks did she utilize to gain access to the server room?",
+    "options": [
+      "Lock picking",
+      "Password cracking",
+      "Brute force attack",
+      "Access badge cloning"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6090470,
+    "quiz_title": "Checkpoint: Physical Security",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following sensors is used to detect changes in environmental heat that is typically emitted by warm bodies such as humans or animals?",
+    "options": [
+      "Infrared sensors",
+      "Microwave sensors",
+      "Pressure sensors",
+      "Ultrasonic sensors"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6090530,
+    "quiz_title": "Checkpoint: Social Engineering",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following types of phishing attacks is used to specifically target high-level executives or important officials within an organization?",
+    "options": [
+      "Phishing",
+      "Whaling",
+      "Spear phishing",
+      "Impersonation"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 2
+  },
+  {
+    "quiz_id": 6090530,
+    "quiz_title": "Checkpoint: Social Engineering",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "During an anti-phishing campaign, what primary action should a company take after simulating a successful phishing attack on its employees?",
+    "options": [
+      "Terminate employees who fall for the simulated attack",
+      "Send a warning email to all of the organizations employees so they will be aware of phishing as a problem",
+      "Provide immediate remedial training to employees who fell for the attack",
+      "Increase the organization's network security measures to prevent phishing attacks in the first place"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 2
+  },
+  {
+    "quiz_id": 6090530,
+    "quiz_title": "Checkpoint: Social Engineering",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which social engineering technique involves searching through a target's trash or discarded items to obtain sensitive or valuable information?",
+    "options": [
+      "Diversion theft",
+      "Shoulder surfing",
+      "Eavesdropping",
+      "Dumpster diving"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 2
+  },
+  {
+    "quiz_id": 6090530,
+    "quiz_title": "Checkpoint: Social Engineering",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which social engineering attack involves an attacker creating a fabricated scenario to manipulate or deceive someone into divulging confidential information?",
+    "options": [
+      "Pretexting",
+      "Dumpster diving",
+      "Shoulder surfing",
+      "Eavesdropping"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 2
+  },
+  {
+    "quiz_id": 6090530,
+    "quiz_title": "Checkpoint: Social Engineering",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following is a common motivational trigger used in social engineering attacks to manipulate victims to act or respond without taking time to think about the consequences?",
+    "options": [
+      "Likability",
+      "Authority",
+      "Urgency",
+      "Social proof"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 2
+  },
+  {
+    "quiz_id": 6090538,
+    "quiz_title": "Checkpoint: Malware",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following best describes a Trojan?",
+    "options": [
+      "A program that replicates itself and spreads to other computers",
+      "A software that displays unwanted ads without the user's permission",
+      "A malicious program disguised as legitimate software",
+      "A program that logs keystrokes without the user's knowledge"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 2
+  },
+  {
+    "quiz_id": 6090538,
+    "quiz_title": "Checkpoint: Malware",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following is designed to give cybercriminals access to a system that can carry out malicious tasks, such as distributed denial-of-service (DDoS) attacks or to spread malware, without the user's knowledge?",
+    "options": [
+      "Keylogger",
+      "Zombie",
+      "Bloatware",
+      "Ransomware"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 2
+  },
+  {
+    "quiz_id": 6090538,
+    "quiz_title": "Checkpoint: Malware",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following is a type of malware that operates behind the scenes and can activate recording devices and track activities on a user's device?",
+    "options": [
+      "Virus",
+      "Logic Bomb",
+      "Spyware",
+      "Worm"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 2
+  },
+  {
+    "quiz_id": 6090538,
+    "quiz_title": "Checkpoint: Malware",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following BEST describes what a rootkit is used for?",
+    "options": [
+      "Encryption of user files and demanding payment for decryption",
+      "Hiding malware activities and maintaining privileged access to a system",
+      "Logging a user's keystrokes to steal their credentials",
+      "Replicating itself across networks without human intervention"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 2
+  },
+  {
+    "quiz_id": 6090538,
+    "quiz_title": "Checkpoint: Malware",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of these is a common indication of a malware attack?",
+    "options": [
+      "Decreased resource consumption",
+      "Reduced number of account lockouts",
+      "Appearance of unknown software on the user's system",
+      "Fewer logs than usual during peak hours"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 2
+  },
+  {
+    "quiz_id": 6090564,
+    "quiz_title": "Checkpoint: Data Protection",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following data classifications is typically accessible by anyone and is not harmful if disclosed?",
+    "options": [
+      "Sensitive",
+      "Confidential",
+      "Public",
+      "Restricted"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 4
+  },
+  {
+    "quiz_id": 6090564,
+    "quiz_title": "Checkpoint: Data Protection",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Dion Training Solutions is revising its data governance approach to align with GDPR and other regulatory standards. They have designated Samantha, the Vice President of Operations, to determine data classification and access control. David, the Compliance Officer, ensures all data processing complies with legal standards. Rachel, an IT Services Partner, handles the processing of client data on cloud servers. Lastly, Mike, the Head of the IT Department, is in charge of data storage, transportation, and security policy enforcement. Based on these details, identify who among them fills the roles of data owner, data controller, data processor, and data custodian.",
+    "options": [
+      "Samantha is the data owner, David is the data controller, Rachel is the data processor, and Mike is the data custodian.",
+      "David is the data owner, Samantha is the data controller, Mike is the data processor, and Rachel is the data custodian.",
+      "Rachel is the data owner, Mike is the data controller, Samantha is the data processor, and David is the data custodian.",
+      "Mike is the data owner, Rachel is the data controller, David is the data processor, and Samantha is the data custodian."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 4
+  },
+  {
+    "quiz_id": 6090564,
+    "quiz_title": "Checkpoint: Data Protection",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following is NOT a recognized state of data in the context of data security?",
+    "options": [
+      "Data at rest",
+      "Data in use",
+      "Data in transit",
+      "Data in flux"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 4
+  },
+  {
+    "quiz_id": 6090564,
+    "quiz_title": "Checkpoint: Data Protection",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which type of data refers to any information about health status, provision of healthcare, or payment for healthcare that can be linked to a specific individual?",
+    "options": [
+      "Personal Identifiable Information (PII)",
+      "Protected Health Information (PHI)",
+      "Trade Secret",
+      "Intellectual Property"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 4
+  },
+  {
+    "quiz_id": 6090564,
+    "quiz_title": "Checkpoint: Data Protection",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Dion Training is exploring Data Loss Prevention (DLP) systems. They want a system that will protect data while it's at rest on their on-premises server, using encryption or a watermark. What would be the type of DLP system they are looking to implement?",
+    "options": [
+      "Endpoint DLP",
+      "Network DLP",
+      "Storage DLP",
+      "Cloud-based DLP"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 4
+  },
+  {
+    "quiz_id": 6090578,
+    "quiz_title": "Checkpoint: Cryptographic Solutions",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Jennifer, a network administrator at Dion Training, wants to ensure that a secret communication between two servers remains confidential using a single key for both encryption and decryption processes. Which of the following should they utilize?",
+    "options": [
+      "RSA",
+      "ECC",
+      "AES",
+      "Diffie-Hellman"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 4
+  },
+  {
+    "quiz_id": 6090578,
+    "quiz_title": "Checkpoint: Cryptographic Solutions",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Robert, a system engineer at Dion Training, wants to securely exchange cryptographic keys over a public channel to initiate encrypted communications with another department. Which of the following should they utilize?",
+    "options": [
+      "AES",
+      "ECC",
+      "RSA",
+      "Diffie-Hellman"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 4
+  },
+  {
+    "quiz_id": 6090578,
+    "quiz_title": "Checkpoint: Cryptographic Solutions",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Samantha, a cybersecurity analyst at Dion Training, wants to use the most secure hashing algorithm for ensuring the integrity of sensitive documents. Which of the following should she utilize?",
+    "options": [
+      "MD5",
+      "SHA-256",
+      "RIPEMD",
+      "HMAC"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 4
+  },
+  {
+    "quiz_id": 6090578,
+    "quiz_title": "Checkpoint: Cryptographic Solutions",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Rebecca, a digital forensics expert at Dion Training, wants to discreetly embed a message within an image file without noticeably altering its apparent appearance or structure. Which of the following techniques should she utilize?",
+    "options": [
+      "Tokenization",
+      "Data Masking",
+      "Encryption",
+      "Steganography"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 4
+  },
+  {
+    "quiz_id": 6090578,
+    "quiz_title": "Checkpoint: Cryptographic Solutions",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Miguel, a cybersecurity specialist at Dion Training, is concerned about the potential threats that the evolving technologies, like qubit-powered computers, might pose to the company's current encryption algorithms and cryptographic implementation methods. Which of the following solutions should he explore to ensure future cryptographic resilience?",
+    "options": [
+      "Distributed Blockchain System",
+      "Secure Public Ledger",
+      "Post-quantum Cryptographic Algorithm",
+      "Advanced Data Tokenization"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 4
+  },
+  {
+    "quiz_id": 6090590,
+    "quiz_title": "Checkpoint: Risk Management",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "John is the owner of a small construction company who recently signed a contract for a new project. The contract includes a clause stating that his company will be responsible for any damages that occur during the construction process. As a result, John has decided to purchase insurance that will cover the cost of any damage that might occur during the construction process. Which risk management strategy is John using?",
+    "options": [
+      "Risk Acceptance",
+      "Risk Avoidance",
+      "Risk Transference",
+      "Risk Mitigation"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090590,
+    "quiz_title": "Checkpoint: Risk Management",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Solarflare, an energy company, has identified a risk that, if it occurs, could halt their production line. They have determined that they can tolerate a disruption of up to 3 hours before it severely impacts their operations. Which of the following metrics does this scenario represent?",
+    "options": [
+      "Mean Time Between Failures (MTBF)",
+      "Recovery Point Objective (RPO)",
+      "Recovery Time Objective (RTO)",
+      "Mean Time to Repair (MTTR)"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090590,
+    "quiz_title": "Checkpoint: Risk Management",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "What does the term 'Risk Appetite' refer to?",
+    "options": [
+      "The risk an organization is prepared to accept without taking any countermeasures",
+      "The amount of residual risk an organization is willing to accept",
+      "The steps taken to reduce the impact or likelihood of a risk",
+      "The risk that remains after mitigation has taken place"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090590,
+    "quiz_title": "Checkpoint: Risk Management",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "You are managing a construction project and have identified a potential risk which could delay the delivery of critical materials. The likelihood of this risk is high and the impact is also high. What would be an appropriate mitigation strategy based on Qualitative Risk Analysis?",
+    "options": [
+      "Ignore the risk",
+      "Stop the project",
+      "Secure multiple vendors",
+      "Increase the project budget"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090590,
+    "quiz_title": "Checkpoint: Risk Management",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "You are managing a company's IT infrastructure. One of your servers, valued at $20,000, has an Exposure Factor (EF) of 60% in the event of a crash. The server crashes once every five years.What is the Annualized Loss Expectancy (ALE) for this server?",
+    "options": [
+      "$2,400",
+      "$4,000",
+      "$6,000",
+      "$12,000"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090608,
+    "quiz_title": "Checkpoint: Third-party Vendor Risks",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Sarah, a compliance officer at Dion Training, is hiring a consultant. She wants to ensure that the consultant doesn't share information about the proprietary project he is being hired to complete. Which of the following should she utilize?",
+    "options": [
+      "BPA",
+      "NDA",
+      "SLA",
+      "MSA"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090608,
+    "quiz_title": "Checkpoint: Third-party Vendor Risks",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Jamie, a procurement manager at Dion Training, wants to ensure the quality, timelines, and scope of the services provided by a new third-party vendor. Which of the following should they utilize?",
+    "options": [
+      "SLA",
+      "MOU",
+      "BPA",
+      "NDA"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090608,
+    "quiz_title": "Checkpoint: Third-party Vendor Risks",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Alex, a project manager at Dion Training, wishes to provide details about specific tasks, deliverables, and timelines for a project so the vendor they hire will have a complete picture of the project. Which of the following should they utilize?",
+    "options": [
+      "MOA",
+      "MSA",
+      "SOW",
+      "BPA"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090608,
+    "quiz_title": "Checkpoint: Third-party Vendor Risks",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Samuel, an operations director at Dion Training, wants to hire his brother's company to provide security for Dion Training. He is told this is a bad idea. Which of the following would be the main problem with hiring his brother's company?",
+    "options": [
+      "He couldn't guarantee that his brother's company would provide security",
+      "Hiring his brother's company would violate the root of trust need for legitimate business",
+      "He would not be able to perform sufficient due diligence in order to satisfy regulations",
+      "There would be the potential for a conflict of interest for Samuel"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090608,
+    "quiz_title": "Checkpoint: Third-party Vendor Risks",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following is the BEST way for companies to limit the risks of using third-party vendors?",
+    "options": [
+      "Avoid Conflicts of Interest",
+      "Conduct Due Diligence",
+      "Don't purchase inexpensive equipment",
+      "Establishing a Root of Trust with all Vendors"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090618,
+    "quiz_title": "Checkpoint: Governance and Compliance",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following best describes the role of governance in an organization's IT operations?",
+    "options": [
+      "Governance is only concerned with the technical aspects of an organization's IT infrastructure.",
+      "Governance involves making key decisions about risk management, resource allocation, and performance measurement.",
+      "Governance is solely about compliance with laws and regulations.",
+      "Governance is about establishing a strategic framework but does not influence the organization's policies, standards, and procedures."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090618,
+    "quiz_title": "Checkpoint: Governance and Compliance",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following governance structures is responsible for setting the strategic direction of an organization and making significant decisions?",
+    "options": [
+      "Committees",
+      "Government Entities",
+      "Boards of Directors",
+      "Centralized Structures"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090618,
+    "quiz_title": "Checkpoint: Governance and Compliance",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following policies outlines the steps an organization will take to continue its critical operations during and after a disruption or disaster?",
+    "options": [
+      "Acceptable Use Policy (AUP)",
+      "Change Management Policy",
+      "Business Continuity Policy",
+      "Software Development Lifecycle (SDLC) Policy"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090618,
+    "quiz_title": "Checkpoint: Governance and Compliance",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following is NOT typically a part of physical security standards in an organization?",
+    "options": [
+      "Perimeter security measures",
+      "Surveillance systems",
+      "Access control mechanisms",
+      "Regular software updates"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090618,
+    "quiz_title": "Checkpoint: Governance and Compliance",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following procedures involves tasks such as retrieving company property, disabling access to systems, and conducting exit interviews?",
+    "options": [
+      "Change Management",
+      "Onboarding",
+      "Offboarding",
+      "Playbooks"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090618,
+    "quiz_title": "Checkpoint: Governance and Compliance",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following is an example of a global governance consideration?",
+    "options": [
+      "A local city ordinance prohibiting certain types of businesses",
+      "A state regulation on consumer data privacy",
+      "A national law requiring accessibility for people with disabilities",
+      "A European regulation affecting data collection practices worldwide"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090618,
+    "quiz_title": "Checkpoint: Governance and Compliance",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following terms best describes the requirement to comply with laws and regulations applicable to an organization's operations?",
+    "options": [
+      "Industry considerations",
+      "Regulatory considerations",
+      "Offboarding",
+      "Legal risks"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090618,
+    "quiz_title": "Checkpoint: Governance and Compliance",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following is a punitive measure taken by regulatory bodies to enforce compliance in the IT and cybersecurity world?",
+    "options": [
+      "Sanctions",
+      "Bonuses",
+      "Awards",
+      "Grants"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090626,
+    "quiz_title": "Checkpoint: Asset and Change Management",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Jane, a business development manager at Dion Training, is working on finalizing an order for 50 courses and exam vouchers by one of the company’s larger clients. This order would have an approximate cost of $25,000 and will be delivered to the company within the next 30 days. Which of the following should she expect to receive from the client to pay for these courses and exam vouchers?",
+    "options": [
+      "Company credit card",
+      "Individual purchase for reimbursement",
+      "Purchase order",
+      "Personal credit card"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090626,
+    "quiz_title": "Checkpoint: Asset and Change Management",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "David, an IT manager at Dion Training, wants to deploy mobile devices to employees while maintaining a high level of control and standardization, but also wants to give employees some choice in the type of device they use. Which of the following deployment models should he choose?",
+    "options": [
+      "BYOD",
+      "COPE",
+      "CYOD",
+      "COBO"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090626,
+    "quiz_title": "Checkpoint: Asset and Change Management",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Julia, a Data Security Analyst at Dion Training, wants to ensure that data on an old hard drive is made inaccessible and irretrievable, while still allowing the device to be reused. Which of the following should she use to accomplish this?",
+    "options": [
+      "Degaussing",
+      "Overwriting",
+      "Cryptographic Erase",
+      "Physical Destruction"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090626,
+    "quiz_title": "Checkpoint: Asset and Change Management",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Maria, a Change Manager at Dion Training, wants to evaluate the consequences of a proposed change before she provides her approval. Which of the following should she utilize to accomplish this?",
+    "options": [
+      "Impact Analysis",
+      "Backout Plan",
+      "Maintenance Window",
+      "Vision for the change"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090626,
+    "quiz_title": "Checkpoint: Asset and Change Management",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Fahad, a Network Administrator at Dion Training, is planning to deploy a critical security patch to address a known vulnerability in the company's main server's print spooler during the next scheduled maintenance. This server plays a central role in daily operations, and the patching process requires careful consideration to ensure business continuity. Given the nature of the print spooler service and the criticality of the patch, what technical implication is most crucial for Fahad to consider to ensure the patch is applied successfully and the print service is restored without issues?",
+    "options": [
+      "Allow or block lists",
+      "Downtime",
+      "Service restarts",
+      "Dependencies"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090628,
+    "quiz_title": "Checkpoint: Audits and Assessments",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following is NOT typically a part of an internal IT audit?",
+    "options": [
+      "Reviewing the organization's password policies.",
+      "Checking the processes for granting, modifying, and revoking access rights.",
+      "Identifying potential threats to the organization's information systems.",
+      "Ensuring compliance with regulatory requirements such as GDPR or HIPAA."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090628,
+    "quiz_title": "Checkpoint: Audits and Assessments",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which type of penetration testing involves a proactive and aggressive approach to uncover as many vulnerabilities as possible?",
+    "options": [
+      "Physical",
+      "Offensive",
+      "Defensive",
+      "Integrated"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090628,
+    "quiz_title": "Checkpoint: Audits and Assessments",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Jonathan, a penetration tester at Dion Training, has been asked to conduct reconnaissance for an upcoming penetration test. He was given little to no information about the target. Which of the following types of environments will Jonathan be conducting his penetration test on?",
+    "options": [
+      "Known Environment",
+      "Partially Known Environment",
+      "Unknown Environment",
+      "Full Environment"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090628,
+    "quiz_title": "Checkpoint: Audits and Assessments",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following would provide an attestation of their findings when conducting a penetration test for an organization that must prove they are in compliance with HIPAA regulations?",
+    "options": [
+      "The audited organization",
+      "An external assessor",
+      "The organization's customers",
+      "The organization's competitors"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090628,
+    "quiz_title": "Checkpoint: Audits and Assessments",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following terms refers to an evaluation conducted by an external organization that is not affiliated with the entity being evaluated and is often to ensure compliance with specific standards or regulations?",
+    "options": [
+      "A regulatory audit",
+      "An examination",
+      "An assessment",
+      "A third-party audit"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090638,
+    "quiz_title": "Checkpoint: Cyber Resilience and Redundancy",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Juan, a network administrator at Dion Training, wants to build a backup facility that is partially equipped with hardware and infrastructure to minimize downtime in case of a disaster. Which of the following types of redundant sites should they utilize?",
+    "options": [
+      "Hot site",
+      "Warm site",
+      "Cold site",
+      "Mobile site"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 3
+  },
+  {
+    "quiz_id": 6090638,
+    "quiz_title": "Checkpoint: Cyber Resilience and Redundancy",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "In preparing their disaster response strategy, the emergency management team at Dion Training wants to facilitate a scenario-based discussion among key stakeholders to evaluate their crisis preparedness and decision-making abilities without the need for deploying actual resources. Which of the following testing method should they employ?",
+    "options": [
+      "Tabletop exercise",
+      "Failover test",
+      "Simulation",
+      "Parallel processing"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 3
+  },
+  {
+    "quiz_id": 6090638,
+    "quiz_title": "Checkpoint: Cyber Resilience and Redundancy",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following backup methods involves creating point-in-time copies of data in a storage system to capture its state at specific moments to help facilitate data recovery and system consistency?",
+    "options": [
+      "Replication",
+      "Snapshots",
+      "Journaling",
+      "Encryption"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 3
+  },
+  {
+    "quiz_id": 6090638,
+    "quiz_title": "Checkpoint: Cyber Resilience and Redundancy",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which power backup technology typically provides a longer duration of power supply during extended outages and is often used as a primary source of backup power for critical systems, such as data centers?",
+    "options": [
+      "Uninterrupted power supply",
+      "Line conditioner",
+      "Power distribution center",
+      "Propane generator"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 3
+  },
+  {
+    "quiz_id": 6090638,
+    "quiz_title": "Checkpoint: Cyber Resilience and Redundancy",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Emile, a system administrator at Dion Training, wants to optimize both the performance and data redundancy of the company's critical data storage solution. Which of the following RAID configurations should they utilize?",
+    "options": [
+      "RAID 0",
+      "RAID 1",
+      "RAID 5",
+      "RAID 10"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 3
+  },
+  {
+    "quiz_id": 6090648,
+    "quiz_title": "Checkpoint: Security Architecture",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which term in cloud computing refers to the overall ability of a system to complete a task with minimal demand?",
+    "options": [
+      "Availability",
+      "Resilience",
+      "Scalability",
+      "Responsiveness"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 3
+  },
+  {
+    "quiz_id": 6090648,
+    "quiz_title": "Checkpoint: Security Architecture",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which concept refers to the shifting of some risks from the customer to the cloud service provider?",
+    "options": [
+      "Risk Acceptance",
+      "Risk Avoidance",
+      "Risk Mitigation",
+      "Risk Transference"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 3
+  },
+  {
+    "quiz_id": 6090648,
+    "quiz_title": "Checkpoint: Security Architecture",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following is a solution to mitigate shared physical server vulnerabilities?",
+    "options": [
+      "Ignoring user activities",
+      "Implementing strong isolation mechanisms",
+      "Avoiding regular vulnerability scanning",
+      "Using insecure multi-tenancy"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 3
+  },
+  {
+    "quiz_id": 6090648,
+    "quiz_title": "Checkpoint: Security Architecture",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "What is a crucial step in preventing inadequate user access management?",
+    "options": [
+      "Using weak passwords",
+      "Utilizing common security questions for password recovery",
+      "Implementing a flat network architecture",
+      "Enforcing strong password policies"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 3
+  },
+  {
+    "quiz_id": 6090648,
+    "quiz_title": "Checkpoint: Security Architecture",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following statements about virtualization and containerization is NOT correct?",
+    "options": [
+      "Virtualization allows for the emulation of servers, each running its own operating system within a virtual machine.",
+      "Containerization involves encapsulating an application in a container with its own operating environment.",
+      "Type 1 hypervisors operate within a standard operating system, such as Windows, Mac, or Linux.",
+      "Docker, Kubernetes, and Red Hat OpenShift are popular containerization technologies."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 3
+  },
+  {
+    "quiz_id": 6090648,
+    "quiz_title": "Checkpoint: Security Architecture",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following is NOT a benefit of serverless computing?",
+    "options": [
+      "Cost reduction",
+      "Automatic scaling",
+      "Increased focus on coding",
+      "Easier testing and debugging"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 3
+  },
+  {
+    "quiz_id": 6090648,
+    "quiz_title": "Checkpoint: Security Architecture",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following is a challenge in microservices architecture?",
+    "options": [
+      "Scalability",
+      "Flexibility",
+      "Network Latency",
+      "Faster Deployment"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 3
+  },
+  {
+    "quiz_id": 6090648,
+    "quiz_title": "Checkpoint: Security Architecture",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following is NOT a method of achieving logical separation in network infrastructure?",
+    "options": [
+      "Using VLANs to segregate network traffic",
+      "Using firewalls to create a screened subnet",
+      "Physically disconnecting a system from other networks",
+      "Implementing rules and policies on network devices"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 3
+  },
+  {
+    "quiz_id": 6090648,
+    "quiz_title": "Checkpoint: Security Architecture",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following best describes the role of the control plane in Software-Defined Networking (SDN)?",
+    "options": [
+      "It is responsible for moving data packets from one place to another.",
+      "It houses the network applications that instruct the controller.",
+      "It decides where traffic is sent across the network.",
+      "It is a centralized system that manages the physical aspects of the network."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 3
+  },
+  {
+    "quiz_id": 6090648,
+    "quiz_title": "Checkpoint: Security Architecture",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "What is a significant challenge in securing embedded systems?",
+    "options": [
+      "Easy to apply patches",
+      "Firmware Code Control",
+      "Use of Wrappers",
+      "Inability to Patch"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 3
+  },
+  {
+    "quiz_id": 6090648,
+    "quiz_title": "Checkpoint: Security Architecture",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "In an Internet of Things (IoT) ecosystem, which component serves as the central point that connects all IoT devices and enables them to communicate?",
+    "options": [
+      "Sensors",
+      "Smart Devices",
+      "Wearables",
+      "Hub/Control System"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 3
+  },
+  {
+    "quiz_id": 6090648,
+    "quiz_title": "Checkpoint: Security Architecture",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following best describes a non-idempotent operation in the context of Infrastructure as Code (IaC)?",
+    "options": [
+      "An operation that produces the same results no matter how many times it's executed.",
+      "An operation that produces different results each time it's executed.",
+      "An operation that executes only once.",
+      "An operation that cannot be automated."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 3
+  },
+  {
+    "quiz_id": 6090648,
+    "quiz_title": "Checkpoint: Security Architecture",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following scenarios best illustrates a potential risk associated with a decentralized architecture?",
+    "options": [
+      "A cybercriminal targets the central server, compromising all data and applications.",
+      "As the organization grows, the central server struggles to handle the increased load, leading to performance issues.",
+      "The remote work arrangement exposes the network to additional threats, as each remote connection is a potential entry point for cybercriminals.",
+      "The failure of the central server disrupts the entire network, leading to significant downtime."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 3
+  },
+  {
+    "quiz_id": 6090648,
+    "quiz_title": "Checkpoint: Security Architecture",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which system is typically used for geographically dispersed industrial processes?",
+    "options": [
+      "PLC",
+      "DCS",
+      "SCADA",
+      "ICS"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 3
+  },
+  {
+    "quiz_id": 6090654,
+    "quiz_title": "Checkpoint: Security Infrastructure",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Lucia, a security analyst at Dion Training, wants a comprehensive solution that integrates various security features for her company's network, including antivirus, anti-spam, firewall, and intrusion detection capabilities in a single network appliance. Which of the following types of firewalls should she utilize to accomplish this?",
+    "options": [
+      "UTM",
+      "NGFW",
+      "WAF",
+      "Layer 4"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 3
+  },
+  {
+    "quiz_id": 6090654,
+    "quiz_title": "Checkpoint: Security Infrastructure",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Satoshi, a network administrator at Dion Training, wants to mediate requests from clients seeking resources from other servers by helping to simplify requests, improve performance, and filter content. Which of the following should he utilize to accomplish this?",
+    "options": [
+      "Load balancer",
+      "Proxy server",
+      "Jump box",
+      "Network sensor"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 3
+  },
+  {
+    "quiz_id": 6090654,
+    "quiz_title": "Checkpoint: Security Infrastructure",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Priya, a network engineer at Dion Training, wants to improve the management and operation of a wide area network by decoupling the networking hardware from its control mechanism. Which of the following should she utilize to accomplish this?",
+    "options": [
+      "EAP",
+      "SD-WAN",
+      "IPSec",
+      "SASE"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 3
+  },
+  {
+    "quiz_id": 6090654,
+    "quiz_title": "Checkpoint: Security Infrastructure",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Rajesh, a security specialist at Dion Training, wants to install a IDS or IPS so that is can actively block and prevent malicious traffic from entering a screened subnet in real-time. Which of the following should he do to accomplish this?",
+    "options": [
+      "Install the IDS as a tap or monitor",
+      "Install the IDS as an inline device",
+      "Install the IPS as a tap or monitor",
+      "Install the IPS as an in-line device"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 3
+  },
+  {
+    "quiz_id": 6090654,
+    "quiz_title": "Checkpoint: Security Infrastructure",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Ling, a cybersecurity consultant at Dion Training, wants to select some effective security controls by prioritizing and implementing the controls based on the specific vulnerabilities and threats that the enterprise infrastructure is facing. Which of the following principles of effective control selection should they emphasize to more effectively use their limited resources while providing the best protection for the organization's infrastructure?",
+    "options": [
+      "Defense in depth",
+      "Open design",
+      "Risk-based approach",
+      "Least Privilege"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 3
+  },
+  {
+    "quiz_id": 6090658,
+    "quiz_title": "Checkpoint: Identity and Access Management (IAM) Solutions",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which process involves removing an individual's access rights when they no longer need them?",
+    "options": [
+      "Identity proofing",
+      "Provisioning",
+      "Attestation",
+      "Deprovisioning"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 4
+  },
+  {
+    "quiz_id": 6090658,
+    "quiz_title": "Checkpoint: Identity and Access Management (IAM) Solutions",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "In multi-factor authentication, what does the \"something you are\" factor refer to?",
+    "options": [
+      "A password or PIN known by the user",
+      "A physical device possessed by the user",
+      "Unique physical or behavioral characteristics",
+      "The user's current location, verified through GPS or IP address"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 4
+  },
+  {
+    "quiz_id": 6090658,
+    "quiz_title": "Checkpoint: Identity and Access Management (IAM) Solutions",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which attack involves trying a small number of commonly used passwords against a large number of usernames or accounts?",
+    "options": [
+      "Brute Force Attack",
+      "Dictionary Attack",
+      "Password Spraying",
+      "Hybrid Attack"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 4
+  },
+  {
+    "quiz_id": 6090658,
+    "quiz_title": "Checkpoint: Identity and Access Management (IAM) Solutions",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following is described as a system where a company trusts accounts created and managed by a different network that allows users to authenticate across different services using a single set of credentials?",
+    "options": [
+      "Centralized Authentication",
+      "Multi-factor Authentication",
+      "Federation",
+      "Local Authentication"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 4
+  },
+  {
+    "quiz_id": 6090658,
+    "quiz_title": "Checkpoint: Identity and Access Management (IAM) Solutions",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which access control model is typically used in an environment where access needs to be strictly regulated and users cannot modify their own permissions?",
+    "options": [
+      "Discretionary Access Control (DAC)",
+      "Role-Based Access Control (RBAC)",
+      "Mandatory Access Control (MAC)",
+      "Rule-Based Access Control (RBAC)"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 4
+  },
+  {
+    "quiz_id": 6090664,
+    "quiz_title": "Checkpoint: Vulnerabilities and Attacks",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Helena, a cybersecurity analyst at Dion Training, is analyzing a security alert and trying to determine which type of attack was being used by a threat actor. The alert details an incident where an attacker exploited a timing vulnerability that caused the system to process operations out of the intended sequence and allowing unauthorized actions. Which of the following BEST describes this type of attack?",
+    "options": [
+      "XML Injection",
+      "Side Loading",
+      "SQL Injection",
+      "Race Condition"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 2
+  },
+  {
+    "quiz_id": 6090664,
+    "quiz_title": "Checkpoint: Vulnerabilities and Attacks",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Liam, a cybersecurity analyst at Dion Training, is analyzing a security alert and trying to determine which type of attack was being attempted by a threat actor. The following line in the log file appears to be suspicious:2023-11-02 14:23:56 [IP:192.168.1.101] [ERROR] User login failed for username: 'admin' OR '1'='1';Which of the following BEST describes the type of attack attempted by this threat actor?",
+    "options": [
+      "XML Injection",
+      "Jailbreaking",
+      "SQL Injection",
+      "Bluejacking"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 2
+  },
+  {
+    "quiz_id": 6090664,
+    "quiz_title": "Checkpoint: Vulnerabilities and Attacks",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Sasha, a cybersecurity analyst at Dion Training, is analyzing a security alert and trying to determine which type of attack was being used by a threat actor. The alert details an incident where an attacker sent unsolicited messages to a user's smartphone via Bluetooth without any evidence of taking control of the device. Which of the following BEST describes this type of attack?",
+    "options": [
+      "Bluejacking",
+      "Bluebugging",
+      "Bluesnarfing",
+      "EternalBlue"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 2
+  },
+  {
+    "quiz_id": 6090664,
+    "quiz_title": "Checkpoint: Vulnerabilities and Attacks",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Cristian, a cybersecurity analyst at Dion Training, is analyzing a security alert and trying to determine which type of attack was being used by a threat actor. The alert details an incident where an attacker deliberately inputs an excessive amount of data into an application's buffer to try and cause the system to crash and potentially allow for the execution of arbitrary code. Which of the following BEST describes this type of attack?",
+    "options": [
+      "Buffer Overflow",
+      "Zero-day",
+      "Cross-site Scripting",
+      "Cross-site Request Forgery"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 2
+  },
+  {
+    "quiz_id": 6090664,
+    "quiz_title": "Checkpoint: Vulnerabilities and Attacks",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Jonathan, a cybersecurity analyst at Dion Training, is analyzing a security alert and trying to determine which type of attack was being used by a threat actor. The alert details an incident where an attacker inserted malicious scripts into input fields on a website, which were then executed in the browser of any user viewing that data. Which of the following BEST describes this type of attack?",
+    "options": [
+      "Cross-site scripting",
+      "Buffer overflow",
+      "SQL injection",
+      "Bluejacking"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 2
+  },
+  {
+    "quiz_id": 6090680,
+    "quiz_title": "Checkpoint: Malicious Activity",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which type of DDoS attack is best described by the following statement: \"The attacker sends a small packet of information that appears to originate from the victim's IP address to a vulnerable UDP server, which in turn sends a significantly larger packet of information back to the victim's IP address\"?",
+    "options": [
+      "Reflected DDoS Attack",
+      "Amplified DDoS Attack",
+      "Single-source DDoS Attack",
+      "On-Path Attack"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 2
+  },
+  {
+    "quiz_id": 6090680,
+    "quiz_title": "Checkpoint: Malicious Activity",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which type of DNS attack is best described by the attacker trying to get a copy of the entire DNS zone data by pretending to be an authorized system?",
+    "options": [
+      "DNS Cache Poisoning",
+      "DNS Amplification",
+      "DNS Zone Transfer",
+      "DNS Hijacking"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 2
+  },
+  {
+    "quiz_id": 6090680,
+    "quiz_title": "Checkpoint: Malicious Activity",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following scenarios best describes a replay attack?",
+    "options": [
+      "An attacker modifies the information being sent and received in real time.",
+      "An attacker captures a user's login session and reuses it later to gain unauthorized access.",
+      "An attacker uses a virus to corrupt a user's data.",
+      "An attacker physically steals a user's device to gain access to information."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 2
+  },
+  {
+    "quiz_id": 6090680,
+    "quiz_title": "Checkpoint: Malicious Activity",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following attacks involves an attacker intercepting the communication between two parties, altering it, and relaying it to the original recipient?",
+    "options": [
+      "Sidejacking",
+      "Cross-Site Scripting (XSS)",
+      "On-Path",
+      "SQL Injection"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 2
+  },
+  {
+    "quiz_id": 6090680,
+    "quiz_title": "Checkpoint: Malicious Activity",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following attacks occurs when a threat actor executes arbitrary shell commands on a host via a vulnerable web application?",
+    "options": [
+      "LDAP Injection",
+      "Command Injection",
+      "Process Injection",
+      "SQL Injection"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 2
+  },
+  {
+    "quiz_id": 6115110,
+    "quiz_title": "Checkpoint: Hardening",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Susan, a cybersecurity analyst at Dion Training, is analyzing a security alert and trying to determine which technique can enhance security by ensuring that only explicitly approved applications are allowed to run on a system. Which of the following BEST describes this technique?",
+    "options": [
+      "Data Encryption",
+      "Application Restriction",
+      "Patch Management",
+      "Secure Baselines"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 4
+  },
+  {
+    "quiz_id": 6115110,
+    "quiz_title": "Checkpoint: Hardening",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Sahra, a cybersecurity analyst at Dion Training, is reviewing a system's configurations and notices several software processes running that are not required for essential functionality. Which of the following actions should she take to enhance security?",
+    "options": [
+      "Enable SELinux",
+      "Disable Unnecessary Services",
+      "Apply Security Patches",
+      "Change Default Passwords"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 4
+  },
+  {
+    "quiz_id": 6115110,
+    "quiz_title": "Checkpoint: Hardening",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Margo, a cybersecurity engineer at Dion Training, is tasked with establishing a safe starting point for the configurations of computer systems and networks. Which of the following BEST describes what she is aiming to create?",
+    "options": [
+      "Group Policies",
+      "Secure Baselines",
+      "Trusted Operating Systems",
+      "Patch Management"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 4
+  },
+  {
+    "quiz_id": 6115110,
+    "quiz_title": "Checkpoint: Hardening",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Roberto, a cybersecurity analyst at Dion Training, is responsible for maintaining the security and functionality of computer systems by systematically identifying, testing, deploying, and monitoring software updates. Which of the following BEST describes his responsibility?",
+    "options": [
+      "Data Encryption Levels",
+      "Patch Management",
+      "Application Restriction",
+      "Secure Baselines"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 4
+  },
+  {
+    "quiz_id": 6115110,
+    "quiz_title": "Checkpoint: Hardening",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Sonia, a cybersecurity analyst at Dion Training, is implementing a set of rules and configurations in a Windows environment to centrally manage and control user and computer settings. Which of the following BEST describes what she is configuring?",
+    "options": [
+      "Group Policies",
+      "Application Restriction",
+      "Secure Baselines",
+      "SELinux"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 4
+  },
+  {
+    "quiz_id": 6090698,
+    "quiz_title": "Checkpoint: Security Techniques",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following is used for identifying the optimal locations for wireless access points in a building?",
+    "options": [
+      "Heat Maps",
+      "Site Surveys",
+      "Firewall",
+      "Encryption"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 4
+  },
+  {
+    "quiz_id": 6090698,
+    "quiz_title": "Checkpoint: Security Techniques",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following cryptographic protocols is used in WPA3 for encryption?",
+    "options": [
+      "TKIP",
+      "AES",
+      "WEP",
+      "CCMP"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 4
+  },
+  {
+    "quiz_id": 6090698,
+    "quiz_title": "Checkpoint: Security Techniques",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following refers to a server or system that serves as the entry and exit point for emails, handling the transfer of emails between the internet and a local network?",
+    "options": [
+      "DMARC",
+      "DKIM",
+      "SPF",
+      "Email Gateway"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 4
+  },
+  {
+    "quiz_id": 6090698,
+    "quiz_title": "Checkpoint: Security Techniques",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following security strategies collects and automatically correlates data across multiple security layers such as email, endpoint, server, cloud workloads, and network so threats can be detected faster and security analysts can improve response times?",
+    "options": [
+      "EDR",
+      "FIM",
+      "XDR",
+      "NIDS"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 4
+  },
+  {
+    "quiz_id": 6090698,
+    "quiz_title": "Checkpoint: Security Techniques",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following best describes the process that uses data collected from various sources to identify patterns that represent typical user behavior, with the goal of detecting anomalous behavior that could indicate potential security threats?",
+    "options": [
+      "Network Traffic Analysis",
+      "User Behavior Analytics",
+      "Data Loss Prevention",
+      "Intrusion Detection System"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 4
+  },
+  {
+    "quiz_id": 6090704,
+    "quiz_title": "Checkpoint: Vulnerability Management",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "A cybersecurity researcher discovered a critical vulnerability in a widely-used software application that, if exploited, could allow unauthorized access to sensitive user data. The researcher wants to ensure that the vulnerability is addressed promptly while minimizing the risk of malicious exploitation. What is the most appropriate course of action for the researcher to take?",
+    "options": [
+      "Exploit the vulnerability and publicly post the details to raise awareness",
+      "Report the vulnerability to the software vendor through a responsible disclosure program",
+      "Ignore the vulnerability since it is the responsibility of the software vendor to find and fix such issues",
+      "Sell the details of the vulnerability to the highest bidder by conducting a bug bounty auction"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090704,
+    "quiz_title": "Checkpoint: Vulnerability Management",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Paula, a cybersecurity analyst at Dion Training, is tasked with researching and documenting known vulnerabilities in the organization's software applications. The analyst needs to reference a standardized identifier for each vulnerability to facilitate communication and collaboration across different teams and tools. Which of the following would provide the analyst with a unique identifier for each publicly disclosed vulnerability?",
+    "options": [
+      "CVSS",
+      "OSINT",
+      "CVE",
+      "SCAP"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090704,
+    "quiz_title": "Checkpoint: Vulnerability Management",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "An organization has legacy systems that are critical to its operations and cannot be easily updated or replaced. These systems have known vulnerabilities that cannot be remediated through traditional patching. What is the most appropriate strategy for the organization to mitigate the risk associated with these vulnerabilities while ensuring that the systems remain operational?",
+    "options": [
+      "Immediately replace the system",
+      "Ignore the vulnerabilities",
+      "Utilize a compensating control",
+      "Conduct full system patching"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090704,
+    "quiz_title": "Checkpoint: Vulnerability Management",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "A cybersecurity analyst is tasked with gathering threat intelligence on potential sources of data leaks and unauthorized sales of proprietary company information. The analyst needs to search for mentions of the company's data in online marketplaces that are not accessible through traditional search engines and are known for hosting illegal activities. Which of the following should the analyst investigate to find such information?",
+    "options": [
+      "Public Forums",
+      "Corporate Website",
+      "Dark Web",
+      "Social Media"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090704,
+    "quiz_title": "Checkpoint: Vulnerability Management",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "A security engineer wants to proactively identify potential vulnerabilities in a software application's source code before it is compiled and deployed. The goal is to find issues such as insecure coding practices, buffer overflows, and input validation errors. Which of the following approaches would be most effective for achieving this objective?",
+    "options": [
+      "Dynamic analysis",
+      "Penetration testing",
+      "Static analysis",
+      "Vulnerability scanning"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090708,
+    "quiz_title": "Checkpoint: Alerting and Monitoring",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following activities involves regularly examining systems, networks, or applications to identify vulnerabilities, configuration issues, or other potential problems?",
+    "options": [
+      "Log Aggregation",
+      "Alerting",
+      "Scanning",
+      "Archiving"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090708,
+    "quiz_title": "Checkpoint: Alerting and Monitoring",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "What is the primary use of SNMP?",
+    "options": [
+      "To encrypt network data",
+      "To monitor and manage network devices",
+      "To create a virtual private network",
+      "To establish a firewall"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090708,
+    "quiz_title": "Checkpoint: Alerting and Monitoring",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following best describes the function of a Security Information and Event Management (SIEM) system?",
+    "options": [
+      "To establish firewalls and VPNs on different networks",
+      "To monitor, manage, and collect log data from network devices",
+      "To detect and remove malware like an antivirus solution",
+      "To manage the physical components of a network infrastructure"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090708,
+    "quiz_title": "Checkpoint: Alerting and Monitoring",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following security tools generates data about potential data leaks and policy violations that can be sent to a Security Information and Event Management (SIEM) system?",
+    "options": [
+      "Antivirus software",
+      "Data Loss Prevention (DLP) systems",
+      "Network Intrusion Detection Systems (NIDS)",
+      "Vulnerability scanners"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090708,
+    "quiz_title": "Checkpoint: Alerting and Monitoring",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which component of SCAP provides a list of entries with each one containing an identification number, a description, and at least one public reference for publicly known cybersecurity vulnerabilities?",
+    "options": [
+      "Common Vulnerabilities and Exposures (CVE)",
+      "Common Vulnerability Scoring System (CVSS)",
+      "Common Configuration Enumeration (CCE)",
+      "Asset Reporting Format (ARF)"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090714,
+    "quiz_title": "Checkpoint: Incident Response",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "What step in the incident response process involves developing a preliminary incident description, categorizing the incident severity, and establishing an incident response team?",
+    "options": [
+      "Preparation",
+      "Detection and analysis",
+      "Containment, eradication, and recovery",
+      "Post-incident activity"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090714,
+    "quiz_title": "Checkpoint: Incident Response",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which training and testing method typically involves a structured discussion in a meeting room where participants provide their responses to various scenarios and discuss their roles and responsibilities in an incident?",
+    "options": [
+      "Simulation",
+      "Tabletop exercise",
+      "Red teaming",
+      "Blue teaming"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090714,
+    "quiz_title": "Checkpoint: Incident Response",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "In digital forensics, which of the following involves the systematic process of maintaining and safeguarding electronic evidence, ensuring its unaltered state, and keeping a detailed record of its handling and transfers throughout the investigation?",
+    "options": [
+      "Legal hold",
+      "E-discovery",
+      "Chain of custody",
+      "Reporting"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090714,
+    "quiz_title": "Checkpoint: Incident Response",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which process involves a thorough examination of the events and factors that led to a security incident and aims to identify the underlying issues and vulnerabilities that need to be addressed to prevent future occurrences?",
+    "options": [
+      "Chain of custody",
+      "Root cause analysis",
+      "Threat hunting",
+      "Lessons learned"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090714,
+    "quiz_title": "Checkpoint: Incident Response",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "According to the order of volatility, which of the following would typically be considered the least volatile form of evidence?",
+    "options": [
+      "RAM memory",
+      "Network logs",
+      "Archived data",
+      "Registry entries"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090720,
+    "quiz_title": "Checkpoint: Investigating an Incident",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Jason, a cybersecurity analyst at Dion Training, is reviewing the log from a web application firewall and believes an attack was attempted by a threat actor. Here is the log snippet used during the review:Time | Source IP | Request URL | Status | Action----------------------------------------------------------------------------------------------------12:30:15 | 203.0.113.5 | /products?category=' OR '1'='1 | 200 | Allowed12:30:16 | 203.0.113.5 | /login?username=admin'-- | 200 | Allowed12:30:17 | 203.0.113.5 | /search?query=laptops | 200 | Allowed12:30:18 | 203.0.113.5 | /products?category='; DROP TABLE users; -- | 403 | BlockedBased on the log entries above, which of the following types of attacks was most likely being attempted by the attacker?",
+    "options": [
+      "XML injection",
+      "Cross-site scripting",
+      "SQL injection",
+      "Denial of service"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090720,
+    "quiz_title": "Checkpoint: Investigating an Incident",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Tony, a cybersecurity analyst at Dion Training, is examining the following snippet from an authentication log:Time | Source IP | Username | Event | Password Attempted-------------------------------------------------------------------------------------15:32:00 | 203.0.113.7 | Admin | Authentication Attempt | admin115:32:01 | 203.0.113.7 | Admin | Authentication Attempt | Xyz@12315:32:02 | 203.0.113.7 | Admin | Authentication Attempt | qwertyABCD!15:32:02 | 203.0.113.7 | Admin | Authentication Attempt | 1Adm!nP@ss15:32:03 | 203.0.113.7 | Admin | Authentication Attempt | $ecUr3P@55Based on the log snippet above, which type of attack is most likely being attempted?",
+    "options": [
+      "Rainbow table attack",
+      "Dictionary attack",
+      "Hybrid password attack",
+      "Password spraying attack"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090720,
+    "quiz_title": "Checkpoint: Investigating an Incident",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Mateo, a cybersecurity analyst at Dion Training, is reviewing the following snippet from a web server access log:Time | Source IP | Request URL | HTTP Status----------------------------------------------------------------------------------------18:02:00 | 198.51.100.2 | /images/logo.png | 20018:02:10 | 198.51.100.2 | /css/style.css | 20018:02:15 | 198.51.100.2 | /api/products | 20018:02:20 | 198.51.100.2 | /../../../etc/passwd | 40418:02:25 | 198.51.100.2 | /images/../../../../etc/shadow | 404Based on the log snippet above, which type of attack was most likely being attempted by the computer located at 198.51.100.2?",
+    "options": [
+      "Cross-Site Scripting (XSS)",
+      "SQL Injection",
+      "Directory Traversal",
+      "Denial of Service (DoS)"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090720,
+    "quiz_title": "Checkpoint: Investigating an Incident",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Reed, a network administrator at Dion Training, has noticed a large number of simultaneous connections are being attempted from various IP addresses towards the company's web server. According to the log, several hundred concurrent connections are all being attempted within just a few seconds.Time | Source IP | Destination IP | Destination Port | Protocol | Event | Packets-----------------------------------------------------------------------------------------------------------------20:00:00 | 192.0.2.10 | 203.0.113.5 | 80 | TCP | Connection Attempt | 1000020:00:01 | 192.0.2.11 | 203.0.113.5 | 80 | TCP | Connection Attempt | 1000020:00:01 | 192.0.2.12 | 203.0.113.5 | 80 | TCP | Connection Attempt | 1000020:00:01 | 192.0.2.13 | 203.0.113.5 | 80 | TCP | Connection Attempt | 1000020:00:01 | 192.0.2.14 | 203.0.113.5 | 80 | TCP | Connection Attempt | 10000...20:00:02 | 192.0.2.250 | 203.0.113.5 | 80 | TCP | Connection Attempt | 10000Based on the log snippet above, which of the following types of attacks are most likely being attempted. by the threat actors?",
+    "options": [
+      "SQL injection",
+      "Directory traversal",
+      "Distributed Denial of Service",
+      "Cross-site request forgery"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090720,
+    "quiz_title": "Checkpoint: Investigating an Incident",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Jackie, a cybersecurity analyst at Dion Training, is reviewing the following snippet from a web server log:Time | Source IP | Request URL | HTTP Status | Payload-----------------------------------------------------------------------------------------------------21:45:00 | 203.0.113.4 | /api/createUser | 200 | &lt;user&gt;&lt;name&gt;John&lt;/name&gt;&lt;password&gt;abc123&lt;/password&gt;&lt;/user&gt;21:45:05 | 203.0.113.4 | /api/createUser | 200 | &lt;user&gt;&lt;name&gt;Jane&lt;/name&gt;&lt;password&gt;xyz789&lt;/password&gt;&lt;/user&gt;21:45:10 | 203.0.113.4 | /api/createUser | 400 | &lt;user&gt;&lt;name&gt;Bob&lt;/name&gt;&lt;password&gt;123&amp;&lt;isAdmin&gt;1&lt;/isAdmin&gt;&lt;/password&gt;&lt;/user&gt;21:45:15 | 203.0.113.4 | /api/createUser | 400 | &lt;user&gt;&lt;name&gt;Alice&lt;/name&gt;&lt;password&gt;456&lt;!-- injected --&gt;&lt;/password&gt;&lt;/user&gt;Based on this log snippet, which of the following types of attacks is the threat actor attempting to perform?",
+    "options": [
+      "SQL Injection",
+      "Cross-site scripting",
+      "XML injection",
+      "Denial of service"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090734,
+    "quiz_title": "Checkpoint: Automation and Orchestration",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Jessica, a cybersecurity analyst at Dion Training, wants to streamline the process of responding to incidents where employees click on links in phishing emails to ensure that certain steps are automated while others require human analysis. Which of the following should they utilize to achieve this?",
+    "options": [
+      "Continuous integration",
+      "Runbook",
+      "SIEM",
+      "Playbook"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 4
+  },
+  {
+    "quiz_id": 6090734,
+    "quiz_title": "Checkpoint: Automation and Orchestration",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Michael, a lead software engineer at Dion Training, is tasked with optimizing a complex deployment process that involves coordinating multiple automated tasks across various systems to achieve a synchronized, efficient workflow. Which of the following should he focus on to ensure a seamless integration of these tasks?",
+    "options": [
+      "Automation",
+      "Orchestration",
+      "Escalation",
+      "Provisioning"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 4
+  },
+  {
+    "quiz_id": 6090734,
+    "quiz_title": "Checkpoint: Automation and Orchestration",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Jordan, a system administrator at Dion Training, is tasked with optimizing the process of regularly updating software applications on all company workstations. These updates are released at predictable intervals and require the same series of repetitive and consistent steps to install the software updates across multiple systems. Which of the following strategies should they choose to ensure these updates are applied efficiently and reliably every time they are released?",
+    "options": [
+      "Automation",
+      "Orchestration",
+      "Manual updates",
+      "Ad-hoc scripting"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 4
+  },
+  {
+    "quiz_id": 6090734,
+    "quiz_title": "Checkpoint: Automation and Orchestration",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of these practices specifically involves an administrator setting up a system to assign and manage system permissions. Once established, it won't require further administrative actions to ensure that consistent access controls based on individuals' roles within the organization are being utilized?",
+    "options": [
+      "Implementing guardrails",
+      "Managing security groups",
+      "Enabling or disabling services",
+      "Automating RBAC assignments"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 4
+  },
+  {
+    "quiz_id": 6090734,
+    "quiz_title": "Checkpoint: Automation and Orchestration",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following best describes the difference between Continuous Delivery and Continuous Deployment in CI/CD?",
+    "options": [
+      "Continuous Delivery merges code changes in a central repository, while Continuous Deployment handles automated testing",
+      "Continuous Deployment requires manual deployment to production, whereas Continuous Delivery automates the deployment process through to production",
+      "Continuous Delivery requires manual deployment to production, whereas Continuous Deployment automates the deployment process through to production",
+      "Continuous Deployment merges code changes in a central repository, while Continuous Delivery handles automated testing"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 4
+  },
+  {
+    "quiz_id": 6090740,
+    "quiz_title": "Checkpoint: Security Awareness",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Jenna, a new hire at Dion Training, wants to ensure her work conversations remain confidential and are not susceptible to eavesdropping or shoulder surfing attacks. Which of the following should she do?",
+    "options": [
+      "Use the public Wi-Fi at the coffee shop for her remote meetings to improve performance",
+      "Hold confidential discussions in secure areas equipped with privacy measures",
+      "Regularly change discussion venues to avoid pattern tracking by potential eavesdroppers",
+      "Obfuscate the conversation by speaking in codes or jargon when outside the office"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090740,
+    "quiz_title": "Checkpoint: Security Awareness",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Lisa, an executive at Dion Training, is using a password manager to maintain different strong passwords for her accounts. What additional step should she take to ensure the security of her password manager?",
+    "options": [
+      "Use a simple master password for easy recall",
+      "Share the master password with a trusted friend",
+      "Use a password manager with multi-factor authentication",
+      "Write down the master password and store it someplace safe"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090740,
+    "quiz_title": "Checkpoint: Security Awareness",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Derek, a senior manager at Dion Training, discovers a USB drive in the parking lot and wants to identify the owner. Considering the risks, what should be his course of action?",
+    "options": [
+      "Plug the USB into his office computer to check its contents",
+      "Ignore the USB drive and leave it where it is currently located",
+      "Give it to the IT department for further investigation",
+      "Ask around the office to see if anyone lost a USB drive"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090740,
+    "quiz_title": "Checkpoint: Security Awareness",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Sandra, a team leader at Dion Training, is concerned about phishing attempts targeting her team members working remotely. To address this threat, what approach should she advocate for within the team?",
+    "options": [
+      "Ignore unsolicited emails that request sensitive information",
+      "Click on all of the links in emails to verify the sender's claims",
+      "Respond to all emails promptly",
+      "Share sensitive information only over phone calls and not emails"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6090740,
+    "quiz_title": "Checkpoint: Security Awareness",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Chris, the head of the IT department at Dion Training, wants to fortify the company's defense against social engineering attacks. Which strategy should he incorporate to enhance the overall security culture?",
+    "options": [
+      "Implement host-based firewall software on every workstation",
+      "Hold regular training and conduct simulated cyber-attacks",
+      "Advise employees to deal with security threats independently",
+      "Limit additional high security protocols only to system administrators"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 5
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Lexicon, an AI company, wants to implement a security measure to identify and evaluate potential threats to their systems and networks. Which of the following is an example of a managerial security control that the company could implement?",
+    "options": [
+      "Security guards",
+      "Firewall",
+      "Risk assessments",
+      "Intrusion detection system"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Georgina, a lawyer, needs to send a contract to their client for signature. She want to ensure that their client cannot later deny signing the contract. Which of the following methods can they use to prevent them from denying that they have signed contracts?",
+    "options": [
+      "Encryption",
+      "A cryptographic primitive",
+      "Firewalls",
+      "Digital signatures"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Reginald, an IT Manager, is the owner of a file on a server and wants to grant his colleagues access to the file. He is the only one who can decide who is allowed access to the file and what actions they can perform on it. Which authorization model is being used in this scenario?",
+    "options": [
+      "MAC",
+      "DAC",
+      "RBAC",
+      "ABAC"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "At Kelly Innovations Corp., Sarah noticed that their core business application, which tracks customer orders, was not updating inventory levels accurately. A recent update seemed to have introduced a bug. Which of the following would offer the BEST solution?",
+    "options": [
+      "Patch management",
+      "Application restart",
+      "Application rollback",
+      "Dependency check"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "What is the name of a cryptographic key that can be freely distributed and used by others to encrypt messages?",
+    "options": [
+      "Digital signature",
+      "Hash key",
+      "Public key",
+      "Symmetric key"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "What type of encryption only affects a section of a storage device?",
+    "options": [
+      "Full-disk encryption",
+      "Partition encryption",
+      "File-level encryption",
+      "Database encryption"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Kelly Innovations Corp, an IT company, is implementing a process of encryption where two parties establish a shared secret for communication purposes. Which of the following MOST accurately describes this process?",
+    "options": [
+      "Asymmetric encryption",
+      "Symmetric encryption",
+      "Hashing",
+      "Key exchange"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following terms emphasizes the mathematical structure used to scramble data so that only a specific key can unscramble it?",
+    "options": [
+      "Digital signature",
+      "Encryption algorithm",
+      "Cipher block",
+      "Hash function"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "When sending an encrypted message to Dion Training, a client would use which of the following to ensure only Dion Training can decrypt and read the message?",
+    "options": [
+      "Key escrow",
+      "Public key",
+      "Private key",
+      "Wildcard certificate"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "When considering the RSA algorithm, which description BEST captures its underlying mathematical property used for public key cryptography?",
+    "options": [
+      "Symmetric encryption",
+      "Trapdoor function",
+      "Hash function",
+      "Digital signature"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which asymmetric encryption technique provides a comparable level of security with shorter key lengths, making it efficient for cryptographic operations?",
+    "options": [
+      "Diffie-Hellman",
+      "DSA",
+      "ECC",
+      "RSA"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Reed &amp; Jamario Security Services has recommended your company use a port based system to prevent unauthorized users and devices. Which of the following are they recommending?",
+    "options": [
+      "Fail-open",
+      "IDS",
+      "802.1X",
+      "Fail-closed"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Clumsy Contraptions Engineering is seeking to change its security footing. In the past, they have found that too many pieces of malicious software have gotten past the system.  Their Chief Security Officer believes they need a device which will actively evaluate traffic and reject or modify packets according to policies the company sets. What type of device is the CSO suggesting?",
+    "options": [
+      "SASE",
+      "Inline",
+      "Fail-close",
+      "Remote Access"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "To improve security at their law firm, Norah, a security analyst wants to implement a system that will selectively block or allow traffic based on the nature of the communication. Which firewall type would be MOST effective for this purpose?",
+    "options": [
+      "802.1x",
+      "Layer 4 Firewall",
+      "Layer 7 Firewall",
+      "VPN"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Given the need for resilience and the ability to recover in a security architecture, which of the following devices ensures uninterrupted operation during a power outage?",
+    "options": [
+      "Uninterruptible power supply (UPS)",
+      "Voltage Regulator",
+      "Onsite/offsite backups",
+      "Power Strip"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "What element of backup strategy involves making data copies regularly at set intervals?",
+    "options": [
+      "Replication",
+      "Journaling",
+      "Frequency",
+      "Load balancing"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following characteristics of a cloud architecture model describes a model that can quickly recover from failures due to adverse conditions?",
+    "options": [
+      "Ease of Deployment",
+      "Availability",
+      "Scalability",
+      "Resilience"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following BEST describes an approach where the foundational systems are set up and overseen using scripts and automated instruments instead of hands-on methods?",
+    "options": [
+      "IaC",
+      "Serverless architecture",
+      "Air-gapped network",
+      "Microservices architecture"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Kelly Innovations decides to manage its IT infrastructure within its physical location, retaining full control over its hardware, software, and data. Which of the following security implications is MOST directly associated with this approach?",
+    "options": [
+      "Increased responsibility for physical security.",
+      "Dependence on external patch availability.",
+      "Multi-tenancy risks.",
+      "Risk transference to third-party vendors."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "A power plant utilizes a specialized system to manage and monitor its daily operations, including machinery and sensor feedback. While these systems offer centralized control, what security concern is most associated with them?",
+    "options": [
+      "Runtime efficiency constraints.",
+      "Constrained memory use.",
+      "Optimization for containerized deployments.",
+      "Limited security update capabilities."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "A drone manufacturer employs a real-time operating system (RTOS) to ensure timely task executions. While optimizing for real-time performance, which of the following security concerns might arise?",
+    "options": [
+      "Lack of legacy protocol support.",
+      "Inadequate buffer overflow protections.",
+      "Overhead from virtualization.",
+      "Uncontrolled cloud access."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Kelly Innovations LLC is redesigning its network infrastructure to support its expanding R&amp;D team. Which of the following strategies will MOST effectively lessen the attack surface?",
+    "options": [
+      "Implementing a single-layered security approach.",
+      "Disabling unnecessary services and protocols.",
+      "Allowing most inbound and outbound traffic.",
+      "Using the same password for all devices."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "As part of a new building initiative, Dion Training Solutions plans to connect two office buildings via a direct physical link. Which measure will BEST protect the physical infrastructure connectivity?",
+    "options": [
+      "Placing the cable on the ground between buildings.",
+      "Using wireless bridges without encryption.",
+      "Installing the cable in a conduit buried underground.",
+      "Running the connection on overhead poles."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Kelly Innovations LLC wants to implement a network appliance that focuses on filtering traffic based on source and destination IP addresses, and port numbers. Which layer of the OSI model is this appliance primarily operating at?",
+    "options": [
+      "Layer 3",
+      "Layer 4",
+      "Layer 5",
+      "Layer 2"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Dion Training Solutions needs a network appliance capable of filtering traffic based on URL, HTTP headers, and specific web application functionalities. At which layer of the OSI model would this appliance primarily operate?",
+    "options": [
+      "Layer 6",
+      "Layer 5",
+      "Layer 7",
+      "Layer 3"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Dion Training Solutions is aiming to optimize their wide-area network (WAN) while ensuring advanced network management and performance optimization. They are considering a solution that can be deployed both on-premises and in the cloud. Which of the following technologies would BEST match their requirements?",
+    "options": [
+      "TLS",
+      "SASE",
+      "AH",
+      "SD-WAN"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "When a legal organization routinely communicates with clients via email containing sensitive case details, which strategy would be the MOST effective to secure the communications?",
+    "options": [
+      "Implementation of end-to-end encrypted email",
+      "Conducting regular user cybersecurity training",
+      "Utilization of VPNs for email transmission",
+      "Deployment of regular data backups to secure cloud storage"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "A software development company regularly releases software updates to its global customer base. Recently, some customers reported receiving unauthorized and potentially malicious software updates. The company wants to implement a security technique to ensure the authenticity and integrity of its software updates when delivered to customers. Which of the following would BEST assist in achieving this goal?",
+    "options": [
+      "Intrusion Detection System",
+      "Multi-factor Authentication",
+      "Code Signing",
+      "Antivirus Scanning"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following BEST describes the initial step to ensure a secure procurement process at Dion Training?",
+    "options": [
+      "Check for discounts or bulk pricing.",
+      "Determine the software&#x27;s compatibility with existing systems.",
+      "Collaborate with the IT department for installation.",
+      "Verify the legitimacy of the software vendor."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following statements BEST explains the importance of 'patching' in the context of vulnerability management?",
+    "options": [
+      "Patching refers to the process of securing physical entry points to an organization's premises.",
+      "Patching refers to regularly updating hardware components to ensure optimal performance and prevent system downtime.",
+      "Patching involves installing special, custom made features on software interfaces to enhance user experience and aesthetics.",
+      "Patching is the process of identifying and fixing security vulnerabilities in software, firmware, and operating systems to prevent potential exploits."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following statements BEST explains the importance of environmental variables in regard to vulnerability management?",
+    "options": [
+      "Environmental variables are specific conditions that trigger an automated response when a vulnerability is detected in an organization&#x27;s systems",
+      "Environmental variables are parameters used in vulnerability scanning tools to assess the security posture of an organization&#x27;s network and infrastructure",
+      "Environmental variables are factors that impact the physical security of an organization&#x27;s premises",
+      "Environmental variables refer to the unique characteristics of an organization&#x27;s infrastructure that can affect vulnerability assessments and risk analysis"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following BEST explains the difference between an Agent-based and Agentless NAC?",
+    "options": [
+      "Both require additional software installed on network devices to monitor network traffic, but Agentless NACs collect more data.",
+      "Agent based NACs use network level protocols to authenticate users, while Agentless NACs use additional software to authenticate users.",
+      "Both involve monitoring network traffic without the need for additional software, but Agent-based NACs collect more data.",
+      "Agent based NACs use additional software to authenticate users, while Agentless NACs use network level protocols to authenticate users."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following statements BEST explains the importance of enforcing baselines when automating and orchestrating secure operations?",
+    "options": [
+      "Enforcing baselines allows for the almost complete automation of incident response, reducing the need for large security teams and incident response teams.",
+      "Baselines eliminate the need for continuous monitoring of systems because these things are all either automated or orchestrated, thereby freeing up resources.",
+      "Enforcing baselines helps to standardize configurations across systems, enabling efficient automation and reducing the risk of security incidents.",
+      "Baselines set the initial targets for automating threat hunting and penetration testing, thereby reducing dependence on human input."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "You are a cybersecurity analyst working for a software development company that develops mobile applications. The company wants to implement a secure and standardized method for users to grant third-party applications access to their account data without sharing their credentials. As a cybersecurity analyst, you recommend implementing OAuth for this purpose. Which of the following approaches would be the MOST effective way to implement OAuth in the given scenario?",
+    "options": [
+      "Implementing a central OAuth authorization server to handle user authentication and issue access tokens to third-party applications.",
+      "Providing third-party applications with unrestricted access to user account data without authentication or authorization.",
+      "Generating random access tokens for users and sharing them directly with third-party applications for data access.",
+      "Requesting users to share their account credentials directly with third-party applications for data access."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "What is the primary difference between sanitization and destruction in the disposal process?",
+    "options": [
+      "Sanitization refers to physically damaging the asset to render it unusable, while destruction involves completely eliminating all residual data.",
+      "Sanitization and destruction are synonyms and refer to the same process.",
+      "Sanitization involves erasing data so it cannot be recovered; destruction is total physical demolition of the asset.",
+      "Sanitization concerns the reuse of assets in an organization, and destruction involves transferring those assets to a different department."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following statements is NOT true about the importance of log aggregation?",
+    "options": [
+      "Log aggregation aids in maintaining regulatory compliance by keeping a record of events that happened in the system.",
+      "Log aggregation increases the complexity of managing and interpreting security logs.",
+      "Log aggregation can enhance security by consolidating logs from different sources for easier analysis.",
+      "Log aggregation helps to detect unusual activity or behavior that may indicate a security breach."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "As a security analyst, you are reviewing application logs while investigating a suspected breach. Which of the following pieces of information is NOT typically documented in the application log data?",
+    "options": [
+      "Timestamps of application activity.",
+      "User IDs related to specific application transactions.",
+      "The physical location of the user accessing the application.",
+      "Server IP address where the application is hosted."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following is an aspect of asset management that ensures that each IT asset is clearly associated with a specific individual or department, providing clarity on responsibilities and access rights?",
+    "options": [
+      "Monitoring",
+      "Ownership",
+      "Decommissioning",
+      "Acquisition"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Before disposing of old computers at Kelly Innovations LLC, Sasha receives a document that confirms all data has been securely removed. What is this document known as?",
+    "options": [
+      "Certificate of Sanitization",
+      "Service Agreement",
+      "Data Retention Policy",
+      "Purchase Order"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Enrique, the head of IT at Dion Training, is tasked with ensuring all deployed company systems adhere to a set of standardized configurations. He wants to reduce the attack surface as much as possible. Which of the following techniques would BEST reduce the organization&#x27;s attack surface?",
+    "options": [
+      "Implementing a VPN for any remote access to company devices.",
+      "Turning off all unused services and closing unnecessary ports.",
+      "Deploying antivirus software on all company workstations and other devices.",
+      "Requiring frequent password resets for all employees."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Jamario, a security analyst at Dion Training, has just completed a vulnerability assessment on a company's internal web application. One of the vulnerabilities detected has a high likelihood of being exploited and, if successful, could expose sensitive customer data. Based on severity and potential impact, how should this vulnerability be classified?",
+    "options": [
+      "Medium",
+      "Critical",
+      "Informational",
+      "Low"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "After remedying a previously identified vulnerability in their systems, Kelly Innovations LLC wants to ensure that the remediation steps were successful. Which of the following is the BEST method that involves examining related system and network logs to enhance the vulnerability report validation process?",
+    "options": [
+      "Rescanning",
+      "Patch management",
+      "Reviewing event logs",
+      "Threat modeling"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "For ensuring the security of an HTTP application like WordPress or Magento against threats like SQL injection or cross-site scripting, which monitoring tool or method would be MOST appropriate?",
+    "options": [
+      "Host-based intrusion detection system (HIDS)",
+      "Antivirus software",
+      "Web application firewall (WAF)",
+      "NetFlow"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following BEST describes the primary purpose of archiving as a method to bolster security monitoring?",
+    "options": [
+      "To analyze real-time threats and mitigate them instantly.",
+      "To maintain compliance with regulations without needing long-term data storage.",
+      "To provide an external backup in case of system crashes",
+      "To provide historical insights into security incidents for future investigations."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Reed, a cybersecurity specialist at Dion Training Solutions, is optimizing the company&#x27;s IPS. He notes that while signature-based detection is highly effective against known threats, it has some limitations. Which of the following BEST describes a limitation of signature-based detection in an IPS?",
+    "options": [
+      "It automatically updates with behavioral patterns of users.",
+      "It might not detect zero-day exploits.",
+      "It encrypts network traffic to hide malicious signatures.",
+      "It requires substantial network bandwidth to operate."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Susan, a security analyst at Kelly Innovations LLC, is reviewing alerts from the IPS. She recognizes a pattern of false positives from signature-based detections. Which of the following is the MOST likely cause for false positives in signature-based detection systems?",
+    "options": [
+      "The IPS is scanning encrypted traffic only.",
+      "The system is only updated with old signatures.",
+      "Signature databases are stored in volatile memory.",
+      "The signatures require tuning."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "In regards to automation and orchestration, which of the following terms accurately captures the challenges faced when dealing with a system characterized by its intricate web of interconnected components and varied functionalities, potentially hindering seamless integration, effortless management, and straightforward comprehension?",
+    "options": [
+      "Ongoing supportability",
+      "Cost",
+      "Complexity",
+      "Technical debt"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Why might an organization be particularly concerned about introducing automation tools that become single points of failure during secure operations?",
+    "options": [
+      "Challenges in upholding data confidentiality.",
+      "Compromised availability leading to operational disruptions.",
+      "Potential gaps in maintaining data integrity.",
+      "Issues related to system scalability and slow authentication."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "When evaluating the introduction of automated systems in a security operations center (SOC), which of the following is a prominent time-related benefit that security professionals might expect?",
+    "options": [
+      "Longer periods for system patching.",
+      "Increased time for team meetings.",
+      "Extended working hours for security staff.",
+      "Reduced response time to security incidents."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following BEST describes how automation and orchestration in cybersecurity operations influence employee satisfaction and retention?",
+    "options": [
+      "Decreases the demand for cybersecurity professionals.",
+      "Directly increases salary packages.",
+      "Reduces repetitive and mundane tasks.",
+      "Facilitates frequent role rotation among teams."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "The HR department for a large corporation is looking to streamline the onboarding process for new employees. What can the use of scripting do to help attain this goal, in terms of system access?",
+    "options": [
+      "Automating the provisioning of account credentials.",
+      "Generating hard-copy user manuals for each new hire.",
+      "Facilitating personal interviews between IT and new hires.",
+      "Directly improving onboarding training content."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "While performing a digital investigation, which of the following statements BEST describes the role of preservation of evidence?",
+    "options": [
+      "It allocates budgetary resources for the forensic investigation.",
+      "It maintains the integrity of digital evidence over time.",
+      "It allows investigators to prioritize evidence collection.",
+      "It provides legal teams with a roadmap for case strategy."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Florence is the CEO of a company. She has the final say over all decisions made regarding the business, IT, accounting, and other departments.  What type of governance does Florence&#x27;s company have?",
+    "options": [
+      "Decentralized governance",
+      "Board governance",
+      "Centralized governance",
+      "Committee governance"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "What term refers to an organization&#x27;s predetermined level of acceptable risk exposure?",
+    "options": [
+      "Exposure factor",
+      "Conservative",
+      "Risk appetite",
+      "Risk tolerance"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "What is the purpose of a security analyst doing due diligence in the vendor selection process?",
+    "options": [
+      "To assess the vendor's ability to provide the goods or services when they have promised",
+      "To compare multiple vendors&#x27; suppliers to ensure they are all diligent in analyzing their own supply chains.",
+      "To ensure that the vendor&#x27;s practices align with the organization&#x27;s requirements",
+      "To ensure that the chosen vendor is the best choice among the list of possible vendors"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "In a meeting with the CEO, Burton has asked for guidance on developing the rules of engagement for an upcoming penetration test. The CEO doesn't think they need to create rules of engagement since they are hiring an experienced, well respected company to do the penetration testing.&nbsp; Why is it important for the company to still establish rules of engagement?",
+    "options": [
+      "They need to set boundaries and limitations during the penetration test.",
+      "They need to know the total costs of the penetration test.",
+      "They need the names of all personnel who will be involved in the penetration test.",
+      "They need to set the timeline for later penetration tests."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Dion Training is considering a collaboration with a new IT service vendor. To ensure compliance and adherence to industry standards, Dion Training wishes to see verifiable evaluations of the vendor&#x27;s security controls and practices. Which of the following would provide Dion Training with insights into the vendor&#x27;s own internal evaluations of their security measures?",
+    "options": [
+      "Regulatory compliance certificates",
+      "Customer testimonials",
+      "Evidence of internal audits",
+      "External penetration test reports"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following terms refers to how any country's government regulates how its citizens' data should be collected, stored, and processed?",
+    "options": [
+      "Consent management",
+      "Data encryption",
+      "National legal implications",
+      "General Data Protection Regulation (GDPR)"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "At Kelly Innovations LLC, Susan has been entrusted with determining the purposes and means of processing personal data for the organization&#x27;s new marketing campaign. She decides what data to collect, how long it will be retained, and with whom it will be shared. Which of the following BEST describes the role Susan is playing?",
+    "options": [
+      "Data Subject",
+      "Data Processor",
+      "Data Controller",
+      "Data Custodian"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Horizon Security, a cybersecurity training company, experienced a data breach due to a vendor's negligence. This breach led to a significant loss of sensitive customer information. What type of consequence is Horizon MOST likely to face?",
+    "options": [
+      "Reputational damage",
+      "Fines",
+      "Sanctions",
+      "Loss of license"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following terms BEST describe the affirmation of the validation of the accuracy and thoroughness of compliance-related reports?",
+    "options": [
+      "Independent third-party audit",
+      "Attestation",
+      "Internal assessment",
+      "Regulatory examination"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Dion Training is conducting a security awareness training program for its employees to enhance their cybersecurity knowledge. As part of this program, they have planned and executed phishing campaigns. Which of the following BEST describes the primary objective of phishing campaigns conducted during security awareness training?",
+    "options": [
+      "To promote a competitive environment among employees.",
+      "To prevent any form of malware from spreading within the organization&#x27;s network.",
+      "To test employees&#x27; ability to recognize and report phishing attempts.",
+      "To trick employees into revealing sensitive information."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following BEST describes the Software Development Life Cycle (SDLC) in application security?",
+    "options": [
+      "It primarily focuses on the speed of software delivery over security.",
+      "It only considers security during the testing and creation phases of software development.",
+      "It emphasizes the integration of security in software creation and maintenance.",
+      "It replaces the need for regular software updates and patches."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "When considering user interactions with a web service, which of the following are the security measures that involve the secure creation and transfer of identifiers as well as enforcing inactivity limits to prevent unauthorized access?",
+    "options": [
+      "Timeout policies",
+      "Token handling",
+      "Session management",
+      "Session cookies"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following BEST describes an organizational structure that allows for autonomous decision-making in separate departments or sectors within the company?",
+    "options": [
+      "Hierarchical management",
+      "Flat organization",
+      "Matrix structure",
+      "Decentralized governance"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following terms refers to a critical predictive metric that organizations monitor to foresee potential risks and their impact on operations?",
+    "options": [
+      "Key risk indicators",
+      "Risk threshold",
+      "Risk metrics",
+      "Risk parameters"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "The executive team at a software development firm decides that any project with a potential financial impact greater than $500,000 due to a security incident will require an immediate review and intervention. This financial impact figure represents which of the following in risk management?",
+    "options": [
+      "Risk limit",
+      "Risk threshold",
+      "Risk level",
+      "Risk tolerance"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "An investment firm allows a fluctuation of up to 10% in the value of its high-risk investment portfolio compared to the expected return on investment, but immediate action is required if this threshold is exceeded. This 10% fluctuation represents an example of:",
+    "options": [
+      "Risk management",
+      "Risk matrix",
+      "Risk appetite",
+      "Risk tolerance"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Within the IT department, Sarah has been designated to oversee the security measures for the new data management platform. She is accountable for the regular review of security protocols and responding to any breaches or vulnerabilities that may arise. Sarah's role would be BEST described by which of the following terms?",
+    "options": [
+      "Risk register",
+      "Risk indicator",
+      "Risk owner",
+      "Risk assessor"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "If a company&#x27;s server has an estimated Single Loss Expectancy (SLE) of $15,000 due to an operational failure, and the Annual Rate of Occurrence (ARO) of these failures is expected to be 0.1 times per year, what is the Annual Loss Expectancy (ALE)?",
+    "options": [
+      "$150",
+      "$1,500",
+      "$15,000",
+      "$150,000"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following motivations refers to any act of stealing information from a system or network?",
+    "options": [
+      "Service disruption",
+      "Ethical motivations",
+      "Data exfiltration",
+      "Disruption/chaos"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following threats is MOST likely to accidentally cause harm to the system?",
+    "options": [
+      "Nation-state actors",
+      "Hacktivist",
+      "Shadow IT",
+      "Unskilled attackers"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "You are a security analyst at Dion Training and you discover that an unauthorized device has been connected to the company’s network. As you investigate, you discover that the device was added so the employee could play video games during her breaks. What type of threat actor are you dealing with?",
+    "options": [
+      "Shadow IT",
+      "Nation-state Actor",
+      "Insider Threat",
+      "Unskilled Actor"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following are hardware issues that result from products that are no longer being made or supported, but are still usable?",
+    "options": [
+      "Legacy vulnerability",
+      "End-of-life vulnerability",
+      "Hardware tampering",
+      "Hardware cloning"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Travid is evaluating an attack that has occurred on his organization&#x27;s system.  He sees that the attacker entered a lot of data into the the area of memory in the API that temporarily stores user input.  What type of attack did Travid discover?",
+    "options": [
+      "Buffer underflow",
+      "Memory fragmentation",
+      "Memory leak",
+      "Buffer overflow"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following vulnerabilities is unique to cloud computing environments, posing risks related to unauthorized access and data manipulation?",
+    "options": [
+      "Insecure Interfaces and APIs",
+      "Cross-site scripting (XSS)",
+      "Buffer overflow",
+      "Side loading"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Alex, a network administrator, reviews logs from the company&#x27;s main database server. He finds that every night at 3 AM, a backup process runs which generates a series of logs. However, on scanning through last week&#x27;s data, he finds that logs from two nights are missing entirely. On further investigation, Alex discovers a new, unauthorized user account was created on one of those nights. What might Alex reasonably infer from these observations?",
+    "options": [
+      "The backup process was paused by the IT department for maintenance purposes.",
+      "An attacker gained access, created the unauthorized account, and removed logs.",
+      "The database server accidentally skipped the backup on those nights due to low storage.",
+      "The IT team might have created a new account for a new employee and forgot to inform him."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following mitigation techniques can help enforce compliance with security standards and policies on a system or network by designating programs that are allowed to run and blocking all other programs from being run?",
+    "options": [
+      "Application allow list",
+      "Patching",
+      "Configuration Enforcement",
+      "Least Privilege"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following hardening techniques can help protect systems or devices from attacks by installing software like a firewall or antivirus directly on user devices to report and block potential attacks?",
+    "options": [
+      "Installation of endpoint protection",
+      "Patching",
+      "Least Privilege",
+      "Changing Default Passwords"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following mitigation techniques can help protect a device from unauthorized network traffic solely by using software that can control network traffic based on predefined rules and policies?",
+    "options": [
+      "Host-based Firewall",
+      "Encryption",
+      "Host-based Intrusion Prevention",
+      "Patching"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following BEST describes a threat actor who primarily depends on commonly found tools, often easily accessible from the web or dark web?",
+    "options": [
+      "Bug bounty hunter",
+      "Script kiddie",
+      "APT",
+      "Ethical hacker"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which group is MOST likely to possess the funding and resources to recruit top talent, including skilled strategists, designers, coders, and hackers?",
+    "options": [
+      "An independent black hat hacker",
+      "A criminal syndicate",
+      "A security researcher",
+      "An open-source developer community"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "A tech company discovers that the firmware in some of their devices contains a hidden backdoor. Upon investigation, it&#x27;s determined that the compromised firmware came from an overseas supplier they contracted with. The backdoor gave attackers remote access to devices without user knowledge. What type of attack vector has the company fallen victim to?",
+    "options": [
+      "On-path attack",
+      "Supply chain",
+      "Drive-by download",
+      "Bluesnarfing"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which method is used for the authentication process used in WPA2 with PSK?",
+    "options": [
+      "Using a passphrase to generate a pairwise master key (PMK).",
+      "Dragonfly handshake with a MAC address hash.",
+      "Password Authenticated Key Exchange (PAKE).",
+      "QR codes for client device configuration."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following vulnerabilities BEST describes a situation where a threat actor can manipulate data after it has been verified by an application, but before the application uses it for a specific operation?",
+    "options": [
+      "Time-of-check (TOC)",
+      "Memory leaks",
+      "Race conditions",
+      "Resource exhaustion"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "During a network investigation, Aiden, a cybersecurity analyst, identifies two key irregularities: The CEO, who tends to work late, logged in from both Paris and Tokyo within five minutes, and there&#x27;s an unexpected surge in emails from the HR department outside of recruitment season. Which of the following should the analyst be MOST concerned about based on these observations?",
+    "options": [
+      "The absence of the CEO&#x27;s usual late-night login.",
+      "Simultaneous CEO logins from distant locations.",
+      "The sudden increase in emails from the HR department.",
+      "A recent software update on the CEO&#x27;s computer."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Dion Training has recently implemented a new web portal for their customers. During a routine security review, the IT team notices that some suspicious activities have been logged. An unknown user attempted to access the system with a strange pattern: when requesting a particular user file, instead of the usual URL structure ( /users/[username]/profile ) the system registered requests like ( /users/../admin/config ). Within a short span of time, several such patterns were identified, each trying to reach different sensitive files and directories. Given this information, which of the following types of attack is the user MOST likely attempting?",
+    "options": [
+      "Attempting to exploit a buffer overflow vulnerability.",
+      "Attempting to inject malicious scripts into the system.",
+      "Attempting to escalate their privileges on the system.",
+      "Attempting to access files outside of intended directories."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which mitigation technique involves the use of tools like Nagios or Splunk to continuously observe and check the operation of a system or network?",
+    "options": [
+      "Hardening techniques",
+      "Patching",
+      "Segmentation",
+      "Monitoring"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which mitigation technique involves shutting off specific entry and exit points in a system to prevent potential vulnerabilities or unauthorized access?",
+    "options": [
+      "Disabling ports",
+      "Encryption",
+      "Monitoring",
+      "Segmentation"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  },
+  {
+    "quiz_id": 6118840,
+    "quiz_title": "CompTIA Security+ (SY0-701)",
+    "course_title": "CompTIA Security+ (SY0-701) Complete Course",
+    "question": "Which of the following ports, if left open and unmonitored, might allow database queries from unauthorized external sources?",
+    "options": [
+      "Port 53",
+      "Port 1433",
+      "Port 443",
+      "Port 21"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": true,
+    "explanation": "",
+    "domain": 1
+  }
+]

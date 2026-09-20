@@ -1,0 +1,48 @@
+{
+    "schema_version":  "2.0",
+    "id":  "comptia-security-plus-sy0-701",
+    "title":  "CompTIA Security+ Study Bank",
+    "provider":  "CompTIA",
+    "exam_code":  "SY0-701",
+    "summary":  "Original Security+ practice subset with an archived legacy bank retained for editorial review.",
+    "status":  "published",
+    "availability":  {
+                         "application":  "published"
+                     },
+    "domains":  [
+                    {
+                        "id":  "1",
+                        "title":  "General Security Concepts"
+                    },
+                    {
+                        "id":  "2",
+                        "title":  "Threats, Vulnerabilities, and Mitigations"
+                    },
+                    {
+                        "id":  "3",
+                        "title":  "Security Architecture"
+                    },
+                    {
+                        "id":  "4",
+                        "title":  "Security Operations"
+                    },
+                    {
+                        "id":  "5",
+                        "title":  "Security Program Management and Oversight"
+                    }
+                ],
+    "question_bank":  {
+                          "path":  "published-questions.v2.json",
+                          "record_count":  302,
+                          "status":  "published"
+                      },
+    "archived_question_banks":  [
+                                    {
+                                        "path":  "needs-review-questions.v2.json",
+                                        "record_count":  742,
+                                        "status":  "needs_review",
+                                        "application":  "excluded",
+                                        "reason":  "Deterministic migration of the remaining legacy records after the established original 302-record study bank; not presented by the application until editorial review."
+                                    }
+                                ]
+}
