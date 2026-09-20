@@ -134,3 +134,27 @@ test('Check answer persists the selection and rerenders answer feedback', () => 
   assert.equal(saved.answers['question-1'].correct, true);
   assert.deepEqual(Array.from(saved.answers['question-1'].selected), ['a']);
 });
+
+test('question content is escaped before it reaches the HTML renderer', () => {
+  const harness = loadAppForTest();
+  const attack = '<img src=x onerror="globalThis.pwned=true">';
+  Object.assign(harness.app, {
+    courses: [{ id: 'course-1', title: attack, code: 'TEST' }],
+    course: { id: 'course-1', title: attack, code: 'TEST' },
+    data: {
+      metadata: {},
+      domains: [{ id: 'domain-1', name: attack }],
+      questions: [{
+        id: 'question-1', type: 'single_choice', domainId: 'domain-1',
+        prompt: attack, options: [{ key: 'a', text: attack }], correct: ['a'],
+        explanation: attack
+      }]
+    },
+    progress: harness.baseProgress(), view: 'practice', practiceFilter: 'all',
+    pending: new Set()
+  });
+
+  harness.render();
+  assert.doesNotMatch(harness.appElement.innerHTML, /<img\b/i);
+  assert.match(harness.appElement.innerHTML, /&lt;img src=x onerror=&quot;/i);
+});

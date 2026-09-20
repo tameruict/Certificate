@@ -6,7 +6,10 @@ create table if not exists public.user_data_archive (
   course_id text not null,
   payload jsonb not null default '{}'::jsonb,
   updated_at timestamptz not null default timezone('utc', now()),
-  primary key (user_id, course_id)
+  primary key (user_id, course_id),
+  constraint user_data_archive_course_id_format check (course_id ~ '^[a-z0-9][a-z0-9._-]{0,127}$'),
+  constraint user_data_archive_payload_object check (jsonb_typeof(payload) = 'object'),
+  constraint user_data_archive_payload_size check (pg_column_size(payload) <= 262144)
 );
 
 comment on table public.user_data_archive is 'Per-user, per-course CertLab progress archive. The payload contains no passwords or secrets.';

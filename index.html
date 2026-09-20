@@ -15,22 +15,7 @@
   </div>
   <noscript>This study app needs JavaScript enabled.</noscript>
   <!-- config.js is an optional, ignored local override. Production uses /api/config. -->
-  <script src="config.js" onerror="this.remove()"></script>
-  <script type="module">
-    (async () => {
-      try {
-        const response = await fetch('/api/config', { cache: 'no-store' });
-        if (response.ok) {
-          const runtimeConfig = await response.json();
-          if (runtimeConfig.url && runtimeConfig.anonKey) {
-            window.CERTLAB_SUPABASE_CONFIG = Object.freeze(runtimeConfig);
-          }
-        }
-      } catch (_) {
-        // Local static-server use can rely on the optional config.js override.
-      }
-      await import('./lib/app.js');
-    })();
-  </script>
+  <script src="config.js"></script>
+  <script type="module" src="lib/bootstrap.js"></script>
 </body>
 </html>
