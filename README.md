@@ -27,7 +27,7 @@ CertLab Study is a static certification-study workspace with username/password a
    `config.example.js` is a safe template. `config.js` is ignored and must never be committed.
 
 4. Run `supabase/001_user_auth_and_archive.sql` in the Supabase SQL Editor. The migration creates `user_profiles` and `user_data_archive`, enables RLS, and limits every row to its authenticated owner.
-5. In **Authentication → Providers → Email**, turn off **Confirm email** for this username-only flow, or confirm newly created users manually. Usernames are mapped to internal synthetic addresses (`<username>@users.certlab.invalid`) because Supabase Auth authenticates email/phone credentials.
+5. In **Authentication → Providers → Email**, turn off **Confirm email** for this username-only flow, or confirm newly created users manually. Usernames are mapped to syntactically valid internal addresses (`<username>@users.certlab.app`) because Supabase Auth authenticates email/phone credentials. These synthetic addresses are not mailboxes.
 
 The app stores the normal study state in browser `localStorage` for offline resilience and upserts the same state to `user_data_archive` whenever it changes. Passwords are never stored in the application database; Supabase Auth manages password hashing and sessions.
 
