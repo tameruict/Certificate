@@ -4,6 +4,8 @@
     "title":  "CompTIA Security+ Study Bank",
     "provider":  "CompTIA",
     "exam_code":  "SY0-701",
+    "category":  "Security",
+    "accent":  "#f97316",
     "summary":  "Original Security+ practice subset with an archived legacy bank retained for editorial review.",
     "status":  "published",
     "availability":  {

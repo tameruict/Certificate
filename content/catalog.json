@@ -7,13 +7,15 @@
       "id": "comptia-security-plus-sy0-701",
       "bundle": "comptia-security-plus-sy0-701/course.json",
       "published": true,
-      "status": "published"
+      "status": "published",
+      "category": "Security"
     },
     {
       "id": "aws-cloud-practitioner-clf-c02",
       "bundle": "aws-cloud-practitioner-clf-c02/course.json",
       "published": true,
-      "status": "published"
+      "status": "published",
+      "category": "Cloud"
     }
   ]
 }

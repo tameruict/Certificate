@@ -4,6 +4,8 @@
   "title": "AWS Certified Cloud Practitioner Pilot",
   "provider": "Amazon Web Services",
   "exam_code": "CLF-C02",
+  "category": "Cloud",
+  "accent": "#f59e0b",
   "summary": "An original, small practice pilot for cloud concepts, security, services, and billing.",
   "status": "published",
   "availability": {

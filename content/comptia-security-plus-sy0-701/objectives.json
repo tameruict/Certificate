@@ -1,0 +1,115 @@
+{
+  "schema_version": "2.1",
+  "course_id": "comptia-security-plus-sy0-701",
+  "domains": [
+    {
+      "id": "1",
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Compare and contrast various types of security controls",
+          "summary": "Understand the categories (technical, managerial, operational, physical) and types (preventive, deterrent, detective, corrective, compensating, directive).",
+          "notes_md": "**Categories:** Technical · Managerial · Operational · Physical\n**Types:** Preventive · Deterrent · Detective · Corrective · Compensating · Directive\n- *Preventive* stops an attack before it happens (e.g. firewall rule, access control).\n- *Detective* identifies that an attack occurred (e.g. IDS, audit log).\n- *Corrective* reduces impact after an event (e.g. backup restore, patch).\n- *Compensating* alternative when primary control is not feasible.",
+          "refs": ["SY0-701 Domain 1.1"]
+        },
+        {
+          "id": "1.2",
+          "title": "Summarize fundamental security concepts",
+          "summary": "CIA triad, non-repudiation, AAA, gap analysis, Zero Trust, privacy.",
+          "notes_md": "**CIA Triad:**\n- `Confidentiality` — only authorized parties can access data.\n- `Integrity` — data is accurate and unmodified.\n- `Availability` — systems are accessible when needed.\n\n**Key concepts:**\n- *Non-repudiation* — proof a sender sent a message (e.g. digital signature).\n- *AAA* — Authentication, Authorization, Accounting.\n- *Zero Trust* — never trust, always verify; micro-segmentation + least privilege.",
+          "refs": ["SY0-701 Domain 1.2"]
+        },
+        {
+          "id": "1.3",
+          "title": "Cryptography and PKI concepts",
+          "summary": "Symmetric vs asymmetric encryption, hashing, digital signatures, PKI components.",
+          "notes_md": "**Symmetric:** same key to encrypt and decrypt (`AES`, `3DES`). Fast, but key distribution is a challenge.\n**Asymmetric:** key pair — public key encrypts, private key decrypts (`RSA`, `ECC`).\n**Hashing:** one-way, fixed-length digest (`SHA-256`, `SHA-3`). Used for integrity.\n- *Digital signature*: hash encrypted with sender's private key → proves authenticity + integrity.\n- *PKI*: CA issues certificates binding public key to identity. Chain of trust.",
+          "refs": ["SY0-701 Domain 1.4"]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Threat actors and attack vectors",
+          "summary": "Nation-state, insider threat, organized crime, hacktivists; common attack vectors.",
+          "notes_md": "**Threat actor attributes:** Sophistication · Resources · Motivation · Intent\n**Attack vectors:**\n- *Phishing / spear-phishing* — targeted email deception.\n- *Drive-by download* — malware via malicious or compromised website.\n- *Supply chain* — compromise vendor software or hardware.\n- *Zero-day* — exploit before vendor patch exists.",
+          "refs": ["SY0-701 Domain 2.1"]
+        },
+        {
+          "id": "2.2",
+          "title": "Common threat indicators and attack types",
+          "summary": "Malware types, social engineering, password attacks, injection, buffer overflow.",
+          "notes_md": "**Malware types:**\n- `Ransomware` — encrypts data, demands payment.\n- `Rootkit` — hides attacker presence at OS level.\n- `Spyware` — collects data without consent.\n- `Trojan` — malware disguised as legitimate software.\n- `Worm` — self-replicating, spreads without user action.\n\n**Injection attacks:** SQL injection, command injection, LDAP injection.\n**Password attacks:** Brute force · Dictionary · Rainbow table · Credential stuffing.",
+          "refs": ["SY0-701 Domain 2.2", "SY0-701 Domain 2.4"]
+        },
+        {
+          "id": "2.3",
+          "title": "Vulnerability scanning and assessment",
+          "summary": "CVSS scoring, CVE, passive vs active scanning, vulnerability management lifecycle.",
+          "notes_md": "**CVSS:** Common Vulnerability Scoring System — 0–10 scale.\n- `Base score` — intrinsic characteristics (exploitability, impact).\n- `Temporal score` — exploit maturity, patch availability.\n\n**Scan types:**\n- *Passive* — captures traffic, no direct probe.\n- *Active* — sends probes to discover open ports, services.\n- *Credentialed* — uses valid credentials for deeper scan.",
+          "refs": ["SY0-701 Domain 2.5"]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Security architecture models",
+          "summary": "On-prem vs cloud, hybrid, serverless, containerization, microservices.",
+          "notes_md": "**Cloud models:**\n- `IaaS` — infrastructure (VMs, storage) — most control.\n- `PaaS` — platform (runtime, middleware) — balanced.\n- `SaaS` — software (apps) — least control.\n\n**Shared responsibility model:** Cloud provider secures the *infrastructure*; customer secures data, identities, and configurations.",
+          "refs": ["SY0-701 Domain 3.1"]
+        },
+        {
+          "id": "3.2",
+          "title": "Network security concepts",
+          "summary": "Segmentation, DMZ, VPN, firewalls, IDS/IPS, network access control.",
+          "notes_md": "**Segmentation:**\n- `DMZ` (demilitarized zone) — buffer between internet and internal network.\n- `VLAN` — logical segmentation at layer 2.\n- `Zero Trust Network Access (ZTNA)` — no implicit trust inside the network.\n\n**Firewall types:** Packet filter · Stateful · Application-layer (WAF) · NGFW\n**IDS vs IPS:** IDS *detects* (passive); IPS *prevents* (inline, can block).",
+          "refs": ["SY0-701 Domain 3.2", "SY0-701 Domain 3.3"]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Identity and access management",
+          "summary": "Authentication factors, MFA, SSO, federation, privileged access management.",
+          "notes_md": "**Authentication factors:**\n- `Something you know` — password, PIN.\n- `Something you have` — smart card, hardware token.\n- `Something you are` — biometrics (fingerprint, retina).\n- `Somewhere you are` — geolocation.\n\n**MFA:** Requires 2+ factors. SMS OTP is weak (SIM-swap risk). TOTP/FIDO2 preferred.\n**PAM:** Privileged Access Management — session recording, just-in-time access.",
+          "refs": ["SY0-701 Domain 4.6"]
+        },
+        {
+          "id": "4.2",
+          "title": "Incident response process",
+          "summary": "NIST IR lifecycle: Preparation, Detection, Containment, Eradication, Recovery, Lessons Learned.",
+          "notes_md": "**NIST IR lifecycle:**\n1. *Preparation* — policies, playbooks, tools.\n2. *Detection & Analysis* — identify indicators, severity triage.\n3. *Containment* — limit spread (short-term vs long-term containment).\n4. *Eradication* — remove malware/attacker artifacts.\n5. *Recovery* — restore systems, monitor for recurrence.\n6. *Lessons Learned* — post-incident review, update controls.",
+          "refs": ["SY0-701 Domain 4.8"]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Risk management concepts",
+          "summary": "Risk types, risk appetite, qualitative vs quantitative analysis, risk treatment options.",
+          "notes_md": "**Risk = Threat × Vulnerability × Impact**\n\n**Treatment options:**\n- `Avoid` — stop the activity that creates risk.\n- `Transfer` — shift risk to third party (insurance, outsourcing).\n- `Mitigate` — reduce likelihood or impact with controls.\n- `Accept` — acknowledge and accept the residual risk.\n\n**Quantitative analysis:** ALE = SLE × ARO (Annual Loss Expectancy = Single Loss Expectancy × Annualized Rate of Occurrence).",
+          "refs": ["SY0-701 Domain 5.2"]
+        },
+        {
+          "id": "5.2",
+          "title": "Compliance and data privacy frameworks",
+          "summary": "GDPR, HIPAA, PCI-DSS, SOX; data classification, retention, sovereignty.",
+          "notes_md": "**Key frameworks:**\n- `GDPR` — EU data privacy; requires breach notification within 72 hours.\n- `HIPAA` — US healthcare data; PHI must be protected at rest and in transit.\n- `PCI-DSS` — payment card data; 12 requirements including encryption, access control.\n- `SOX` — US financial reporting integrity; IT controls for audit trails.\n\n**Data classification levels:** Public · Internal · Confidential · Restricted/Secret.",
+          "refs": ["SY0-701 Domain 5.4", "SY0-701 Domain 5.6"]
+        }
+      ]
+    }
+  ]
+}
