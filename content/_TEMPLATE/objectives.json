@@ -1,0 +1,24 @@
+{
+  "schema_version": "2.1",
+  "course_id": "example-cert-id",
+  "domains": [
+    {
+      "id": "1",
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Objective title",
+          "summary": "One-sentence summary shown under the domain.",
+          "notes_md": "Study notes. A safe markdown-lite subset is rendered: **bold**, *italic*, `code`, and - bullet lines.",
+          "refs": ["Optional reference or clause number"]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "objectives": [
+        { "id": "2.1", "title": "Objective title", "summary": "", "notes_md": "", "refs": [] }
+      ]
+    }
+  ]
+}

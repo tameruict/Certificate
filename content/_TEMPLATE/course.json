@@ -1,0 +1,20 @@
+{
+  "schema_version": "2.0",
+  "id": "example-cert-id",
+  "title": "Example Certification",
+  "provider": "Example Body",
+  "exam_code": "EX-100",
+  "category": "Security",
+  "summary": "One-line description shown on the course card.",
+  "status": "draft",
+  "availability": { "application": "draft" },
+  "domains": [
+    { "id": "1", "title": "First Domain" },
+    { "id": "2", "title": "Second Domain" }
+  ],
+  "question_bank": {
+    "path": "published-questions.v2.json",
+    "record_count": 0,
+    "status": "draft"
+  }
+}

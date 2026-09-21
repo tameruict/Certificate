@@ -26,7 +26,10 @@ CertLab Study is a static certification-study workspace with username/password a
 
    `config.example.js` is a safe template. `config.js` is ignored and must never be committed.
 
-4. Run `supabase/001_user_auth_and_archive.sql` in the Supabase SQL Editor. The migration creates `user_profiles` and `user_data_archive`, enables RLS, and limits every row to its authenticated owner.
+4. Run the migrations **in order** in the Supabase SQL Editor:
+   - `supabase/001_user_auth_and_archive.sql` — creates `user_profiles` and `user_data_archive`, enables RLS.
+   - `supabase/002_security_hardening.sql` — revokes leaked public function, tightens constraints.
+   - `supabase/003_expand_payload_and_versioning.sql` — raises payload cap to 1 MB, adds `content_version` column and covering index.
 5. In **Authentication → Providers → Email**, turn off **Confirm email** for this username-only flow, or confirm newly created users manually. Usernames are mapped to syntactically valid internal addresses (`<username>@users.certlab.app`) because Supabase Auth authenticates email/phone credentials. These synthetic addresses are not mailboxes.
 
 The app stores the normal study state in browser `localStorage` for offline resilience and upserts the same state to `user_data_archive` whenever it changes. Passwords are never stored in the application database; Supabase Auth manages password hashing and sessions.
@@ -46,13 +49,30 @@ python -m http.server 8000
 
 Open <http://localhost:8000/>.
 
+## Add a course
+
+Certifications are content, not code. Scaffold a new draft course, add questions,
+validate, then publish. See [docs/AUTHORING.md](docs/AUTHORING.md) for the full guide.
+
+```powershell
+node scripts/new-course.js --id iso-27001-2022 --title "ISO/IEC 27001:2022" --provider ISO --code 27001 --category Governance --domains "A.5:Organizational;A.6:People;A.7:Physical;A.8:Technological"
+node scripts/import-questions.js --course iso-27001-2022 --in raw-questions.json
+npm run validate
+```
+
 ## Validate
+
+```powershell
+npm run ci          # node --check + validate-content + node --test
+```
+
+Individual steps:
 
 ```powershell
 node --check lib/app.js
 node --check lib/supabase.js
 node scripts/validate-content.js
-node --test tests/content-foundation.test.js
+node --test
 ```
 
 ## Data-security notes

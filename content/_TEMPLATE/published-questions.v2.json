@@ -1,0 +1,41 @@
+{
+  "schema_version": "2.0",
+  "course_id": "example-cert-id",
+  "question_bank_status": "draft",
+  "content_origin": "original",
+  "records": [
+    {
+      "id": "example-cert-id-single-0001",
+      "type": "single_select",
+      "prompt": "Which statement is correct?",
+      "options": [
+        { "id": "option_1", "text": "The correct answer." },
+        { "id": "option_2", "text": "A distractor." },
+        { "id": "option_3", "text": "Another distractor." },
+        { "id": "option_4", "text": "Yet another distractor." }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "Explain WHY the answer is correct. Required before publishing.",
+      "domain_id": "1",
+      "status": "draft",
+      "difficulty": "medium",
+      "tags": ["example-tag"],
+      "provenance": { "kind": "original", "authoring_note": "Not an exam item." }
+    },
+    {
+      "id": "example-cert-id-multi-0001",
+      "type": "multi_select",
+      "prompt": "Select all that apply.",
+      "options": [
+        { "id": "option_1", "text": "A correct answer." },
+        { "id": "option_2", "text": "Another correct answer." },
+        { "id": "option_3", "text": "A distractor." }
+      ],
+      "correct_option_ids": ["option_1", "option_2"],
+      "explanation": "Explain why both options are correct.",
+      "domain_id": "2",
+      "status": "draft",
+      "provenance": { "kind": "original" }
+    }
+  ]
+}

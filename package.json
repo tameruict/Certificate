@@ -1,0 +1,14 @@
+{
+  "name": "certlab-study",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Catalog-driven certification study workspace.",
+  "scripts": {
+    "check": "node --check lib/app.js && node --check lib/supabase.js",
+    "validate": "node scripts/validate-content.js",
+    "test": "node --test",
+    "new-course": "node scripts/new-course.js",
+    "import": "node scripts/import-questions.js",
+    "ci": "npm run check && npm run validate && npm test"
+  }
+}
