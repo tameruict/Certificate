@@ -10,3 +10,6 @@ __pycache__/
 /config.local.js
 
 .agents/
+
+# graphify knowledge graph (generated). Commit docs/graph.svg instead.
+graphify-out/

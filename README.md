@@ -29,7 +29,7 @@ CertLab Study is a static certification-study workspace with username/password a
 4. Run the migrations **in order** in the Supabase SQL Editor:
    - `supabase/001_user_auth_and_archive.sql` — creates `user_profiles` and `user_data_archive`, enables RLS.
    - `supabase/002_security_hardening.sql` — revokes leaked public function, tightens constraints.
-   - `supabase/003_expand_payload_and_versioning.sql` — raises payload cap to 1 MB, adds `content_version` column and covering index.
+   - `supabase/004_drop_unused_index.sql` — drops the unused `user_data_archive_updated_at_idx` (all queries are point lookups on the primary key).
 5. In **Authentication → Providers → Email**, turn off **Confirm email** for this username-only flow, or confirm newly created users manually. Usernames are mapped to syntactically valid internal addresses (`<username>@users.certlab.app`) because Supabase Auth authenticates email/phone credentials. These synthetic addresses are not mailboxes.
 
 The app stores the normal study state in browser `localStorage` for offline resilience and upserts the same state to `user_data_archive` whenever it changes. Passwords are never stored in the application database; Supabase Auth manages password hashing and sessions.
@@ -73,6 +73,22 @@ node --check lib/app.js
 node --check lib/supabase.js
 node scripts/validate-content.js
 node --test
+```
+
+## Architecture
+
+The map below is a [Graphify](https://github.com/safishamsi/graphify) knowledge graph of this repo: 268 nodes, 494 edges, 16 communities (app shell, auth, practice UI, content schema, validation, and the question-bank migration).
+
+![CertLab Study knowledge graph](docs/graph.svg)
+
+`docs/graph.svg` is the committed snapshot GitHub can render. The interactive graph (`graphify-out/graph.html`) and `GRAPH_REPORT.md` stay local — `graphify-out/` is gitignored.
+
+Rebuild after code changes:
+
+```powershell
+graphify update .
+graphify export svg
+Copy-Item -Force graphify-out\graph.svg docs\graph.svg
 ```
 
 ## Data-security notes
