@@ -38,3 +38,6 @@
 .auth-switch{width:100%;margin-top:12px;background:transparent;color:var(--accent)}
 .logout-btn{width:100%;margin-top:18px}
 @media(max-width:480px){.auth-shell{padding:12px}.auth-card{padding:22px 18px}}
+
+/* P0 keyboard focus: cards and flashcard are role=button elements, so give them a visible focus ring. */
+.course-card:focus-visible,.domain-card:focus-visible,.flashcard:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
