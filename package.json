@@ -3,12 +3,16 @@
   "version": "1.0.0",
   "private": true,
   "description": "Catalog-driven certification study workspace.",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
-    "check": "node --check lib/app.js && node --check lib/supabase.js",
-    "validate": "node scripts/validate-content.js",
-    "test": "node --test",
-    "new-course": "node scripts/new-course.js",
+    "check": "node scripts/check-all.js",
+    "ci": "npm run check && npm run validate && npm test",
     "import": "node scripts/import-questions.js",
-    "ci": "npm run check && npm run validate && npm test"
+    "lint": "node scripts/lint.js",
+    "new-course": "node scripts/new-course.js",
+    "test": "node --test",
+    "validate": "node scripts/validate-content.js"
   }
 }
