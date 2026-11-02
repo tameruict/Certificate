@@ -54,3 +54,5 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,[r
 .auth-username-notice{margin:0;color:var(--muted);font-size:13px;line-height:1.6;border-left:3px solid var(--accent);padding:8px 12px;background:#0d1729;border-radius:0 10px 10px 0}
 /* Phase 2: reduced motion */
 @media (prefers-reduced-motion: reduce){.view{animation:none}.loader{animation:none}}
+/* P0 keyboard focus: cards and flashcard are role=button elements, so give them a visible focus ring. */
+.course-card:focus-visible,.domain-card:focus-visible,.flashcard:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
