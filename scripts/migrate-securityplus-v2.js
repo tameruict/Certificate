@@ -1,3 +1,23 @@
+// Security+ legacy migration — ALREADY APPLIED, RETAINED FOR REFERENCE ONLY.
+//
+// Do NOT wire this script into CI and do NOT re-run it casually. Its
+// outputs are already published in the repository and are pinned by
+// tests/content-foundation.test.js, which rebuilds the migration from
+// questions.json and asserts an exact match:
+//   - content/comptia-security-plus-sy0-701/published-questions.v2.json
+//     (302 records, status "published", course.json record_count 302)
+//   - content/comptia-security-plus-sy0-701/needs-review-questions.v2.json
+//     (742 records, status "needs_review", explicitly excluded from the app)
+//   - content/reports/securityplus-migration-report.json
+// Re-running it would rewrite those three files from questions.json.
+// It is kept only so the original migration remains auditable and
+// reproducible (for example, `node scripts/migrate-securityplus-v2.js --check`
+// verifies the committed outputs are current). Deleting it was considered
+// and rejected in the Phase 3 code/CI PR: the migration is the provenance
+// record for the published bank, and the script is its executable form.
+// If the 742 needs_review records are ever editorially promoted, that is
+// a content decision for a separate PR, not a re-run of this script.
+
 'use strict';
 const crypto = require('node:crypto');
 const fs = require('node:fs');
