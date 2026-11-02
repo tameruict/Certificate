@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -6,12 +6,13 @@
   <meta name="theme-color" content="#101828">
   <meta name="description" content="A catalog-driven certification study workspace.">
   <title>CertLab Study</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2366d5f2'/%3E%3Ctext x='32' y='42' font-family='Arial,sans-serif' font-size='28' font-weight='900' text-anchor='middle' fill='%2306111c'%3ECL%3C/text%3E%3C/svg%3E">
   <link rel="stylesheet" href="assets/app.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
   <div id="app" class="app-shell" aria-live="polite">
-    <main class="loading-screen"><div class="loader"></div><h1>Loading your study catalog</h1><p>Preparing courses, objectives, and practice questions.</p></main>
+    <main class="loading-screen"><div class="loader"></div><h1>Loading your study catalog</h1><p id="loading-status" role="status">Preparing courses, objectives, and practice questions.</p></main>
   </div>
   <noscript>This study app needs JavaScript enabled.</noscript>
   <!-- config.js is an optional, ignored local override. Production uses /api/config. -->
