@@ -4,11 +4,12 @@
   "private": true,
   "description": "Catalog-driven certification study workspace.",
   "scripts": {
-    "check": "node --check lib/app.js && node --check lib/supabase.js",
+    "check": "node --check lib/app.js && node --check lib/supabase.js && node --check lib/markdown.js && node --check lib/writeups.js && node --check lib/articles.js && node --check scripts/import-writeups.js",
     "validate": "node scripts/validate-content.js",
     "test": "node --test",
     "new-course": "node scripts/new-course.js",
     "import": "node scripts/import-questions.js",
+    "import-writeups": "node scripts/import-writeups.js",
     "ci": "npm run check && npm run validate && npm test"
   }
 }
