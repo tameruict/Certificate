@@ -17,7 +17,7 @@ test('markdown renderer supports headings, tables and fenced code', async () => 
   const { html, headings } = renderMarkdownWithToc('# Title\n\n## Section\n\n| A | B |\n|---|---|\n| 1 | 2 |\n\n```bash\necho hi\n```');
   assert.equal(headings.length, 2);
   assert.equal(headings[0].id, 'title');
-  assert.match(html, /<h1 id="title">Title<\/h1>/);
+  assert.match(html, /<h1 id="title" tabindex="-1">Title<\/h1>/);
   assert.match(html, /<table>/);
   assert.match(html, /class="language-bash"/);
 });
