@@ -20,4 +20,14 @@ test('writeups filter is diacritic-insensitive and language-aware', async () => 
     coverImageUrl('/images/cap/cap-02.png', 'https://x.supabase.co/storage/v1/object/public/writeup-images'),
     'https://x.supabase.co/storage/v1/object/public/writeup-images/cap/cap-02.png',
   );
+  // Absolute source-site image URLs rewrite to Storage too (critical-ops,
+  // jinja-care, spookifier), otherwise CSP img-src blocks them in detail.
+  assert.equal(
+    rewriteImageUrls('![alt](https://tameruict.github.io/images/critical-ops/critical-ops-05.png)', 'https://x.supabase.co/storage/v1/object/public/writeup-images'),
+    '![alt](https://x.supabase.co/storage/v1/object/public/writeup-images/critical-ops/critical-ops-05.png)',
+  );
+  assert.equal(
+    rewriteImageUrls('![alt](https://tameruict.github.io/images/cap/cap-01.png)', ''),
+    '![alt](https://tameruict.github.io/images/cap/cap-01.png)',
+  );
 });
