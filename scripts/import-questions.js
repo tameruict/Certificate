@@ -14,7 +14,7 @@
 //   domain   <- domain_id | domain | d
 //   explanation <- explanation | rationale | e
 //   type     <- type (single_select | multi_select); inferred from #correct otherwise
-//   difficulty, tags  <- passed through when present (optional v2.1 fields)
+//   objective_id, difficulty, tags <- passed through when present (optional v2.1 fields)
 //
 // Usage:
 //   node scripts/import-questions.js --course iso-27001-2022 --in raw.json
@@ -100,6 +100,8 @@ function normalizeRaw(raw, index, domainIds, occurrences, courseId, warnings) {
     status: 'draft',
     provenance: { kind: 'imported', source_record_index: index }
   };
+  const objectiveId = first(raw, ['objective_id', 'objectiveId', 'objective']);
+  if (objectiveId) record.objective_id = String(objectiveId).trim();
   if (raw.difficulty) record.difficulty = String(raw.difficulty).trim();
   if (Array.isArray(raw.tags) && raw.tags.length) record.tags = raw.tags.map(String);
   return record;

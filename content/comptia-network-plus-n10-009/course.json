@@ -1,0 +1,51 @@
+{
+  "schema_version": "2.0",
+  "id": "comptia-network-plus-n10-009",
+  "title": "CompTIA Network+ Study Bank",
+  "provider": "CompTIA",
+  "exam_code": "N10-009",
+  "category": "Networking",
+  "accent": "#6366f1",
+  "summary": "Core networking track covering the OSI model, IPv4/IPv6 subnetting, routing & switching, wireless, network operations, security hardening, and troubleshooting.",
+  "status": "published",
+  "availability": {
+    "application": "published"
+  },
+  "domains": [
+    {
+      "id": "1",
+      "title": "Networking Concepts",
+      "weight": 23,
+      "description": "OSI layers, encapsulation, ports & protocols, IPv4 subnetting, IPv6 addressing, cloud/modern network architectures, and physical media."
+    },
+    {
+      "id": "2",
+      "title": "Network Implementation",
+      "weight": 20,
+      "description": "Routing technologies (OSPF, BGP, FHRP), switching (VLANs, 802.1Q trunking, STP, LACP), and 802.11 wireless deployments."
+    },
+    {
+      "id": "3",
+      "title": "Network Operations",
+      "weight": 19,
+      "description": "Organizational documentation, telemetry (SNMP, Syslog, NetFlow), DNS record types, DHCP relay/scopes, NTP, and high availability."
+    },
+    {
+      "id": "4",
+      "title": "Network Security",
+      "weight": 14,
+      "description": "Defense-in-depth, 802.1X/NAC, RADIUS/TACACS+, Layer 2 attacks (ARP spoofing, DHCP snooping, DAI), VPNs, and firewall ACLs."
+    },
+    {
+      "id": "5",
+      "title": "Network Troubleshooting",
+      "weight": 24,
+      "description": "CompTIA 7-step troubleshooting methodology, cable/signal issues, Layer 2/Layer 3/wireless faults, and CLI/hardware diagnostic tools."
+    }
+  ],
+  "question_bank": {
+    "path": "published-questions.v2.json",
+    "record_count": 25,
+    "status": "published"
+  }
+}

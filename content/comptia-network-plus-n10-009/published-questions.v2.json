@@ -1,0 +1,483 @@
+{
+  "schema_version": "2.0",
+  "course_id": "comptia-network-plus-n10-009",
+  "question_bank_status": "published",
+  "content_origin": "original",
+  "records": [
+    {
+      "id": "netplus-n10-009-q001",
+      "type": "single_select",
+      "prompt": "At which layer of the OSI model do switches make forwarding decisions using 48-bit MAC addresses and 802.1Q VLAN tags?",
+      "options": [
+        { "id": "option_1", "text": "Layer 2 — Data Link" },
+        { "id": "option_2", "text": "Layer 1 — Physical" },
+        { "id": "option_3", "text": "Layer 3 — Network" },
+        { "id": "option_4", "text": "Layer 4 — Transport" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "Ethernet frames, MAC addresses, and 802.1Q VLAN headers operate at Layer 2 (Data Link) of the OSI model.",
+      "domain_id": "1",
+      "objective_id": "1.1",
+      "difficulty": "easy",
+      "tags": ["osi-model", "layer-2", "switching"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original CompTIA Network+ N10-009 study question." }
+    },
+    {
+      "id": "netplus-n10-009-q002",
+      "type": "single_select",
+      "prompt": "A network engineer needs a subnet mask that supports at least 50 usable IPv4 host addresses while conserving address space. Which CIDR prefix should be selected?",
+      "options": [
+        { "id": "option_1", "text": "/26 (255.255.255.192)" },
+        { "id": "option_2", "text": "/27 (255.255.255.224)" },
+        { "id": "option_3", "text": "/25 (255.255.255.128)" },
+        { "id": "option_4", "text": "/28 (255.255.255.240)" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "A /26 prefix leaves 6 host bits: 2^6 - 2 = 62 usable host addresses, which is the smallest block that fits 50 hosts (/27 only provides 30 usable hosts).",
+      "domain_id": "1",
+      "objective_id": "1.2",
+      "difficulty": "medium",
+      "tags": ["subnetting", "ipv4", "cidr"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original CompTIA Network+ N10-009 study question." }
+    },
+    {
+      "id": "netplus-n10-009-q003",
+      "type": "single_select",
+      "prompt": "Which IPv6 address prefix identifies a non-routable Link-Local unicast address used for Neighbor Discovery on the local network segment?",
+      "options": [
+        { "id": "option_1", "text": "fe80::/10" },
+        { "id": "option_2", "text": "2000::/3" },
+        { "id": "option_3", "text": "ff00::/8" },
+        { "id": "option_4", "text": "fc00::/7" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "IPv6 Link-Local addresses always fall in fe80::/10 (commonly fe80::/64) and are automatically configured on every IPv6-enabled interface for local link communication.",
+      "domain_id": "1",
+      "objective_id": "1.2",
+      "difficulty": "easy",
+      "tags": ["ipv6", "link-local", "addressing"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original CompTIA Network+ N10-009 study question." }
+    },
+    {
+      "id": "netplus-n10-009-q004",
+      "type": "multi_select",
+      "prompt": "Which TWO protocols operate over UDP by default and prioritize low overhead over connection-oriented delivery guarantees?",
+      "options": [
+        { "id": "option_1", "text": "DHCP (ports 67/68)" },
+        { "id": "option_2", "text": "TFTP (port 69)" },
+        { "id": "option_3", "text": "SSH (port 22)" },
+        { "id": "option_4", "text": "HTTPS (port 443)" }
+      ],
+      "correct_option_ids": ["option_1", "option_2"],
+      "explanation": "DHCP (UDP 67/68) and TFTP (UDP 69) are connectionless UDP protocols, whereas SSH (TCP 22) and HTTPS (TCP 443) require reliable TCP sessions.",
+      "domain_id": "1",
+      "objective_id": "1.1",
+      "difficulty": "easy",
+      "tags": ["ports", "udp", "protocols"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original CompTIA Network+ N10-009 study question." }
+    },
+    {
+      "id": "netplus-n10-009-q005",
+      "type": "single_select",
+      "prompt": "A campus backbone link spans 8 kilometers between two buildings. Which cabling media is required to support this distance without intermediate repeaters?",
+      "options": [
+        { "id": "option_1", "text": "Single-mode fiber (SMF)" },
+        { "id": "option_2", "text": "Multimode fiber (MMF OM3)" },
+        { "id": "option_3", "text": "Cat 6A unshielded twisted pair (UTP)" },
+        { "id": "option_4", "text": "Direct-attach twinaxial copper (DAC)" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "Single-mode fiber (SMF) uses laser light over a 9-micron core to span 10 km to 40+ km, whereas multimode fiber tops out around 300–550 meters at 10 Gbps and Cat 6A copper is limited to 100 meters.",
+      "domain_id": "1",
+      "objective_id": "1.2",
+      "difficulty": "easy",
+      "tags": ["fiber", "smf", "cabling"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original CompTIA Network+ N10-009 study question." }
+    },
+    {
+      "id": "netplus-n10-009-q006",
+      "type": "single_select",
+      "prompt": "Which dynamic routing protocol is an Exterior Gateway Protocol (EGP) that exchanges path-vector reachability information between Autonomous Systems (AS) over TCP port 179?",
+      "options": [
+        { "id": "option_1", "text": "BGP (Border Gateway Protocol)" },
+        { "id": "option_2", "text": "OSPF (Open Shortest Path First)" },
+        { "id": "option_3", "text": "RIPv2 (Routing Information Protocol)" },
+        { "id": "option_4", "text": "EIGRP (Enhanced Interior Gateway Routing Protocol)" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "BGP is the standard Exterior Gateway Protocol (path-vector) used across the internet and enterprise multi-homed WANs to route between Autonomous Systems over TCP port 179.",
+      "domain_id": "2",
+      "objective_id": "2.1",
+      "difficulty": "easy",
+      "tags": ["bgp", "routing", "wan"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original CompTIA Network+ N10-009 study question." }
+    },
+    {
+      "id": "netplus-n10-009-q007",
+      "type": "single_select",
+      "prompt": "Two core routers are configured to share a single virtual default gateway IP address so hosts do not lose external connectivity if the active router fails. Which protocol category provides this capability?",
+      "options": [
+        { "id": "option_1", "text": "FHRP (First Hop Redundancy Protocol, such as VRRP or HSRP)" },
+        { "id": "option_2", "text": "STP (Spanning Tree Protocol)" },
+        { "id": "option_3", "text": "LLDP (Link Layer Discovery Protocol)" },
+        { "id": "option_4", "text": "MPLS (Multiprotocol Label Switching)" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "First Hop Redundancy Protocols (VRRP, HSRP, GLBP) present a shared Virtual IP (VIP) and Virtual MAC address to LAN hosts for automatic gateway failover.",
+      "domain_id": "2",
+      "objective_id": "2.1",
+      "difficulty": "medium",
+      "tags": ["fhrp", "vrrp", "high-availability"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original CompTIA Network+ N10-009 study question." }
+    },
+    {
+      "id": "netplus-n10-009-q008",
+      "type": "single_select",
+      "prompt": "An administrator connects two switches with four 10GbE cables to increase bandwidth and provide link-level redundancy without STP blocking three of the four links. Which IEEE standard should be configured on both switches?",
+      "options": [
+        { "id": "option_1", "text": "IEEE 802.3ad (LACP link aggregation)" },
+        { "id": "option_2", "text": "IEEE 802.1X (Port-based NAC)" },
+        { "id": "option_3", "text": "IEEE 802.11ax (Wi-Fi 6)" },
+        { "id": "option_4", "text": "IEEE 802.3af (PoE)" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "IEEE 802.3ad Link Aggregation Control Protocol (LACP) combines multiple physical links into a single logical EtherChannel/port-channel interface.",
+      "domain_id": "2",
+      "objective_id": "2.2",
+      "difficulty": "medium",
+      "tags": ["lacp", "802.3ad", "switching"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original CompTIA Network+ N10-009 study question." }
+    },
+    {
+      "id": "netplus-n10-009-q009",
+      "type": "single_select",
+      "prompt": "When designing a 2.4 GHz 802.11 wireless deployment in North America, which three channels should be used to avoid adjacent-channel frequency overlap?",
+      "options": [
+        { "id": "option_1", "text": "Channels 1, 6, and 11" },
+        { "id": "option_2", "text": "Channels 1, 2, and 3" },
+        { "id": "option_3", "text": "Channels 36, 40, and 44" },
+        { "id": "option_4", "text": "Channels 2, 7, and 12" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "In the 2.4 GHz band, each 20/22 MHz channel overlaps with neighboring channels; only channels 1, 6, and 11 are spaced 25 MHz apart with zero frequency overlap.",
+      "domain_id": "2",
+      "objective_id": "2.2",
+      "difficulty": "easy",
+      "tags": ["wireless", "802.11", "rf-channels"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original CompTIA Network+ N10-009 study question." }
+    },
+    {
+      "id": "netplus-n10-009-q010",
+      "type": "single_select",
+      "prompt": "What is the role of IEEE 802.1Q on a switch-to-switch trunk link?",
+      "options": [
+        { "id": "option_1", "text": "It inserts a 4-byte VLAN tag into Ethernet frames so traffic from multiple VLANs can traverse the same trunk link." },
+        { "id": "option_2", "text": "It encrypts IP payloads across public WAN connections." },
+        { "id": "option_3", "text": "It assigns dynamic IPv4 addresses to wireless clients." },
+        { "id": "option_4", "text": "It converts fiber-optic signals into copper electrical signals." }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "802.1Q is the IEEE standard for VLAN tagging on Ethernet trunk ports, adding a 4-byte header containing the 12-bit VLAN ID.",
+      "domain_id": "2",
+      "objective_id": "2.2",
+      "difficulty": "easy",
+      "tags": ["vlan", "802.1q", "trunking"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original CompTIA Network+ N10-009 study question." }
+    },
+    {
+      "id": "netplus-n10-009-q011",
+      "type": "single_select",
+      "prompt": "Clients in VLAN 20 cannot obtain IPv4 addresses from a centralized DHCP server located in VLAN 100 across a Layer 3 router. What should the engineer configure on the router's VLAN 20 interface?",
+      "options": [
+        { "id": "option_1", "text": "A DHCP Relay agent (IP Helper address)" },
+        { "id": "option_2", "text": "A DNS PTR record" },
+        { "id": "option_3", "text": "Port mirroring (SPAN)" },
+        { "id": "option_4", "text": "Proxy ARP disabled" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "Routers drop Layer 2 broadcasts (such as DHCP Discover) by default. A DHCP Relay (IP Helper) intercepts the broadcast and forwards it as unicast to the central DHCP server.",
+      "domain_id": "3",
+      "objective_id": "3.1",
+      "difficulty": "medium",
+      "tags": ["dhcp", "dhcp-relay", "routing"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original CompTIA Network+ N10-009 study question." }
+    },
+    {
+      "id": "netplus-n10-009-q012",
+      "type": "single_select",
+      "prompt": "Which DNS record type is used to store Sender Policy Framework (SPF) and DomainKeys Identified Mail (DKIM) policies to combat email spoofing?",
+      "options": [
+        { "id": "option_1", "text": "TXT" },
+        { "id": "option_2", "text": "MX" },
+        { "id": "option_3", "text": "CNAME" },
+        { "id": "option_4", "text": "PTR" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "SPF, DKIM public keys, and DMARC policies are published in DNS TXT (Text) resource records.",
+      "domain_id": "3",
+      "objective_id": "3.1",
+      "difficulty": "easy",
+      "tags": ["dns", "txt-record", "email-security"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original CompTIA Network+ N10-009 study question." }
+    },
+    {
+      "id": "netplus-n10-009-q013",
+      "type": "single_select",
+      "prompt": "Why should a network operations team migrate devices from SNMPv2c to SNMPv3?",
+      "options": [
+        { "id": "option_1", "text": "SNMPv3 provides cryptographic authentication and encryption instead of cleartext community strings." },
+        { "id": "option_2", "text": "SNMPv3 replaces the need for NTP time synchronization." },
+        { "id": "option_3", "text": "SNMPv3 automatically upgrades copper links to 100GbE." },
+        { "id": "option_4", "text": "SNMPv3 eliminates MIBs and OIDs." }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "SNMPv1 and SNMPv2c transmit community strings and telemetry in cleartext, whereas SNMPv3 supports user authentication and payload encryption (authPriv).",
+      "domain_id": "3",
+      "objective_id": "3.2",
+      "difficulty": "easy",
+      "tags": ["snmpv3", "monitoring", "security"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original CompTIA Network+ N10-009 study question." }
+    },
+    {
+      "id": "netplus-n10-009-q014",
+      "type": "single_select",
+      "prompt": "A SOC analyst wants to identify which internal host is generating the highest volume of outbound HTTPS traffic by examining source/destination IPs, ports, and byte counts without capturing full packet payloads. Which technology best fits?",
+      "options": [
+        { "id": "option_1", "text": "NetFlow / IPFIX" },
+        { "id": "option_2", "text": "SNMP Traps" },
+        { "id": "option_3", "text": "ICMP Echo Requests" },
+        { "id": "option_4", "text": "TFTP configuration backup" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "NetFlow / IPFIX exports summarized flow metadata (5-tuple, byte/packet counters, timestamps) ideal for bandwidth accounting and anomaly detection.",
+      "domain_id": "3",
+      "objective_id": "3.2",
+      "difficulty": "medium",
+      "tags": ["netflow", "ipfix", "telemetry"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original CompTIA Network+ N10-009 study question." }
+    },
+    {
+      "id": "netplus-n10-009-q015",
+      "type": "single_select",
+      "prompt": "In Syslog (RFC 5424), which numerical severity level represents the most severe condition (Emergency: system is unusable)?",
+      "options": [
+        { "id": "option_1", "text": "Severity 0" },
+        { "id": "option_2", "text": "Severity 7" },
+        { "id": "option_3", "text": "Severity 4" },
+        { "id": "option_4", "text": "Severity 10" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "Syslog severities run from 0 (Emergency — highest severity) to 7 (Debug — lowest severity).",
+      "domain_id": "3",
+      "objective_id": "3.2",
+      "difficulty": "easy",
+      "tags": ["syslog", "logging", "operations"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original CompTIA Network+ N10-009 study question." }
+    },
+    {
+      "id": "netplus-n10-009-q016",
+      "type": "multi_select",
+      "prompt": "An attacker connects a laptop to a conference room switch port, runs a rogue DHCP server, and performs ARP spoofing to intercept traffic. Which TWO switch security features should be enabled together to prevent both attacks?",
+      "options": [
+        { "id": "option_1", "text": "DHCP Snooping" },
+        { "id": "option_2", "text": "Dynamic ARP Inspection (DAI)" },
+        { "id": "option_3", "text": "Jumbo Frames (MTU 9000)" },
+        { "id": "option_4", "text": "Split Horizon" }
+      ],
+      "correct_option_ids": ["option_1", "option_2"],
+      "explanation": "DHCP Snooping drops DHCP offers from untrusted ports and builds a trusted MAC-to-IP binding database; Dynamic ARP Inspection (DAI) uses that database to drop spoofed ARP replies.",
+      "domain_id": "4",
+      "objective_id": "4.1",
+      "difficulty": "medium",
+      "tags": ["dhcp-snooping", "dai", "layer-2-security"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original CompTIA Network+ N10-009 study question." }
+    },
+    {
+      "id": "netplus-n10-009-q017",
+      "type": "single_select",
+      "prompt": "Which switch feature immediately places an access port into an err-disabled state if it receives a Spanning Tree BPDU, preventing an unauthorized switch from becoming the Root Bridge?",
+      "options": [
+        { "id": "option_1", "text": "BPDU Guard" },
+        { "id": "option_2", "text": "Port Mirroring" },
+        { "id": "option_3", "text": "IGMP Snooping" },
+        { "id": "option_4", "text": "802.1Q Native VLAN" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "BPDU Guard protects PortFast-enabled access ports by shutting down the port (err-disable) if any Spanning Tree BPDU frame arrives.",
+      "domain_id": "4",
+      "objective_id": "4.1",
+      "difficulty": "medium",
+      "tags": ["bpdu-guard", "stp", "layer-2-security"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original CompTIA Network+ N10-009 study question." }
+    },
+    {
+      "id": "netplus-n10-009-q018",
+      "type": "single_select",
+      "prompt": "In an IEEE 802.1X port-based authentication deployment, what is the role of the network switch or wireless controller that blocks network access until the RADIUS server validates the user's credentials?",
+      "options": [
+        { "id": "option_1", "text": "Authenticator" },
+        { "id": "option_2", "text": "Supplicant" },
+        { "id": "option_3", "text": "Authentication Server" },
+        { "id": "option_4", "text": "Certificate Authority" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "In 802.1X, the client endpoint is the Supplicant, the switch or wireless controller is the Authenticator, and the RADIUS server is the Authentication Server.",
+      "domain_id": "4",
+      "objective_id": "4.1",
+      "difficulty": "medium",
+      "tags": ["802.1x", "nac", "radius"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original CompTIA Network+ N10-009 study question." }
+    },
+    {
+      "id": "netplus-n10-009-q019",
+      "type": "single_select",
+      "prompt": "How does TACACS+ differ from RADIUS when used for network device administration (AAA)?",
+      "options": [
+        { "id": "option_1", "text": "TACACS+ separates Authentication, Authorization, and Accounting allowing granular per-command authorization over TCP port 49, and encrypts the entire packet body." },
+        { "id": "option_2", "text": "TACACS+ uses UDP ports 1812/1813 and only encrypts the password attribute." },
+        { "id": "option_3", "text": "TACACS+ is designed exclusively for public Wi-Fi captive portals." },
+        { "id": "option_4", "text": "TACACS+ cannot log administrative commands." }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "TACACS+ uses TCP 49, encrypts the entire payload, and separates AAA functions for per-CLI-command authorization on routers and switches.",
+      "domain_id": "4",
+      "objective_id": "4.1",
+      "difficulty": "hard",
+      "tags": ["tacacs", "radius", "aaa"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original CompTIA Network+ N10-009 study question." }
+    },
+    {
+      "id": "netplus-n10-009-q020",
+      "type": "single_select",
+      "prompt": "According to the CompTIA networking troubleshooting methodology, what is the immediate next step AFTER testing a theory and confirming the root cause of a network outage?",
+      "options": [
+        { "id": "option_1", "text": "Establish a plan of action to resolve the problem and identify potential effects" },
+        { "id": "option_2", "text": "Document findings, actions, and outcomes immediately before fixing the issue" },
+        { "id": "option_3", "text": "Reboot all core switches simultaneously during peak business hours" },
+        { "id": "option_4", "text": "Establish a new theory of probable cause" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "Once the theory is confirmed (Step 3), Step 4 is to establish a plan of action to resolve the problem and identify potential impacts before implementing the fix (Step 5).",
+      "domain_id": "5",
+      "objective_id": "5.1",
+      "difficulty": "easy",
+      "tags": ["troubleshooting", "methodology"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original CompTIA Network+ N10-009 study question." }
+    },
+    {
+      "id": "netplus-n10-009-q021",
+      "type": "single_select",
+      "prompt": "A workstation displays the IPv4 address 169.254.42.19/16 and cannot reach the default gateway or the internet, while neighboring PCs on the same switch work normally. What is the most likely cause?",
+      "options": [
+        { "id": "option_1", "text": "The workstation failed to reach the DHCP server (e.g., wrong access VLAN or DHCP exhaustion) and self-assigned an APIPA address." },
+        { "id": "option_2", "text": "The workstation's DNS server returned an NXDOMAIN response." },
+        { "id": "option_3", "text": "The border firewall is blocking outbound TCP port 443." },
+        { "id": "option_4", "text": "The workstation has a valid public static IPv4 address." }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "An address in 169.254.0.0/16 is an Automatic Private IP Addressing (APIPA) address assigned when a DHCP client cannot contact a DHCP server.",
+      "domain_id": "5",
+      "objective_id": "5.1",
+      "difficulty": "easy",
+      "tags": ["apipa", "dhcp", "troubleshooting"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original CompTIA Network+ N10-009 study question." }
+    },
+    {
+      "id": "netplus-n10-009-q022",
+      "type": "single_select",
+      "prompt": "An underground fiber-optic cable between two data centers is severed by construction equipment. Which specialized hardware tool transmits laser pulses and measures backscattered light to pinpoint the exact distance to the fiber break?",
+      "options": [
+        { "id": "option_1", "text": "OTDR (Optical Time-Domain Reflectometer)" },
+        { "id": "option_2", "text": "Tone generator and inductive probe" },
+        { "id": "option_3", "text": "RJ45 pinout continuity tester" },
+        { "id": "option_4", "text": "Wi-Fi spectrum analyzer" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "An OTDR (Optical Time-Domain Reflectometer) injects light pulses into a fiber strand and analyzes reflected light to locate breaks, splices, and attenuation distance.",
+      "domain_id": "5",
+      "objective_id": "5.1",
+      "difficulty": "medium",
+      "tags": ["otdr", "fiber", "tools"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original CompTIA Network+ N10-009 study question." }
+    },
+    {
+      "id": "netplus-n10-009-q023",
+      "type": "single_select",
+      "prompt": "A switch port connected to a legacy industrial server shows high late collisions, FCS/CRC errors, and severely degraded throughput, even though link lights are green. What is the most likely cause?",
+      "options": [
+        { "id": "option_1", "text": "A duplex mismatch (one side hardcoded to full-duplex while the other defaulted to half-duplex)" },
+        { "id": "option_2", "text": "An expired SSL/TLS certificate on the web server" },
+        { "id": "option_3", "text": "Incorrect BGP Autonomous System number" },
+        { "id": "option_4", "text": "Missing DNS MX record" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "When one interface is hardcoded to full-duplex and the peer uses auto-negotiation, the peer falls back to half-duplex, causing late collisions and CRC errors under load.",
+      "domain_id": "5",
+      "objective_id": "5.1",
+      "difficulty": "medium",
+      "tags": ["duplex-mismatch", "layer-1-2", "troubleshooting"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original CompTIA Network+ N10-009 study question." }
+    },
+    {
+      "id": "netplus-n10-009-q024",
+      "type": "single_select",
+      "prompt": "Users report that small SSH packets and ICMP pings traverse an IPSec VPN tunnel without issue, but large HTTPS file transfers stall whenever the Don't Fragment (DF) bit is set. What is the root cause?",
+      "options": [
+        { "id": "option_1", "text": "MTU black hole / Path MTU Discovery failure caused by IPSec encapsulation overhead exceeding the 1500-byte transit MTU" },
+        { "id": "option_2", "text": "Port security MAC sticky violation on the local switch" },
+        { "id": "option_3", "text": "Incorrect NTP stratum level" },
+        { "id": "option_4", "text": "Exhausted IPv6 address pool" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "IPSec headers add overhead to packets; if transit MTU is 1500 bytes and DF is set (or ICMP Fragmentation Needed is blocked), large frames are dropped while small pings succeed. Lowering TCP MSS / tunnel MTU fixes it.",
+      "domain_id": "5",
+      "objective_id": "5.1",
+      "difficulty": "hard",
+      "tags": ["mtu", "vpn", "troubleshooting"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original CompTIA Network+ N10-009 study question." }
+    },
+    {
+      "id": "netplus-n10-009-q025",
+      "type": "single_select",
+      "prompt": "Which command-line tool queries DNS servers directly and displays detailed resource record sections (QUESTION, ANSWER, AUTHORITY, ADDITIONAL) along with query time and server IP?",
+      "options": [
+        { "id": "option_1", "text": "dig" },
+        { "id": "option_2", "text": "arp" },
+        { "id": "option_3", "text": "route" },
+        { "id": "option_4", "text": "netstat" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "The dig (Domain Information Groper) utility performs DNS lookups and prints the full DNS response header and QUESTION/ANSWER/AUTHORITY/ADDITIONAL sections.",
+      "domain_id": "5",
+      "objective_id": "5.1",
+      "difficulty": "easy",
+      "tags": ["dig", "dns", "cli-tools"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original CompTIA Network+ N10-009 study question." }
+    }
+  ]
+}

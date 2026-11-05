@@ -1,0 +1,103 @@
+{
+  "schema_version": "2.1",
+  "course_id": "aws-cloud-practitioner-clf-c02",
+  "domains": [
+    {
+      "id": "cloud_concepts",
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Define the benefits of the AWS Cloud",
+          "summary": "Trade capital expense (CapEx) for variable expense (OpEx), economies of scale, elasticity, agility, global reach, and stop guessing capacity.",
+          "notes_md": "**Six Advantages of Cloud Computing:**\n- `Trade CapEx for OpEx` — pay only when you consume computing resources.\n- `Benefit from massive economies of scale` — lower pay-as-you-go prices from aggregate usage.\n- `Stop guessing capacity` — scale up or down on demand instead of over-provisioning.\n- `Increase speed and agility` — provision resources in minutes.\n- `Stop spending money running and maintaining data centers` — focus on applications and customers.\n- `Go global in minutes` — deploy across AWS Regions and Edge Locations worldwide.",
+          "refs": ["CLF-C02 Task Statement 1.1"]
+        },
+        {
+          "id": "1.2",
+          "title": "Identify design principles of the AWS Well-Architected Framework",
+          "summary": "Six pillars: Operational Excellence, Security, Reliability, Performance Efficiency, Cost Optimization, and Sustainability.",
+          "notes_md": "**Six Pillars of the AWS Well-Architected Framework:**\n- `Operational Excellence` — run and monitor systems, perform operations as code, make frequent small reversible changes.\n- `Security` — protect data/systems, apply least privilege, enable traceability, automate security best practices.\n- `Reliability` — recover from infrastructure/service disruptions, dynamically acquire compute resources, mitigate single points of failure across Multi-AZ.\n- `Performance Efficiency` — use computing resources efficiently, go serverless, democratize advanced technologies.\n- `Cost Optimization` — avoid unnecessary cost, adopt consumption models, measure efficiency.\n- `Sustainability` — minimize environmental impacts of running cloud workloads.",
+          "refs": ["CLF-C02 Task Statement 1.2"]
+        },
+        {
+          "id": "1.3",
+          "title": "Understand cloud migration and the AWS Cloud Adoption Framework (AWS CAF)",
+          "summary": "Six CAF perspectives (Business, People, Governance, Platform, Security, Operations) and the 7 Rs of migration.",
+          "notes_md": "**AWS CAF Perspectives:**\n- *Business capabilities*: `Business` · `People` · `Governance`\n- *Technical capabilities*: `Platform` · `Security` · `Operations`\n\n**Common Migration Strategies (7 Rs):**\n- `Rehost` (lift-and-shift) · `Relocate` (hypervisor-level move) · `Replatform` (lift-tinker-and-shift) · `Refactor` (re-architect to cloud-native) · `Repurchase` (move to SaaS) · `Retain` · `Retire`.",
+          "refs": ["CLF-C02 Task Statement 1.3", "CLF-C02 Task Statement 1.4"]
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Understand the AWS Shared Responsibility Model",
+          "summary": "AWS is responsible for security OF the cloud; the customer is responsible for security IN the cloud.",
+          "notes_md": "**Shared Responsibility Breakdown:**\n- `AWS (Security OF the Cloud)` — physical data centers, hardware, global network, hypervisor, and managed service infrastructure.\n- `Customer (Security IN the Cloud)` — customer data, IAM users/roles/policies, OS patching on EC2, network/firewall configuration (Security Groups, NACLs), client-side/server-side encryption.\n- Responsibility shifts by service model: `IaaS` (EC2) gives customer more OS/network control; `PaaS`/`Abstracted` (RDS, Lambda, S3) shifts OS and platform patching to AWS.",
+          "refs": ["CLF-C02 Task Statement 2.1"]
+        },
+        {
+          "id": "2.2",
+          "title": "Understand AWS Cloud security, governance, and compliance concepts",
+          "summary": "AWS Artifact, AWS Config, AWS CloudTrail, Amazon Inspector, Amazon GuardDuty, AWS Shield, and AWS WAF.",
+          "notes_md": "**Compliance & Threat Detection Services:**\n- `AWS Artifact` — on-demand access to AWS compliance reports (SOC, PCI, ISO) and agreements (BAA).\n- `AWS CloudTrail` — audits API calls and account activity across AWS.\n- `AWS Config` — tracks resource configuration history and evaluates compliance against rules.\n- `Amazon GuardDuty` — intelligent threat detection analyzing VPC Flow Logs, DNS logs, and CloudTrail events.\n- `Amazon Inspector` — automated vulnerability scanning for EC2, ECR container images, and Lambda functions.\n- `AWS Shield` — managed DDoS protection (`Shield Standard` is automatic/free; `Shield Advanced` offers 24/7 SRT & cost protection).\n- `AWS WAF` — web application firewall protecting against SQL injection and XSS at CloudFront/ALB/API Gateway.",
+          "refs": ["CLF-C02 Task Statement 2.2", "CLF-C02 Task Statement 2.4"]
+        },
+        {
+          "id": "2.3",
+          "title": "Identify AWS access management capabilities",
+          "summary": "IAM users, groups, roles, policies, MFA, AWS IAM Identity Center (SSO), and AWS KMS.",
+          "notes_md": "**Identity and Access Management (IAM):**\n- `Root user` — lock away access keys, enable MFA immediately, use only for account-level tasks.\n- `IAM Roles` — temporary security credentials via AWS STS; preferred for EC2 instances, Lambda functions, and cross-account access.\n- `IAM Policies` — JSON documents defining explicit `Allow` or `Deny` permissions; explicit `Deny` always overrides `Allow`.\n- `AWS IAM Identity Center` — centralized workforce single sign-on across multiple AWS accounts.\n- `AWS KMS` — managed cryptographic keys for encryption at rest across AWS services.",
+          "refs": ["CLF-C02 Task Statement 2.3"]
+        }
+      ]
+    },
+    {
+      "id": "technology",
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Identify AWS Global Infrastructure and networking services",
+          "summary": "Regions, Availability Zones, Edge Locations, Amazon VPC, Subnets, Security Groups, NACLs, Route 53, CloudFront, Direct Connect.",
+          "notes_md": "**Global Infrastructure:**\n- `Region` — physical geographic area containing 3+ isolated `Availability Zones (AZs)`.\n- `Availability Zone` — one or more discrete data centers with redundant power, networking, and connectivity.\n- `Edge Locations` — used by `Amazon CloudFront` (CDN) and `Amazon Route 53` (DNS) to cache content and route traffic with low latency.\n\n**Networking:**\n- `Security Group` — stateful instance-level virtual firewall (allow rules only).\n- `Network ACL (NACL)` — stateless subnet-level firewall (supports allow and deny rules).\n- `AWS Direct Connect` — dedicated private fiber connection from on-premises to AWS (bypasses public internet).",
+          "refs": ["CLF-C02 Task Statement 3.2", "CLF-C02 Task Statement 3.5"]
+        },
+        {
+          "id": "3.2",
+          "title": "Identify AWS compute and serverless services",
+          "summary": "Amazon EC2, Auto Scaling, Elastic Load Balancing, AWS Lambda, Amazon ECS, Amazon EKS, AWS Fargate, Elastic Beanstalk.",
+          "notes_md": "**Compute Options:**\n- `Amazon EC2` — customizable virtual servers in the cloud.\n- `AWS Lambda` — serverless, event-driven compute; pay only for compute time consumed (up to 15-minute execution).\n- `Amazon ECS / Amazon EKS` — container orchestration for Docker and Kubernetes.\n- `AWS Fargate` — serverless compute engine for containers (works with ECS and EKS).\n- `AWS Elastic Beanstalk` — PaaS service where developers upload code and Beanstalk handles provisioning, load balancing, scaling, and monitoring.",
+          "refs": ["CLF-C02 Task Statement 3.3"]
+        },
+        {
+          "id": "3.3",
+          "title": "Identify AWS storage and database services",
+          "summary": "Amazon S3, EBS, EFS, Storage Gateway, RDS, Aurora, DynamoDB, ElastiCache, Redshift.",
+          "notes_md": "**Storage:**\n- `Amazon S3` — durable (11 9s) object storage (`S3 Standard`, `S3 Intelligent-Tiering`, `S3 Glacier`).\n- `Amazon EBS` — block-level storage volumes attached to EC2 within a single AZ.\n- `Amazon EFS` — managed elastic NFS file system shared across multiple EC2 instances and AZs.\n\n**Databases:**\n- `Amazon RDS` — managed relational DB (PostgreSQL, MySQL, MariaDB, Oracle, SQL Server).\n- `Amazon Aurora` — AWS-engineered MySQL/PostgreSQL-compatible relational DB with 6-way replication across 3 AZs.\n- `Amazon DynamoDB` — serverless key-value and document NoSQL database with single-digit millisecond latency.\n- `Amazon Redshift` — petabyte-scale data warehouse for OLAP analytics.",
+          "refs": ["CLF-C02 Task Statement 3.4", "CLF-C02 Task Statement 3.6"]
+        }
+      ]
+    },
+    {
+      "id": "billing",
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Compare AWS pricing models and cost management tools",
+          "summary": "On-Demand, Reserved Instances, Savings Plans, Spot Instances, Dedicated Hosts; AWS Budgets, Cost Explorer, Pricing Calculator.",
+          "notes_md": "**EC2 Purchasing Options:**\n- `On-Demand` — pay by the second/hour, no long-term commitment; best for spiky/unpredictable workloads.\n- `Savings Plans / Reserved Instances (RIs)` — 1-year or 3-year commitment for up to 72% discount on steady-state usage.\n- `Spot Instances` — up to 90% discount using spare EC2 capacity; can be interrupted with a 2-minute warning (ideal for fault-tolerant batch jobs).\n- `Dedicated Hosts` — physical server dedicated to your use for bring-your-own-license (BYOL) and strict compliance.\n\n**Cost Tools:**\n- `AWS Pricing Calculator` — estimate workload cost *before* building.\n- `AWS Cost Explorer` — visualize, understand, and forecast historical/future AWS spend.\n- `AWS Budgets` — set custom cost/usage budgets and receive SNS/email alerts when thresholds are exceeded.",
+          "refs": ["CLF-C02 Task Statement 4.1", "CLF-C02 Task Statement 4.2"]
+        },
+        {
+          "id": "4.2",
+          "title": "Understand AWS Organizations and AWS Support plans",
+          "summary": "Consolidated billing, Service Control Policies (SCPs), and Basic, Developer, Business, Enterprise On-Ramp, and Enterprise Support.",
+          "notes_md": "**AWS Organizations:**\n- Centralizes management of multiple AWS accounts, enables `Consolidated Billing` (volume discounts + single bill), and enforces `Service Control Policies (SCPs)` as permission guardrails.\n\n**AWS Support Tiers:**\n- `Basic` — free; 24/7 customer service, documentation, core Trusted Advisor checks.\n- `Developer` — business-hours email access to Cloud Support Associates; general guidance.\n- `Business` — 24/7 phone/email/chat to Cloud Support Engineers, full `AWS Trusted Advisor` checks, `<1 hour` response for production system down.\n- `Enterprise On-Ramp` — pool of Technical Account Managers (TAMs), `<30 min` business-critical response.\n- `Enterprise` — designated `Technical Account Manager (TAM)`, `<15 min` response for business-critical system down.",
+          "refs": ["CLF-C02 Task Statement 4.2", "CLF-C02 Task Statement 4.3"]
+        }
+      ]
+    }
+  ]
+}

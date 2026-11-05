@@ -1,25 +1,45 @@
 {
   "schema_version": "2.0",
   "id": "aws-cloud-practitioner-clf-c02",
-  "title": "AWS Certified Cloud Practitioner Pilot",
+  "title": "AWS Certified Cloud Practitioner",
   "provider": "Amazon Web Services",
   "exam_code": "CLF-C02",
   "category": "Cloud",
   "accent": "#f59e0b",
-  "summary": "An original, small practice pilot for cloud concepts, security, services, and billing.",
+  "summary": "Foundational AWS Cloud Practitioner (CLF-C02) study workspace covering Cloud Concepts, Security & Compliance, Cloud Technology & Services, and Billing, Pricing & Support.",
   "status": "published",
   "availability": {
     "application": "published"
   },
   "domains": [
-    { "id": "cloud_concepts", "title": "Cloud Concepts" },
-    { "id": "security", "title": "Security and Compliance" },
-    { "id": "technology", "title": "Cloud Technology and Services" },
-    { "id": "billing", "title": "Billing, Pricing, and Support" }
+    {
+      "id": "cloud_concepts",
+      "title": "Cloud Concepts",
+      "weight": 24,
+      "description": "Benefits of the AWS Cloud, Well-Architected Framework pillars, cloud adoption strategies (AWS CAF), and cloud economics."
+    },
+    {
+      "id": "security",
+      "title": "Security and Compliance",
+      "weight": 30,
+      "description": "AWS Shared Responsibility Model, IAM least-privilege access, encryption, CloudTrail/GuardDuty/Inspector/Shield/WAF, and compliance resources."
+    },
+    {
+      "id": "technology",
+      "title": "Cloud Technology and Services",
+      "weight": 34,
+      "description": "Compute (EC2, Lambda, ECS/EKS), storage (S3, EBS, EFS), databases (RDS, Aurora, DynamoDB), networking (VPC, Route 53, CloudFront), and AI/ML."
+    },
+    {
+      "id": "billing",
+      "title": "Billing, Pricing, and Support",
+      "weight": 12,
+      "description": "EC2 purchasing options, AWS Organizations consolidated billing, Budgets, Cost Explorer, Pricing Calculator, and AWS Support tiers."
+    }
   ],
   "question_bank": {
     "path": "questions.v2.json",
-    "record_count": 8,
+    "record_count": 25,
     "status": "published"
   }
 }

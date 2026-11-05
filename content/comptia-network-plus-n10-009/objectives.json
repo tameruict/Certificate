@@ -1,0 +1,87 @@
+{
+  "schema_version": "2.1",
+  "course_id": "comptia-network-plus-n10-009",
+  "domains": [
+    {
+      "id": "1",
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "OSI Model, Ports, Protocols, and Encapsulation",
+          "summary": "Layers 1–7, PDUs (Bits, Frames, Packets, Segments/Datagrams), TCP vs UDP, and common well-known service ports.",
+          "notes_md": "**OSI Layers & PDUs:**\n- `L7 Application` · `L6 Presentation` · `L5 Session` → **Data**\n- `L4 Transport` (TCP connection-oriented / UDP connectionless) → **Segment / Datagram**\n- `L3 Network` (IP, ICMP, IPSec, routers) → **Packet**\n- `L2 Data Link` (MAC, LLC, VLAN 802.1Q, switches) → **Frame**\n- `L1 Physical` (Cables, fiber, RF, hubs) → **Bits**\n\n**Essential Ports:**\n- `20/21` FTP · `22` SSH/SFTP · `23` Telnet · `25` SMTP · `53` DNS · `67/68` DHCP · `69` TFTP · `80` HTTP · `123` NTP · `161/162` SNMP · `389` LDAP · `443` HTTPS · `445` SMB · `514` Syslog · `636` LDAPS · `3389` RDP.",
+          "refs": ["N10-009 Domain 1.1", "N10-009 Domain 1.5"]
+        },
+        {
+          "id": "1.2",
+          "title": "IPv4 Subnetting, IPv6 Addressing, and Physical Media",
+          "summary": "CIDR notation, RFC 1918 private ranges, APIPA, IPv6 unicast/multicast/link-local (fe80::/10), SLAAC, fiber (SMF vs MMF), and copper twisted-pair.",
+          "notes_md": "**IPv4 Addressing:**\n- `RFC 1918 Private`: `10.0.0.0/8`, `172.16.0.0/12`, `192.168.0.0/16`\n- `APIPA`: `169.254.0.0/16` (auto-assigned when DHCP fails)\n- `Usable hosts per subnet`: `2^(32 - prefix) - 2` (subtract network and broadcast addresses)\n\n**IPv6 Addressing (128-bit):**\n- `Global Unicast`: `2000::/3` · `Unique Local`: `fc00::/7` (`fd00::/8`) · `Link-Local`: `fe80::/10` · `Multicast`: `ff00::/8` · `Loopback`: `::1/128`\n- `SLAAC` uses ICMPv6 Router Advertisements (RA) + NDP instead of ARP.",
+          "refs": ["N10-009 Domain 1.4", "N10-009 Domain 1.7"]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Routing Protocols and First-Hop Redundancy",
+          "summary": "Static vs dynamic routing, Administrative Distance (AD), OSPF (link-state), EIGRP, BGP (exterior path-vector), and VRRP/HSRP.",
+          "notes_md": "**Routing Characteristics:**\n- `OSPF` — Interior Gateway Protocol (IGP), link-state algorithm (Dijkstra SPF), Area 0 backbone, AD = `110`.\n- `EIGRP` — Advanced distance-vector / hybrid IGP, AD = `90`.\n- `BGP` — Exterior Gateway Protocol (EGP), path-vector routing between Autonomous Systems (AS) over TCP port `179`, eBGP AD = `20`.\n- `FHRP (VRRP / HSRP)` — shares a Virtual IP (VIP) and Virtual MAC across two or more routers so default gateway failover is transparent.",
+          "refs": ["N10-009 Domain 2.1"]
+        },
+        {
+          "id": "2.2",
+          "title": "Switching, VLANs, Spanning Tree, and Wireless (802.11)",
+          "summary": "802.1Q VLAN tagging, native VLAN, STP/RSTP (802.1D/802.1w), LACP (802.3ad), PoE (802.3af/at/bt), and Wi-Fi 6/6E/7.",
+          "notes_md": "**Switching Essentials:**\n- `802.1Q` — inserts a 4-byte VLAN tag into Ethernet frames on trunk links to carry multiple VLANs.\n- `STP (802.1D) / RSTP (802.1w)` — prevents Layer 2 broadcast storms by electing a Root Bridge and blocking redundant paths.\n- `LACP (802.3ad)` — bundles multiple physical switch ports into a single logical link with load balancing and link redundancy.\n\n**Wireless (802.11):**\n- `2.4 GHz` — longer range, non-overlapping channels `1, 6, 11`.\n- `5 GHz & 6 GHz (Wi-Fi 6E / Wi-Fi 7)` — wider channels (40/80/160/320 MHz), higher throughput, less interference.",
+          "refs": ["N10-009 Domain 2.2", "N10-009 Domain 2.3"]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Core Network Services: DNS, DHCP, and NTP",
+          "summary": "DNS records (A, AAAA, CNAME, MX, TXT, PTR, SRV, SOA, NS), DHCP DORA process, DHCP relay (IP helper), and NTP stratum hierarchy.",
+          "notes_md": "**DNS Record Types:**\n- `A` (IPv4) · `AAAA` (IPv6) · `CNAME` (alias) · `MX` (mail server) · `PTR` (reverse DNS lookup) · `TXT` (SPF/DKIM/DMARC verification) · `SRV` (service location).\n\n**DHCP DORA Lifecycle:**\n- `Discover` (client broadcast) → `Offer` (server) → `Request` (client) → `Acknowledge` (server).\n- `DHCP Relay / IP Helper` — forwards broadcast DHCP Discover packets as unicast across router boundaries to a centralized DHCP server.",
+          "refs": ["N10-009 Domain 3.4"]
+        },
+        {
+          "id": "3.2",
+          "title": "Network Monitoring, Telemetry, and Documentation",
+          "summary": "SNMPv2c vs SNMPv3, MIBs/OIDs, Syslog severity levels (0–7), NetFlow/IPFIX, sFlow, and physical vs logical diagrams.",
+          "notes_md": "**Monitoring & Telemetry:**\n- `SNMPv3` — adds authentication and encryption (unlike cleartext community strings in SNMPv1/v2c).\n- `Syslog Severities (0–7)` — `0` Emergency, `1` Alert, `2` Critical, `3` Error, `4` Warning, `5` Notice, `6` Informational, `7` Debug.\n- `NetFlow / IPFIX` — collects metadata on IP traffic flows (source/dest IP, ports, protocol, byte counts) without full packet payload capture.",
+          "refs": ["N10-009 Domain 3.1", "N10-009 Domain 3.2"]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Layer 2 Security, Access Control, and Network Hardening",
+          "summary": "DHCP Snooping, Dynamic ARP Inspection (DAI), Port Security, BPDU Guard, 802.1X NAC, RADIUS vs TACACS+, and WPA3-Enterprise.",
+          "notes_md": "**Switch Layer 2 Defenses:**\n- `DHCP Snooping` — blocks rogue DHCP servers on untrusted switch ports and builds the DHCP binding table.\n- `Dynamic ARP Inspection (DAI)` — validates ARP packets against the DHCP Snooping binding table to prevent ARP poisoning/MITM.\n- `BPDU Guard` — err-disables an access port if a Spanning Tree BPDU is received, preventing rogue root bridge election.\n- `802.1X` — port-based NAC using Supplicant, Authenticator (switch/WLC), and Authentication Server (`RADIUS`).",
+          "refs": ["N10-009 Domain 4.1", "N10-009 Domain 4.2", "N10-009 Domain 4.3"]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Troubleshooting Methodology, Tools, and Common Network Issues",
+          "summary": "7-step troubleshooting methodology, MTU/fragmentation, duplex mismatch, VLAN mismatch, attenuation/crosstalk, and CLI/hardware diagnostic tools.",
+          "notes_md": "**CompTIA 7-Step Methodology:**\n1. Identify the problem → 2. Establish a theory of probable cause → 3. Test the theory to determine cause → 4. Establish a plan of action → 5. Implement the solution or escalate → 6. Verify full system functionality & implement preventive measures → 7. Document findings, actions, and outcomes.\n\n**Key Diagnostic Tools:**\n- *CLI*: `ping`, `traceroute`/`tracert`, `dig`/`nslookup`, `ip`/`ifconfig`/`ipconfig`, `netstat`/`ss`, `arp -a`, `tcpdump`.\n- *Hardware*: `TDR` (copper fault distance), `OTDR` (fiber break distance), `Optical power meter` (dBm loss), `Tone generator & probe` (trace cable), `Cable certifier`.",
+          "refs": ["N10-009 Domain 5.1", "N10-009 Domain 5.2", "N10-009 Domain 5.5"]
+        }
+      ]
+    }
+  ]
+}

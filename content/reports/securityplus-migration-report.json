@@ -17,14 +17,14 @@
     "published": {
       "path": "content/comptia-security-plus-sy0-701/published-questions.v2.json",
       "record_count": 302,
-      "sha256": "7768429d4352fb9ea445bf34a3efadd9cef49408525a0b03fc660fbea35041c4",
+      "sha256": "576a1913a6de76bad0a07d0c2338ac32c218f0b926aa6c9fc4ec493feefeec77",
       "question_bank_status": "published",
       "provenance": "reviewed_original_subset"
     },
     "needs_review": {
       "path": "content/comptia-security-plus-sy0-701/needs-review-questions.v2.json",
       "record_count": 742,
-      "sha256": "b14036f3e9cf78d8b95bbc6d808412d35139597737651518eb11395eb38c48bf",
+      "sha256": "3722c20210e90a47aaa4c0c66f409377a8af0d1d16d6cd28545c121153b27654",
       "question_bank_status": "needs_review",
       "provenance": "legacy_migration"
     }

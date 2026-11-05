@@ -31,6 +31,11 @@
       ],
       "explanation": "Integrity is the assurance that data remains accurate and is not changed without authorization.",
       "domain_id": "1",
+      "objective_id": "1.2",
+      "difficulty": "easy",
+      "tags": [
+        "cia-triad"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -66,6 +71,13 @@
       ],
       "explanation": "Redundancy keeps services operational when a component fails, improving availability.",
       "domain_id": "1",
+      "objective_id": "1.2",
+      "difficulty": "medium",
+      "tags": [
+        "security-controls",
+        "cia-triad",
+        "secops-monitoring"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -101,6 +113,12 @@
       ],
       "explanation": "Authentication answers “Who are you?” Authorization answers “What may you do?”",
       "domain_id": "1",
+      "objective_id": "1.2",
+      "difficulty": "easy",
+      "tags": [
+        "cia-triad",
+        "iam"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -136,6 +154,12 @@
       ],
       "explanation": "A preventive control stops an unwanted event before it occurs.",
       "domain_id": "1",
+      "objective_id": "1.1",
+      "difficulty": "easy",
+      "tags": [
+        "security-controls",
+        "network-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -171,6 +195,11 @@
       ],
       "explanation": "Zero Trust removes implicit trust and continuously verifies identity, device and context.",
       "domain_id": "1",
+      "objective_id": "1.2",
+      "difficulty": "easy",
+      "tags": [
+        "zero-trust"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -206,6 +235,13 @@
       ],
       "explanation": "Least privilege reduces the impact of mistakes and compromised accounts.",
       "domain_id": "1",
+      "objective_id": "1.2",
+      "difficulty": "easy",
+      "tags": [
+        "cia-triad",
+        "iam",
+        "secops-monitoring"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -241,6 +277,13 @@
       ],
       "explanation": "A digital signature uses the signer’s private key and can be verified with the public key.",
       "domain_id": "1",
+      "objective_id": "1.3",
+      "difficulty": "easy",
+      "tags": [
+        "pki",
+        "cia-triad",
+        "secops-monitoring"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -276,6 +319,12 @@
       ],
       "explanation": "Log review detects events that have already occurred or are in progress.",
       "domain_id": "1",
+      "objective_id": "1.1",
+      "difficulty": "medium",
+      "tags": [
+        "security-controls",
+        "governance-compliance"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -311,6 +360,12 @@
       ],
       "explanation": "Corrective controls restore a system after an incident or failure.",
       "domain_id": "1",
+      "objective_id": "1.1",
+      "difficulty": "medium",
+      "tags": [
+        "security-controls",
+        "secops-monitoring"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -346,6 +401,11 @@
       ],
       "explanation": "Spear phishing is targeted social engineering; the tailored CFO message is the clue.",
       "domain_id": "2",
+      "objective_id": "2.1",
+      "difficulty": "medium",
+      "tags": [
+        "social-engineering"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -381,6 +441,11 @@
       ],
       "explanation": "Smishing is phishing delivered through SMS or other messaging services.",
       "domain_id": "2",
+      "objective_id": "2.1",
+      "difficulty": "easy",
+      "tags": [
+        "social-engineering"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -416,6 +481,13 @@
       ],
       "explanation": "The trusted vendor/update channel has been abused, creating a supply-chain compromise.",
       "domain_id": "2",
+      "objective_id": "2.1",
+      "difficulty": "medium",
+      "tags": [
+        "threat-actors",
+        "malware",
+        "password-attacks"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -451,6 +523,11 @@
       ],
       "explanation": "Parameterized queries prevent user input from becoming executable SQL syntax.",
       "domain_id": "2",
+      "objective_id": "2.2",
+      "difficulty": "medium",
+      "tags": [
+        "application-attacks"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -486,6 +563,12 @@
       ],
       "explanation": "XSS executes attacker-controlled script in a victim’s browser context.",
       "domain_id": "2",
+      "objective_id": "2.2",
+      "difficulty": "easy",
+      "tags": [
+        "application-attacks",
+        "iam"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -521,6 +604,12 @@
       ],
       "explanation": "Password spraying uses a small set of common passwords across many accounts.",
       "domain_id": "2",
+      "objective_id": "2.2",
+      "difficulty": "easy",
+      "tags": [
+        "application-attacks",
+        "password-attacks"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -556,6 +645,11 @@
       ],
       "explanation": "Credential stuffing relies on previously compromised credential pairs.",
       "domain_id": "2",
+      "objective_id": "2.2",
+      "difficulty": "easy",
+      "tags": [
+        "password-attacks"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -591,6 +685,11 @@
       ],
       "explanation": "Zero-day refers to the period before a vendor fix is available.",
       "domain_id": "2",
+      "objective_id": "2.3",
+      "difficulty": "easy",
+      "tags": [
+        "vulnerability-management"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -626,6 +725,12 @@
       ],
       "explanation": "Distributed denial of service uses many sources to exhaust a target.",
       "domain_id": "2",
+      "objective_id": "2.2",
+      "difficulty": "medium",
+      "tags": [
+        "application-attacks",
+        "password-attacks"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -661,6 +766,13 @@
       ],
       "explanation": "CVSS provides standardized severity metrics to help prioritize remediation.",
       "domain_id": "2",
+      "objective_id": "2.3",
+      "difficulty": "easy",
+      "tags": [
+        "cryptography",
+        "vulnerability-management",
+        "network-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -696,6 +808,12 @@
       ],
       "explanation": "A DMZ separates public-facing services from the trusted internal network.",
       "domain_id": "3",
+      "objective_id": "3.2",
+      "difficulty": "easy",
+      "tags": [
+        "network-security",
+        "secops-monitoring"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -731,6 +849,11 @@
       ],
       "explanation": "Segmentation limits lateral movement and reduces blast radius.",
       "domain_id": "3",
+      "objective_id": "3.2",
+      "difficulty": "easy",
+      "tags": [
+        "network-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -766,6 +889,11 @@
       ],
       "explanation": "HTTPS uses HTTP over TLS to protect data in transit.",
       "domain_id": "3",
+      "objective_id": "3.2",
+      "difficulty": "easy",
+      "tags": [
+        "network-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -801,6 +929,11 @@
       ],
       "explanation": "Full-disk or volume encryption protects stored data from offline access.",
       "domain_id": "3",
+      "objective_id": "3.2",
+      "difficulty": "easy",
+      "tags": [
+        "pki"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -836,6 +969,11 @@
       ],
       "explanation": "A cryptographic hash can be compared with a trusted expected value.",
       "domain_id": "3",
+      "objective_id": "3.1",
+      "difficulty": "easy",
+      "tags": [
+        "cryptography"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -871,6 +1009,11 @@
       ],
       "explanation": "RTO is the maximum acceptable time to restore a service.",
       "domain_id": "3",
+      "objective_id": "3.1",
+      "difficulty": "easy",
+      "tags": [
+        "risk-management"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -906,6 +1049,11 @@
       ],
       "explanation": "RPO is the maximum acceptable data loss measured in time.",
       "domain_id": "3",
+      "objective_id": "3.1",
+      "difficulty": "easy",
+      "tags": [
+        "risk-management"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -941,6 +1089,12 @@
       ],
       "explanation": "A hot site is ready with systems and connectivity for rapid continuity.",
       "domain_id": "3",
+      "objective_id": "3.1",
+      "difficulty": "easy",
+      "tags": [
+        "incident-response",
+        "risk-management"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -976,6 +1130,12 @@
       ],
       "explanation": "VM escape breaks the isolation boundary between guest and host.",
       "domain_id": "3",
+      "objective_id": "3.1",
+      "difficulty": "medium",
+      "tags": [
+        "application-attacks",
+        "cloud-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -1011,6 +1171,11 @@
       ],
       "explanation": "In shared responsibility, customers still protect their data, identities and configuration.",
       "domain_id": "3",
+      "objective_id": "3.1",
+      "difficulty": "easy",
+      "tags": [
+        "cloud-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -1046,6 +1211,11 @@
       ],
       "explanation": "Role-based access control maps permissions to roles such as analyst or administrator.",
       "domain_id": "4",
+      "objective_id": "4.1",
+      "difficulty": "easy",
+      "tags": [
+        "iam"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -1081,6 +1251,11 @@
       ],
       "explanation": "Attribute-based access control evaluates context and attributes at decision time.",
       "domain_id": "4",
+      "objective_id": "4.1",
+      "difficulty": "easy",
+      "tags": [
+        "iam"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -1116,6 +1291,13 @@
       ],
       "explanation": "Privileged access management limits, records and governs elevated access.",
       "domain_id": "4",
+      "objective_id": "4.1",
+      "difficulty": "easy",
+      "tags": [
+        "network-security",
+        "iam",
+        "secops-monitoring"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -1151,6 +1333,13 @@
       ],
       "explanation": "Single sign-on reduces repeated authentication while maintaining centralized identity.",
       "domain_id": "4",
+      "objective_id": "4.1",
+      "difficulty": "easy",
+      "tags": [
+        "cia-triad",
+        "network-security",
+        "iam"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -1186,6 +1375,11 @@
       ],
       "explanation": "A SIEM aggregates and correlates security events for detection and investigation.",
       "domain_id": "4",
+      "objective_id": "4.2",
+      "difficulty": "easy",
+      "tags": [
+        "secops-monitoring"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -1221,6 +1415,12 @@
       ],
       "explanation": "SOAR orchestrates tools and automates response playbooks.",
       "domain_id": "4",
+      "objective_id": "4.2",
+      "difficulty": "easy",
+      "tags": [
+        "pki",
+        "secops-monitoring"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -1256,6 +1456,12 @@
       ],
       "explanation": "Containment by isolation limits spread while preserving evidence for investigation.",
       "domain_id": "4",
+      "objective_id": "4.2",
+      "difficulty": "medium",
+      "tags": [
+        "malware",
+        "incident-response"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -1291,6 +1497,12 @@
       ],
       "explanation": "Chain of custody documents evidence handling and supports its integrity in review.",
       "domain_id": "4",
+      "objective_id": "4.2",
+      "difficulty": "easy",
+      "tags": [
+        "cia-triad",
+        "incident-response"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -1326,6 +1538,11 @@
       ],
       "explanation": "Deprovisioning removes access when it is no longer authorized.",
       "domain_id": "4",
+      "objective_id": "4.1",
+      "difficulty": "easy",
+      "tags": [
+        "iam"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -1361,6 +1578,11 @@
       ],
       "explanation": "A vulnerability scanner compares systems against known weaknesses and configuration issues.",
       "domain_id": "4",
+      "objective_id": "4.2",
+      "difficulty": "easy",
+      "tags": [
+        "secops-monitoring"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -1396,6 +1618,11 @@
       ],
       "explanation": "A policy provides management direction and mandatory expectations.",
       "domain_id": "5",
+      "objective_id": "5.2",
+      "difficulty": "easy",
+      "tags": [
+        "governance-compliance"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -1431,6 +1658,12 @@
       ],
       "explanation": "Procedures turn requirements into repeatable operational steps.",
       "domain_id": "5",
+      "objective_id": "5.2",
+      "difficulty": "easy",
+      "tags": [
+        "security-controls",
+        "governance-compliance"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -1466,6 +1699,11 @@
       ],
       "explanation": "The risk register is the central record for risk decisions and ownership.",
       "domain_id": "5",
+      "objective_id": "5.1",
+      "difficulty": "easy",
+      "tags": [
+        "risk-management"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -1501,6 +1739,11 @@
       ],
       "explanation": "Insurance transfers some financial impact to a third party.",
       "domain_id": "5",
+      "objective_id": "5.1",
+      "difficulty": "medium",
+      "tags": [
+        "risk-management"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -1536,6 +1779,13 @@
       ],
       "explanation": "BIA helps prioritize continuity by measuring operational and business impact.",
       "domain_id": "5",
+      "objective_id": "5.1",
+      "difficulty": "easy",
+      "tags": [
+        "security-controls",
+        "malware",
+        "network-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -1571,6 +1821,12 @@
       ],
       "explanation": "Third-party risk assessment identifies exposure and control requirements before onboarding.",
       "domain_id": "5",
+      "objective_id": "5.1",
+      "difficulty": "easy",
+      "tags": [
+        "password-attacks",
+        "risk-management"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -1606,6 +1862,12 @@
       ],
       "explanation": "A service-level agreement documents measurable service commitments.",
       "domain_id": "5",
+      "objective_id": "5.2",
+      "difficulty": "easy",
+      "tags": [
+        "cia-triad",
+        "governance-compliance"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -1641,6 +1903,11 @@
       ],
       "explanation": "The data owner is accountable for classification and business protection requirements.",
       "domain_id": "5",
+      "objective_id": "5.2",
+      "difficulty": "easy",
+      "tags": [
+        "governance-risk"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -1676,6 +1943,11 @@
       ],
       "explanation": "Splitting sensitive duties reduces fraud, error and abuse by requiring oversight.",
       "domain_id": "5",
+      "objective_id": "5.2",
+      "difficulty": "medium",
+      "tags": [
+        "governance-risk"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -1711,6 +1983,11 @@
       ],
       "explanation": "A smart card is a possession factor: something the user has.",
       "domain_id": "1",
+      "objective_id": "1.2",
+      "difficulty": "easy",
+      "tags": [
+        "cia-triad"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -1746,6 +2023,11 @@
       ],
       "explanation": "A fingerprint is an inherence factor: something you are.",
       "domain_id": "1",
+      "objective_id": "1.2",
+      "difficulty": "easy",
+      "tags": [
+        "cia-triad"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -1781,6 +2063,11 @@
       ],
       "explanation": "Accounting records actions and activity for auditing.",
       "domain_id": "1",
+      "objective_id": "1.2",
+      "difficulty": "easy",
+      "tags": [
+        "cia-triad"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -1816,6 +2103,11 @@
       ],
       "explanation": "A warning sign is intended to discourage unwanted behavior, making it a deterrent.",
       "domain_id": "1",
+      "objective_id": "1.1",
+      "difficulty": "easy",
+      "tags": [
+        "security-controls"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -1851,6 +2143,13 @@
       ],
       "explanation": "A compensating control provides comparable protection when the preferred control is not feasible.",
       "domain_id": "1",
+      "objective_id": "1.1",
+      "difficulty": "medium",
+      "tags": [
+        "security-controls",
+        "network-security",
+        "iam"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -1886,6 +2185,12 @@
       ],
       "explanation": "A turnstile physically restricts entry.",
       "domain_id": "1",
+      "objective_id": "1.3",
+      "difficulty": "easy",
+      "tags": [
+        "network-security",
+        "governance-compliance"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -1921,6 +2226,11 @@
       ],
       "explanation": "An ACL is implemented in technology to enforce access decisions.",
       "domain_id": "1",
+      "objective_id": "1.1",
+      "difficulty": "easy",
+      "tags": [
+        "general-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -1956,6 +2266,13 @@
       ],
       "explanation": "Management controls include governance activities such as policies and risk assessments.",
       "domain_id": "1",
+      "objective_id": "1.1",
+      "difficulty": "easy",
+      "tags": [
+        "security-controls",
+        "network-security",
+        "risk-management"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -1991,6 +2308,11 @@
       ],
       "explanation": "Defense in depth uses multiple independent layers of protection.",
       "domain_id": "1",
+      "objective_id": "1.1",
+      "difficulty": "easy",
+      "tags": [
+        "general-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -2026,6 +2348,11 @@
       ],
       "explanation": "Fail-secure prioritizes security when the control fails.",
       "domain_id": "1",
+      "objective_id": "1.1",
+      "difficulty": "easy",
+      "tags": [
+        "secops-monitoring"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -2061,6 +2388,11 @@
       ],
       "explanation": "A honeypot is a decoy designed to detect and study unauthorized activity.",
       "domain_id": "1",
+      "objective_id": "1.2",
+      "difficulty": "easy",
+      "tags": [
+        "network-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -2096,6 +2428,12 @@
       ],
       "explanation": "Cryptographic hashes are one-way functions; encryption is designed to be reversible with a key.",
       "domain_id": "1",
+      "objective_id": "1.2",
+      "difficulty": "easy",
+      "tags": [
+        "cryptography",
+        "cia-triad"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -2131,6 +2469,11 @@
       ],
       "explanation": "AES uses the same secret key for encryption and decryption.",
       "domain_id": "1",
+      "objective_id": "1.3",
+      "difficulty": "easy",
+      "tags": [
+        "cryptography"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -2166,6 +2509,12 @@
       ],
       "explanation": "RSA is an asymmetric algorithm using a public and private key pair.",
       "domain_id": "1",
+      "objective_id": "1.3",
+      "difficulty": "easy",
+      "tags": [
+        "cryptography",
+        "pki"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -2201,6 +2550,12 @@
       ],
       "explanation": "A trusted certificate authority attests that a public key belongs to a named subject.",
       "domain_id": "1",
+      "objective_id": "1.3",
+      "difficulty": "easy",
+      "tags": [
+        "pki",
+        "network-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -2236,6 +2591,12 @@
       ],
       "explanation": "Typosquatting exploits common typing mistakes with lookalike domains.",
       "domain_id": "2",
+      "objective_id": "2.2",
+      "difficulty": "easy",
+      "tags": [
+        "social-engineering",
+        "network-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -2271,6 +2632,13 @@
       ],
       "explanation": "A watering-hole attack compromises a site frequented by intended victims.",
       "domain_id": "2",
+      "objective_id": "2.1",
+      "difficulty": "easy",
+      "tags": [
+        "social-engineering",
+        "application-attacks",
+        "password-attacks"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -2306,6 +2674,12 @@
       ],
       "explanation": "Business email compromise uses trusted business relationships to redirect money or data.",
       "domain_id": "2",
+      "objective_id": "2.2",
+      "difficulty": "easy",
+      "tags": [
+        "password-attacks",
+        "network-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -2341,6 +2715,11 @@
       ],
       "explanation": "Pretexting is social engineering built around a fabricated scenario.",
       "domain_id": "2",
+      "objective_id": "2.1",
+      "difficulty": "medium",
+      "tags": [
+        "social-engineering"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -2376,6 +2755,11 @@
       ],
       "explanation": "Tailgating is entering a controlled area by following an authorized person.",
       "domain_id": "2",
+      "objective_id": "2.1",
+      "difficulty": "easy",
+      "tags": [
+        "social-engineering"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -2411,6 +2795,12 @@
       ],
       "explanation": "A brute-force attack systematically tries combinations until one works.",
       "domain_id": "2",
+      "objective_id": "2.2",
+      "difficulty": "easy",
+      "tags": [
+        "password-attacks",
+        "iam"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -2446,6 +2836,11 @@
       ],
       "explanation": "A unique salt makes each password hash different, defeating precomputed tables.",
       "domain_id": "2",
+      "objective_id": "2.2",
+      "difficulty": "easy",
+      "tags": [
+        "threats-mitigations"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -2481,6 +2876,13 @@
       ],
       "explanation": "Pass-the-hash uses a captured hash as an authentication artifact.",
       "domain_id": "2",
+      "objective_id": "2.2",
+      "difficulty": "medium",
+      "tags": [
+        "cia-triad",
+        "application-attacks",
+        "password-attacks"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -2516,6 +2918,12 @@
       ],
       "explanation": "Kerberoasting targets Kerberos service tickets for offline password cracking.",
       "domain_id": "2",
+      "objective_id": "2.2",
+      "difficulty": "medium",
+      "tags": [
+        "network-security",
+        "iam"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -2551,6 +2959,12 @@
       ],
       "explanation": "Privilege escalation moves from a lower privilege level to a higher one.",
       "domain_id": "2",
+      "objective_id": "2.2",
+      "difficulty": "medium",
+      "tags": [
+        "cia-triad",
+        "governance-compliance"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -2586,6 +3000,11 @@
       ],
       "explanation": "Stored XSS persists in server-side content and executes for later viewers.",
       "domain_id": "2",
+      "objective_id": "2.2",
+      "difficulty": "medium",
+      "tags": [
+        "application-attacks"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -2621,6 +3040,12 @@
       ],
       "explanation": "Reflected XSS is returned in the immediate response to a crafted request.",
       "domain_id": "2",
+      "objective_id": "2.2",
+      "difficulty": "easy",
+      "tags": [
+        "application-attacks",
+        "iam"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -2656,6 +3081,11 @@
       ],
       "explanation": "Command injection causes the application to execute attacker-supplied system commands.",
       "domain_id": "2",
+      "objective_id": "2.2",
+      "difficulty": "easy",
+      "tags": [
+        "application-attacks"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -2691,6 +3121,12 @@
       ],
       "explanation": "Server-side request forgery tricks a server into making requests to unintended locations.",
       "domain_id": "2",
+      "objective_id": "2.2",
+      "difficulty": "medium",
+      "tags": [
+        "application-attacks",
+        "cloud-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -2726,6 +3162,12 @@
       ],
       "explanation": "Canonicalization and allowlisted path handling prevent access outside the intended directory.",
       "domain_id": "2",
+      "objective_id": "2.2",
+      "difficulty": "easy",
+      "tags": [
+        "application-attacks",
+        "network-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -2761,6 +3203,11 @@
       ],
       "explanation": "Unsafe deserialization can turn untrusted object data into code execution or other attacks.",
       "domain_id": "2",
+      "objective_id": "2.2",
+      "difficulty": "medium",
+      "tags": [
+        "password-attacks"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -2796,6 +3243,12 @@
       ],
       "explanation": "A reverse proxy sits in front of servers and can handle TLS termination and filtering.",
       "domain_id": "3",
+      "objective_id": "3.2",
+      "difficulty": "easy",
+      "tags": [
+        "network-security",
+        "secops-monitoring"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -2831,6 +3284,13 @@
       ],
       "explanation": "A load balancer improves availability and performance by distributing traffic.",
       "domain_id": "3",
+      "objective_id": "3.2",
+      "difficulty": "easy",
+      "tags": [
+        "pki",
+        "cia-triad",
+        "network-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -2866,6 +3326,13 @@
       ],
       "explanation": "Security groups commonly provide stateful, instance-level traffic filtering in cloud environments.",
       "domain_id": "3",
+      "objective_id": "3.2",
+      "difficulty": "medium",
+      "tags": [
+        "cloud-security",
+        "network-security",
+        "secops-monitoring"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -2901,6 +3368,11 @@
       ],
       "explanation": "East-west traffic is lateral traffic between internal systems.",
       "domain_id": "3",
+      "objective_id": "3.1",
+      "difficulty": "easy",
+      "tags": [
+        "security-architecture"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -2936,6 +3408,11 @@
       ],
       "explanation": "An air-gapped system has no direct network connection to other networks.",
       "domain_id": "3",
+      "objective_id": "3.2",
+      "difficulty": "easy",
+      "tags": [
+        "network-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -2971,6 +3448,13 @@
       ],
       "explanation": "Secure Access Service Edge combines networking and security capabilities at the edge.",
       "domain_id": "3",
+      "objective_id": "3.2",
+      "difficulty": "easy",
+      "tags": [
+        "pki",
+        "cloud-security",
+        "secops-monitoring"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -3006,6 +3490,11 @@
       ],
       "explanation": "The customer usually manages the guest OS, applications, identities and data in IaaS.",
       "domain_id": "3",
+      "objective_id": "3.1",
+      "difficulty": "easy",
+      "tags": [
+        "cloud-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -3041,6 +3530,11 @@
       ],
       "explanation": "SaaS customers still manage their data, users and access configuration.",
       "domain_id": "3",
+      "objective_id": "3.1",
+      "difficulty": "easy",
+      "tags": [
+        "cloud-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -3076,6 +3570,11 @@
       ],
       "explanation": "Serverless abstracts server management and runs event-driven functions.",
       "domain_id": "3",
+      "objective_id": "3.1",
+      "difficulty": "medium",
+      "tags": [
+        "cloud-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -3111,6 +3610,12 @@
       ],
       "explanation": "A cloud access security broker helps govern cloud service usage and data protection.",
       "domain_id": "3",
+      "objective_id": "3.1",
+      "difficulty": "medium",
+      "tags": [
+        "cloud-security",
+        "governance-compliance"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -3146,6 +3651,11 @@
       ],
       "explanation": "RAID 1 provides disk mirroring; RAID 0 provides striping without redundancy.",
       "domain_id": "3",
+      "objective_id": "3.1",
+      "difficulty": "easy",
+      "tags": [
+        "secops-monitoring"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -3181,6 +3691,11 @@
       ],
       "explanation": "A differential backup accumulates changes since the last full backup.",
       "domain_id": "3",
+      "objective_id": "3.1",
+      "difficulty": "easy",
+      "tags": [
+        "secops-monitoring"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -3216,6 +3731,11 @@
       ],
       "explanation": "Incremental backups capture changes since the latest backup.",
       "domain_id": "3",
+      "objective_id": "3.1",
+      "difficulty": "easy",
+      "tags": [
+        "secops-monitoring"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -3251,6 +3771,11 @@
       ],
       "explanation": "Data in use is actively being processed by a system.",
       "domain_id": "3",
+      "objective_id": "3.1",
+      "difficulty": "easy",
+      "tags": [
+        "security-architecture"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -3286,6 +3811,13 @@
       ],
       "explanation": "Key escrow stores keys with a trusted party under defined access conditions.",
       "domain_id": "3",
+      "objective_id": "3.1",
+      "difficulty": "medium",
+      "tags": [
+        "cryptography",
+        "pki",
+        "incident-response"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -3321,6 +3853,11 @@
       ],
       "explanation": "Network access control evaluates device posture and can allow, quarantine or deny access.",
       "domain_id": "4",
+      "objective_id": "4.1",
+      "difficulty": "easy",
+      "tags": [
+        "network-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -3356,6 +3893,12 @@
       ],
       "explanation": "Mobile device management centrally configures, monitors and protects mobile endpoints.",
       "domain_id": "4",
+      "objective_id": "4.2",
+      "difficulty": "easy",
+      "tags": [
+        "network-security",
+        "secops-monitoring"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -3391,6 +3934,12 @@
       ],
       "explanation": "A baseline defines the approved secure configuration for comparison.",
       "domain_id": "4",
+      "objective_id": "4.2",
+      "difficulty": "medium",
+      "tags": [
+        "pki",
+        "governance-compliance"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -3426,6 +3975,12 @@
       ],
       "explanation": "Patch management identifies, tests, approves and deploys updates.",
       "domain_id": "4",
+      "objective_id": "4.1",
+      "difficulty": "easy",
+      "tags": [
+        "pki",
+        "iam"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -3461,6 +4016,11 @@
       ],
       "explanation": "A CAB evaluates risk, impact and scheduling for proposed changes.",
       "domain_id": "4",
+      "objective_id": "4.2",
+      "difficulty": "easy",
+      "tags": [
+        "risk-management"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -3496,6 +4056,11 @@
       ],
       "explanation": "Authenticated scans can see system details that unauthenticated scans cannot.",
       "domain_id": "4",
+      "objective_id": "4.2",
+      "difficulty": "easy",
+      "tags": [
+        "vulnerability-management"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -3531,6 +4096,13 @@
       ],
       "explanation": "Rules of engagement define what the testers may do and how the test is controlled.",
       "domain_id": "4",
+      "objective_id": "4.2",
+      "difficulty": "easy",
+      "tags": [
+        "vulnerability-management",
+        "risk-management",
+        "governance-compliance"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -3566,6 +4138,11 @@
       ],
       "explanation": "Fuzzing tests robustness using unexpected, random or boundary-value input.",
       "domain_id": "4",
+      "objective_id": "4.2",
+      "difficulty": "easy",
+      "tags": [
+        "security-operations"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -3601,6 +4178,11 @@
       ],
       "explanation": "Memory is volatile and may disappear when the system is powered off.",
       "domain_id": "4",
+      "objective_id": "4.2",
+      "difficulty": "easy",
+      "tags": [
+        "governance-compliance"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -3636,6 +4218,12 @@
       ],
       "explanation": "An IOC can include hashes, domains, IPs, filenames or behaviors linked to compromise.",
       "domain_id": "4",
+      "objective_id": "4.2",
+      "difficulty": "easy",
+      "tags": [
+        "network-security",
+        "risk-management"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -3671,6 +4259,12 @@
       ],
       "explanation": "Authentication logs provide usernames, timestamps, source details and result codes.",
       "domain_id": "4",
+      "objective_id": "4.1",
+      "difficulty": "easy",
+      "tags": [
+        "cia-triad",
+        "secops-monitoring"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -3706,6 +4300,11 @@
       ],
       "explanation": "Network Time Protocol keeps system clocks aligned for reliable log correlation.",
       "domain_id": "4",
+      "objective_id": "4.1",
+      "difficulty": "easy",
+      "tags": [
+        "iam"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -3741,6 +4340,11 @@
       ],
       "explanation": "Evidence should be documented and collected before destructive remediation when practical.",
       "domain_id": "4",
+      "objective_id": "4.2",
+      "difficulty": "easy",
+      "tags": [
+        "governance-compliance"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -3776,6 +4380,12 @@
       ],
       "explanation": "Threat hunting is a proactive search for signs of malicious activity.",
       "domain_id": "4",
+      "objective_id": "4.2",
+      "difficulty": "medium",
+      "tags": [
+        "pki",
+        "governance-compliance"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -3811,6 +4421,12 @@
       ],
       "explanation": "Eradication removes the root cause, malware and persistence mechanisms.",
       "domain_id": "4",
+      "objective_id": "4.2",
+      "difficulty": "easy",
+      "tags": [
+        "malware",
+        "incident-response"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -3846,6 +4462,11 @@
       ],
       "explanation": "Sensitive restricted data has the greatest impact if disclosed or altered.",
       "domain_id": "5",
+      "objective_id": "5.2",
+      "difficulty": "easy",
+      "tags": [
+        "governance-compliance"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -3881,6 +4502,13 @@
       ],
       "explanation": "Data minimization reduces privacy risk by limiting unnecessary personal data.",
       "domain_id": "5",
+      "objective_id": "5.1",
+      "difficulty": "easy",
+      "tags": [
+        "zero-trust",
+        "risk-management",
+        "governance-compliance"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -3916,6 +4544,12 @@
       ],
       "explanation": "A non-disclosure agreement establishes confidentiality obligations.",
       "domain_id": "5",
+      "objective_id": "5.1",
+      "difficulty": "easy",
+      "tags": [
+        "cia-triad",
+        "governance-compliance"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -3951,6 +4585,12 @@
       ],
       "explanation": "An acceptable use policy defines permitted and prohibited system use.",
       "domain_id": "5",
+      "objective_id": "5.1",
+      "difficulty": "easy",
+      "tags": [
+        "risk-management",
+        "governance-compliance"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -3986,6 +4626,11 @@
       ],
       "explanation": "A right-to-audit clause permits review of relevant controls and evidence.",
       "domain_id": "5",
+      "objective_id": "5.2",
+      "difficulty": "easy",
+      "tags": [
+        "governance-compliance"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -4021,6 +4666,11 @@
       ],
       "explanation": "An SLA states measurable service targets and often remedies for failure.",
       "domain_id": "5",
+      "objective_id": "5.2",
+      "difficulty": "easy",
+      "tags": [
+        "governance-compliance"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -4056,6 +4706,12 @@
       ],
       "explanation": "A tabletop exercise validates roles and decisions through discussion.",
       "domain_id": "5",
+      "objective_id": "5.2",
+      "difficulty": "easy",
+      "tags": [
+        "vulnerability-management",
+        "incident-response"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -4091,6 +4747,13 @@
       ],
       "explanation": "A BCP defines how critical functions continue during a disruption.",
       "domain_id": "5",
+      "objective_id": "5.2",
+      "difficulty": "easy",
+      "tags": [
+        "pki",
+        "vulnerability-management",
+        "risk-management"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -4126,6 +4789,13 @@
       ],
       "explanation": "A DRP documents restoration of systems, applications and infrastructure.",
       "domain_id": "5",
+      "objective_id": "5.1",
+      "difficulty": "easy",
+      "tags": [
+        "incident-response",
+        "risk-management",
+        "governance-compliance"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -4161,6 +4831,11 @@
       ],
       "explanation": "Residual risk is what remains after safeguards and treatments.",
       "domain_id": "5",
+      "objective_id": "5.1",
+      "difficulty": "easy",
+      "tags": [
+        "risk-management"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -4196,6 +4871,12 @@
       ],
       "explanation": "Inherent risk is evaluated before controls reduce likelihood or impact.",
       "domain_id": "5",
+      "objective_id": "5.1",
+      "difficulty": "easy",
+      "tags": [
+        "risk-management",
+        "governance-compliance"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -4231,6 +4912,11 @@
       ],
       "explanation": "Quantitative analysis expresses likelihood and impact numerically.",
       "domain_id": "5",
+      "objective_id": "5.1",
+      "difficulty": "easy",
+      "tags": [
+        "risk-management"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -4266,6 +4952,11 @@
       ],
       "explanation": "Annualized Loss Expectancy is commonly calculated as SLE multiplied by ARO.",
       "domain_id": "5",
+      "objective_id": "5.1",
+      "difficulty": "easy",
+      "tags": [
+        "risk-management"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -4301,6 +4992,11 @@
       ],
       "explanation": "ALE = SLE × ARO = $20,000 × 0.2 = $4,000.",
       "domain_id": "5",
+      "objective_id": "5.1",
+      "difficulty": "medium",
+      "tags": [
+        "risk-management"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -4336,6 +5032,11 @@
       ],
       "explanation": "The custodian operates and maintains controls for data entrusted to the organization.",
       "domain_id": "5",
+      "objective_id": "5.2",
+      "difficulty": "easy",
+      "tags": [
+        "governance-risk"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -4371,6 +5072,11 @@
       ],
       "explanation": "Continuous monitoring collects ongoing evidence about control effectiveness.",
       "domain_id": "5",
+      "objective_id": "5.2",
+      "difficulty": "easy",
+      "tags": [
+        "password-attacks"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -4406,6 +5112,13 @@
       ],
       "explanation": "A privacy impact assessment identifies privacy risks and suitable safeguards.",
       "domain_id": "5",
+      "objective_id": "5.2",
+      "difficulty": "easy",
+      "tags": [
+        "network-security",
+        "secops-monitoring",
+        "governance-compliance"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -4441,6 +5154,12 @@
       ],
       "explanation": "Non-repudiation relies on evidence such as signatures and reliable audit logs.",
       "domain_id": "5",
+      "objective_id": "5.2",
+      "difficulty": "easy",
+      "tags": [
+        "cia-triad",
+        "governance-compliance"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -4476,6 +5195,12 @@
       ],
       "explanation": "Non-repudiation uses reliable evidence, such as digital signatures and audit records, to link an action to its originator.",
       "domain_id": "1",
+      "objective_id": "1.2",
+      "difficulty": "easy",
+      "tags": [
+        "cia-triad",
+        "governance-compliance"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -4511,6 +5236,12 @@
       ],
       "explanation": "Directive controls provide direction through policies, procedures, standards and instructions.",
       "domain_id": "1",
+      "objective_id": "1.1",
+      "difficulty": "easy",
+      "tags": [
+        "security-controls",
+        "incident-response"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -4546,6 +5277,11 @@
       ],
       "explanation": "A guard is a physical control that protects access to a facility.",
       "domain_id": "1",
+      "objective_id": "1.1",
+      "difficulty": "medium",
+      "tags": [
+        "security-controls"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -4581,6 +5317,11 @@
       ],
       "explanation": "Open design means security should depend on protected secrets such as keys, not hidden design details.",
       "domain_id": "1",
+      "objective_id": "1.1",
+      "difficulty": "medium",
+      "tags": [
+        "zero-trust"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -4616,6 +5357,11 @@
       ],
       "explanation": "Complete mediation checks access every time a resource is requested.",
       "domain_id": "1",
+      "objective_id": "1.2",
+      "difficulty": "medium",
+      "tags": [
+        "cia-triad"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -4651,6 +5397,12 @@
       ],
       "explanation": "Least functionality reduces attack surface by disabling unnecessary features.",
       "domain_id": "1",
+      "objective_id": "1.2",
+      "difficulty": "easy",
+      "tags": [
+        "cia-triad",
+        "iam"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -4686,6 +5438,11 @@
       ],
       "explanation": "Fault tolerance uses redundancy or alternate components to continue service after failures.",
       "domain_id": "1",
+      "objective_id": "1.1",
+      "difficulty": "easy",
+      "tags": [
+        "secops-monitoring"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -4721,6 +5478,11 @@
       ],
       "explanation": "Encryption prevents unauthorized parties from reading the content, providing confidentiality.",
       "domain_id": "1",
+      "objective_id": "1.2",
+      "difficulty": "easy",
+      "tags": [
+        "cia-triad"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -4756,6 +5518,12 @@
       ],
       "explanation": "Recipients use the signer public key to verify a signature created with the private key.",
       "domain_id": "1",
+      "objective_id": "1.3",
+      "difficulty": "easy",
+      "tags": [
+        "pki",
+        "incident-response"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -4791,6 +5559,12 @@
       ],
       "explanation": "Collision resistance makes finding two inputs with an identical hash computationally impractical.",
       "domain_id": "1",
+      "objective_id": "1.3",
+      "difficulty": "easy",
+      "tags": [
+        "pki",
+        "cia-triad"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -4826,6 +5600,12 @@
       ],
       "explanation": "Deterrents, such as warning signs and visible cameras, discourage unwanted actions.",
       "domain_id": "1",
+      "objective_id": "1.1",
+      "difficulty": "medium",
+      "tags": [
+        "security-controls",
+        "incident-response"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -4861,6 +5641,11 @@
       ],
       "explanation": "Separation of duties reduces fraud and error by requiring more than one person for sensitive actions.",
       "domain_id": "1",
+      "objective_id": "1.1",
+      "difficulty": "easy",
+      "tags": [
+        "general-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -4896,6 +5681,11 @@
       ],
       "explanation": "Data remanence is residual data left after deletion or reformatting.",
       "domain_id": "1",
+      "objective_id": "1.1",
+      "difficulty": "easy",
+      "tags": [
+        "risk-management"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -4931,6 +5721,11 @@
       ],
       "explanation": "Wiping overwrites storage to make previous data difficult or impossible to recover.",
       "domain_id": "1",
+      "objective_id": "1.1",
+      "difficulty": "easy",
+      "tags": [
+        "cryptography"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -4966,6 +5761,11 @@
       ],
       "explanation": "Symmetric cryptography uses the same secret key for both directions.",
       "domain_id": "1",
+      "objective_id": "1.3",
+      "difficulty": "easy",
+      "tags": [
+        "pki"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -5001,6 +5801,11 @@
       ],
       "explanation": "Ransomware encrypts or blocks access to data and demands payment.",
       "domain_id": "2",
+      "objective_id": "2.2",
+      "difficulty": "medium",
+      "tags": [
+        "malware"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -5036,6 +5841,11 @@
       ],
       "explanation": "A keylogger records keyboard input, often to capture passwords and sensitive data.",
       "domain_id": "2",
+      "objective_id": "2.2",
+      "difficulty": "easy",
+      "tags": [
+        "malware"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -5071,6 +5881,11 @@
       ],
       "explanation": "A worm self-propagates across networks or systems.",
       "domain_id": "2",
+      "objective_id": "2.2",
+      "difficulty": "medium",
+      "tags": [
+        "malware"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -5106,6 +5921,11 @@
       ],
       "explanation": "A Trojan disguises malicious behavior as legitimate software.",
       "domain_id": "2",
+      "objective_id": "2.2",
+      "difficulty": "medium",
+      "tags": [
+        "malware"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -5141,6 +5961,11 @@
       ],
       "explanation": "Rootkits hide persistence or privileged access from normal system tools.",
       "domain_id": "2",
+      "objective_id": "2.2",
+      "difficulty": "medium",
+      "tags": [
+        "malware"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -5176,6 +6001,12 @@
       ],
       "explanation": "A logic bomb triggers when its programmed condition is met.",
       "domain_id": "2",
+      "objective_id": "2.2",
+      "difficulty": "easy",
+      "tags": [
+        "malware",
+        "password-attacks"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -5211,6 +6042,13 @@
       ],
       "explanation": "A botnet is a collection of compromised systems controlled by an operator.",
       "domain_id": "2",
+      "objective_id": "2.2",
+      "difficulty": "medium",
+      "tags": [
+        "pki",
+        "malware",
+        "network-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -5246,6 +6084,12 @@
       ],
       "explanation": "A man-in-the-middle attack intercepts communications and may alter them.",
       "domain_id": "2",
+      "objective_id": "2.2",
+      "difficulty": "easy",
+      "tags": [
+        "social-engineering",
+        "password-attacks"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -5281,6 +6125,13 @@
       ],
       "explanation": "A replay attack reuses captured valid data to impersonate a participant.",
       "domain_id": "2",
+      "objective_id": "2.1",
+      "difficulty": "easy",
+      "tags": [
+        "cia-triad",
+        "social-engineering",
+        "application-attacks"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -5316,6 +6167,11 @@
       ],
       "explanation": "An evil twin impersonates a legitimate wireless network to capture traffic or credentials.",
       "domain_id": "2",
+      "objective_id": "2.2",
+      "difficulty": "medium",
+      "tags": [
+        "network-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -5351,6 +6207,11 @@
       ],
       "explanation": "Wardriving maps wireless networks, often to identify weak or open access points.",
       "domain_id": "2",
+      "objective_id": "2.1",
+      "difficulty": "medium",
+      "tags": [
+        "social-engineering"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -5386,6 +6247,11 @@
       ],
       "explanation": "VLAN hopping attempts to bypass VLAN separation and reach other broadcast domains.",
       "domain_id": "2",
+      "objective_id": "2.2",
+      "difficulty": "easy",
+      "tags": [
+        "network-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -5421,6 +6287,12 @@
       ],
       "explanation": "ARP spoofing poisons local ARP caches and can enable interception.",
       "domain_id": "2",
+      "objective_id": "2.2",
+      "difficulty": "medium",
+      "tags": [
+        "network-security",
+        "iam"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -5456,6 +6328,13 @@
       ],
       "explanation": "Restricting macros from untrusted locations reduces script-based malware execution.",
       "domain_id": "2",
+      "objective_id": "2.2",
+      "difficulty": "easy",
+      "tags": [
+        "malware",
+        "network-security",
+        "risk-management"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -5491,6 +6370,11 @@
       ],
       "explanation": "A sandbox limits the impact of untrusted code while it is analyzed or executed.",
       "domain_id": "2",
+      "objective_id": "2.2",
+      "difficulty": "medium",
+      "tags": [
+        "threats-mitigations"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -5526,6 +6410,11 @@
       ],
       "explanation": "A dedicated management network reduces exposure of administrative interfaces.",
       "domain_id": "3",
+      "objective_id": "3.2",
+      "difficulty": "medium",
+      "tags": [
+        "network-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -5561,6 +6450,11 @@
       ],
       "explanation": "Deny-by-default minimizes exposure and requires explicit business justification for access.",
       "domain_id": "3",
+      "objective_id": "3.2",
+      "difficulty": "easy",
+      "tags": [
+        "network-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -5596,6 +6490,11 @@
       ],
       "explanation": "Network Address Translation maps private and public IP addresses.",
       "domain_id": "3",
+      "objective_id": "3.2",
+      "difficulty": "easy",
+      "tags": [
+        "network-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -5631,6 +6530,12 @@
       ],
       "explanation": "DNSSEC uses digital signatures to authenticate DNS data and protect integrity.",
       "domain_id": "3",
+      "objective_id": "3.2",
+      "difficulty": "easy",
+      "tags": [
+        "cia-triad",
+        "network-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -5666,6 +6571,11 @@
       ],
       "explanation": "SFTP provides file transfer over the encrypted SSH protocol.",
       "domain_id": "3",
+      "objective_id": "3.1",
+      "difficulty": "easy",
+      "tags": [
+        "security-architecture"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -5701,6 +6611,11 @@
       ],
       "explanation": "Telnet does not encrypt its session; SSH is the secure alternative.",
       "domain_id": "3",
+      "objective_id": "3.1",
+      "difficulty": "easy",
+      "tags": [
+        "cryptography"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -5736,6 +6651,12 @@
       ],
       "explanation": "WPA2-Enterprise uses 802.1X and an authentication server for per-user access.",
       "domain_id": "3",
+      "objective_id": "3.2",
+      "difficulty": "easy",
+      "tags": [
+        "cia-triad",
+        "network-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -5771,6 +6692,12 @@
       ],
       "explanation": "RADIUS commonly provides centralized AAA for network access.",
       "domain_id": "3",
+      "objective_id": "3.2",
+      "difficulty": "easy",
+      "tags": [
+        "cia-triad",
+        "network-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -5806,6 +6733,13 @@
       ],
       "explanation": "A hypervisor manages virtual machines and their access to host resources.",
       "domain_id": "3",
+      "objective_id": "3.2",
+      "difficulty": "easy",
+      "tags": [
+        "pki",
+        "cloud-security",
+        "network-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -5841,6 +6775,11 @@
       ],
       "explanation": "Type 1, or bare-metal, hypervisors run directly on the host hardware.",
       "domain_id": "3",
+      "objective_id": "3.1",
+      "difficulty": "easy",
+      "tags": [
+        "cloud-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -5876,6 +6815,11 @@
       ],
       "explanation": "A private cloud is dedicated to a single organization, though it may be hosted elsewhere.",
       "domain_id": "3",
+      "objective_id": "3.1",
+      "difficulty": "easy",
+      "tags": [
+        "cloud-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -5911,6 +6855,11 @@
       ],
       "explanation": "A hybrid cloud combines private and public cloud environments.",
       "domain_id": "3",
+      "objective_id": "3.1",
+      "difficulty": "easy",
+      "tags": [
+        "cloud-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -5946,6 +6895,11 @@
       ],
       "explanation": "Failover clustering provides alternate nodes when the primary fails.",
       "domain_id": "3",
+      "objective_id": "3.1",
+      "difficulty": "easy",
+      "tags": [
+        "secops-monitoring"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -5981,6 +6935,11 @@
       ],
       "explanation": "Geographic dispersion reduces the effect of regional outages.",
       "domain_id": "3",
+      "objective_id": "3.1",
+      "difficulty": "easy",
+      "tags": [
+        "pki"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -6016,6 +6975,11 @@
       ],
       "explanation": "A storage area network provides block-level storage over a storage network.",
       "domain_id": "3",
+      "objective_id": "3.2",
+      "difficulty": "easy",
+      "tags": [
+        "security-architecture"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -6051,6 +7015,11 @@
       ],
       "explanation": "Discretionary access control allows the resource owner to grant or revoke permissions.",
       "domain_id": "4",
+      "objective_id": "4.1",
+      "difficulty": "easy",
+      "tags": [
+        "iam"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -6086,6 +7055,11 @@
       ],
       "explanation": "Mandatory access control uses centrally managed labels and rules.",
       "domain_id": "4",
+      "objective_id": "4.1",
+      "difficulty": "easy",
+      "tags": [
+        "iam"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -6121,6 +7095,11 @@
       ],
       "explanation": "JIT access limits the duration of privileged permissions.",
       "domain_id": "4",
+      "objective_id": "4.1",
+      "difficulty": "easy",
+      "tags": [
+        "iam"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -6156,6 +7135,11 @@
       ],
       "explanation": "Dual control requires two individuals for a sensitive action.",
       "domain_id": "4",
+      "objective_id": "4.2",
+      "difficulty": "easy",
+      "tags": [
+        "network-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -6191,6 +7175,11 @@
       ],
       "explanation": "Periodic access reviews identify excessive, stale or inappropriate permissions.",
       "domain_id": "4",
+      "objective_id": "4.2",
+      "difficulty": "easy",
+      "tags": [
+        "pki"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -6226,6 +7215,12 @@
       ],
       "explanation": "SAML exchanges authentication and authorization assertions between identity and service providers.",
       "domain_id": "4",
+      "objective_id": "4.1",
+      "difficulty": "easy",
+      "tags": [
+        "cia-triad",
+        "iam"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -6261,6 +7256,12 @@
       ],
       "explanation": "OAuth 2.0 allows an application to obtain limited delegated access without receiving the user password.",
       "domain_id": "4",
+      "objective_id": "4.1",
+      "difficulty": "easy",
+      "tags": [
+        "cia-triad",
+        "iam"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -6296,6 +7297,13 @@
       ],
       "explanation": "OpenID Connect provides authentication and identity claims using OAuth 2.0.",
       "domain_id": "4",
+      "objective_id": "4.1",
+      "difficulty": "easy",
+      "tags": [
+        "cia-triad",
+        "network-security",
+        "iam"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -6331,6 +7339,12 @@
       ],
       "explanation": "NAC can check endpoint posture and quarantine noncompliant devices.",
       "domain_id": "4",
+      "objective_id": "4.2",
+      "difficulty": "easy",
+      "tags": [
+        "network-security",
+        "secops-monitoring"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -6366,6 +7380,12 @@
       ],
       "explanation": "Endpoint management tools can enforce configuration and application policies.",
       "domain_id": "4",
+      "objective_id": "4.2",
+      "difficulty": "easy",
+      "tags": [
+        "pki",
+        "network-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -6401,6 +7421,13 @@
       ],
       "explanation": "A confirmed malware detection on a critical asset is a high-priority security event.",
       "domain_id": "4",
+      "objective_id": "4.2",
+      "difficulty": "easy",
+      "tags": [
+        "malware",
+        "incident-response",
+        "secops-monitoring"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -6436,6 +7463,12 @@
       ],
       "explanation": "Eradication removes malware, persistence and the root cause after containment.",
       "domain_id": "4",
+      "objective_id": "4.2",
+      "difficulty": "easy",
+      "tags": [
+        "malware",
+        "incident-response"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -6471,6 +7504,11 @@
       ],
       "explanation": "Recovery returns systems to normal operation and monitors for recurrence.",
       "domain_id": "4",
+      "objective_id": "4.2",
+      "difficulty": "easy",
+      "tags": [
+        "incident-response"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -6506,6 +7544,11 @@
       ],
       "explanation": "Lessons learned identify process and control improvements after an incident.",
       "domain_id": "4",
+      "objective_id": "4.2",
+      "difficulty": "easy",
+      "tags": [
+        "incident-response"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -6541,6 +7584,11 @@
       ],
       "explanation": "Synchronized time enables accurate ordering and correlation of events.",
       "domain_id": "4",
+      "objective_id": "4.2",
+      "difficulty": "easy",
+      "tags": [
+        "security-operations"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -6576,6 +7624,12 @@
       ],
       "explanation": "Retention limitation reduces exposure by disposing of data when the purpose ends.",
       "domain_id": "5",
+      "objective_id": "5.2",
+      "difficulty": "easy",
+      "tags": [
+        "zero-trust",
+        "governance-compliance"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -6611,6 +7665,12 @@
       ],
       "explanation": "PCI DSS provides security requirements for payment card data environments.",
       "domain_id": "5",
+      "objective_id": "5.1",
+      "difficulty": "easy",
+      "tags": [
+        "iam",
+        "risk-management"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -6646,6 +7706,11 @@
       ],
       "explanation": "Data sovereignty concerns the legal jurisdiction governing data based on location.",
       "domain_id": "5",
+      "objective_id": "5.2",
+      "difficulty": "easy",
+      "tags": [
+        "governance-risk"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -6681,6 +7746,11 @@
       ],
       "explanation": "A data subject is an identified or identifiable person associated with personal data.",
       "domain_id": "5",
+      "objective_id": "5.2",
+      "difficulty": "easy",
+      "tags": [
+        "governance-compliance"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -6716,6 +7786,12 @@
       ],
       "explanation": "A compliance audit evaluates controls and evidence against a standard or regulation.",
       "domain_id": "5",
+      "objective_id": "5.2",
+      "difficulty": "easy",
+      "tags": [
+        "password-attacks",
+        "governance-compliance"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -6751,6 +7827,13 @@
       ],
       "explanation": "An audit finding records a control weakness, nonconformity or observation.",
       "domain_id": "5",
+      "objective_id": "5.2",
+      "difficulty": "easy",
+      "tags": [
+        "network-security",
+        "secops-monitoring",
+        "governance-compliance"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -6786,6 +7869,11 @@
       ],
       "explanation": "Correlated authorized records and system logs provide traceable evidence.",
       "domain_id": "5",
+      "objective_id": "5.2",
+      "difficulty": "easy",
+      "tags": [
+        "governance-risk"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -6821,6 +7909,11 @@
       ],
       "explanation": "The incident commander coordinates response activities and priorities.",
       "domain_id": "5",
+      "objective_id": "5.2",
+      "difficulty": "easy",
+      "tags": [
+        "pki"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -6856,6 +7949,11 @@
       ],
       "explanation": "Mean Time To Repair measures average restoration or repair time.",
       "domain_id": "5",
+      "objective_id": "5.1",
+      "difficulty": "easy",
+      "tags": [
+        "risk-management"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -6891,6 +7989,11 @@
       ],
       "explanation": "Mean Time Between Failures measures reliability between failures.",
       "domain_id": "5",
+      "objective_id": "5.1",
+      "difficulty": "easy",
+      "tags": [
+        "risk-management"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -6926,6 +8029,13 @@
       ],
       "explanation": "Vendor management uses contracts, SLAs, reviews and escalation paths to handle supplier risk.",
       "domain_id": "5",
+      "objective_id": "5.1",
+      "difficulty": "medium",
+      "tags": [
+        "cryptography",
+        "pki",
+        "password-attacks"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -6961,6 +8071,11 @@
       ],
       "explanation": "An incident notification clause defines when and how the supplier must report incidents.",
       "domain_id": "5",
+      "objective_id": "5.2",
+      "difficulty": "easy",
+      "tags": [
+        "governance-compliance"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -6996,6 +8111,13 @@
       ],
       "explanation": "A restore test validates backup integrity and recovery procedures.",
       "domain_id": "5",
+      "objective_id": "5.2",
+      "difficulty": "easy",
+      "tags": [
+        "cia-triad",
+        "incident-response",
+        "secops-monitoring"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -7031,6 +8153,13 @@
       ],
       "explanation": "A failover test exercises the actual transition to an alternate service or site.",
       "domain_id": "5",
+      "objective_id": "5.2",
+      "difficulty": "easy",
+      "tags": [
+        "incident-response",
+        "secops-monitoring",
+        "risk-management"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -7066,6 +8195,11 @@
       ],
       "explanation": "Risk avoidance removes the activity or condition creating the risk.",
       "domain_id": "5",
+      "objective_id": "5.1",
+      "difficulty": "easy",
+      "tags": [
+        "risk-management"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -7101,6 +8235,11 @@
       ],
       "explanation": "Complete mediation checks authorization whenever access to a protected resource is requested.",
       "domain_id": "1",
+      "objective_id": "1.2",
+      "difficulty": "easy",
+      "tags": [
+        "cia-triad"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -7136,6 +8275,11 @@
       ],
       "explanation": "Availability keeps systems and information accessible when needed.",
       "domain_id": "1",
+      "objective_id": "1.2",
+      "difficulty": "easy",
+      "tags": [
+        "cia-triad"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -7171,6 +8315,12 @@
       ],
       "explanation": "Managerial controls direct and oversee the security program.",
       "domain_id": "1",
+      "objective_id": "1.1",
+      "difficulty": "easy",
+      "tags": [
+        "security-controls",
+        "risk-management"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -7206,6 +8356,12 @@
       ],
       "explanation": "Technical controls are implemented through hardware or software mechanisms.",
       "domain_id": "1",
+      "objective_id": "1.1",
+      "difficulty": "easy",
+      "tags": [
+        "security-controls",
+        "network-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -7241,6 +8397,11 @@
       ],
       "explanation": "Operational controls are people and process activities used to operate security.",
       "domain_id": "1",
+      "objective_id": "1.1",
+      "difficulty": "easy",
+      "tags": [
+        "security-controls"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -7276,6 +8437,12 @@
       ],
       "explanation": "Least functionality removes or disables unnecessary services and features.",
       "domain_id": "1",
+      "objective_id": "1.2",
+      "difficulty": "easy",
+      "tags": [
+        "cia-triad",
+        "iam"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -7311,6 +8478,12 @@
       ],
       "explanation": "Fail-open prioritizes availability over restriction when a control fails.",
       "domain_id": "1",
+      "objective_id": "1.2",
+      "difficulty": "easy",
+      "tags": [
+        "cia-triad",
+        "secops-monitoring"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -7346,6 +8519,11 @@
       ],
       "explanation": "A PIN is knowledge possessed by the user.",
       "domain_id": "1",
+      "objective_id": "1.1",
+      "difficulty": "easy",
+      "tags": [
+        "general-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -7381,6 +8559,11 @@
       ],
       "explanation": "A hardware token is a possession factor.",
       "domain_id": "1",
+      "objective_id": "1.1",
+      "difficulty": "easy",
+      "tags": [
+        "general-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -7416,6 +8599,11 @@
       ],
       "explanation": "A voice pattern is a biometric inherence factor.",
       "domain_id": "1",
+      "objective_id": "1.1",
+      "difficulty": "easy",
+      "tags": [
+        "iam"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -7451,6 +8639,13 @@
       ],
       "explanation": "Time-based one-time passwords are generated from a shared secret and current time.",
       "domain_id": "1",
+      "objective_id": "1.1",
+      "difficulty": "easy",
+      "tags": [
+        "network-security",
+        "iam",
+        "secops-monitoring"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -7486,6 +8681,12 @@
       ],
       "explanation": "FIDO2 security keys use public-key cryptography and resist phishing.",
       "domain_id": "1",
+      "objective_id": "1.1",
+      "difficulty": "easy",
+      "tags": [
+        "social-engineering",
+        "iam"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -7521,6 +8722,12 @@
       ],
       "explanation": "A baseline defines the minimum approved security configuration for a system.",
       "domain_id": "1",
+      "objective_id": "1.1",
+      "difficulty": "medium",
+      "tags": [
+        "incident-response",
+        "secops-monitoring"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -7556,6 +8763,11 @@
       ],
       "explanation": "Open design expects the design to be public while secrets remain protected.",
       "domain_id": "1",
+      "objective_id": "1.1",
+      "difficulty": "easy",
+      "tags": [
+        "zero-trust"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -7591,6 +8803,11 @@
       ],
       "explanation": "Symmetric algorithms are efficient for bulk data encryption.",
       "domain_id": "1",
+      "objective_id": "1.1",
+      "difficulty": "easy",
+      "tags": [
+        "cryptography"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -7626,6 +8843,11 @@
       ],
       "explanation": "Asymmetric cryptography can establish or protect a shared secret without sending it in plaintext.",
       "domain_id": "1",
+      "objective_id": "1.1",
+      "difficulty": "easy",
+      "tags": [
+        "general-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -7661,6 +8883,11 @@
       ],
       "explanation": "A nonce helps prevent reuse and replay by providing a unique value for a transaction.",
       "domain_id": "1",
+      "objective_id": "1.1",
+      "difficulty": "easy",
+      "tags": [
+        "governance-compliance"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -7696,6 +8923,13 @@
       ],
       "explanation": "A MAC, hash, or digital signature can help verify message integrity.",
       "domain_id": "1",
+      "objective_id": "1.3",
+      "difficulty": "easy",
+      "tags": [
+        "pki",
+        "cia-triad",
+        "iam"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -7731,6 +8965,11 @@
       ],
       "explanation": "Audit logging creates evidence that can reveal unauthorized activity.",
       "domain_id": "1",
+      "objective_id": "1.1",
+      "difficulty": "easy",
+      "tags": [
+        "governance-compliance"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -7766,6 +9005,11 @@
       ],
       "explanation": "JIT access grants elevated permission only for the required time.",
       "domain_id": "1",
+      "objective_id": "1.1",
+      "difficulty": "easy",
+      "tags": [
+        "iam"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -7801,6 +9045,11 @@
       ],
       "explanation": "Adware displays unwanted advertising and can include tracking behavior.",
       "domain_id": "2",
+      "objective_id": "2.2",
+      "difficulty": "easy",
+      "tags": [
+        "malware"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -7836,6 +9085,11 @@
       ],
       "explanation": "Rootkits conceal processes, files, or persistence mechanisms.",
       "domain_id": "2",
+      "objective_id": "2.2",
+      "difficulty": "easy",
+      "tags": [
+        "malware"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -7871,6 +9125,11 @@
       ],
       "explanation": "A bootkit targets boot components and can execute before the operating system fully loads.",
       "domain_id": "2",
+      "objective_id": "2.2",
+      "difficulty": "easy",
+      "tags": [
+        "malware"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -7906,6 +9165,11 @@
       ],
       "explanation": "Pharming redirects users to malicious destinations through DNS or host manipulation.",
       "domain_id": "2",
+      "objective_id": "2.1",
+      "difficulty": "medium",
+      "tags": [
+        "social-engineering"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -7941,6 +9205,11 @@
       ],
       "explanation": "Whaling is spear phishing directed at senior executives or other high-value targets.",
       "domain_id": "2",
+      "objective_id": "2.1",
+      "difficulty": "easy",
+      "tags": [
+        "social-engineering"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -7976,6 +9245,11 @@
       ],
       "explanation": "Dumpster diving examines discarded material for useful information.",
       "domain_id": "2",
+      "objective_id": "2.2",
+      "difficulty": "easy",
+      "tags": [
+        "social-engineering"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -8011,6 +9285,12 @@
       ],
       "explanation": "Shoulder surfing observes screens or keyboards to capture secrets.",
       "domain_id": "2",
+      "objective_id": "2.1",
+      "difficulty": "easy",
+      "tags": [
+        "social-engineering",
+        "password-attacks"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -8046,6 +9326,13 @@
       ],
       "explanation": "A tech support scam uses impersonation and urgency to obtain access or payment.",
       "domain_id": "2",
+      "objective_id": "2.1",
+      "difficulty": "easy",
+      "tags": [
+        "social-engineering",
+        "application-attacks",
+        "network-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -8081,6 +9368,13 @@
       ],
       "explanation": "An IDOR lets a user access another object by changing an identifier without proper authorization checks.",
       "domain_id": "2",
+      "objective_id": "2.2",
+      "difficulty": "easy",
+      "tags": [
+        "cia-triad",
+        "malware",
+        "network-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -8116,6 +9410,12 @@
       ],
       "explanation": "Input validation rejects unexpected types, formats, lengths, and values.",
       "domain_id": "2",
+      "objective_id": "2.2",
+      "difficulty": "easy",
+      "tags": [
+        "pki",
+        "cia-triad"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -8151,6 +9451,11 @@
       ],
       "explanation": "An out-of-bounds read accesses memory outside the allowed buffer.",
       "domain_id": "2",
+      "objective_id": "2.2",
+      "difficulty": "easy",
+      "tags": [
+        "password-attacks"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -8186,6 +9491,12 @@
       ],
       "explanation": "Use-after-free can cause crashes, data exposure, or code execution.",
       "domain_id": "2",
+      "objective_id": "2.1",
+      "difficulty": "easy",
+      "tags": [
+        "social-engineering",
+        "application-attacks"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -8221,6 +9532,11 @@
       ],
       "explanation": "Verbose or improper errors can reveal paths, queries, versions, and implementation details.",
       "domain_id": "2",
+      "objective_id": "2.2",
+      "difficulty": "easy",
+      "tags": [
+        "network-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -8256,6 +9572,13 @@
       ],
       "explanation": "Weak cross-origin controls can expose data or permit unauthorized browser interactions.",
       "domain_id": "2",
+      "objective_id": "2.2",
+      "difficulty": "easy",
+      "tags": [
+        "password-attacks",
+        "secops-monitoring",
+        "governance-compliance"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -8291,6 +9614,12 @@
       ],
       "explanation": "Secure cookie attributes and TLS reduce exposure and unauthorized cross-site use of sessions.",
       "domain_id": "2",
+      "objective_id": "2.2",
+      "difficulty": "medium",
+      "tags": [
+        "application-attacks",
+        "network-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -8326,6 +9655,13 @@
       ],
       "explanation": "Resource exhaustion consumes finite system resources to reduce availability.",
       "domain_id": "2",
+      "objective_id": "2.2",
+      "difficulty": "easy",
+      "tags": [
+        "pki",
+        "cia-triad",
+        "network-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -8361,6 +9697,12 @@
       ],
       "explanation": "Outdated or vulnerable dependencies create application supply-chain exposure.",
       "domain_id": "2",
+      "objective_id": "2.2",
+      "difficulty": "easy",
+      "tags": [
+        "cia-triad",
+        "network-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -8396,6 +9738,11 @@
       ],
       "explanation": "Repository controls, package pinning, signatures, and dependency review reduce substitution risk.",
       "domain_id": "2",
+      "objective_id": "2.2",
+      "difficulty": "easy",
+      "tags": [
+        "risk-management"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -8431,6 +9778,11 @@
       ],
       "explanation": "Dependency confusion abuses package naming and repository precedence.",
       "domain_id": "2",
+      "objective_id": "2.2",
+      "difficulty": "easy",
+      "tags": [
+        "iam"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -8466,6 +9818,11 @@
       ],
       "explanation": "Clickjacking tricks users into clicking an unintended overlaid control.",
       "domain_id": "2",
+      "objective_id": "2.2",
+      "difficulty": "easy",
+      "tags": [
+        "network-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -8501,6 +9858,11 @@
       ],
       "explanation": "A WAF inspects and filters web application traffic.",
       "domain_id": "3",
+      "objective_id": "3.2",
+      "difficulty": "easy",
+      "tags": [
+        "network-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -8536,6 +9898,11 @@
       ],
       "explanation": "A router connects different IP networks and separates broadcast domains.",
       "domain_id": "3",
+      "objective_id": "3.1",
+      "difficulty": "easy",
+      "tags": [
+        "security-architecture"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -8571,6 +9938,11 @@
       ],
       "explanation": "Three-tier architecture separates presentation, application, and data layers.",
       "domain_id": "3",
+      "objective_id": "3.2",
+      "difficulty": "easy",
+      "tags": [
+        "security-architecture"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -8606,6 +9978,11 @@
       ],
       "explanation": "Users should access data through controlled application services rather than direct database access.",
       "domain_id": "3",
+      "objective_id": "3.1",
+      "difficulty": "easy",
+      "tags": [
+        "security-architecture"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -8641,6 +10018,11 @@
       ],
       "explanation": "DNS over HTTPS encrypts DNS requests within HTTPS traffic.",
       "domain_id": "3",
+      "objective_id": "3.1",
+      "difficulty": "easy",
+      "tags": [
+        "security-architecture"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -8676,6 +10058,11 @@
       ],
       "explanation": "A site-to-site VPN encrypts traffic between network locations.",
       "domain_id": "3",
+      "objective_id": "3.2",
+      "difficulty": "easy",
+      "tags": [
+        "network-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -8711,6 +10098,13 @@
       ],
       "explanation": "Jamming creates interference that reduces wireless availability.",
       "domain_id": "3",
+      "objective_id": "3.1",
+      "difficulty": "easy",
+      "tags": [
+        "pki",
+        "cia-triad",
+        "application-attacks"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -8746,6 +10140,12 @@
       ],
       "explanation": "Separating cloud accounts or subscriptions limits blast radius and administrative scope.",
       "domain_id": "3",
+      "objective_id": "3.2",
+      "difficulty": "easy",
+      "tags": [
+        "cloud-security",
+        "network-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -8781,6 +10181,11 @@
       ],
       "explanation": "Software as a Service delivers a provider-managed application.",
       "domain_id": "3",
+      "objective_id": "3.1",
+      "difficulty": "easy",
+      "tags": [
+        "cloud-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -8816,6 +10221,11 @@
       ],
       "explanation": "Platform as a Service provides a managed application platform and runtime.",
       "domain_id": "3",
+      "objective_id": "3.1",
+      "difficulty": "easy",
+      "tags": [
+        "cloud-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -8851,6 +10261,11 @@
       ],
       "explanation": "Infrastructure as a Service provides virtualized infrastructure resources.",
       "domain_id": "3",
+      "objective_id": "3.1",
+      "difficulty": "easy",
+      "tags": [
+        "cloud-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -8886,6 +10301,11 @@
       ],
       "explanation": "A trusted execution environment isolates protected code and data from the normal environment.",
       "domain_id": "3",
+      "objective_id": "3.1",
+      "difficulty": "medium",
+      "tags": [
+        "security-architecture"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -8921,6 +10341,11 @@
       ],
       "explanation": "Tokenization substitutes a non-sensitive token for the original value.",
       "domain_id": "3",
+      "objective_id": "3.1",
+      "difficulty": "easy",
+      "tags": [
+        "security-architecture"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -8956,6 +10381,11 @@
       ],
       "explanation": "Masking hides or replaces portions of data for display or testing.",
       "domain_id": "3",
+      "objective_id": "3.1",
+      "difficulty": "easy",
+      "tags": [
+        "cryptography"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -8991,6 +10421,12 @@
       ],
       "explanation": "Physical destruction makes the media unusable and prevents practical recovery.",
       "domain_id": "3",
+      "objective_id": "3.1",
+      "difficulty": "easy",
+      "tags": [
+        "cryptography",
+        "incident-response"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -9026,6 +10462,11 @@
       ],
       "explanation": "Offsite backups reduce the impact of a local disaster or site compromise.",
       "domain_id": "3",
+      "objective_id": "3.1",
+      "difficulty": "easy",
+      "tags": [
+        "secops-monitoring"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -9061,6 +10502,11 @@
       ],
       "explanation": "The 3-2-1 rule uses three copies, two media types, and one offsite copy.",
       "domain_id": "3",
+      "objective_id": "3.1",
+      "difficulty": "medium",
+      "tags": [
+        "secops-monitoring"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -9096,6 +10542,11 @@
       ],
       "explanation": "Bare-metal recovery restores an entire system to replacement hardware or an empty disk.",
       "domain_id": "3",
+      "objective_id": "3.1",
+      "difficulty": "easy",
+      "tags": [
+        "incident-response"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -9131,6 +10582,12 @@
       ],
       "explanation": "An uninterruptible power supply provides temporary power and can condition voltage.",
       "domain_id": "3",
+      "objective_id": "3.2",
+      "difficulty": "easy",
+      "tags": [
+        "network-security",
+        "secops-monitoring"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -9166,6 +10623,11 @@
       ],
       "explanation": "Cooling maintains an acceptable operating environment for equipment.",
       "domain_id": "3",
+      "objective_id": "3.1",
+      "difficulty": "easy",
+      "tags": [
+        "network-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -9201,6 +10663,11 @@
       ],
       "explanation": "Named accounts improve accountability, logging, and least-privilege assignment.",
       "domain_id": "4",
+      "objective_id": "4.1",
+      "difficulty": "medium",
+      "tags": [
+        "security-operations"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -9236,6 +10703,12 @@
       ],
       "explanation": "Geofencing applies access rules based on geographic location.",
       "domain_id": "4",
+      "objective_id": "4.2",
+      "difficulty": "easy",
+      "tags": [
+        "cryptography",
+        "secops-monitoring"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -9271,6 +10744,11 @@
       ],
       "explanation": "Allowlisting permits only approved applications or publishers.",
       "domain_id": "4",
+      "objective_id": "4.2",
+      "difficulty": "easy",
+      "tags": [
+        "security-operations"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -9306,6 +10784,13 @@
       ],
       "explanation": "MDM manages mobile device settings, applications, compliance, and security posture.",
       "domain_id": "4",
+      "objective_id": "4.2",
+      "difficulty": "easy",
+      "tags": [
+        "pki",
+        "network-security",
+        "governance-compliance"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -9341,6 +10826,11 @@
       ],
       "explanation": "Full-disk encryption protects stored data from offline access.",
       "domain_id": "4",
+      "objective_id": "4.2",
+      "difficulty": "easy",
+      "tags": [
+        "security-operations"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -9376,6 +10866,11 @@
       ],
       "explanation": "A packet analyzer captures and decodes network traffic for troubleshooting or investigation.",
       "domain_id": "4",
+      "objective_id": "4.2",
+      "difficulty": "easy",
+      "tags": [
+        "secops-monitoring"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -9411,6 +10906,12 @@
       ],
       "explanation": "An intrusion prevention system can detect and actively block malicious traffic.",
       "domain_id": "4",
+      "objective_id": "4.2",
+      "difficulty": "easy",
+      "tags": [
+        "pki",
+        "network-security"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -9446,6 +10947,12 @@
       ],
       "explanation": "A forward proxy represents internal clients and can enforce browsing policies.",
       "domain_id": "4",
+      "objective_id": "4.2",
+      "difficulty": "easy",
+      "tags": [
+        "network-security",
+        "secops-monitoring"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -9481,6 +10988,12 @@
       ],
       "explanation": "A tested rollback or backup and approved plan reduce change-related risk.",
       "domain_id": "4",
+      "objective_id": "4.2",
+      "difficulty": "easy",
+      "tags": [
+        "secops-monitoring",
+        "risk-management"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -9516,6 +11029,11 @@
       ],
       "explanation": "A control assessment validates whether a control is designed and operating effectively.",
       "domain_id": "4",
+      "objective_id": "4.2",
+      "difficulty": "easy",
+      "tags": [
+        "pki"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -9551,6 +11069,12 @@
       ],
       "explanation": "A red team emulates adversary behavior to test defensive capability.",
       "domain_id": "4",
+      "objective_id": "4.2",
+      "difficulty": "easy",
+      "tags": [
+        "vulnerability-management",
+        "secops-monitoring"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -9586,6 +11110,11 @@
       ],
       "explanation": "The blue team performs defense, detection, response, and monitoring.",
       "domain_id": "4",
+      "objective_id": "4.2",
+      "difficulty": "easy",
+      "tags": [
+        "vulnerability-management"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -9621,6 +11150,11 @@
       ],
       "explanation": "The white team defines rules, adjudicates the exercise, and protects the environment.",
       "domain_id": "4",
+      "objective_id": "4.2",
+      "difficulty": "easy",
+      "tags": [
+        "vulnerability-management"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -9656,6 +11190,12 @@
       ],
       "explanation": "An asset inventory provides visibility into what must be protected.",
       "domain_id": "4",
+      "objective_id": "4.2",
+      "difficulty": "easy",
+      "tags": [
+        "pki",
+        "password-attacks"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -9691,6 +11231,11 @@
       ],
       "explanation": "Asset disposal includes authorization, data sanitization, and documented retirement.",
       "domain_id": "4",
+      "objective_id": "4.1",
+      "difficulty": "easy",
+      "tags": [
+        "cia-triad"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -9726,6 +11271,12 @@
       ],
       "explanation": "A false positive is an alert for activity that is not actually malicious.",
       "domain_id": "4",
+      "objective_id": "4.2",
+      "difficulty": "easy",
+      "tags": [
+        "vulnerability-management",
+        "risk-management"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -9761,6 +11312,11 @@
       ],
       "explanation": "A false negative means a real threat was not detected.",
       "domain_id": "4",
+      "objective_id": "4.2",
+      "difficulty": "easy",
+      "tags": [
+        "vulnerability-management"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -9796,6 +11352,11 @@
       ],
       "explanation": "Alert tuning adjusts logic, thresholds, and exclusions to improve signal quality.",
       "domain_id": "4",
+      "objective_id": "4.2",
+      "difficulty": "easy",
+      "tags": [
+        "pki"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -9831,6 +11392,11 @@
       ],
       "explanation": "RAM and active connections are volatile and should be collected promptly.",
       "domain_id": "4",
+      "objective_id": "4.2",
+      "difficulty": "medium",
+      "tags": [
+        "security-operations"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -9866,6 +11432,12 @@
       ],
       "explanation": "A file hash can be compared against known-good or known-malicious indicators.",
       "domain_id": "4",
+      "objective_id": "4.1",
+      "difficulty": "easy",
+      "tags": [
+        "iam",
+        "risk-management"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -9901,6 +11473,11 @@
       ],
       "explanation": "A security charter establishes mission, authority, scope, and executive support.",
       "domain_id": "5",
+      "objective_id": "5.2",
+      "difficulty": "easy",
+      "tags": [
+        "governance-risk"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -9936,6 +11513,12 @@
       ],
       "explanation": "A data retention policy specifies retention periods and disposal expectations.",
       "domain_id": "5",
+      "objective_id": "5.2",
+      "difficulty": "easy",
+      "tags": [
+        "network-security",
+        "governance-compliance"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -9971,6 +11554,12 @@
       ],
       "explanation": "Awareness training communicates responsibilities and expected behavior.",
       "domain_id": "5",
+      "objective_id": "5.2",
+      "difficulty": "easy",
+      "tags": [
+        "pki",
+        "secops-monitoring"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -10006,6 +11595,12 @@
       ],
       "explanation": "The reporting rate shows how often users identify and report simulated threats.",
       "domain_id": "5",
+      "objective_id": "5.1",
+      "difficulty": "easy",
+      "tags": [
+        "social-engineering",
+        "risk-management"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -10041,6 +11636,11 @@
       ],
       "explanation": "Mitigation applies controls to reduce likelihood or impact.",
       "domain_id": "5",
+      "objective_id": "5.1",
+      "difficulty": "easy",
+      "tags": [
+        "risk-management"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -10076,6 +11676,11 @@
       ],
       "explanation": "Risk acceptance is a documented decision to retain a known risk.",
       "domain_id": "5",
+      "objective_id": "5.1",
+      "difficulty": "easy",
+      "tags": [
+        "risk-management"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -10111,6 +11716,11 @@
       ],
       "explanation": "Single Loss Expectancy estimates the loss from one occurrence.",
       "domain_id": "5",
+      "objective_id": "5.1",
+      "difficulty": "easy",
+      "tags": [
+        "risk-management"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -10146,6 +11756,11 @@
       ],
       "explanation": "Annual Rate of Occurrence estimates how often a risk occurs per year.",
       "domain_id": "5",
+      "objective_id": "5.1",
+      "difficulty": "easy",
+      "tags": [
+        "risk-management"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -10181,6 +11796,11 @@
       ],
       "explanation": "Qualitative analysis uses categories and expert judgment rather than precise monetary values.",
       "domain_id": "5",
+      "objective_id": "5.1",
+      "difficulty": "easy",
+      "tags": [
+        "risk-management"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -10216,6 +11836,11 @@
       ],
       "explanation": "Evidence collection preserves records that show control operation and compliance.",
       "domain_id": "5",
+      "objective_id": "5.2",
+      "difficulty": "easy",
+      "tags": [
+        "governance-risk"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -10251,6 +11876,11 @@
       ],
       "explanation": "A memorandum of understanding documents a mutual understanding or intent to cooperate.",
       "domain_id": "5",
+      "objective_id": "5.2",
+      "difficulty": "easy",
+      "tags": [
+        "governance-compliance"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -10286,6 +11916,12 @@
       ],
       "explanation": "An interconnection security agreement documents security expectations between connected organizations or systems.",
       "domain_id": "5",
+      "objective_id": "5.1",
+      "difficulty": "easy",
+      "tags": [
+        "risk-management",
+        "governance-compliance"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -10321,6 +11957,12 @@
       ],
       "explanation": "SOC 2 Type II evaluates the design and operating effectiveness of controls over a period.",
       "domain_id": "5",
+      "objective_id": "5.1",
+      "difficulty": "medium",
+      "tags": [
+        "risk-management",
+        "governance-compliance"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -10356,6 +11998,11 @@
       ],
       "explanation": "Control mapping identifies how one control satisfies requirements across frameworks.",
       "domain_id": "5",
+      "objective_id": "5.2",
+      "difficulty": "easy",
+      "tags": [
+        "governance-risk"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -10391,6 +12038,12 @@
       ],
       "explanation": "Data subject access supports an individual's right to obtain information held about them where applicable.",
       "domain_id": "5",
+      "objective_id": "5.2",
+      "difficulty": "easy",
+      "tags": [
+        "password-attacks",
+        "governance-compliance"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -10426,6 +12079,11 @@
       ],
       "explanation": "Pseudonymization replaces identifiers with substitutes while retaining a controlled ability to link data.",
       "domain_id": "5",
+      "objective_id": "5.2",
+      "difficulty": "medium",
+      "tags": [
+        "governance-compliance"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -10461,6 +12119,12 @@
       ],
       "explanation": "Business continuity planning identifies resources, roles, dependencies, and procedures for continued operations.",
       "domain_id": "5",
+      "objective_id": "5.2",
+      "difficulty": "easy",
+      "tags": [
+        "pki",
+        "risk-management"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -10496,6 +12160,13 @@
       ],
       "explanation": "BIA identifies critical functions, dependencies, impact, and recovery priorities.",
       "domain_id": "5",
+      "objective_id": "5.1",
+      "difficulty": "easy",
+      "tags": [
+        "incident-response",
+        "risk-management",
+        "governance-compliance"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -10531,6 +12202,12 @@
       ],
       "explanation": "Risk accountability assigns an owner and requires an authorized decision for acceptance.",
       "domain_id": "5",
+      "objective_id": "5.1",
+      "difficulty": "easy",
+      "tags": [
+        "zero-trust",
+        "risk-management"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",
@@ -10566,6 +12243,11 @@
       ],
       "explanation": "Ongoing monitoring reviews vendor performance, attestations, incidents, and control changes.",
       "domain_id": "5",
+      "objective_id": "5.1",
+      "difficulty": "easy",
+      "tags": [
+        "governance-risk"
+      ],
       "status": "published",
       "provenance": {
         "kind": "original",

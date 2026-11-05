@@ -1,0 +1,51 @@
+{
+  "schema_version": "2.0",
+  "id": "iso-27001-2022",
+  "title": "ISO/IEC 27001:2022 Information Security Management",
+  "provider": "ISO/IEC",
+  "exam_code": "ISO-27001:2022",
+  "category": "Governance",
+  "accent": "#0ea5e9",
+  "summary": "Information Security Management System (ISMS) requirements (Clauses 4–10) and the 93 Annex A controls across Organizational, People, Physical, and Technological themes.",
+  "status": "published",
+  "availability": {
+    "application": "published"
+  },
+  "domains": [
+    {
+      "id": "clauses",
+      "title": "ISMS Requirements (Clauses 4–10)",
+      "weight": 20,
+      "description": "Context of the organization, leadership, risk assessment & treatment, Statement of Applicability (SoA), internal audit, management review, and continual improvement."
+    },
+    {
+      "id": "A.5",
+      "title": "A.5 Organizational Controls",
+      "weight": 30,
+      "description": "37 controls covering information security policies, threat intelligence, cloud services security, supplier relationships, incident management, and compliance."
+    },
+    {
+      "id": "A.6",
+      "title": "A.6 People Controls",
+      "weight": 12,
+      "description": "8 controls covering screening, terms of employment, security awareness & training, disciplinary process, remote working, and NDA/confidentiality agreements."
+    },
+    {
+      "id": "A.7",
+      "title": "A.7 Physical Controls",
+      "weight": 13,
+      "description": "14 controls covering physical perimeters, entry controls, securing offices/facilities, physical security monitoring, clear desk/clear screen, and equipment disposal."
+    },
+    {
+      "id": "A.8",
+      "title": "A.8 Technological Controls",
+      "weight": 25,
+      "description": "34 controls covering endpoint devices, privileged access, cryptography, vulnerability management, configuration management, data masking, DLP, and secure coding."
+    }
+  ],
+  "question_bank": {
+    "path": "published-questions.v2.json",
+    "record_count": 25,
+    "status": "published"
+  }
+}

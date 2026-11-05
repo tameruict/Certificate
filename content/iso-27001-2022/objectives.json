@@ -1,0 +1,87 @@
+{
+  "schema_version": "2.1",
+  "course_id": "iso-27001-2022",
+  "domains": [
+    {
+      "id": "clauses",
+      "objectives": [
+        {
+          "id": "clauses.1",
+          "title": "Clauses 4–6: Context, Leadership, and Risk Planning",
+          "summary": "Determine internal/external issues, interested parties, ISMS scope (Clause 4); leadership commitment & policy (Clause 5); risk assessment, risk treatment plan, and Statement of Applicability (Clause 6).",
+          "notes_md": "**Mandatory ISMS Foundation (Clauses 4–6):**\n- `Clause 4 (Context)` — identify internal/external issues (4.1), interested parties and requirements (4.2), and define the documented `ISMS Scope` (4.3).\n- `Clause 5 (Leadership)` — top management establishes the `Information Security Policy` (5.2) and assigns roles/responsibilities (5.3).\n- `Clause 6 (Planning)` — define risk acceptance criteria, perform information security risk assessments (6.1.2), select risk treatment options, produce the `Statement of Applicability (SoA)` justifying included/excluded Annex A controls (6.1.3 d), and set measurable information security objectives (6.2).",
+          "refs": ["ISO/IEC 27001:2022 Clause 4", "ISO/IEC 27001:2022 Clause 5", "ISO/IEC 27001:2022 Clause 6"]
+        },
+        {
+          "id": "clauses.2",
+          "title": "Clauses 7–10: Support, Operation, Performance Evaluation, and Improvement",
+          "summary": "Competence, awareness, documented information control (Clause 7); operational risk execution (Clause 8); monitoring, internal audit, management review (Clause 9); nonconformity and corrective action (Clause 10).",
+          "notes_md": "**Lifecycle Execution & Assurance (Clauses 7–10):**\n- `Clause 7 (Support)` — resources, competence records, awareness, communication, and control of `documented information` (versioning, access, retention).\n- `Clause 8 (Operation)` — execute processes, perform risk assessments at planned intervals or when significant changes occur (8.2), and implement the risk treatment plan (8.3).\n- `Clause 9 (Performance Evaluation)` — monitor metrics (9.1), conduct independent `Internal Audits` (9.2), and hold `Management Reviews` (9.3).\n- `Clause 10 (Improvement)` — continual improvement (10.1) and handling `nonconformities and corrective actions` (10.2) by addressing root causes.",
+          "refs": ["ISO/IEC 27001:2022 Clause 7", "ISO/IEC 27001:2022 Clause 8", "ISO/IEC 27001:2022 Clause 9", "ISO/IEC 27001:2022 Clause 10"]
+        }
+      ]
+    },
+    {
+      "id": "A.5",
+      "objectives": [
+        {
+          "id": "A.5.1",
+          "title": "Governance, Policies, Threat Intelligence, and Asset Classification",
+          "summary": "Policies for information security (A.5.1), segregation of duties (A.5.3), threat intelligence (A.5.7), asset inventory (A.5.9), and information classification/labeling (A.5.12–A.5.13).",
+          "notes_md": "**Key Organizational Governance Controls:**\n- `A.5.1 Policies for information security` — approved by management, published, and reviewed at planned intervals.\n- `A.5.3 Segregation of duties` — conflicting duties and areas of responsibility are segregated.\n- `A.5.7 Threat intelligence` (New in 2022) — collect and analyze strategic, tactical, and operational threat information.\n- `A.5.9–A.5.13 Asset & Classification` — maintain an inventory of information and other associated assets with assigned owners; classify and label information according to confidentiality, integrity, and availability needs.",
+          "refs": ["Annex A.5.1", "Annex A.5.3", "Annex A.5.7", "Annex A.5.9", "Annex A.5.12"]
+        },
+        {
+          "id": "A.5.2",
+          "title": "Supplier Security, Cloud Services, Incident Management, and Continuity",
+          "summary": "Supplier relationships (A.5.19–A.5.22), information security for use of cloud services (A.5.23), incident management (A.5.24–A.5.28), ICT readiness for business continuity (A.5.30), and legal/privacy compliance (A.5.31–A.5.36).",
+          "notes_md": "**Third-Party, Cloud & Resilience Controls:**\n- `A.5.19–A.5.22 Supplier security` — address security risks in supplier agreements and ICT supply chains; monitor and review supplier services.\n- `A.5.23 Information security for use of cloud services` (New in 2022) — govern acquisition, use, management, shared responsibilities, and exit strategies for cloud services.\n- `A.5.24–A.5.28 Incident management` — plan, triage, respond to, learn from incidents, and preserve digital evidence (`A.5.28`).\n- `A.5.30 ICT readiness for business continuity` (New in 2022) — ensure ICT continuity meets RTO and RPO objectives derived from the BIA.",
+          "refs": ["Annex A.5.19", "Annex A.5.23", "Annex A.5.24", "Annex A.5.30"]
+        }
+      ]
+    },
+    {
+      "id": "A.6",
+      "objectives": [
+        {
+          "id": "A.6.1",
+          "title": "Human Resource Security and Remote Working Controls",
+          "summary": "Screening (A.6.1), employment terms (A.6.2), awareness/education/training (A.6.3), disciplinary process (A.6.4), post-termination responsibilities (A.6.5), NDAs (A.6.6), remote working (A.6.7), and event reporting (A.6.8).",
+          "notes_md": "**People Controls (A.6.1–A.6.8):**\n- `Before employment` — background verification (`A.6.1`) proportional to business requirements and local laws; contractual security responsibilities (`A.6.2`).\n- `During employment` — regular security awareness and role-specific training (`A.6.3`), formal disciplinary process (`A.6.4`), and timely reporting of observed or suspected security events (`A.6.8`).\n- `Termination / change` — communicate ongoing confidentiality obligations (`A.6.5`) and maintain reviewed confidentiality/non-disclosure agreements (`A.6.6`).\n- `A.6.7 Remote working` — protect information accessed, processed, or stored outside the organization's premises.",
+          "refs": ["Annex A.6.1", "Annex A.6.3", "Annex A.6.6", "Annex A.6.7", "Annex A.6.8"]
+        }
+      ]
+    },
+    {
+      "id": "A.7",
+      "objectives": [
+        {
+          "id": "A.7.1",
+          "title": "Physical Perimeters, Monitoring, Clear Desk, and Media Disposal",
+          "summary": "Physical security perimeters (A.7.1), physical entry (A.7.2), physical security monitoring (A.7.4), clear desk and clear screen (A.7.7), storage media (A.7.10), and secure disposal or re-use of equipment (A.7.14).",
+          "notes_md": "**Physical Controls (A.7.1–A.7.14):**\n- `A.7.1–A.7.3 Perimeters & Entry` — define security perimeters and restrict entry to authorized personnel.\n- `A.7.4 Physical security monitoring` (New in 2022) — continuously monitor premises for unauthorized physical access using CCTV, intrusion alarms, and guards.\n- `A.7.7 Clear desk and clear screen` — lock unattended endpoints and secure sensitive paper/media.\n- `A.7.14 Secure disposal or re-use of equipment` — verify that storage devices containing sensitive data or licensed software are securely overwritten, cryptographic-erased, or physically destroyed before disposal or re-use.",
+          "refs": ["Annex A.7.1", "Annex A.7.4", "Annex A.7.7", "Annex A.7.10", "Annex A.7.14"]
+        }
+      ]
+    },
+    {
+      "id": "A.8",
+      "objectives": [
+        {
+          "id": "A.8.1",
+          "title": "Endpoint, Access, Cryptography, Vulnerability, and Configuration Controls",
+          "summary": "User endpoint devices (A.8.1), privileged access rights (A.8.2), secure authentication (A.8.5), technical vulnerability management (A.8.8), configuration management (A.8.9), and cryptography (A.8.24).",
+          "notes_md": "**System & Access Hardening (A.8):**\n- `A.8.2 Privileged access rights` — restrict and tightly manage allocation and use of privileged accounts.\n- `A.8.8 Management of technical vulnerabilities` — obtain timely info about technical vulnerabilities, evaluate exposure, and patch/mitigate based on risk.\n- `A.8.9 Configuration management` (New in 2022) — establish, document, implement, monitor, and review security configurations (baselines) for hardware, software, services, and networks.\n- `A.8.24 Use of cryptography` — define and implement rules for effective use of cryptography and cryptographic key management.",
+          "refs": ["Annex A.8.1", "Annex A.8.2", "Annex A.8.8", "Annex A.8.9", "Annex A.8.24"]
+        },
+        {
+          "id": "A.8.2",
+          "title": "Data Protection, Logging, Network Security, and Secure Development",
+          "summary": "Information deletion (A.8.10), data masking (A.8.11), data leakage prevention (A.8.12), logging and monitoring (A.8.15–A.8.16), web filtering (A.8.23), secure coding (A.8.28), and separation of environments (A.8.31).",
+          "notes_md": "**New 2022 Data & AppSec Controls in A.8:**\n- `A.8.10 Information deletion` (New in 2022) — delete information stored in systems, devices, or storage media when no longer required.\n- `A.8.11 Data masking` (New in 2022) — use masking, pseudonymization, or anonymization in accordance with access control policy and privacy requirements.\n- `A.8.12 Data leakage prevention (DLP)` (New in 2022) — detect and prevent unauthorized disclosure/extraction of sensitive information.\n- `A.8.23 Web filtering` (New in 2022) — manage access to external websites to reduce exposure to malicious content.\n- `A.8.28 Secure coding` (New in 2022) — apply secure coding principles to software development, including third-party/open-source components.",
+          "refs": ["Annex A.8.10", "Annex A.8.11", "Annex A.8.12", "Annex A.8.23", "Annex A.8.28"]
+        }
+      ]
+    }
+  ]
+}

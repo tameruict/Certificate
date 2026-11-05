@@ -1,0 +1,483 @@
+{
+  "schema_version": "2.0",
+  "course_id": "iso-27001-2022",
+  "question_bank_status": "published",
+  "content_origin": "original",
+  "records": [
+    {
+      "id": "iso-27001-2022-q001",
+      "type": "single_select",
+      "prompt": "Which mandatory ISO/IEC 27001:2022 document lists the necessary controls, justifies inclusions, states whether each control is implemented, and justifies any exclusions from Annex A?",
+      "options": [
+        { "id": "option_1", "text": "Statement of Applicability (SoA)" },
+        { "id": "option_2", "text": "Business Impact Analysis (BIA)" },
+        { "id": "option_3", "text": "Internal Audit Programme" },
+        { "id": "option_4", "text": "Acceptable Use Policy (AUP)" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "Under Clause 6.1.3(d), the organization must produce a Statement of Applicability (SoA) containing the necessary controls, justification for inclusions, implementation status, and justification for any exclusions from Annex A.",
+      "domain_id": "clauses",
+      "objective_id": "clauses.1",
+      "difficulty": "easy",
+      "tags": ["soa", "clause-6", "risk-treatment"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original ISO/IEC 27001:2022 study question." }
+    },
+    {
+      "id": "iso-27001-2022-q002",
+      "type": "single_select",
+      "prompt": "How many controls and themes are defined in Annex A of ISO/IEC 27001:2022?",
+      "options": [
+        { "id": "option_1", "text": "93 controls organized into 4 themes (Organizational, People, Physical, Technological)" },
+        { "id": "option_2", "text": "114 controls organized into 14 domains" },
+        { "id": "option_3", "text": "50 controls organized into 5 NIST CSF functions" },
+        { "id": "option_4", "text": "133 controls organized into 11 themes" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "ISO/IEC 27001:2022 consolidated Annex A from 114 controls in 14 domains (2013 edition) into 93 controls across 4 themes: A.5 Organizational (37), A.6 People (8), A.7 Physical (14), and A.8 Technological (34).",
+      "domain_id": "clauses",
+      "objective_id": "clauses.1",
+      "difficulty": "easy",
+      "tags": ["annex-a", "iso-27001-2022", "structure"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original ISO/IEC 27001:2022 study question." }
+    },
+    {
+      "id": "iso-27001-2022-q003",
+      "type": "single_select",
+      "prompt": "According to Clause 4.3 of ISO/IEC 27001:2022, which of the following must be considered when determining the boundaries and applicability (scope) of the ISMS?",
+      "options": [
+        { "id": "option_1", "text": "Internal/external issues (4.1), interested party requirements (4.2), and interfaces/dependencies with activities performed by other organizations" },
+        { "id": "option_2", "text": "Only IT servers physically owned by the internal IT department" },
+        { "id": "option_3", "text": "Only systems that have experienced a security breach in the past 12 months" },
+        { "id": "option_4", "text": "The certification body's preferred marketing summary" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "Clause 4.3 requires the organization to consider internal and external issues (4.1), requirements of interested parties (4.2), and interfaces and dependencies between activities performed by the organization and those performed by other organizations.",
+      "domain_id": "clauses",
+      "objective_id": "clauses.1",
+      "difficulty": "medium",
+      "tags": ["isms-scope", "clause-4", "governance"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original ISO/IEC 27001:2022 study question." }
+    },
+    {
+      "id": "iso-27001-2022-q004",
+      "type": "single_select",
+      "prompt": "Which addition was introduced in ISO/IEC 27001:2022 under Clause 4.2(c) regarding interested parties?",
+      "options": [
+        { "id": "option_1", "text": "Determining which of the interested parties' requirements will be addressed through the ISMS" },
+        { "id": "option_2", "text": "Requiring all interested parties to sign the Statement of Applicability" },
+        { "id": "option_3", "text": "Publishing internal risk registers to the general public" },
+        { "id": "option_4", "text": "Appointing an external regulator to chair the management review" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "ISO/IEC 27001:2022 added Clause 4.2(c), explicitly requiring the organization to determine which requirements of relevant interested parties will be addressed through the information security management system.",
+      "domain_id": "clauses",
+      "objective_id": "clauses.1",
+      "difficulty": "hard",
+      "tags": ["clause-4", "interested-parties", "2022-changes"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original ISO/IEC 27001:2022 study question." }
+    },
+    {
+      "id": "iso-27001-2022-q005",
+      "type": "single_select",
+      "prompt": "Under Clause 9.2 (Internal Audit), what is a mandatory requirement when selecting auditors and conducting audits?",
+      "options": [
+        { "id": "option_1", "text": "Ensure objectivity and the impartiality of the audit process" },
+        { "id": "option_2", "text": "Have system administrators audit their own firewall configurations to save time" },
+        { "id": "option_3", "text": "Perform internal audits only once every five years" },
+        { "id": "option_4", "text": "Exclude Annex A controls from internal audit scope" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "Clause 9.2.2(b) requires the organization to select auditors and conduct audits that ensure objectivity and the impartiality of the audit process (auditors must not audit their own work).",
+      "domain_id": "clauses",
+      "objective_id": "clauses.2",
+      "difficulty": "easy",
+      "tags": ["internal-audit", "clause-9", "assurance"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original ISO/IEC 27001:2022 study question." }
+    },
+    {
+      "id": "iso-27001-2022-q006",
+      "type": "multi_select",
+      "prompt": "When a nonconformity occurs, which TWO actions are required by Clause 10.2 of ISO/IEC 27001:2022?",
+      "options": [
+        { "id": "option_1", "text": "React to the nonconformity to control and correct it, and deal with the consequences." },
+        { "id": "option_2", "text": "Evaluate the need for action to eliminate the causes of the nonconformity so that it does not recur or occur elsewhere." },
+        { "id": "option_3", "text": "Delete historical audit records so the nonconformity is hidden from external auditors." },
+        { "id": "option_4", "text": "Automatically remove the affected department from the ISMS scope." }
+      ],
+      "correct_option_ids": ["option_1", "option_2"],
+      "explanation": "Clause 10.2 requires immediate correction/containment of the nonconformity AND root-cause analysis/corrective action to prevent recurrence, along with retaining documented information as evidence.",
+      "domain_id": "clauses",
+      "objective_id": "clauses.2",
+      "difficulty": "medium",
+      "tags": ["nonconformity", "corrective-action", "clause-10"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original ISO/IEC 27001:2022 study question." }
+    },
+    {
+      "id": "iso-27001-2022-q007",
+      "type": "single_select",
+      "prompt": "Which new control in ISO/IEC 27001:2022 requires information relating to information security threats to be collected and analyzed to produce threat intelligence?",
+      "options": [
+        { "id": "option_1", "text": "A.5.7 Threat intelligence" },
+        { "id": "option_2", "text": "A.5.1 Policies for information security" },
+        { "id": "option_3", "text": "A.6.1 Screening" },
+        { "id": "option_4", "text": "A.7.7 Clear desk and clear screen" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "Annex A.5.7 (Threat intelligence) is one of the 11 new controls introduced in the 2022 edition, requiring collection and analysis of strategic, tactical, and operational threat intelligence.",
+      "domain_id": "A.5",
+      "objective_id": "A.5.1",
+      "difficulty": "easy",
+      "tags": ["threat-intelligence", "A.5.7", "2022-new-controls"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original ISO/IEC 27001:2022 study question." }
+    },
+    {
+      "id": "iso-27001-2022-q008",
+      "type": "single_select",
+      "prompt": "An organization adopts multiple SaaS and IaaS platforms and needs to define security requirements for acquisition, use, management, and exit from those cloud services. Which Annex A control directly addresses this?",
+      "options": [
+        { "id": "option_1", "text": "A.5.23 Information security for use of cloud services" },
+        { "id": "option_2", "text": "A.7.4 Physical security monitoring" },
+        { "id": "option_3", "text": "A.6.4 Disciplinary process" },
+        { "id": "option_4", "text": "A.8.23 Web filtering" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "A.5.23 (Information security for use of cloud services) is a new 2022 control requiring processes for acquisition, use, management, and exit from cloud services in accordance with the organization's security requirements.",
+      "domain_id": "A.5",
+      "objective_id": "A.5.2",
+      "difficulty": "medium",
+      "tags": ["cloud-security", "A.5.23", "2022-new-controls"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original ISO/IEC 27001:2022 study question." }
+    },
+    {
+      "id": "iso-27001-2022-q009",
+      "type": "single_select",
+      "prompt": "Why does Annex A.5.3 (Segregation of duties) require conflicting duties and conflicting areas of responsibility to be segregated?",
+      "options": [
+        { "id": "option_1", "text": "To reduce opportunities for unauthorized or unintentional modification or misuse of the organization's assets" },
+        { "id": "option_2", "text": "To ensure every employee can approve their own production changes without delay" },
+        { "id": "option_3", "text": "To eliminate the need for access control logging" },
+        { "id": "option_4", "text": "To replace background screening during recruitment" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "Segregation of duties (A.5.3) prevents any single person from initiating, approving, and executing a sensitive action undetected, reducing fraud and error risk.",
+      "domain_id": "A.5",
+      "objective_id": "A.5.1",
+      "difficulty": "easy",
+      "tags": ["segregation-of-duties", "A.5.3", "access-control"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original ISO/IEC 27001:2022 study question." }
+    },
+    {
+      "id": "iso-27001-2022-q010",
+      "type": "single_select",
+      "prompt": "Which new control in Annex A.5 ensures that ICT systems can be recovered within required Recovery Time Objectives (RTO) and Recovery Point Objectives (RPO) during a disruption?",
+      "options": [
+        { "id": "option_1", "text": "A.5.30 ICT readiness for business continuity" },
+        { "id": "option_2", "text": "A.5.12 Classification of information" },
+        { "id": "option_3", "text": "A.5.2 Contact with authorities" },
+        { "id": "option_4", "text": "A.5.34 Privacy and protection of PII" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "A.5.30 (ICT readiness for business continuity) requires ICT readiness to be planned, implemented, maintained, and tested based on business continuity objectives and ICT continuity requirements.",
+      "domain_id": "A.5",
+      "objective_id": "A.5.2",
+      "difficulty": "medium",
+      "tags": ["business-continuity", "A.5.30", "rto-rpo"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original ISO/IEC 27001:2022 study question." }
+    },
+    {
+      "id": "iso-27001-2022-q011",
+      "type": "single_select",
+      "prompt": "During a security incident investigation, the response team needs to collect system logs and memory dumps in a way that preserves chain of custody and admissibility. Which Annex A control governs this?",
+      "options": [
+        { "id": "option_1", "text": "A.5.28 Collection of evidence" },
+        { "id": "option_2", "text": "A.5.14 Information transfer" },
+        { "id": "option_3", "text": "A.8.11 Data masking" },
+        { "id": "option_4", "text": "A.7.11 Supporting utilities" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "A.5.28 (Collection of evidence) requires the organization to establish and apply procedures for the identification, collection, acquisition, and preservation of information that can serve as evidence.",
+      "domain_id": "A.5",
+      "objective_id": "A.5.2",
+      "difficulty": "medium",
+      "tags": ["forensics", "evidence", "A.5.28"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original ISO/IEC 27001:2022 study question." }
+    },
+    {
+      "id": "iso-27001-2022-q012",
+      "type": "single_select",
+      "prompt": "What is the primary purpose of Annex A.5.31 (Legal, statutory, regulatory and contractual requirements)?",
+      "options": [
+        { "id": "option_1", "text": "Identify, document, and keep up to date all legal, statutory, regulatory, and contractual requirements relevant to information security and the organization's approach to meet them" },
+        { "id": "option_2", "text": "Exempt the organization from national data protection laws once certified" },
+        { "id": "option_3", "text": "Delegate all legal liability to cloud service providers" },
+        { "id": "option_4", "text": "Replace contracts with informal verbal agreements" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "A.5.31 ensures the organization maintains an up-to-date register of applicable legal, statutory, regulatory, and contractual obligations and maps how each requirement is satisfied.",
+      "domain_id": "A.5",
+      "objective_id": "A.5.2",
+      "difficulty": "easy",
+      "tags": ["compliance", "legal-requirements", "A.5.31"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original ISO/IEC 27001:2022 study question." }
+    },
+    {
+      "id": "iso-27001-2022-q013",
+      "type": "single_select",
+      "prompt": "According to Annex A.6.1 (Screening), how should background verification checks on candidates for employment be conducted?",
+      "options": [
+        { "id": "option_1", "text": "In accordance with applicable laws, regulations, and ethics, and proportional to the business requirements, the classification of the information to be accessed, and the perceived risks" },
+        { "id": "option_2", "text": "Identically for every role regardless of local privacy laws or access level" },
+        { "id": "option_3", "text": "Only after the employee has worked in a privileged administrator role for one year" },
+        { "id": "option_4", "text": "Only for external contractors, never for permanent employees" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "A.6.1 states that background verification checks must be carried out prior to joining, abide by relevant laws/regulations/ethics, and be proportional to business needs, information classification, and perceived risk.",
+      "domain_id": "A.6",
+      "objective_id": "A.6.1",
+      "difficulty": "medium",
+      "tags": ["screening", "hr-security", "A.6.1"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original ISO/IEC 27001:2022 study question." }
+    },
+    {
+      "id": "iso-27001-2022-q014",
+      "type": "single_select",
+      "prompt": "Employees work from home and from co-working spaces using corporate laptops. Which Annex A.6 control requires security measures to protect information accessed, processed, or stored outside the organization's premises?",
+      "options": [
+        { "id": "option_1", "text": "A.6.7 Remote working" },
+        { "id": "option_2", "text": "A.6.4 Disciplinary process" },
+        { "id": "option_3", "text": "A.7.9 Security of assets off-premises" },
+        { "id": "option_4", "text": "A.8.32 Change management" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "A.6.7 (Remote working) specifically governs security policies and technical/procedural safeguards when personnel work remotely outside organizational premises.",
+      "domain_id": "A.6",
+      "objective_id": "A.6.1",
+      "difficulty": "easy",
+      "tags": ["remote-working", "A.6.7", "people-controls"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original ISO/IEC 27001:2022 study question." }
+    },
+    {
+      "id": "iso-27001-2022-q015",
+      "type": "single_select",
+      "prompt": "Which People control requires personnel to report observed or suspected information security events through appropriate management channels as quickly as possible?",
+      "options": [
+        { "id": "option_1", "text": "A.6.8 Information security event reporting" },
+        { "id": "option_2", "text": "A.6.2 Terms and conditions of employment" },
+        { "id": "option_3", "text": "A.6.5 Responsibilities after termination or change of employment" },
+        { "id": "option_4", "text": "A.6.6 Confidentiality or non-disclosure agreements" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "A.6.8 (Information security event reporting) ensures personnel are aware of and use formal reporting channels to escalate suspected security events or weaknesses promptly.",
+      "domain_id": "A.6",
+      "objective_id": "A.6.1",
+      "difficulty": "easy",
+      "tags": ["event-reporting", "A.6.8", "incident-response"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original ISO/IEC 27001:2022 study question." }
+    },
+    {
+      "id": "iso-27001-2022-q016",
+      "type": "single_select",
+      "prompt": "Which new Physical control in ISO/IEC 27001:2022 requires premises to be continuously monitored for unauthorized physical access?",
+      "options": [
+        { "id": "option_1", "text": "A.7.4 Physical security monitoring" },
+        { "id": "option_2", "text": "A.7.1 Physical security perimeters" },
+        { "id": "option_3", "text": "A.7.7 Clear desk and clear screen" },
+        { "id": "option_4", "text": "A.7.12 Cabling security" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "A.7.4 (Physical security monitoring) was introduced in ISO/IEC 27001:2022 to require continuous surveillance/alarm monitoring of physical premises to detect unauthorized physical access.",
+      "domain_id": "A.7",
+      "objective_id": "A.7.1",
+      "difficulty": "easy",
+      "tags": ["physical-security", "A.7.4", "2022-new-controls"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original ISO/IEC 27001:2022 study question." }
+    },
+    {
+      "id": "iso-27001-2022-q017",
+      "type": "single_select",
+      "prompt": "Before decommissioning or donating old office laptops and storage arrays, what does Annex A.7.14 (Secure disposal or re-use of equipment) require?",
+      "options": [
+        { "id": "option_1", "text": "Verify that any sensitive data and licensed software have been removed or securely overwritten prior to disposal or re-use" },
+        { "id": "option_2", "text": "Perform a standard operating system quick format only" },
+        { "id": "option_3", "text": "Remove the asset tag sticker and place the drives in municipal recycling" },
+        { "id": "option_4", "text": "Keep all broken hardware in unlocked hallways indefinitely" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "A.7.14 requires verifying that storage media containing sensitive data or licensed software is securely sanitized, cryptographic-erased, or physically destroyed before disposal or re-use.",
+      "domain_id": "A.7",
+      "objective_id": "A.7.1",
+      "difficulty": "easy",
+      "tags": ["media-disposal", "sanitization", "A.7.14"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original ISO/IEC 27001:2022 study question." }
+    },
+    {
+      "id": "iso-27001-2022-q018",
+      "type": "single_select",
+      "prompt": "An auditor walks through an office during lunch and observes unlocked workstations displaying customer records and printed financial statements left on desks. Which control is being violated?",
+      "options": [
+        { "id": "option_1", "text": "A.7.7 Clear desk and clear screen" },
+        { "id": "option_2", "text": "A.7.5 Protecting against physical and environmental threats" },
+        { "id": "option_3", "text": "A.7.11 Supporting utilities" },
+        { "id": "option_4", "text": "A.7.13 Equipment maintenance" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "A.7.7 (Clear desk and clear screen) requires clear desk rules for papers and removable storage media and clear screen rules (such as automatic screen locks) for information processing facilities.",
+      "domain_id": "A.7",
+      "objective_id": "A.7.1",
+      "difficulty": "easy",
+      "tags": ["clear-desk", "A.7.7", "physical-security"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original ISO/IEC 27001:2022 study question." }
+    },
+    {
+      "id": "iso-27001-2022-q019",
+      "type": "single_select",
+      "prompt": "Which new Technological control in ISO/IEC 27001:2022 requires security configurations (baselines) for hardware, software, services, and networks to be established, documented, implemented, monitored, and reviewed?",
+      "options": [
+        { "id": "option_1", "text": "A.8.9 Configuration management" },
+        { "id": "option_2", "text": "A.8.2 Privileged access rights" },
+        { "id": "option_3", "text": "A.8.13 Information backup" },
+        { "id": "option_4", "text": "A.8.17 Clock synchronization" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "A.8.9 (Configuration management) is a new 2022 control focused on establishing, enforcing, and monitoring hardened security configuration baselines across assets.",
+      "domain_id": "A.8",
+      "objective_id": "A.8.1",
+      "difficulty": "medium",
+      "tags": ["configuration-management", "A.8.9", "2022-new-controls"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original ISO/IEC 27001:2022 study question." }
+    },
+    {
+      "id": "iso-27001-2022-q020",
+      "type": "multi_select",
+      "prompt": "Which TWO of the following are new Technological controls added in ISO/IEC 27001:2022 to protect sensitive data from unauthorized exposure or retention?",
+      "options": [
+        { "id": "option_1", "text": "A.8.10 Information deletion" },
+        { "id": "option_2", "text": "A.8.11 Data masking" },
+        { "id": "option_3", "text": "A.5.1 Policies for information security" },
+        { "id": "option_4", "text": "A.7.2 Physical entry" }
+      ],
+      "correct_option_ids": ["option_1", "option_2"],
+      "explanation": "Both A.8.10 (Information deletion) and A.8.11 (Data masking), along with A.8.12 (Data leakage prevention), were newly added to Annex A.8 in the 2022 revision.",
+      "domain_id": "A.8",
+      "objective_id": "A.8.2",
+      "difficulty": "medium",
+      "tags": ["data-protection", "A.8.10", "A.8.11"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original ISO/IEC 27001:2022 study question." }
+    },
+    {
+      "id": "iso-27001-2022-q021",
+      "type": "single_select",
+      "prompt": "A software team integrates static application security testing (SAST), dependency scanning, and OWASP Top 10 defensive coding rules into its engineering workflow. Which new 2022 Annex A.8 control does this directly satisfy?",
+      "options": [
+        { "id": "option_1", "text": "A.8.28 Secure coding" },
+        { "id": "option_2", "text": "A.8.14 Redundancy of information processing facilities" },
+        { "id": "option_3", "text": "A.8.23 Web filtering" },
+        { "id": "option_4", "text": "A.8.6 Capacity management" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "A.8.28 (Secure coding) requires secure coding principles to be applied before, during, and after software development, including review and management of third-party libraries.",
+      "domain_id": "A.8",
+      "objective_id": "A.8.2",
+      "difficulty": "easy",
+      "tags": ["secure-coding", "A.8.28", "appsec"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original ISO/IEC 27001:2022 study question." }
+    },
+    {
+      "id": "iso-27001-2022-q022",
+      "type": "single_select",
+      "prompt": "To prevent employees from accessing known command-and-control domains and phishing sites from corporate endpoints, the network team deploys DNS and HTTP proxy category blocking. Which Annex A.8 control does this implement?",
+      "options": [
+        { "id": "option_1", "text": "A.8.23 Web filtering" },
+        { "id": "option_2", "text": "A.8.17 Clock synchronization" },
+        { "id": "option_3", "text": "A.8.11 Data masking" },
+        { "id": "option_4", "text": "A.8.31 Separation of development, test and production environments" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "A.8.23 (Web filtering) requires managing access to external websites to reduce exposure to malicious content.",
+      "domain_id": "A.8",
+      "objective_id": "A.8.2",
+      "difficulty": "easy",
+      "tags": ["web-filtering", "A.8.23", "network-security"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original ISO/IEC 27001:2022 study question." }
+    },
+    {
+      "id": "iso-27001-2022-q023",
+      "type": "single_select",
+      "prompt": "What is the distinction between A.8.15 (Logging) and A.8.16 (Monitoring activities) in ISO/IEC 27001:2022?",
+      "options": [
+        { "id": "option_1", "text": "A.8.15 focuses on producing, storing, and protecting event logs, whereas A.8.16 focuses on actively analyzing networks, systems, and applications for anomalous behavior" },
+        { "id": "option_2", "text": "A.8.15 applies only to paper visitor logs, whereas A.8.16 applies only to CCTV cameras" },
+        { "id": "option_3", "text": "A.8.15 is optional for cloud systems, whereas A.8.16 is only for on-premises mainframes" },
+        { "id": "option_4", "text": "There is no difference; they are duplicate controls" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "A.8.15 requires generating, protecting, and retaining audit logs, while the new A.8.16 (Monitoring activities) requires proactive monitoring and analysis of system/network behavior to detect anomalies and potential incidents.",
+      "domain_id": "A.8",
+      "objective_id": "A.8.2",
+      "difficulty": "hard",
+      "tags": ["logging", "monitoring", "A.8.16"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original ISO/IEC 27001:2022 study question." }
+    },
+    {
+      "id": "iso-27001-2022-q024",
+      "type": "single_select",
+      "prompt": "Which control in Annex A.8 requires the organization to obtain timely information about technical vulnerabilities of information systems in use, evaluate exposure, and take appropriate measures?",
+      "options": [
+        { "id": "option_1", "text": "A.8.8 Management of technical vulnerabilities" },
+        { "id": "option_2", "text": "A.8.1 User endpoint devices" },
+        { "id": "option_3", "text": "A.8.24 Use of cryptography" },
+        { "id": "option_4", "text": "A.8.19 Installation of software on operational systems" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "A.8.8 (Management of technical vulnerabilities) governs vulnerability tracking, risk-based prioritization, patching, and compensating mitigations.",
+      "domain_id": "A.8",
+      "objective_id": "A.8.1",
+      "difficulty": "easy",
+      "tags": ["vulnerability-management", "A.8.8", "patching"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original ISO/IEC 27001:2022 study question." }
+    },
+    {
+      "id": "iso-27001-2022-q025",
+      "type": "single_select",
+      "prompt": "Under Clause 9.3 (Management Review), who must review the organization's ISMS at planned intervals to ensure its continuing suitability, adequacy, and effectiveness?",
+      "options": [
+        { "id": "option_1", "text": "Top management" },
+        { "id": "option_2", "text": "Only junior help-desk technicians" },
+        { "id": "option_3", "text": "External customers" },
+        { "id": "option_4", "text": "The hardware vendor's sales team" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "Clause 9.3 mandates that top management review the organization's ISMS at planned intervals, considering audit results, nonconformities, feedback, risk status, and opportunities for continual improvement.",
+      "domain_id": "clauses",
+      "objective_id": "clauses.2",
+      "difficulty": "easy",
+      "tags": ["management-review", "clause-9", "leadership"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original ISO/IEC 27001:2022 study question." }
+    }
+  ]
+}

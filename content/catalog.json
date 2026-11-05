@@ -11,6 +11,20 @@
       "category": "Security"
     },
     {
+      "id": "comptia-network-plus-n10-009",
+      "bundle": "comptia-network-plus-n10-009/course.json",
+      "published": true,
+      "status": "published",
+      "category": "Networking"
+    },
+    {
+      "id": "iso-27001-2022",
+      "bundle": "iso-27001-2022/course.json",
+      "published": true,
+      "status": "published",
+      "category": "Governance"
+    },
+    {
       "id": "aws-cloud-practitioner-clf-c02",
       "bundle": "aws-cloud-practitioner-clf-c02/course.json",
       "published": true,

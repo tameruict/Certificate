@@ -6,6 +6,8 @@ const path = require('node:path');
 const ROOT = path.resolve(__dirname, '..');
 const VALID_STATUSES = new Set(['draft', 'needs_review', 'published']);
 const VALID_TYPES = new Set(['single_select', 'multi_select']);
+const VALID_DIFFICULTIES = new Set(['easy', 'medium', 'hard']);
+const ID_PATTERN = /^[a-z0-9][a-z0-9._-]{0,127}$/;
 
 function readJson(filePath, issues, label) {
   try {
@@ -20,7 +22,53 @@ function isNonBlankString(value) {
   return typeof value === 'string' && value.trim().length > 0;
 }
 
-function validateQuestion(question, context, domainIds, courseIsPublished, issues) {
+function validateObjectives(objectives, entryLabel, courseId, domainIds, issues) {
+  const objectiveIdsByDomain = new Map();
+  if (!objectives || typeof objectives !== 'object' || Array.isArray(objectives)) {
+    issues.push(`${entryLabel} objectives: root must be a JSON object.`);
+    return objectiveIdsByDomain;
+  }
+  if (objectives.schema_version !== '2.1') {
+    issues.push(`${entryLabel} objectives: schema_version must be 2.1.`);
+  }
+  if (objectives.course_id !== courseId) {
+    issues.push(`${entryLabel} objectives: course_id must match catalog id '${courseId}'.`);
+  }
+  if (!Array.isArray(objectives.domains) || objectives.domains.length === 0) {
+    issues.push(`${entryLabel} objectives: domains must be a non-empty array.`);
+    return objectiveIdsByDomain;
+  }
+  const seenObjectives = new Set();
+  for (const domain of objectives.domains) {
+    if (!domain || !isNonBlankString(domain.id)) {
+      issues.push(`${entryLabel} objectives: every domain entry requires a non-blank id.`);
+      continue;
+    }
+    if (!domainIds.has(domain.id)) {
+      issues.push(`${entryLabel} objectives: domain '${domain.id}' is not defined in course.json.`);
+    }
+    if (!Array.isArray(domain.objectives) || domain.objectives.length === 0) {
+      issues.push(`${entryLabel} objectives: domain '${domain.id}' must contain at least one objective.`);
+      continue;
+    }
+    const domainObjSet = objectiveIdsByDomain.get(domain.id) || new Set();
+    for (const obj of domain.objectives) {
+      if (!obj || !isNonBlankString(obj.id) || !isNonBlankString(obj.title)) {
+        issues.push(`${entryLabel} objectives (${domain.id}): every objective needs non-blank id and title.`);
+        continue;
+      }
+      if (seenObjectives.has(obj.id)) {
+        issues.push(`${entryLabel} objectives: duplicate objective id '${obj.id}'.`);
+      }
+      seenObjectives.add(obj.id);
+      domainObjSet.add(obj.id);
+    }
+    objectiveIdsByDomain.set(domain.id, domainObjSet);
+  }
+  return objectiveIdsByDomain;
+}
+
+function validateQuestion(question, context, domainIds, courseIsPublished, issues, objectiveIdsByDomain = null) {
   const prefix = `${context} question ${question && question.id ? question.id : '<missing id>'}`;
   if (!question || typeof question !== 'object' || Array.isArray(question)) {
     issues.push(`${context}: record must be an object.`);
@@ -35,6 +83,24 @@ function validateQuestion(question, context, domainIds, courseIsPublished, issue
   if (!VALID_TYPES.has(question.type)) issues.push(`${prefix}: type must be single_select or multi_select.`);
   if (!VALID_STATUSES.has(question.status)) issues.push(`${prefix}: invalid status '${question.status}'.`);
   if (!domainIds.has(question.domain_id)) issues.push(`${prefix}: domain_id '${question.domain_id}' is not defined by the course.`);
+  if (question.difficulty !== undefined && question.difficulty !== null && !VALID_DIFFICULTIES.has(question.difficulty)) {
+    issues.push(`${prefix}: difficulty '${question.difficulty}' must be easy, medium, or hard.`);
+  }
+  if (question.tags !== undefined) {
+    if (!Array.isArray(question.tags) || question.tags.some((tag) => !isNonBlankString(tag))) {
+      issues.push(`${prefix}: tags must be an array of non-blank strings.`);
+    }
+  }
+  if (question.objective_id !== undefined && question.objective_id !== null) {
+    if (!isNonBlankString(question.objective_id)) {
+      issues.push(`${prefix}: objective_id must be a non-blank string when present.`);
+    } else if (objectiveIdsByDomain && objectiveIdsByDomain.has(question.domain_id)) {
+      const validObjs = objectiveIdsByDomain.get(question.domain_id);
+      if (!validObjs.has(question.objective_id)) {
+        issues.push(`${prefix}: objective_id '${question.objective_id}' is not defined under domain '${question.domain_id}' in objectives.json.`);
+      }
+    }
+  }
   if (!Array.isArray(question.options) || question.options.length < 2) {
     issues.push(`${prefix}: requires at least two options.`);
   }
@@ -86,6 +152,9 @@ function validateRepository(root = ROOT) {
       issues.push(`${entryLabel}: id and bundle are required.`);
       continue;
     }
+    if (!ID_PATTERN.test(entry.id)) {
+      issues.push(`${entryLabel}: id '${entry.id}' must match ${ID_PATTERN}.`);
+    }
     if (catalogIds.has(entry.id)) issues.push(`${entryLabel}: duplicate catalog id.`);
     catalogIds.add(entry.id);
     if (typeof entry.published !== 'boolean') issues.push(`${entryLabel}: published must be boolean.`);
@@ -121,6 +190,16 @@ function validateRepository(root = ROOT) {
         issues.push(`${entryLabel}: duplicate domain id '${domain.id}'.`);
       } else domainIds.add(domain.id);
     }
+
+    let objectiveIdsByDomain = null;
+    const objectivesPath = path.join(path.dirname(bundlePath), 'objectives.json');
+    if (fs.existsSync(objectivesPath)) {
+      const objectives = readJson(objectivesPath, issues, `${entryLabel} objectives`);
+      if (objectives) {
+        objectiveIdsByDomain = validateObjectives(objectives, entryLabel, entry.id, domainIds, issues);
+      }
+    }
+
     if (!course.question_bank || !isNonBlankString(course.question_bank.path) || !Number.isInteger(course.question_bank.record_count)) {
       issues.push(`${entryLabel}: question_bank.path and integer record_count are required.`);
       continue;
@@ -145,7 +224,7 @@ function validateRepository(root = ROOT) {
     for (const question of bank.records) {
       if (question && question.id && questionIds.has(question.id)) issues.push(`${entryLabel}: duplicate question id '${question.id}'.`);
       if (question && question.id) questionIds.add(question.id);
-      validateQuestion(question, entryLabel, domainIds, entry.published, issues);
+      validateQuestion(question, entryLabel, domainIds, entry.published, issues, objectiveIdsByDomain);
     }
     if (entry.published && (entry.status !== 'published' || course.status !== 'published' || bank.question_bank_status !== 'published')) {
       issues.push(`${entryLabel}: every publication status must be published.`);
@@ -180,7 +259,7 @@ function validateRepository(root = ROOT) {
       for (const question of archivedBank.records) {
         if (question && question.id && archivedIds.has(question.id)) issues.push(`${archiveLabel}: duplicate question id '${question.id}'.`);
         if (question && question.id) archivedIds.add(question.id);
-        validateQuestion(question, archiveLabel, domainIds, false, issues);
+        validateQuestion(question, archiveLabel, domainIds, false, issues, objectiveIdsByDomain);
       }
     }
     summary.courses.push({ id: entry.id, published: entry.published, record_count: bank.records.length, status: entry.status });
@@ -207,4 +286,4 @@ function run() {
 
 if (require.main === module) run();
 
-module.exports = { validateRepository, validateQuestion, run };
+module.exports = { validateRepository, validateQuestion, validateObjectives, run };

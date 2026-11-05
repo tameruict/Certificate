@@ -1,6 +1,4 @@
 -- 006_writeups: Write-ups library (CertLab tab Write-ups).
--- DRAFT migration: do NOT apply to live until it is reviewed in the
--- writeups PR and the apply order vs 005-hardening is approved.
 -- Design: Git (tameruict.github.io) stays the authoring source; this
 -- schema is the serving store populated by scripts/import-writeups.js.
 -- Frontend never writes these tables with an anon/authenticated key.
@@ -49,13 +47,19 @@ create table if not exists public.study_article_progress (
   primary key (user_id, article_id)
 );
 
+create index if not exists study_article_progress_article_id_idx
+  on public.study_article_progress (article_id);
+
 create or replace function public.study_articles_set_updated_at()
-returns trigger as $$
+returns trigger
+language plpgsql
+set search_path = ''
+as $$
 begin
-  new.updated_at = now();
+  new.updated_at = pg_catalog.now();
   return new;
 end;
-$$ language plpgsql;
+$$;
 
 drop trigger if exists study_articles_updated_at on public.study_articles;
 create trigger study_articles_updated_at
@@ -84,20 +88,20 @@ drop policy if exists study_article_progress_select_own on public.study_article_
 create policy study_article_progress_select_own
   on public.study_article_progress for select
   to authenticated
-  using (auth.uid() = user_id);
+  using ((select auth.uid()) = user_id);
 
 drop policy if exists study_article_progress_insert_own on public.study_article_progress;
 create policy study_article_progress_insert_own
   on public.study_article_progress for insert
   to authenticated
-  with check (auth.uid() = user_id);
+  with check ((select auth.uid()) = user_id);
 
 drop policy if exists study_article_progress_update_own on public.study_article_progress;
 create policy study_article_progress_update_own
   on public.study_article_progress for update
   to authenticated
-  using (auth.uid() = user_id)
-  with check (auth.uid() = user_id);
+  using ((select auth.uid()) = user_id)
+  with check ((select auth.uid()) = user_id);
 
 grant select on public.study_articles to anon, authenticated;
 grant select, insert, update on public.study_article_progress to authenticated;

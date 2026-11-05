@@ -17,6 +17,9 @@
       "correct_option_ids": ["option_2"],
       "explanation": "AWS Lambda runs code in response to events while AWS manages the underlying compute infrastructure.",
       "domain_id": "technology",
+      "objective_id": "3.2",
+      "difficulty": "easy",
+      "tags": ["lambda", "serverless", "compute"],
       "status": "published",
       "provenance": { "kind": "original", "authoring_note": "Created for this local study pilot; not an exam item." }
     },
@@ -34,6 +37,9 @@
       "correct_option_ids": ["option_2", "option_5"],
       "explanation": "Least privilege limits permissions to the task and removes access that is no longer necessary. MFA is valuable but does not by itself scope authorization.",
       "domain_id": "security",
+      "objective_id": "2.3",
+      "difficulty": "medium",
+      "tags": ["iam", "least-privilege", "security"],
       "status": "published",
       "provenance": { "kind": "original", "authoring_note": "Created for this local study pilot; not an exam item." }
     },
@@ -50,6 +56,9 @@
       "correct_option_ids": ["option_1"],
       "explanation": "AWS CloudTrail records management events and other supported API activity for audit and investigation.",
       "domain_id": "security",
+      "objective_id": "2.2",
+      "difficulty": "easy",
+      "tags": ["cloudtrail", "auditing", "iam"],
       "status": "published",
       "provenance": { "kind": "original", "authoring_note": "Created for this local study pilot; not an exam item." }
     },
@@ -66,6 +75,9 @@
       "correct_option_ids": ["option_2"],
       "explanation": "Availability Zones are isolated locations within a Region. Using more than one can improve fault tolerance when the application is designed for it.",
       "domain_id": "cloud_concepts",
+      "objective_id": "1.2",
+      "difficulty": "easy",
+      "tags": ["availability-zones", "reliability", "high-availability"],
       "status": "published",
       "provenance": { "kind": "original", "authoring_note": "Created for this local study pilot; not an exam item." }
     },
@@ -82,6 +94,9 @@
       "correct_option_ids": ["option_1"],
       "explanation": "AWS Budgets can track actual or forecasted cost and send alerts at configured thresholds.",
       "domain_id": "billing",
+      "objective_id": "4.1",
+      "difficulty": "easy",
+      "tags": ["aws-budgets", "cost-management", "billing"],
       "status": "published",
       "provenance": { "kind": "original", "authoring_note": "Created for this local study pilot; not an exam item." }
     },
@@ -98,6 +113,9 @@
       "correct_option_ids": ["option_1"],
       "explanation": "Amazon S3 provides object storage for use cases such as backups, archives, and static content.",
       "domain_id": "technology",
+      "objective_id": "3.3",
+      "difficulty": "easy",
+      "tags": ["s3", "storage", "object-storage"],
       "status": "published",
       "provenance": { "kind": "original", "authoring_note": "Created for this local study pilot; not an exam item." }
     },
@@ -114,6 +132,9 @@
       "correct_option_ids": ["option_2"],
       "explanation": "For EC2, AWS secures the underlying cloud infrastructure while the customer manages the guest OS, applications, and configuration.",
       "domain_id": "security",
+      "objective_id": "2.1",
+      "difficulty": "easy",
+      "tags": ["shared-responsibility", "ec2", "security"],
       "status": "published",
       "provenance": { "kind": "original", "authoring_note": "Created for this local study pilot; not an exam item." }
     },
@@ -130,8 +151,335 @@
       "correct_option_ids": ["option_1"],
       "explanation": "Cloud services can shift spending from capital investment in owned infrastructure to variable, pay-for-use operating expense.",
       "domain_id": "cloud_concepts",
+      "objective_id": "1.1",
+      "difficulty": "easy",
+      "tags": ["cloud-economics", "capex-opex"],
       "status": "published",
       "provenance": { "kind": "original", "authoring_note": "Created for this local study pilot; not an exam item." }
+    },
+    {
+      "id": "aws-clf-c02-pilot-009",
+      "type": "single_select",
+      "prompt": "Which pillar of the AWS Well-Architected Framework focuses on running and monitoring systems to deliver business value and continually improving supporting processes?",
+      "options": [
+        { "id": "option_1", "text": "Operational Excellence" },
+        { "id": "option_2", "text": "Reliability" },
+        { "id": "option_3", "text": "Performance Efficiency" },
+        { "id": "option_4", "text": "Sustainability" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "Operational Excellence includes performing operations as code, making frequent, small, reversible changes, and learning from operational events.",
+      "domain_id": "cloud_concepts",
+      "objective_id": "1.2",
+      "difficulty": "medium",
+      "tags": ["well-architected", "operational-excellence"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original study item for CLF-C02 Domain 1." }
+    },
+    {
+      "id": "aws-clf-c02-pilot-010",
+      "type": "multi_select",
+      "prompt": "Which TWO perspectives belong to the technical capability group of the AWS Cloud Adoption Framework (AWS CAF)?",
+      "options": [
+        { "id": "option_1", "text": "Platform" },
+        { "id": "option_2", "text": "People" },
+        { "id": "option_3", "text": "Governance" },
+        { "id": "option_4", "text": "Operations" },
+        { "id": "option_5", "text": "Business" }
+      ],
+      "correct_option_ids": ["option_1", "option_4"],
+      "explanation": "AWS CAF groups Business, People, and Governance under business capabilities, and Platform, Security, and Operations under technical capabilities.",
+      "domain_id": "cloud_concepts",
+      "objective_id": "1.3",
+      "difficulty": "medium",
+      "tags": ["aws-caf", "migration", "cloud-adoption"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original study item for CLF-C02 Domain 1." }
+    },
+    {
+      "id": "aws-clf-c02-pilot-011",
+      "type": "single_select",
+      "prompt": "A company moves an on-premises virtual machine directly to Amazon EC2 without modifying the application architecture. Which migration strategy does this represent?",
+      "options": [
+        { "id": "option_1", "text": "Rehost (lift-and-shift)" },
+        { "id": "option_2", "text": "Refactor (re-architect)" },
+        { "id": "option_3", "text": "Repurchase (drop-and-shop)" },
+        { "id": "option_4", "text": "Retire" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "Rehosting moves workloads to the cloud without changing code or architecture, often called lift-and-shift.",
+      "domain_id": "cloud_concepts",
+      "objective_id": "1.3",
+      "difficulty": "easy",
+      "tags": ["migration", "7-rs", "ec2"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original study item for CLF-C02 Domain 1." }
+    },
+    {
+      "id": "aws-clf-c02-pilot-012",
+      "type": "single_select",
+      "prompt": "An auditor asks a company for copies of AWS ISO/IEC 27001 and SOC 2 compliance reports. Where can the company download these documents on demand?",
+      "options": [
+        { "id": "option_1", "text": "AWS Artifact" },
+        { "id": "option_2", "text": "AWS Trusted Advisor" },
+        { "id": "option_3", "text": "Amazon Macie" },
+        { "id": "option_4", "text": "AWS Systems Manager" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "AWS Artifact is the self-service portal for on-demand access to AWS security and compliance reports and online agreements.",
+      "domain_id": "security",
+      "objective_id": "2.2",
+      "difficulty": "easy",
+      "tags": ["aws-artifact", "compliance", "auditing"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original study item for CLF-C02 Domain 2." }
+    },
+    {
+      "id": "aws-clf-c02-pilot-013",
+      "type": "single_select",
+      "prompt": "Which AWS service continuously monitors AWS CloudTrail event logs, VPC Flow Logs, and DNS logs using machine learning to detect malicious or unauthorized activity?",
+      "options": [
+        { "id": "option_1", "text": "Amazon GuardDuty" },
+        { "id": "option_2", "text": "AWS KMS" },
+        { "id": "option_3", "text": "AWS Secrets Manager" },
+        { "id": "option_4", "text": "AWS Certificate Manager" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "Amazon GuardDuty is a managed threat detection service that analyzes CloudTrail, VPC Flow Logs, and DNS logs to identify unexpected or unauthorized behavior.",
+      "domain_id": "security",
+      "objective_id": "2.2",
+      "difficulty": "medium",
+      "tags": ["guardduty", "threat-detection", "security"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original study item for CLF-C02 Domain 2." }
+    },
+    {
+      "id": "aws-clf-c02-pilot-014",
+      "type": "single_select",
+      "prompt": "An application running on an Amazon EC2 instance needs temporary permissions to write objects to an Amazon S3 bucket without storing long-term credentials on the instance. What should be attached to the EC2 instance?",
+      "options": [
+        { "id": "option_1", "text": "An IAM role" },
+        { "id": "option_2", "text": "An IAM user access key in environment variables" },
+        { "id": "option_3", "text": "The AWS account root user credentials" },
+        { "id": "option_4", "text": "A Network ACL" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "An IAM role (via an instance profile) provides temporary, automatically rotated credentials to applications running on EC2.",
+      "domain_id": "security",
+      "objective_id": "2.3",
+      "difficulty": "medium",
+      "tags": ["iam", "ec2", "security"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original study item for CLF-C02 Domain 2." }
+    },
+    {
+      "id": "aws-clf-c02-pilot-015",
+      "type": "single_select",
+      "prompt": "Which AWS service protects web applications hosted behind Amazon CloudFront or an Application Load Balancer against SQL injection and cross-site scripting (XSS)?",
+      "options": [
+        { "id": "option_1", "text": "AWS WAF" },
+        { "id": "option_2", "text": "AWS Artifact" },
+        { "id": "option_3", "text": "Amazon Inspector" },
+        { "id": "option_4", "text": "AWS Config" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "AWS WAF is a web application firewall that filters HTTP/HTTPS requests based on customizable web security rules such as SQLi and XSS patterns.",
+      "domain_id": "security",
+      "objective_id": "2.2",
+      "difficulty": "easy",
+      "tags": ["waf", "network-security", "cloudfront"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original study item for CLF-C02 Domain 2." }
+    },
+    {
+      "id": "aws-clf-c02-pilot-016",
+      "type": "single_select",
+      "prompt": "How do Security Groups and Network ACLs (NACLs) differ in an Amazon VPC?",
+      "options": [
+        { "id": "option_1", "text": "Security Groups are stateful at the instance level, whereas NACLs are stateless at the subnet level." },
+        { "id": "option_2", "text": "Security Groups are stateless at the subnet level, whereas NACLs are stateful at the instance level." },
+        { "id": "option_3", "text": "Security Groups support explicit deny rules, whereas NACLs only support allow rules." },
+        { "id": "option_4", "text": "Security Groups apply only to Amazon S3 buckets, whereas NACLs apply to IAM users." }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "Security Groups operate at the instance ENI level, are stateful, and support allow rules only. Network ACLs operate at the subnet boundary, are stateless, and evaluate both allow and deny rules.",
+      "domain_id": "technology",
+      "objective_id": "3.1",
+      "difficulty": "hard",
+      "tags": ["vpc", "security-groups", "nacl"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original study item for CLF-C02 Domain 3." }
+    },
+    {
+      "id": "aws-clf-c02-pilot-017",
+      "type": "single_select",
+      "prompt": "A company needs a shared POSIX-compliant file system that can be mounted concurrently by puluhan Amazon EC2 instances across multiple Availability Zones. Which storage service should they choose?",
+      "options": [
+        { "id": "option_1", "text": "Amazon EFS" },
+        { "id": "option_2", "text": "Amazon EBS gp3" },
+        { "id": "option_3", "text": "Amazon S3 Glacier Deep Archive" },
+        { "id": "option_4", "text": "EC2 Instance Store" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "Amazon Elastic File System (EFS) provides serverless, scalable network file storage shared concurrently across multiple EC2 instances in multiple AZs.",
+      "domain_id": "technology",
+      "objective_id": "3.3",
+      "difficulty": "medium",
+      "tags": ["efs", "storage", "multi-az"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original study item for CLF-C02 Domain 3." }
+    },
+    {
+      "id": "aws-clf-c02-pilot-018",
+      "type": "single_select",
+      "prompt": "Which AWS database service is a fully managed serverless key-value and document NoSQL database designed to deliver single-digit millisecond performance at any scale?",
+      "options": [
+        { "id": "option_1", "text": "Amazon DynamoDB" },
+        { "id": "option_2", "text": "Amazon RDS for PostgreSQL" },
+        { "id": "option_3", "text": "Amazon Redshift" },
+        { "id": "option_4", "text": "Amazon Neptune" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "Amazon DynamoDB is AWS's serverless NoSQL key-value and document database offering consistent single-digit millisecond latency.",
+      "domain_id": "technology",
+      "objective_id": "3.3",
+      "difficulty": "easy",
+      "tags": ["dynamodb", "nosql", "database"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original study item for CLF-C02 Domain 3." }
+    },
+    {
+      "id": "aws-clf-c02-pilot-019",
+      "type": "single_select",
+      "prompt": "A startup wants to deploy a web application by uploading code while AWS automatically handles capacity provisioning, load balancing, auto-scaling, and application health monitoring. Which service meets this need?",
+      "options": [
+        { "id": "option_1", "text": "AWS Elastic Beanstalk" },
+        { "id": "option_2", "text": "AWS Direct Connect" },
+        { "id": "option_3", "text": "Amazon Route 53" },
+        { "id": "option_4", "text": "AWS Snowball Edge" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "AWS Elastic Beanstalk is a PaaS service that provisions and manages underlying EC2, ELB, Auto Scaling, and monitoring from uploaded application code.",
+      "domain_id": "technology",
+      "objective_id": "3.2",
+      "difficulty": "medium",
+      "tags": ["elastic-beanstalk", "paas", "compute"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original study item for CLF-C02 Domain 3." }
+    },
+    {
+      "id": "aws-clf-c02-pilot-020",
+      "type": "single_select",
+      "prompt": "Which AWS service uses global Edge Locations to cache static and dynamic web content closer to end users to reduce latency?",
+      "options": [
+        { "id": "option_1", "text": "Amazon CloudFront" },
+        { "id": "option_2", "text": "AWS Auto Scaling" },
+        { "id": "option_3", "text": "AWS CloudFormation" },
+        { "id": "option_4", "text": "Amazon EventBridge" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "Amazon CloudFront is a content delivery network (CDN) that delivers content through AWS Edge Locations worldwide.",
+      "domain_id": "technology",
+      "objective_id": "3.1",
+      "difficulty": "easy",
+      "tags": ["cloudfront", "edge-locations", "networking"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original study item for CLF-C02 Domain 3." }
+    },
+    {
+      "id": "aws-clf-c02-pilot-021",
+      "type": "single_select",
+      "prompt": "A research team runs a fault-tolerant batch image processing job that can handle interruptions at any time and wants the steepest discount compared to On-Demand pricing. Which EC2 purchasing option is best?",
+      "options": [
+        { "id": "option_1", "text": "EC2 Spot Instances" },
+        { "id": "option_2", "text": "EC2 On-Demand Instances" },
+        { "id": "option_3", "text": "EC2 Dedicated Hosts" },
+        { "id": "option_4", "text": "EC2 Capacity Reservations" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "EC2 Spot Instances let customers use spare EC2 capacity for up to a 90% discount off On-Demand prices, suitable for stateless or fault-tolerant workloads that can tolerate a 2-minute interruption notice.",
+      "domain_id": "billing",
+      "objective_id": "4.1",
+      "difficulty": "medium",
+      "tags": ["spot-instances", "ec2-pricing", "cost-optimization"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original study item for CLF-C02 Domain 4." }
+    },
+    {
+      "id": "aws-clf-c02-pilot-022",
+      "type": "single_select",
+      "prompt": "Which lowest-cost AWS Support plan provides 24/7 access to Cloud Support Engineers via phone, email, and chat, plus access to the full set of AWS Trusted Advisor checks?",
+      "options": [
+        { "id": "option_1", "text": "AWS Business Support" },
+        { "id": "option_2", "text": "AWS Basic Support" },
+        { "id": "option_3", "text": "AWS Developer Support" },
+        { "id": "option_4", "text": "AWS Enterprise Support" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "AWS Business Support is the lowest tier that includes 24/7 phone/email/chat support, <1-hour production system down response, and all AWS Trusted Advisor checks.",
+      "domain_id": "billing",
+      "objective_id": "4.2",
+      "difficulty": "medium",
+      "tags": ["support-plans", "trusted-advisor", "billing"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original study item for CLF-C02 Domain 4." }
+    },
+    {
+      "id": "aws-clf-c02-pilot-023",
+      "type": "multi_select",
+      "prompt": "Which TWO benefits does AWS Organizations provide when managing multiple AWS accounts?",
+      "options": [
+        { "id": "option_1", "text": "Consolidated billing that combines usage across member accounts to qualify for volume pricing tiers." },
+        { "id": "option_2", "text": "Centralized permission guardrails using Service Control Policies (SCPs)." },
+        { "id": "option_3", "text": "Automatic patching of all guest operating systems on member EC2 instances." },
+        { "id": "option_4", "text": "Elimination of all data transfer charges across the public internet." }
+      ],
+      "correct_option_ids": ["option_1", "option_2"],
+      "explanation": "AWS Organizations provides consolidated billing (one bill and aggregated usage for volume discounts) and Service Control Policies (SCPs) to centrally restrict maximum available permissions.",
+      "domain_id": "billing",
+      "objective_id": "4.2",
+      "difficulty": "medium",
+      "tags": ["aws-organizations", "scp", "consolidated-billing"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original study item for CLF-C02 Domain 4." }
+    },
+    {
+      "id": "aws-clf-c02-pilot-024",
+      "type": "single_select",
+      "prompt": "Before migrating a workload to AWS, a solutions architect wants to model and estimate the monthly cost of the planned EC2, RDS, and S3 resources. Which tool should they use?",
+      "options": [
+        { "id": "option_1", "text": "AWS Pricing Calculator" },
+        { "id": "option_2", "text": "AWS Cost and Usage Report (CUR)" },
+        { "id": "option_3", "text": "AWS CloudTrail" },
+        { "id": "option_4", "text": "AWS Systems Manager Session Manager" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "AWS Pricing Calculator lets users configure hypothetical AWS services and estimate monthly costs before deploying resources.",
+      "domain_id": "billing",
+      "objective_id": "4.1",
+      "difficulty": "easy",
+      "tags": ["pricing-calculator", "cost-management", "billing"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original study item for CLF-C02 Domain 4." }
+    },
+    {
+      "id": "aws-clf-c02-pilot-025",
+      "type": "single_select",
+      "prompt": "Which AWS feature allows an organization to provision infrastructure repeatedly and predictably using declarative JSON or YAML templates?",
+      "options": [
+        { "id": "option_1", "text": "AWS CloudFormation" },
+        { "id": "option_2", "text": "Amazon QuickSight" },
+        { "id": "option_3", "text": "AWS X-Ray" },
+        { "id": "option_4", "text": "Amazon Athena" }
+      ],
+      "correct_option_ids": ["option_1"],
+      "explanation": "AWS CloudFormation models and provisions AWS and third-party resources as Infrastructure as Code (IaC) using YAML or JSON templates.",
+      "domain_id": "technology",
+      "objective_id": "3.2",
+      "difficulty": "easy",
+      "tags": ["cloudformation", "iac", "operational-excellence"],
+      "status": "published",
+      "provenance": { "kind": "original", "authoring_note": "Original study item for CLF-C02 Domain 3." }
     }
   ]
 }

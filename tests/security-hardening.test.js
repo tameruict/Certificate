@@ -35,6 +35,8 @@ test('HTML has no inline executable script or event handlers', () => {
 test('Supabase migration uses ownership RLS and bounded untrusted payloads', () => {
   const initial = read('supabase/001_user_auth_and_archive.sql');
   const hardening = read('supabase/002_security_hardening.sql');
+  const writeups = read('supabase/006_writeups.sql');
+  const optimization = read('supabase/008_supabase_security_and_index_optimization.sql');
   for (const table of ['user_data_archive', 'user_profiles']) {
     assert.match(initial, new RegExp(`alter table public\\.${table} enable row level security`, 'i'));
     assert.match(initial, new RegExp(`revoke all on table public\\.${table} from anon`, 'i'));
@@ -43,6 +45,13 @@ test('Supabase migration uses ownership RLS and bounded untrusted payloads', () 
   assert.match(initial, /jsonb_typeof\(payload\) = 'object'/);
   assert.match(initial, /pg_column_size\(payload\) <= 262144/);
   assert.match(hardening, /revoke all on function public\.rls_auto_enable\(\) from public, anon, authenticated/i);
+  assert.match(writeups, /set search_path = ''/i);
+  assert.ok((writeups.match(/\(select auth\.uid\(\)\) = user_id/g) || []).length >= 4);
+  assert.match(writeups, /study_article_progress_article_id_idx/i);
+  assert.match(optimization, /revoke all on function public\.study_articles_set_updated_at\(\) from public, anon, authenticated/i);
+  assert.match(optimization, /study_articles_markdown_size/i);
+  assert.match(optimization, /study_articles_slug_language_key/i);
+  assert.match(optimization, /file_size_limit = 5242880/i);
 });
 
 test('runtime config endpoint rejects non-read methods and validates public config', () => {
