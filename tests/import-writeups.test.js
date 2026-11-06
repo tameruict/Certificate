@@ -32,7 +32,7 @@ function fixture() {
     '',
     '## Body',
     '',
-    '![img](/images/cap/cap-01.png)',
+    '![img](https://tameruict.github.io/images/cap/cap-01.png)',
     '',
   ].join('\n'));
   fs.writeFileSync(path.join(writeups, 'reactor.md'), [
@@ -60,6 +60,7 @@ test('import collects published articles, skips drafts, audits images', () => {
   const report = collectArticles(dir);
   assert.equal(report.articles.length, 1);
   assert.equal(report.articles[0].slug, 'hack-the-box/cap');
+  assert.match(report.articles[0].markdown, /\]\(\/images\/cap\/cap-01\.png\)/);
   assert.equal(report.skipped.length, 1);
   assert.equal(report.skipped[0].path.includes('reactor.md'), true);
   assert.deepEqual(report.missingImages, []);

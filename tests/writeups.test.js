@@ -17,7 +17,15 @@ test('writeups filter is diacritic-insensitive and language-aware', async () => 
     '![alt](https://x.supabase.co/storage/v1/object/public/writeup-images/cap/cap-01.png)',
   );
   assert.equal(
+    rewriteImageUrls('![alt](https://tameruict.github.io/images/critical-ops/critical-ops-06.png)', 'https://x.supabase.co/storage/v1/object/public/writeup-images'),
+    '![alt](https://x.supabase.co/storage/v1/object/public/writeup-images/critical-ops/critical-ops-06.png)',
+  );
+  assert.equal(
     coverImageUrl('/images/cap/cap-02.png', 'https://x.supabase.co/storage/v1/object/public/writeup-images'),
+    'https://x.supabase.co/storage/v1/object/public/writeup-images/cap/cap-02.png',
+  );
+  assert.equal(
+    coverImageUrl('https://tameruict.github.io/images/cap/cap-02.png', 'https://x.supabase.co/storage/v1/object/public/writeup-images'),
     'https://x.supabase.co/storage/v1/object/public/writeup-images/cap/cap-02.png',
   );
 });

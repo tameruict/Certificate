@@ -38,7 +38,7 @@ Browser ES module package implementing the CertLab Study single-page application
   - `getStoredLanguage(): string`
   - `setStoredLanguage(language: string): void`
 - `lib/app.js`:
-  - Main SPA runtime controller managing course catalog loading, TOEIC-style CBT practice/exam sessions with sticky question navigator palette (`paletteHtml`, `jumpToQuestion`, `prevQuestion`, `nextQuestion`), flashcards, review queue filters, Notion-style writeup database (`gallery`/`table` views, breadcrumb navigation, property table, sticky TOC rail) and collapsible domain objective toggles, Light/Dark theme persistence (`certlab:theme`), local storage persistence, and Supabase auth/archive sync.
+  - Main SPA runtime controller managing course catalog loading, TOEIC-style CBT practice/exam sessions with sticky question navigator palette (`paletteHtml`, `jumpToQuestion`, `prevQuestion`, `nextQuestion`), flashcards, review queue filters, Notion-style writeup database (`gallery`/`table` views, breadcrumb navigation, property table, sticky TOC rail) and collapsible domain objective toggles, Light/Dark theme persistence (`certlab:theme`), local storage persistence, and Supabase auth/recovery/archive sync (`generateRecoveryCode`, `normalizeRecoveryCode`, `saveRecoveryCredentials`, `rotateRecoveryCode`, `loadCloudCourseSummaries`, `restoreNormalizedProgress`, `courseProgressSummary`, `loadExamHistory`, `recordExamAttempt`).
 
 ## Invariants
 - `isSupabaseConfigured` is `true` if and only if `SUPABASE_URL` matches `/^https:\/\/[^/]+\.supabase\.co$/` and `SUPABASE_ANON_KEY` is either an `sb_publishable_*` key or a 3-part JWT whose decoded payload has `role === 'anon'`; otherwise `supabase` is `null`.
@@ -48,16 +48,16 @@ Browser ES module package implementing the CertLab Study single-page application
 - All raw Markdown text is HTML-escaped via `escHtml` before emitting structural or inline HTML tags; links and image sources with `javascript:`, `data:`, or `vbscript:` schemes are rejected by `isSafeUrl` and downgraded to plain text.
 - `extractHeadings` and `renderMarkdownWithToc` ignore lines inside fenced code blocks (` ``` `) and assign deterministic duplicate suffixes (`-2`, `-3`, ...) to colliding heading slugs in top-down order.
 - `normalizeArticle` coerces raw database row fields to consistent shapes with default language `'vi'` and stringified `tags` array; `sortArticles` sorts non-mutatingly by `publishedAt` descending then `title` ascending; `filterArticles` performs diacritic-insensitive substring matching across `title`, `description`, `platform`, `category`, and `tags`.
-- Authentication maps usernames (`/^[a-z0-9][a-z0-9._-]{2,31}$/`) to synthetic internal emails (`${username}@users.certlab.app`) and enforces five password rules (at least 12 characters, lowercase, uppercase, digit, symbol).
+- Authentication maps usernames (`/^[a-z0-9][a-z0-9._-]{2,31}$/`) to synthetic internal emails (`${username}@users.certlab.app`), enforces five password rules (at least 12 characters, lowercase, uppercase, digit, symbol), generates 16-character recovery codes (`CLAB-XXXX-XXXX-XXXX`), allows signed-in users to rotate recovery keys (`rotateRecoveryCode`), and supports password recovery via `reset_password_with_recovery_code` RPC or Supabase email reset links.
 - `loadCatalog` excludes courses where `published === false`, `status === 'needs_review'`, or `availability.application === 'excluded'`, throwing an error if no eligible courses remain.
-- `archiveProgress` refuses to sync payloads exceeding `262,144` bytes (256 KiB limit, warning at `> 230,000` bytes), and `restoreCloudProgress` resolves local versus cloud state by the newer `updatedAt`/`updated_at` timestamp.
+- `archiveProgress` refuses to sync payloads exceeding `262,144` bytes (256 KiB limit, warning at `> 230,000` bytes); `restoreCloudProgress` resolves local versus cloud state by the newer `updatedAt`/`updated_at` timestamp and falls back to `user_question_progress` + `user_course_progress` when `user_data_archive` is empty.
 
 ## Side Effects
 - `lib/bootstrap.js` performs a top-level `fetch('/api/config', { cache: 'no-store' })`, mutates `window.CERTLAB_SUPABASE_CONFIG` when unconfigured, and dynamically imports `./app.js`.
-- `lib/supabase.js` reads `globalThis.CERTLAB_SUPABASE_CONFIG` at module evaluation time and initializes the Supabase client with browser session persistence and token auto-refresh.
+- `lib/supabase.js` reads `globalThis.CERTLAB_SUPABASE_CONFIG` at module evaluation time and initializes the Supabase client with browser session persistence, token auto-refresh, and URL session detection for recovery links.
 - `lib/articles.js` performs asynchronous Supabase queries and upserts against the `study_articles` and `study_article_progress` tables.
 - `lib/writeups.js` reads and writes the `'certlab:writeups:language'` key in `localStorage`.
-- `lib/app.js` mutates the DOM (`#app`, `#toast`, document event listeners), manages timer intervals, reads/writes course progress in `localStorage` (`certlab:progress:<courseId>` and legacy `secplus-progress`), fetches static JSON course bundles (`content/catalog.json`, `content/<id>/*`), and executes Supabase Auth plus `user_profiles` and `user_data_archive` queries/upserts.
+- `lib/app.js` mutates the DOM (`#app`, `#toast`, document event listeners), manages timer intervals, reads/writes course progress in `localStorage` (`certlab:progress:<courseId>` and legacy `secplus-progress`), fetches static JSON course bundles (`content/catalog.json`, `content/<id>/*`), and executes Supabase Auth, password recovery RPCs (`set_user_recovery_code`, `reset_password_with_recovery_code`), and `user_profiles`, `user_data_archive`, `user_course_progress`, `user_question_progress`, and `user_exam_attempts` queries/upserts.
 
 ## Verification
 - Run: `npm test`

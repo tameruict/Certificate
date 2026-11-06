@@ -1,161 +1,185 @@
 /* ==========================================================================
-   CertLab Study — Unified Design System
-   Vibe A: Notion Editorial Knowledge Base (Write-ups, Notes, Catalog)
-   Vibe B: TOEIC / ETS Computer-Based Testing Room (Practice, Mock, Review)
+   CertLab Study — Unified Design System (Guofeng / Neo-Chinese Scholarly Edition)
+   Vibe A: Hanlin Academy & Oriental Scholar Studio (Write-ups, Notes, Catalog)
+   Vibe B: Imperial Examination Pavilion & CBT Room (Practice, Mock, Review)
+   Curated & Designed by tameruict
    ========================================================================== */
 
 :root,
 html[data-theme="light"] {
-  /* Surface Hierarchy: Warm Paper & Technical Exam Sheet */
-  --bg: #f7f6f2;
-  --bg-subtle: #efede7;
-  --panel: #ffffff;
-  --panel-raised: #fcfbf9;
-  --panel-hover: #f2f0ea;
-  --sidebar-bg: #f1efe9;
-  --code-bg: #141923;
-  --code-head-bg: #1e2636;
-  --code-fg: #e2e8f0;
+  /* Surface Hierarchy: Xuan Paper Parchment & Silk Scroll */
+  --bg: #faf7ee;
+  --bg-subtle: #f2ece0;
+  --panel: #fdfbf6;
+  --panel-raised: #ffffff;
+  --panel-hover: #f5eedf;
+  --sidebar-bg: #f3ede0;
+  --code-bg: #1c1917;
+  --code-head-bg: #292524;
+  --code-fg: #f5f0e6;
 
-  /* Crisp 1px Structural Borders */
-  --line: #e2dfd7;
-  --line-strong: #c8c4b8;
-  --line-focus: #1d4ed8;
+  /* Bamboo & Aged Parchment Structural Borders */
+  --line: #e2d9c5;
+  --line-strong: #cbbda2;
+  --line-focus: #b92b27;
 
-  /* Ink Hierarchy */
-  --text: #16181d;
-  --text-secondary: #373c47;
-  --muted: #646b78;
+  /* Calligraphy Ink Hierarchy */
+  --text: #1f1b18;
+  --text-secondary: #4a4238;
+  --muted: #786d5f;
 
-  /* Brand & CBT Functional Accents (ETS / TOEIC Royal Blue) */
-  --accent: #1d4ed8;
-  --accent-hover: #1e40af;
-  --accent-soft: #dbeafe;
-  --accent-border: #93c5fd;
-  --accent-ink: #1e3a8a;
+  /* Brand & Imperial Cinnabar Accents (朱砂红 & 鎏金) */
+  --accent: #b92b27;
+  --accent-hover: #991b1b;
+  --accent-soft: #fcece9;
+  --accent-border: #f5b5ae;
+  --accent-ink: #7f1d1d;
   --btn-primary-fg: #ffffff;
 
+  /* Imperial Gold & Jade Tokens */
+  --gold: #b8860b;
+  --gold-soft: #fcf6e5;
+  --gold-border: #e6cb7e;
+  --gold-ink: #7c5805;
+
+  --jade: #1e6b47;
+  --jade-soft: #e8f5ee;
+  --jade-border: #95d5b2;
+  --jade-ink: #12452d;
+
   /* Semantic Assessment Status Tokens */
-  --success: #15803d;
-  --success-soft: #dcfce7;
-  --success-border: #86efac;
+  --success: #1e6b47;
+  --success-soft: #e8f5ee;
+  --success-border: #95d5b2;
 
-  --danger: #b91c1c;
-  --danger-soft: #fee2e2;
-  --danger-border: #fca5a5;
+  --danger: #b92b27;
+  --danger-soft: #fcece9;
+  --danger-border: #f5b5ae;
 
-  --warn: #b45309;
-  --warn-soft: #fef3c7;
-  --warn-border: #fcd34d;
+  --warn: #b4690e;
+  --warn-soft: #fef5e7;
+  --warn-border: #f7d288;
 
-  /* Notion Property Tag Palette (Light) */
-  --tag-easy-bg: #dcfce7;
-  --tag-easy-fg: #166534;
-  --tag-easy-line: #86efac;
+  /* Oriental Property Tag Palette (Light) */
+  --tag-easy-bg: #e8f5ee;
+  --tag-easy-fg: #145334;
+  --tag-easy-line: #95d5b2;
 
-  --tag-medium-bg: #fef3c7;
-  --tag-medium-fg: #92400e;
-  --tag-medium-line: #fcd34d;
+  --tag-medium-bg: #fef5e7;
+  --tag-medium-fg: #8c4f07;
+  --tag-medium-line: #f7d288;
 
-  --tag-hard-bg: #fee2e2;
-  --tag-hard-fg: #991b1b;
-  --tag-hard-line: #fca5a5;
+  --tag-hard-bg: #fcece9;
+  --tag-hard-fg: #8f1d19;
+  --tag-hard-line: #f5b5ae;
 
-  --tag-insane-bg: #f3e8ff;
-  --tag-insane-fg: #6b21a8;
+  --tag-insane-bg: #f5ebfa;
+  --tag-insane-fg: #622284;
   --tag-insane-line: #d8b4fe;
 
-  --tag-blue-bg: #dbeafe;
-  --tag-blue-fg: #1e40af;
-  --tag-blue-line: #93c5fd;
+  --tag-blue-bg: #e8f1f5;
+  --tag-blue-fg: #1c4e63;
+  --tag-blue-line: #94c2d6;
 
-  --tag-neutral-bg: #f1f0ec;
-  --tag-neutral-fg: #3f4450;
-  --tag-neutral-line: #d6d3c9;
+  --tag-neutral-bg: #f1ebe0;
+  --tag-neutral-fg: #4a4238;
+  --tag-neutral-line: #d6cbb8;
 
   /* Typography & Layout Geometry */
-  --font-sans: Inter, "Plus Jakarta Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-display: "Noto Serif SC", "Noto Serif TC", "Songti SC", "SimSun", "STSong", "STKaiti", "KaiTi", Georgia, "Times New Roman", serif;
+  --font-sans: "Noto Serif TC", "Songti SC", "STSong", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Microsoft YaHei", sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
   --measure: 72ch;
 
-  --radius-xs: 4px;
-  --radius-sm: 6px;
+  --radius-xs: 3px;
+  --radius-sm: 5px;
   --radius: 8px;
   --radius-lg: 12px;
-  --shadow-sm: 0 1px 2px rgba(22, 24, 29, 0.05);
-  --shadow: 0 4px 12px rgba(22, 24, 29, 0.06);
+  --shadow-sm: 0 1px 3px rgba(42, 31, 21, 0.06);
+  --shadow: 0 6px 20px rgba(42, 31, 21, 0.08);
 }
 
 html[data-theme="dark"] {
-  /* Surface Hierarchy: Notion Obsidian & Night Terminal */
-  --bg: #0f141f;
-  --bg-subtle: #141c2b;
-  --panel: #172032;
-  --panel-raised: #1d283e;
-  --panel-hover: #22304a;
-  --sidebar-bg: #111826;
-  --code-bg: #0b101a;
-  --code-head-bg: #131c2e;
-  --code-fg: #e2e8f0;
+  /* Surface Hierarchy: Night Inkstone & Imperial Lacquer (墨夜玄黑) */
+  --bg: #131519;
+  --bg-subtle: #181b21;
+  --panel: #1d2129;
+  --panel-raised: #242933;
+  --panel-hover: #2c3340;
+  --sidebar-bg: #15181e;
+  --code-bg: #0d0f13;
+  --code-head-bg: #161920;
+  --code-fg: #ece5d8;
 
-  /* Crisp 1px Structural Borders */
-  --line: #27344d;
-  --line-strong: #37496b;
-  --line-focus: #60a5fa;
+  /* Structural Borders */
+  --line: #2d333f;
+  --line-strong: #414959;
+  --line-focus: #e04f4a;
 
-  /* Ink Hierarchy */
-  --text: #f1f5f9;
-  --text-secondary: #cbd5e1;
-  --muted: #94a3b8;
+  /* Moonlit Silk Ink Hierarchy */
+  --text: #f5f0e6;
+  --text-secondary: #cdc4b4;
+  --muted: #939aa8;
 
-  /* Brand & CBT Functional Accents */
-  --accent: #3b82f6;
-  --accent-hover: #2563eb;
-  --accent-soft: #172a4a;
-  --accent-border: #2d528f;
-  --accent-ink: #93c5fd;
+  /* Brand & Glowing Vermilion Accents */
+  --accent: #d9433e;
+  --accent-hover: #c5302b;
+  --accent-soft: #361919;
+  --accent-border: #6e2a28;
+  --accent-ink: #fca5a5;
   --btn-primary-fg: #ffffff;
 
+  /* Imperial Gold & Jade (Dark) */
+  --gold: #dfa92c;
+  --gold-soft: #332710;
+  --gold-border: #6b5218;
+  --gold-ink: #fde047;
+
+  --jade: #38b278;
+  --jade-soft: #133022;
+  --jade-border: #246144;
+  --jade-ink: #86efac;
+
   /* Semantic Assessment Status Tokens */
-  --success: #34d399;
-  --success-soft: #112e26;
-  --success-border: #1f5c49;
+  --success: #38b278;
+  --success-soft: #133022;
+  --success-border: #246144;
 
   --danger: #f87171;
-  --danger-soft: #361924;
-  --danger-border: #782e42;
+  --danger-soft: #361919;
+  --danger-border: #782e2e;
 
   --warn: #fbbf24;
   --warn-soft: #332613;
   --warn-border: #735421;
 
-  /* Notion Property Tag Palette (Dark) */
-  --tag-easy-bg: #12362c;
+  /* Oriental Property Tag Palette (Dark) */
+  --tag-easy-bg: #133326;
   --tag-easy-fg: #6ee7b7;
-  --tag-easy-line: #235c4b;
+  --tag-easy-line: #235c45;
 
   --tag-medium-bg: #3a2e16;
   --tag-medium-fg: #fcd34d;
   --tag-medium-line: #6b5322;
 
-  --tag-hard-bg: #442133;
-  --tag-hard-fg: #fda4af;
-  --tag-hard-line: #7a3552;
+  --tag-hard-bg: #421c1c;
+  --tag-hard-fg: #fca5a5;
+  --tag-hard-line: #7a3232;
 
   --tag-insane-bg: #2e1d47;
   --tag-insane-fg: #d8b4fe;
   --tag-insane-line: #583785;
 
-  --tag-blue-bg: #162c4e;
+  --tag-blue-bg: #162e3d;
   --tag-blue-fg: #93c5fd;
-  --tag-blue-line: #294d82;
+  --tag-blue-line: #29526b;
 
-  --tag-neutral-bg: #1d283e;
-  --tag-neutral-fg: #cbd5e1;
-  --tag-neutral-line: #334870;
+  --tag-neutral-bg: #232833;
+  --tag-neutral-fg: #d4cbbd;
+  --tag-neutral-line: #3d4556;
 
-  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.28);
-  --shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.32);
+  --shadow: 0 8px 24px rgba(0, 0, 0, 0.42);
 }
 
 /* ==========================================================================
@@ -178,8 +202,21 @@ body {
   margin: 0;
   color: var(--text);
   background: var(--bg);
-  font: 15px/1.55 var(--font-sans);
+  background-image:
+    radial-gradient(circle at 12% 8%, rgba(185, 43, 39, 0.035) 0%, transparent 40%),
+    radial-gradient(circle at 88% 92%, rgba(184, 134, 11, 0.04) 0%, transparent 45%);
+  font: 15px/1.6 var(--font-sans);
   min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+.brand strong,
+.notion-page-title,
+.notion-db-title {
+  font-family: var(--font-display);
 }
 
 button,
@@ -2414,11 +2451,646 @@ button {
 .flashcard:focus-visible,
 .writeup-card:focus-visible,
 .notion-db-row:focus-visible,
+.topbar-author-badge:focus-visible,
 button:focus-visible,
 select:focus-visible,
-input:focus-visible {
+input:focus-visible,
+a:focus-visible {
   outline: 2px solid var(--line-focus);
   outline-offset: 2px;
+}
+
+/* ==========================================================================
+   Chinese Guofeng Aesthetics & Personal Profile Components (tameruict)
+   ========================================================================== */
+
+/* Seal Stamps (印章) & Brand Ornaments */
+.brand-logo.seal-stamp,
+.loading-seal {
+  background: var(--accent);
+  color: #fff;
+  border: 2px solid var(--accent-ink);
+  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.35), 0 2px 6px rgba(185, 43, 39, 0.22);
+  font-family: var(--font-display);
+  font-size: 17px;
+  font-weight: 800;
+  border-radius: 3px;
+}
+
+.loading-seal {
+  width: 48px;
+  height: 48px;
+  display: grid;
+  place-items: center;
+  margin: 0 auto 14px;
+  font-size: 22px;
+}
+
+.loading-author {
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px dashed var(--line-strong);
+  font-size: 12.5px;
+  color: var(--muted);
+}
+
+.loading-author strong {
+  color: var(--accent);
+}
+
+.brand-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.brand-title {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.seal-mark {
+  display: inline-block;
+  font-size: 10px;
+  font-family: var(--font-display);
+  font-weight: 700;
+  color: var(--accent);
+  background: var(--accent-soft);
+  border: 1px solid var(--accent-border);
+  padding: 1px 5px;
+  border-radius: 2px;
+  line-height: 1.2;
+}
+
+/* Sidebar Author Card */
+.sidebar-author-card {
+  margin: 4px 4px 12px;
+  padding: 11px 12px;
+  background: linear-gradient(145deg, var(--panel) 0%, var(--bg-subtle) 100%);
+  border: 1px solid var(--line-strong);
+  border-top: 2px solid var(--accent);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-sm);
+  position: relative;
+}
+
+.sidebar-author-header {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 9px;
+}
+
+.author-seal-stamp {
+  width: 30px;
+  height: 30px;
+  display: grid;
+  place-items: center;
+  background: var(--accent);
+  color: #fff;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 14px;
+  border-radius: 3px;
+  box-shadow: inset 0 0 0 1.5px rgba(255, 255, 255, 0.35);
+  flex-shrink: 0;
+}
+
+.sidebar-author-meta {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  flex: 1;
+}
+
+.sidebar-author-role {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--gold-ink);
+  font-weight: 700;
+}
+
+.sidebar-author-name {
+  font-family: var(--font-display);
+  font-size: 14px;
+  font-weight: 800;
+  color: var(--text);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.author-info-btn {
+  width: 26px;
+  height: 26px;
+  display: grid;
+  place-items: center;
+  border-radius: var(--radius-xs);
+  border: 1px solid var(--line);
+  background: var(--panel);
+  color: var(--muted);
+  padding: 0;
+  transition: all 0.15s ease;
+}
+
+.author-info-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.sidebar-author-socials {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+}
+
+.author-social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 5px 8px;
+  font-size: 11.5px;
+  font-weight: 650;
+  color: var(--text-secondary);
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-xs);
+  text-decoration: none;
+  transition: all 0.15s ease;
+}
+
+.author-social-link:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-soft);
+  transform: translateY(-1px);
+}
+
+.social-svg {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+}
+
+/* Sticky Topbar Author Badge */
+.topbar-author-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 4px 10px 4px 6px;
+  background: var(--panel);
+  border: 1px solid var(--gold-border);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-sm);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.topbar-author-badge:hover {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.seal-tag-red {
+  width: 20px;
+  height: 20px;
+  display: grid;
+  place-items: center;
+  background: var(--accent);
+  color: #fff;
+  font-family: var(--font-display);
+  font-size: 11px;
+  font-weight: 800;
+  border-radius: 2px;
+}
+
+.topbar-author-name {
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 750;
+  color: var(--text);
+}
+
+.topbar-social-icons {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding-left: 6px;
+  border-left: 1px solid var(--line);
+}
+
+.social-mini-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 3px;
+  color: var(--text-secondary);
+  transition: color 0.15s ease, background 0.15s ease;
+}
+
+.social-mini-link:hover {
+  color: var(--accent);
+  background: var(--panel-raised);
+}
+
+/* Dashboard Imperial Scholar Hero Banner (翰林书院) */
+.scholar-hero-card {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 22px;
+  padding: 24px 26px;
+  background: linear-gradient(135deg, var(--panel) 0%, var(--bg-subtle) 65%, var(--gold-soft) 100%);
+  border: 1px solid var(--gold-border);
+  border-left: 4px solid var(--accent);
+  box-shadow: var(--shadow);
+}
+
+.scholar-hero-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 180px;
+  height: 100%;
+  background: radial-gradient(circle at top right, rgba(185, 43, 39, 0.08), transparent 70%);
+  pointer-events: none;
+}
+
+.scholar-hero-stamp {
+  position: absolute;
+  right: 22px;
+  top: 18px;
+  width: 64px;
+  height: 64px;
+  display: grid;
+  place-items: center;
+  border: 3px double rgba(185, 43, 39, 0.28);
+  color: rgba(185, 43, 39, 0.24);
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+  border-radius: 4px;
+  transform: rotate(-6deg);
+  pointer-events: none;
+  user-select: none;
+}
+
+.scholar-hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 780px;
+}
+
+.scholar-hero-content h2 {
+  margin: 6px 0 8px;
+  font-size: clamp(19px, 2.2vw, 24px);
+  color: var(--text);
+}
+
+.scholar-hero-content .subtle {
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+.scholar-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.scholar-btn {
+  text-decoration: none;
+}
+
+/* Writeups Header Author Pill */
+.author-header-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 10px;
+  border: 1px solid var(--gold-border);
+  background: var(--gold-soft);
+  color: var(--gold-ink);
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.15s ease;
+}
+
+.author-header-pill:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.seal-mark-xs {
+  display: inline-grid;
+  place-items: center;
+  width: 16px;
+  height: 16px;
+  background: var(--accent);
+  color: #fff;
+  font-family: var(--font-display);
+  font-size: 10px;
+  border-radius: 2px;
+}
+
+/* Auth Screen Author Bar */
+.auth-author-bar {
+  margin-top: 20px;
+  padding-top: 14px;
+  border-top: 1px dashed var(--line-strong);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 12.5px;
+  color: var(--text-secondary);
+  text-align: center;
+}
+
+.auth-author-seal {
+  width: 20px;
+  height: 20px;
+  display: inline-grid;
+  place-items: center;
+  background: var(--accent);
+  color: #fff;
+  font-family: var(--font-display);
+  font-size: 11px;
+  font-weight: 800;
+  border-radius: 2px;
+}
+
+.auth-author-links a {
+  color: var(--accent);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.auth-author-links a:hover {
+  text-decoration: underline;
+}
+
+/* Classical Oriental Colophon Footer (落款) */
+.oriental-colophon {
+  margin-top: 48px;
+  padding: 18px 20px;
+  border-top: 2px double var(--line-strong);
+  background: var(--bg-subtle);
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.colophon-seal {
+  padding: 3px 8px;
+  border: 2px solid var(--accent);
+  color: var(--accent);
+  font-family: var(--font-display);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  border-radius: 2px;
+  background: var(--accent-soft);
+}
+
+.colophon-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.colophon-links a {
+  color: var(--accent);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.colophon-links a:hover {
+  text-decoration: underline;
+}
+
+/* Author Profile Modal Dialog (著者档案) */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: rgba(18, 16, 14, 0.65);
+  backdrop-filter: blur(4px);
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  animation: modalFadeIn 0.18s ease-out;
+}
+
+@keyframes modalFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.author-modal-card {
+  width: min(100%, 540px);
+  background: var(--panel);
+  border: 2px solid var(--gold-border);
+  border-radius: var(--radius);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+  overflow: hidden;
+  position: relative;
+}
+
+.modal-decor-top {
+  height: 6px;
+  background: linear-gradient(90deg, var(--accent) 0%, var(--gold) 50%, var(--accent) 100%);
+}
+
+.author-modal-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 22px 24px 16px;
+  border-bottom: 1px solid var(--line);
+}
+
+.author-modal-stamp {
+  width: 52px;
+  height: 52px;
+  display: grid;
+  place-items: center;
+  background: var(--accent);
+  color: #fff;
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 900;
+  border-radius: 4px;
+  border: 2px solid var(--accent-ink);
+  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.35);
+  flex-shrink: 0;
+}
+
+.author-modal-titles {
+  flex: 1;
+  min-width: 0;
+}
+
+.author-modal-titles h2 {
+  margin: 2px 0 4px;
+  font-size: 22px;
+}
+
+.author-modal-role {
+  margin: 0;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.modal-close-btn {
+  width: 32px;
+  height: 32px;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--line);
+  background: var(--bg-subtle);
+  color: var(--text-secondary);
+  border-radius: var(--radius-xs);
+  font-size: 15px;
+}
+
+.modal-close-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.author-modal-body {
+  padding: 20px 24px;
+}
+
+.author-seal-banner {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 14px;
+  background: var(--gold-soft);
+  border: 1px solid var(--gold-border);
+  border-radius: var(--radius-sm);
+  margin-bottom: 16px;
+}
+
+.chinese-seal-large {
+  padding: 4px 8px;
+  border: 2px solid var(--accent);
+  color: var(--accent);
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: 14px;
+  border-radius: 3px;
+  background: var(--panel);
+  flex-shrink: 0;
+}
+
+.author-seal-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.author-seal-text strong {
+  font-size: 13.5px;
+  color: var(--text);
+}
+
+.author-seal-text small {
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.author-modal-desc {
+  margin: 0 0 18px;
+  font-size: 14px;
+  line-height: 1.65;
+  color: var(--text-secondary);
+}
+
+.author-modal-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.author-cta-btn {
+  text-decoration: none;
+  padding: 10px 14px;
+  font-weight: 700;
+}
+
+.author-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.author-stat-item {
+  padding: 10px 12px;
+  background: var(--bg-subtle);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  text-align: center;
+}
+
+.stat-number {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--accent);
+}
+
+.stat-label {
+  display: block;
+  font-size: 11.5px;
+  color: var(--muted);
+  margin-top: 2px;
+}
+
+.author-modal-footer {
+  padding: 14px 24px;
+  background: var(--bg-subtle);
+  border-top: 1px solid var(--line);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.author-colophon-mark {
+  font-family: var(--font-display);
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--accent);
 }
 
 /* ==========================================================================
@@ -2531,5 +3203,21 @@ input:focus-visible {
   .explanation {
     margin-left: 16px;
     margin-right: 16px;
+  }
+
+  .author-modal-links {
+    grid-template-columns: 1fr;
+  }
+
+  .scholar-hero-stamp {
+    width: 48px;
+    height: 48px;
+    font-size: 18px;
+    right: 14px;
+    top: 14px;
+  }
+
+  .scholar-hero-card {
+    padding: 18px;
   }
 }

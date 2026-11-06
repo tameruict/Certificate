@@ -52,6 +52,24 @@ test('Supabase migration uses ownership RLS and bounded untrusted payloads', () 
   assert.match(optimization, /study_articles_markdown_size/i);
   assert.match(optimization, /study_articles_slug_language_key/i);
   assert.match(optimization, /file_size_limit = 5242880/i);
+
+  const progressRecovery = read('supabase/009_learner_progress_and_password_recovery.sql');
+  for (const table of ['user_course_progress', 'user_question_progress', 'user_exam_attempts', 'user_recovery_credentials', 'password_reset_audit']) {
+    assert.match(progressRecovery, new RegExp(`alter table public\\.${table} enable row level security`, 'i'));
+    assert.match(progressRecovery, new RegExp(`revoke all on table public\\.${table} from public, anon, authenticated`, 'i'));
+  }
+  assert.ok((progressRecovery.match(/\(select auth\.uid\(\)\) = user_id/g) || []).length >= 12);
+  assert.ok((progressRecovery.match(/set search_path = ''/g) || []).length >= 4);
+  assert.match(progressRecovery, /revoke all on function public\.study_articles_set_updated_at\(\) from public, anon, authenticated/i);
+  assert.match(progressRecovery, /revoke all on function public\.sync_learner_progress_from_archive\(\) from public, anon, authenticated/i);
+  assert.match(progressRecovery, /revoke all on function public\.set_user_recovery_code\(text, text\) from public, anon/i);
+  assert.match(progressRecovery, /revoke all on function public\.reset_password_with_recovery_code\(text, text, text\) from public/i);
+  assert.match(progressRecovery, /extensions\.crypt\(v_normalized_code, v_cred\.recovery_code_hash\)/);
+  assert.match(progressRecovery, /v_cred\.locked_until <= pg_catalog\.now\(\) then 1/);
+  assert.match(progressRecovery, /v_next_attempts >= 5/);
+  assert.match(progressRecovery, /\^\[0-9\]\{1,9\}\$/);
+  assert.match(progressRecovery, /\^\[0-9\]\{1,15\}\$/);
+  assert.match(progressRecovery, /update public\.user_data_archive\s+set updated_at = updated_at/i);
 });
 
 test('runtime config endpoint rejects non-read methods and validates public config', () => {

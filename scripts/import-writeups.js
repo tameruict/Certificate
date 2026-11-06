@@ -14,6 +14,27 @@ const fs = require('fs');
 const path = require('path');
 
 const DIFFICULTIES = new Set(['Easy', 'Medium', 'Hard', 'Insane']);
+const MIME_BY_EXT = {
+  '.png': 'image/png',
+  '.jpg': 'image/jpeg',
+  '.jpeg': 'image/jpeg',
+  '.webp': 'image/webp',
+  '.gif': 'image/gif',
+  '.svg': 'image/svg+xml',
+};
+
+function imageMimeType(filePath = '') {
+  const ext = path.extname(String(filePath)).toLowerCase();
+  return MIME_BY_EXT[ext] || 'application/octet-stream';
+}
+
+function normalizeImagePath(value = '') {
+  return String(value).replace(/^https?:\/\/tameruict\.github\.io\/images\//, '/images/');
+}
+
+function normalizeMarkdownImages(markdown = '') {
+  return String(markdown).replace(/\]\(https?:\/\/tameruict\.github\.io\/images\//g, '](/images/');
+}
 
 function parseValue(raw) {
   const value = raw.trim();
@@ -99,9 +120,10 @@ function findMarkdownFiles(dir, out = []) {
 
 function referencedImages(markdown) {
   const images = new Set();
+  const normalized = normalizeMarkdownImages(markdown);
   const re = /\]\((\/images\/[^)\s]+)\)/g;
   let match;
-  while ((match = re.exec(markdown)) !== null) images.add(match[1]);
+  while ((match = re.exec(normalized)) !== null) images.add(match[1]);
   return [...images];
 }
 
@@ -126,7 +148,12 @@ function collectArticles(sourceDir) {
     const key = `${data.translationKey}::${data.language}`;
     if (seen.has(key)) throw new Error(`duplicate article ${key} (first: ${seen.get(key)}, duplicate: ${rel})`);
     seen.set(key, rel);
-    const images = referencedImages(body);
+    const normalizedBody = normalizeMarkdownImages(body);
+    const coverUrl = data.cover ? normalizeImagePath(data.cover) : null;
+    const images = referencedImages(normalizedBody);
+    if (coverUrl && coverUrl.startsWith('/images/') && !images.includes(coverUrl)) {
+      images.push(coverUrl);
+    }
     images.forEach((img) => referenced.add(img));
     articles.push({
       slug: String(data.translationKey),
@@ -139,8 +166,8 @@ function collectArticles(sourceDir) {
       category: String(data.category),
       difficulty: String(data.difficulty),
       tags: Array.isArray(data.tags) ? data.tags.map(String) : [],
-      markdown: body,
-      cover_url: data.cover ? String(data.cover) : null,
+      markdown: normalizedBody,
+      cover_url: coverUrl,
       source_repo: 'tameruict/tameruict.github.io',
       source_path: rel,
       source_sha: '',
@@ -200,7 +227,7 @@ async function applyArticles(report, env) {
     const objectPath = img.replace('/images/', '');
     const res = await fetch(
       `${supabaseUrl}/storage/v1/object/writeup-images/${objectPath}?upsert=true`,
-      { method: 'POST', headers: { ...headers, 'Content-Type': 'application/octet-stream' }, body: buffer },
+      { method: 'POST', headers: { ...headers, 'Content-Type': imageMimeType(filePath) }, body: buffer },
     );
     if (!res.ok) throw new Error(`image upload failed for ${img}: HTTP ${res.status}`);
   }
